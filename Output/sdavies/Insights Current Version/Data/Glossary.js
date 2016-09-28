@@ -1,1 +1,0 @@
-define({numchunks:1,prefix:'Glossary_Chunk',terms:[{t:'Collector',c:0},{t:'Contributor',c:0},{t:'Dashboard',c:0},{t:'Domain',c:0},{t:'Gateway',c:0},{t:'Insights',c:0},{t:'ITRS Geneos',c:0},{t:'Netprobe',c:0},{t:'Notebook',c:0},{t:'Schema',c:0},{t:'Stream',c:0},{t:'Tennant',c:0},{t:'Valo',c:0}]});
