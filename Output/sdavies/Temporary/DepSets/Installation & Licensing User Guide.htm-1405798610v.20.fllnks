@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultFileLinkSet
+  FileSearchable="true"
+  OnlyLocalStylesheets="false"
+  FileTimeEstimate="0"
+  FilePriority="0">
+  <Links>
+    <Link
+      Url="Content/C_User Guides/Installation &amp; Licensing User Guide.htm" />
+    <Link
+      Url="https://www.ubuntu.com/server" />
+    <Link
+      Url="https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux" />
+    <Link
+      Url="https://www.suse.com/products/server" />
+    <Link
+      Url="http://www.oracle.com/technetwork/java/javase/downloads/jre8-downloads-2133155.html" />
+    <Link
+      Url="Content/Resources/Images/InitialPage.png" />
+    <Link
+      Url="Content/C_User Guides/Organizing Data User Guide.htm" />
+    <Link
+      Url="Project/VariableSets/General.flvar" />
+  </Links>
+  <LongLinks>
+    <Link
+      Url="Content/C_User Guides/Installation &amp; Licensing User Guide.htm#id5" />
+    <Link
+      Url="Content/C_User Guides/Installation &amp; Licensing User Guide.htm#Install_Insights" />
+    <Link
+      Url="https://www.ubuntu.com/server" />
+    <Link
+      Url="https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux" />
+    <Link
+      Url="https://www.suse.com/products/server" />
+    <Link
+      Url="http://www.oracle.com/technetwork/java/javase/downloads/jre8-downloads-2133155.html" />
+    <Link
+      Url="Content/Resources/Images/InitialPage.png" />
+    <Link
+      Url="Content/C_User Guides/Installation &amp; Licensing User Guide.htm#id12" />
+    <Link
+      Url="Content/C_User Guides/Organizing Data User Guide.htm#Tenants" />
+    <Link
+      Url="Project/VariableSets/General.flvar" />
+  </LongLinks>
+  <Anchors>
+    <Anchor
+      Name="Install_Valo" />
+    <Anchor
+      Name="Requirements" />
+    <Anchor
+      Name="Starting" />
+    <Anchor
+      Name="Install_Insights" />
+  </Anchors>
+  <Keywords />
+  <Concepts />
+  <ConceptControlNames />
+  <IndexControlNames />
+  <Variables>
+    <Variable
+      Name="General.Product Name Insights (abbreviated)" />
+    <Variable
+      Name="General.ProductNameValo" />
+  </Variables>
+  <FileConditions />
+  <FileTags />
+  <AllConditions />
+  <Stylesheets />
+</CatapultFileLinkSet>

@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultTargetOutput
+  GeneratedTarget="/Output/sdavies/PDF User Guide/Query, Search &amp; Transform/Query, Search &amp; Transform.pdf"
+  BuildVersion="12.0.5991.25330">
+  <Files>
+    <Url
+      Source="Output/sdavies/Temporary/PDF User Guide/Query, Search &amp; Transform/Query, Search &amp; Transform_38FE8A0F/Resources/Stylesheets/styles.css" />
+    <Url
+      Source="Output/sdavies/Temporary/PDF User Guide/Query, Search &amp; Transform/Query, Search &amp; Transform_38FE8A0F/Resources/Images/RunButton.png" />
+    <Url
+      Source="Output/sdavies/Temporary/PDF User Guide/Query, Search &amp; Transform/Query, Search &amp; Transform_38FE8A0F/Resources/Images/CopyIcon.png" />
+    <Url
+      Source="Output/sdavies/Temporary/PDF User Guide/Query, Search &amp; Transform/Query, Search &amp; Transform_38FE8A0F/Resources/Images/StreamToClipboard.png" />
+    <Url
+      Source="Output/sdavies/Temporary/PDF User Guide/Query, Search &amp; Transform/Query, Search &amp; Transform_38FE8A0F/Resources/Images/SearchPanel-1.png" />
+    <Url
+      Source="Output/sdavies/Temporary/PDF User Guide/Query, Search &amp; Transform/Query, Search &amp; Transform_38FE8A0F/Resources/Images/SearchPanel-2.png" />
+    <Url
+      Source="Output/sdavies/Temporary/PDF User Guide/Query, Search &amp; Transform/Query, Search &amp; Transform_38FE8A0F/Resources/Images/Search01.png" />
+    <Url
+      Source="Output/sdavies/Temporary/PDF User Guide/Query, Search &amp; Transform/Query, Search &amp; Transform_38FE8A0F/Resources/Images/Search02.png" />
+    <Url
+      Source="Output/sdavies/Temporary/PDF User Guide/Query, Search &amp; Transform/Query, Search &amp; Transform_38FE8A0F/Resources/Images/streams.png" />
+    <Url
+      Source="Output/sdavies/Temporary/PDF User Guide/Query, Search &amp; Transform/Query, Search &amp; Transform_38FE8A0F/Resources/Images/01_contributors.gif" />
+    <Url
+      Source="Output/sdavies/PDF User Guide/Query, Search &amp; Transform/Query, Search &amp; Transform.pdf" />
+  </Files>
+  <Skins />
+</CatapultTargetOutput>

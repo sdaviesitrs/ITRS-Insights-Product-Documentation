@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1"
+  conditions="">
+  <TocEntry
+    Title="Title"
+    Link="../../Content/E_Front Matter Topics/Title.htm"
+    StartSection="false"
+    PageNumber="1"
+    PageNumberReset="reset"
+    PageLayout="../../Content/Resources/PageLayouts/8_5X11/Title8_5X11.flpgl"
+    StartPageLayout="false"
+    BreakType="pageLayout"></TocEntry>
+  <TocEntry
+    Title="Copyright"
+    Link="../../Content/E_Front Matter Topics/Copyright.htm"
+    StartPageLayout="true"
+    StartSection="false"
+    BreakType="pageLayout"
+    PageLayout="../../Content/Resources/PageLayouts/8_5X11/Copyright8_5X11.flpgl"></TocEntry>
+  <TocEntry
+    Title="TOC"
+    Link="../../Content/E_Front Matter Topics/TOC.htm"
+    StartSection="false"
+    PageNumber=""
+    PageNumberReset="continue"
+    StartChapter="true"
+    PageLayout="../../Content/Resources/PageLayouts/8_5X11/TOC8_5X11.flpgl"
+    PageType="firstright"
+    PageNumberFormat="lower-roman"
+    StartPageLayout="false"
+    AutoEndOnLeftPage="enabled" />
+  <TocEntry
+    Title="CHAPTER 1"
+    Link="../../Content/G_Other/ChapterNumber.htm"
+    BreakType="chapter"
+    PageType="firstright"
+    PageNumberReset="continue"
+    PageNumberFormat="decimal"
+    ChapterNumberReset="reset"
+    ChapterNumber="1"
+    ChapterNumberFormat="decimal"
+    StartSection="false"
+    PageLayout="../../Content/Resources/PageLayouts/8_5X11/Chapters8_5X11.flpgl"
+    SectionNumberReset="continue"
+    VolumeNumberReset="same"></TocEntry>
+  <TocEntry
+    Title="Images"
+    Link="../../Content/D_Images/Images.htm"
+    PageNumber=""
+    PageNumberReset="continue"
+    StartPageLayout="false"
+    StartSection="false"
+    AutoEndOnLeftPage="enabled"
+    SectionNumberReset="continue"
+    VolumeNumberReset="same"
+    ChapterNumberReset="continue"
+    BreakType="none">
+    <TocEntry
+      Title="Resized to 100% Maximum Width"
+      Link="../../Content/D_Images/Resized100Percent.htm" />
+    <TocEntry
+      Title="Resized to 75% Maximum Width, Positioned Right"
+      Link="../../Content/D_Images/Resized75PercentPositionedRight.htm" />
+    <TocEntry
+      Title="Resized to 50% Maximum Width, Positioned Left"
+      Link="../../Content/D_Images/Resized50PercentPositionedLeft.htm"></TocEntry>
+    <TocEntry
+      Title="Absolute Position"
+      Link="../../Content/D_Images/ImageWithAbsolutePosition.htm" />
+    <TocEntry
+      Title="Image Within a List"
+      Link="../../Content/D_Images/ImageWithinList.htm" />
+  </TocEntry>
+  <TocEntry
+    Title="CHAPTER 2"
+    Link="../../Content/G_Other/ChapterNumber.htm"
+    BreakType="chapter"
+    PageType="firstright"
+    PageNumberReset="continue"
+    StartSection="false"
+    PageLayout="../../Content/Resources/PageLayouts/8_5X11/Chapters8_5X11.flpgl"
+    SectionNumberReset="continue"
+    VolumeNumberReset="same"
+    ChapterNumberReset="continue"></TocEntry>
+  <TocEntry
+    Title="Lists"
+    Link="../../Content/B_Links and Lists/Lists.htm" />
+  <TocEntry
+    Title="CHAPTER 3"
+    Link="../../Content/G_Other/ChapterNumber.htm"
+    BreakType="chapter"
+    PageType="firstright"
+    PageNumberReset="continue"
+    StartSection="false"
+    PageLayout="../../Content/Resources/PageLayouts/8_5X11/Chapters8_5X11.flpgl"
+    SectionNumberReset="continue"
+    VolumeNumberReset="same"
+    ChapterNumberReset="continue"></TocEntry>
+  <TocEntry
+    Title="Tables"
+    Link="../../Content/C_Conditions Notes Tables/Tables.htm" />
+  <TocEntry
+    Title="Index"
+    Link="../../Content/F_Back Matter Topics/Index.htm"
+    BreakType="pageLayout"
+    PageLayout="../../Content/Resources/PageLayouts/8_5X11/Index8_5X11.flpgl"
+    PageType="firstright"
+    StartSection="false"
+    PageNumberReset="continue"
+    SectionNumberReset="continue"
+    VolumeNumberReset="same"
+    ChapterNumberReset="continue" />
+</CatapultToc>

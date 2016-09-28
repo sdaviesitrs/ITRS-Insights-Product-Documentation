@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultConditionTagSet>
+  <ConditionTag
+    Comment=""
+    Name="Print"
+    BackgroundColor="#90ee90" />
+  <ConditionTag
+    Comment=""
+    Name="Digital"
+    BackgroundColor="#fffb00" />
+  <ConditionTag
+    BackgroundColor="#ff0000"
+    Name="Null"
+    Comment="" />
+</CatapultConditionTagSet>

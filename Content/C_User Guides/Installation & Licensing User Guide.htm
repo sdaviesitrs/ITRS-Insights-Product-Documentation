@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="7" MadCap:lastHeight="1768" MadCap:lastWidth="1880">
+    <head>
+    </head>
+    <body>
+        <h1>Installation &amp; Licensing User Guide</h1>
+        <h2>Install and Set-up</h2>
+        <p>To utilize <MadCap:variable name="General.Product Name Insights&#160;(abbreviated)" />, you need an installation of both the <MadCap:variable name="General.ProductNameValo" /> platform
+(a single node or a cluster) and also the <MadCap:variable name="General.Product Name Insights&#160;(abbreviated)" /> application.</p>
+        <h2><a name="Install_Valo"></a>Install Valo</h2>
+        <p>If your administrator has already installed <MadCap:variable name="General.ProductNameValo" />, you
+can jump to <a href="#id5"><MadCap:xref href="#Install_Insights">Install [%=General.Product Name Insights&#160;(abbreviated)%]</MadCap:xref></a></p>
+        <h3><a name="Requirements"></a>Requirements</h3>
+        <h3><strong>Operating System:</strong>
+        </h3>
+        <ul class="simple">
+            <li><a class="reference external" href="https://www.ubuntu.com/server">Ubuntu Server 14.04 LTS</a>
+            </li>
+            <li><a class="reference external" href="https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux">Red Hat Enterprise Linux 7</a>
+            </li>
+            <li><a class="reference external" href="https://www.suse.com/products/server">SUSE Linux Enterprise Server 12</a>
+            </li>
+        </ul>
+        <h3><strong>Java:</strong>
+        </h3>
+        <p>An <a class="reference external" href="http://www.oracle.com/technetwork/java/javase/downloads/jre8-downloads-2133155.html">Oracle JRE 8</a> must be installed prior to running Valo. We test against
+JRE 8u51 but newer versions should also work fine.</p>
+        <div class="warning"><strong>Warning:</strong>
+            <div class="line">Versions 8u40 and 8u45 have serious problems when running Valo.</div>
+        </div>
+        <h2>Install</h2>
+        <p>Running a single node cluster is easy since the settings are
+pre-configured in the download packages. There are
+DEB and RPM
+packages pre-built. A ZIP is also provided for Windows and to run
+manually on Linux systems.</p>
+        <h2><a name="Starting"></a>Start Valo</h2>
+        <p>Simply extract the zip and run: <tt class="docutils literal"><span class="pre">./bin/valo-cluster-app</span></tt></p>
+        <p>Valo is ready to go once all the internal services have booted. The log
+should show:</p><pre class="literal-block" xml:space="preserve">
+15:30:42.172 INFO  [ExecutionServiceBackend ] -  Started execution service backend on node valo localhost:2552 [c8fd9eb48cd264812185e0519d17b253].
+15:30:42.173 INFO  [BackEndRegistry         ] -  Service [execution_service_backend] is associated with [Actor[akka://Valo/user/executionServiceGuardian/executionServiceBackend#260795828]]
+15:30:42.186 INFO  [ExecutionServiceFrontend] -  Started Execution frontend
+15:30:42.186 INFO  [BackEndRegistry         ] -  Service [dashboard_updates] is associated with [Actor[akka://Valo/user/dashboardBackEnd#682126681]]
+15:30:42.199 INFO  [MonitoringFrontend      ] -  Started monitoring frontend.
+15:30:42.200 INFO  [BackEndRegistry         ] -  Service [monitoring_backend] is associated with [Actor[akka://Valo/user/monitorGuardian/backend#1797888075]]
+15:30:42.205 INFO  [ClusterState$           ] -  Resolving conflict in cluster document for valo localhost:2552 [c8fd9eb48cd264812185e0519d17b253]: [Joined, Pending] -&gt; Joined
+</pre>
+        <h1><a name="Install_Insights"></a>Install <MadCap:variable name="General.Product Name Insights&#160;(abbreviated)" /></h1>
+        <h2>Requirements</h2>
+        <ul class="simple">
+            <li>Windows 7 and up <strong>or</strong></li>
+            <li>Ubuntu 14.04 <strong>or</strong></li>
+            <li>OS X 10.10 and up</li>
+        </ul>
+        <p>Unzip and Run the <tt class="docutils literal">Insightsv1.0.0.exe</tt></p>
+        <h2>Configuration</h2>
+        <p>First you need to point your Insights at the correct tenant of the Valo
+instance you will use.</p>
+        <p>
+            <img alt="insights-install-image0" src="../Resources/Images/InitialPage.png" />
+        </p>
+        <ul class="simple">
+            <li>If you installed Valo on your local machine then the default
+localhost:8888 will work in the <strong>http+sse:</strong> box.</li>
+            <li>If your admin installed Valo for you then post the URI that they will
+have given you in that box instead.</li>
+        </ul>
+        <p>If you already have <a href="#id12"><MadCap:xref href="Organizing Data User Guide.htm#Tenants">Tenants</MadCap:xref></a> set up on your instance of
+valo that you wish to access then you need to enter that here, otherwise
+the default demo is a good place to start exploring.</p>
+        <p>&#160;</p>
+        <p>&#160;</p>
+    </body>
+</html>

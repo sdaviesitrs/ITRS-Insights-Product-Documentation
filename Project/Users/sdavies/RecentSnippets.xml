@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<UrlList>
+    <Url Source="Resources/Snippets/About SSR.flsnp" />
+    <Url Source="Resources/Snippets/Definition SSR.flsnp" />
+    <Url Source="Resources/Snippets/Definition TSR.flsnp" />
+    <Url Source="Resources/Snippets/About Free Text Search.flsnp" />
+    <Url Source="Resources/Snippets/About ITRS Insights.flsnp" />
+    <Url Source="Resources/Snippets/About Repository Types.flsnp" />
+    <Url Source="Resources/Snippets/About TSR.flsnp" />
+    <Url Source="Resources/Snippets/Definition Collections.flsnp" />
+    <Url Source="Resources/Snippets/Definition Contributor.flsnp" />
+    <Url Source="Resources/Snippets/Definition Domain.flsnp" />
+    <Url Source="Resources/Snippets/Definition Query.flsnp" />
+    <Url Source="Resources/Snippets/Definition Schema.flsnp" />
+    <Url Source="Resources/Snippets/Definition Stream.flsnp" />
+    <Url Source="Resources/Snippets/Definition Tenant.flsnp" />
+    <Url Source="Resources/Snippets/Example Collection.flsnp" />
+    <Url Source="Resources/Snippets/Example Contributor.flsnp" />
+    <Url Source="Resources/Snippets/Example Domain.flsnp" />
+    <Url Source="Resources/Snippets/Example Tenants.flsnp" />
+    <Url Source="Resources/Snippets/How To Choose A Repository.flsnp" />
+    <Url Source="Resources/Snippets/How To Launch Insights.flsnp" />
+</UrlList>

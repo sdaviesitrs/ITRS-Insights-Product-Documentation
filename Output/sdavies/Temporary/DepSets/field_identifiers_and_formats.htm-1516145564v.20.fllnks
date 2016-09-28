@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultFileLinkSet
+  FileTitle="Field Identifiers and Formats"
+  FileSearchable="true"
+  OnlyLocalStylesheets="false"
+  FileTimeEstimate="0"
+  FilePriority="0">
+  <Links>
+    <Link
+      Url="https://en.wikipedia.org/wiki/ISO_8601" />
+    <Link
+      Url="https://en.wikipedia.org/wiki/Geohash" />
+    <Link
+      Url="Content/B_Technical Reference/Schema Fields &amp; Types/field_identifiers_and_formats.htm" />
+    <Link
+      Url="mailto:AnyString@AnyString" />
+    <Link
+      Url="http://www.ietf.org/rfc/rfc3330.txt" />
+    <Link
+      Url="http://www.ietf.org/rfc/rfc2373.txt" />
+  </Links>
+  <LongLinks>
+    <Link
+      Url="https://en.wikipedia.org/wiki/ISO_8601#Durations" />
+    <Link
+      Url="https://en.wikipedia.org/wiki/Geohash" />
+    <Link
+      Url="Content/B_Technical Reference/Schema Fields &amp; Types/field_identifiers_and_formats.htm#id1" />
+    <Link
+      Url="mailto:AnyString@AnyString" />
+    <Link
+      Url="http://www.ietf.org/rfc/rfc3330.txt" />
+    <Link
+      Url="http://www.ietf.org/rfc/rfc2373.txt" />
+  </LongLinks>
+  <Anchors>
+    <Anchor
+      Name="Reserved" />
+    <Anchor
+      Name="Field" />
+    <Anchor
+      Name="Natural" />
+    <Anchor
+      Name="Real" />
+    <Anchor
+      Name="Boolean" />
+    <Anchor
+      Name="UUID" />
+    <Anchor
+      Name="Date" />
+    <Anchor
+      Name="Time" />
+    <Anchor
+      Name="Duration" />
+    <Anchor
+      Name="Geo" />
+    <Anchor
+      Name="Email" />
+    <Anchor
+      Name="Internet" />
+    <Anchor
+      Name="Tags" />
+  </Anchors>
+  <Keywords />
+  <Concepts />
+  <ConceptControlNames />
+  <IndexControlNames />
+  <Variables />
+  <FileConditions />
+  <FileTags />
+  <AllConditions />
+  <Stylesheets />
+</CatapultFileLinkSet>

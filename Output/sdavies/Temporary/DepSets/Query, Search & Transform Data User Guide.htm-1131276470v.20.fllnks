@@ -1,0 +1,179 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultFileLinkSet
+  FileSearchable="true"
+  OnlyLocalStylesheets="false"
+  FileTimeEstimate="0"
+  FilePriority="0">
+  <Links>
+    <Link
+      Url="Content/Resources/Snippets/About Free Text Search.flsnp" />
+    <Link
+      Url="Content/Resources/Snippets/Definition Query.flsnp" />
+    <Link
+      Url="Content/C_User Guides/Data Streams &amp; Schema User Guide.htm" />
+    <Link
+      Url="Content/Resources/Snippets/How To Launch Valo.flsnp" />
+    <Link
+      Url="Content/Resources/Snippets/How To Launch Insights.flsnp" />
+    <Link
+      Url="Content/C_User Guides/Query, Search &amp; Transform Data User Guide.htm" />
+    <Link
+      Url="Content/B_Technical Reference/Query Syntax &amp; Operators/from.htm" />
+    <Link
+      Url="Content/Resources/Images/RunButton.png" />
+    <Link
+      Url="Content/Resources/Images/CopyIcon.png" />
+    <Link
+      Url="Content/Resources/Images/StreamToClipboard.png" />
+    <Link
+      Url="Content/B_Technical Reference/Query Syntax &amp; Operators/where.htm" />
+    <Link
+      Url="Content/B_Technical Reference/Query Syntax &amp; Operators/select.htm" />
+    <Link
+      Url="Content/B_Technical Reference/Query Syntax &amp; Operators/aggregation.htm" />
+    <Link
+      Url="Content/B_Technical Reference/Query Syntax &amp; Operators/take.htm" />
+    <Link
+      Url="Content/B_Technical Reference/Query Syntax &amp; Operators/OrderBy.htm" />
+    <Link
+      Url="Content/B_Technical Reference/Query Syntax &amp; Operators/GroupBy.htm" />
+    <Link
+      Url="Content/B_Technical Reference/Query Syntax &amp; Operators/TimeWindow.htm" />
+    <Link
+      Url="Content/B_Technical Reference/Query Syntax &amp; Operators/As.htm" />
+    <Link
+      Url="Content/B_Technical Reference/Query Syntax &amp; Operators/Into.htm" />
+    <Link
+      Url="Content/B_Technical Reference/Query Syntax &amp; Operators/Unique.htm" />
+    <Link
+      Url="Content/B_Technical Reference/Query Syntax &amp; Operators/Join.htm" />
+    <Link
+      Url="Content/B_Technical Reference/Query Syntax &amp; Operators/Comment.htm" />
+    <Link
+      Url="Content/B_Technical Reference/Schema Fields &amp; Types/field_identifiers_and_formats.htm" />
+    <Link
+      Url="Content/Resources/Images/SearchPanel-1.png" />
+    <Link
+      Url="Content/Resources/Images/SearchPanel-2.png" />
+    <Link
+      Url="Content/C_User Guides/Dashboard &amp; Notebook User Guide.htm" />
+    <Link
+      Url="Content/Resources/Images/Search01.png" />
+    <Link
+      Url="Content/Resources/Images/Search02.png" />
+    <Link
+      Url="Content/B_Technical Reference/Query Syntax &amp; Operators/Query Functions.htm" />
+    <Link
+      Url="Project/VariableSets/General.flvar" />
+  </Links>
+  <LongLinks>
+    <Link
+      Url="Content/Resources/Snippets/About Free Text Search.flsnp" />
+    <Link
+      Url="Content/Resources/Snippets/Definition Query.flsnp" />
+    <Link
+      Url="Content/C_User Guides/Data Streams &amp; Schema User Guide.htm" />
+    <Link
+      Url="Content/Resources/Snippets/How To Launch Valo.flsnp" />
+    <Link
+      Url="Content/Resources/Snippets/How To Launch Insights.flsnp" />
+    <Link
+      Url="Content/C_User Guides/Query, Search &amp; Transform Data User Guide.htm#id1" />
+    <Link
+      Url="Content/B_Technical Reference/Query Syntax &amp; Operators/from.htm" />
+    <Link
+      Url="Content/Resources/Images/RunButton.png" />
+    <Link
+      Url="Content/Resources/Images/CopyIcon.png" />
+    <Link
+      Url="Content/Resources/Images/StreamToClipboard.png" />
+    <Link
+      Url="Content/C_User Guides/Query, Search &amp; Transform Data User Guide.htm#id5" />
+    <Link
+      Url="Content/B_Technical Reference/Query Syntax &amp; Operators/where.htm" />
+    <Link
+      Url="Content/C_User Guides/Query, Search &amp; Transform Data User Guide.htm#id9" />
+    <Link
+      Url="Content/B_Technical Reference/Query Syntax &amp; Operators/select.htm" />
+    <Link
+      Url="Content/C_User Guides/Query, Search &amp; Transform Data User Guide.htm#id11" />
+    <Link
+      Url="Content/B_Technical Reference/Query Syntax &amp; Operators/aggregation.htm" />
+    <Link
+      Url="Content/C_User Guides/Query, Search &amp; Transform Data User Guide.htm#id13" />
+    <Link
+      Url="Content/B_Technical Reference/Query Syntax &amp; Operators/take.htm" />
+    <Link
+      Url="Content/C_User Guides/Query, Search &amp; Transform Data User Guide.htm#id15" />
+    <Link
+      Url="Content/B_Technical Reference/Query Syntax &amp; Operators/OrderBy.htm" />
+    <Link
+      Url="Content/C_User Guides/Query, Search &amp; Transform Data User Guide.htm#id17" />
+    <Link
+      Url="Content/B_Technical Reference/Query Syntax &amp; Operators/GroupBy.htm" />
+    <Link
+      Url="Content/C_User Guides/Query, Search &amp; Transform Data User Guide.htm#id19" />
+    <Link
+      Url="Content/B_Technical Reference/Query Syntax &amp; Operators/TimeWindow.htm" />
+    <Link
+      Url="Content/C_User Guides/Query, Search &amp; Transform Data User Guide.htm#id21" />
+    <Link
+      Url="Content/B_Technical Reference/Query Syntax &amp; Operators/As.htm" />
+    <Link
+      Url="Content/C_User Guides/Query, Search &amp; Transform Data User Guide.htm#id23" />
+    <Link
+      Url="Content/B_Technical Reference/Query Syntax &amp; Operators/Into.htm" />
+    <Link
+      Url="Content/C_User Guides/Query, Search &amp; Transform Data User Guide.htm#id25" />
+    <Link
+      Url="Content/B_Technical Reference/Query Syntax &amp; Operators/Unique.htm" />
+    <Link
+      Url="Content/C_User Guides/Query, Search &amp; Transform Data User Guide.htm#id27" />
+    <Link
+      Url="Content/B_Technical Reference/Query Syntax &amp; Operators/Join.htm" />
+    <Link
+      Url="Content/C_User Guides/Query, Search &amp; Transform Data User Guide.htm#id29" />
+    <Link
+      Url="Content/B_Technical Reference/Query Syntax &amp; Operators/Comment.htm" />
+    <Link
+      Url="Content/B_Technical Reference/Schema Fields &amp; Types/field_identifiers_and_formats.htm" />
+    <Link
+      Url="Content/Resources/Images/SearchPanel-1.png" />
+    <Link
+      Url="Content/Resources/Images/SearchPanel-2.png" />
+    <Link
+      Url="Content/C_User Guides/Dashboard &amp; Notebook User Guide.htm" />
+    <Link
+      Url="Content/Resources/Images/Search01.png" />
+    <Link
+      Url="Content/Resources/Images/Search02.png" />
+    <Link
+      Url="Content/B_Technical Reference/Query Syntax &amp; Operators/Query Functions.htm" />
+    <Link
+      Url="Project/VariableSets/General.flvar" />
+  </LongLinks>
+  <Anchors>
+    <Anchor
+      Name="Query" />
+    <Anchor
+      Name="Search" />
+    <Anchor
+      Name="Transform" />
+  </Anchors>
+  <Keywords />
+  <Concepts />
+  <ConceptControlNames />
+  <IndexControlNames />
+  <Variables>
+    <Variable
+      Name="General.Product Name Insights (Full)" />
+    <Variable
+      Name="General.Product Name Insights (abbreviated)" />
+    <Variable
+      Name="General.ProductNameValo" />
+  </Variables>
+  <FileConditions />
+  <FileTags />
+  <AllConditions />
+  <Stylesheets />
+</CatapultFileLinkSet>

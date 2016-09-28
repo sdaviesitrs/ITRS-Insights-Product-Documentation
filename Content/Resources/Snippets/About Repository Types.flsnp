@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="155" MadCap:lastWidth="1180">
+    <body>
+        <p>Before you import a data stream into <MadCap:variable name="General.Product Name Insights&#160;(abbreviated)" />, you must choose which type of repository it will be stored in.</p>
+        <div class="document" id="choosing-a-repository">
+            <p><MadCap:variable name="General.Product Name Insights&#160;(abbreviated)" /> stores data in two different repositories:</p>
+            <ol class="arabic simple">
+                <li>The <strong class="green">Semi-Structured Repository</strong> (<strong class="green">SSR</strong>)</li>
+                <li>The <strong class="green">Time Series Repository</strong> (<strong class="green">TSR</strong>)</li>
+            </ol>
+        </div>
+    </body>
+</html>

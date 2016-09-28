@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="2" MadCap:lastHeight="47" MadCap:lastWidth="1232">
+    <body>
+        <p id="concept_definition"><strong class="green">Collections</strong>:&#160;two or more streams grouped together inside a tenant. <MadCap:conditionalText MadCap:conditions="Output.Digital">See <MadCap:xref href="../../C_User Guides/Organizing Data User Guide.htm#Stream">Stream</MadCap:xref> and <MadCap:xref href="../../C_User Guides/Organizing Data User Guide.htm#Tenants">Tenants</MadCap:xref>. </MadCap:conditionalText></p>
+    </body>
+</html>

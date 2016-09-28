@@ -1,0 +1,218 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="7" MadCap:lastHeight="5012" MadCap:lastWidth="1167" MadCap:disableMasterStylesheet="true" MadCap:tocPath="Appendix" MadCap:medium="print" MadCap:InPreviewMode="false" MadCap:PreloadImages="false" MadCap:RuntimeFileType="Topic" MadCap:TargetType="PDF">
+    <head><title>Organizing Data in  ITRS&#160;Insights</title>
+        <link href="file:///C:/Users/sdavies/Documents/GitHub/ITRS-Insights-Product-Documentation/Output/sdavies/Temporary/PDF User Guide/Query, Search &amp; Transform/Query, Search &amp; Transform_38FE8A0F/Resources/Stylesheets/styles.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <h2 MadCap:xrefTargetName="Organizing Data in ITRS Insights"><a MadCap:generatedBookmark="TOC" name="Organizing Data in ITRS Insights"></a>Organizing Data in  ITRS&#160;Insights</h2>
+        <h3 class="nokeyline">Introduction</h3>
+        <p>To help you get the most from Insights, it's important to understand a little about the organizational concepts that underpin it. </p>
+        <p>Because Insights' query tool acts like a pipeline - you can build successive queries to be applied to one set of results in order to iteratively pare down the data - categorizing where your data is coming from, and defining the hierarchy of who owns it and what type it is, will make it much easier for you to query it later on. </p>
+        <p>The good news is that there is a limited number of hierarchical levels available&#160;- three main ones and two sub types - so it won't take you long to read this document and then get on with the much more exciting prospect of actually using Insights. </p>
+        <p>And don't forget, when you're finished here, check out some of our user guides:</p>
+        <blockquote>
+            <p>
+                <MadCap:xref href="file:///C:/Users/sdavies/Documents/GitHub/ITRS-Insights-Product-Documentation/Content/C_User Guides/Query, Search &amp; Transform Data User Guide.htm" MadCap:xrefTarget="ITRS Insights Query, Search and Transform Data User Guide">"ITRS&#160;Insights Query,&#160;Search&#160;and Transform Data User Guide" on page&#160;1</MadCap:xref>
+            </p>
+            <p>
+                <MadCap:xref href="file:///C:/Users/sdavies/Documents/GitHub/ITRS-Insights-Product-Documentation/Content/C_User Guides/Domain &amp; Contributors User Guide.htm">ITRS&#160;InsightsDomain &amp;&#160;Contributors User Guide</MadCap:xref>
+            </p>
+            <p>
+                <MadCap:xref href="file:///C:/Users/sdavies/Documents/GitHub/ITRS-Insights-Product-Documentation/Content/C_User Guides/Dashboard &amp; Notebook User Guide.htm">ITRS&#160;Insights Dashboard &amp;&#160;Notebook&#160;User Guide</MadCap:xref>
+            </p>
+            <p>
+                <MadCap:xref href="file:///C:/Users/sdavies/Documents/GitHub/ITRS-Insights-Product-Documentation/Content/C_User Guides/Template User Guide.htm">ITRS&#160;Insights Template User Guide</MadCap:xref>
+            </p>
+        </blockquote>
+        <h3 class="nokeyline">Cities are getting smarter.</h3>
+        <p>For the purposes of illustrating how we organize data in Insights, we're going to imagine a smart city... </p>
+        <p> A key part of smart cities will be establishing the right infrastructure to collect and intelligently analyze streams of data from connected 'things'. This is where Insights and Valo come in. </p>
+        <p>To enable you to make sense of your data and to really leverage Insights' ability to query it, we've implemented a straightforward hierarchy and organizational structure for it:</p>
+        <blockquote>
+            <p><strong class="green">Streams </strong>and <strong class="green">Contributors </strong>&gt; <strong class="green">Domains </strong>&gt;&#160;<strong class="green">Tenants </strong></p>
+        </blockquote>
+        <p>Now, let's look at how each of these works in action. </p>
+        <h3><a name="Stream"></a>
+            <MadCap:keyword term="Stream" />Stream</h3>
+        <p>Before you can query or search your data, you have to actually get it into Insights. You do this through data <strong class="green">streams</strong>. </p>
+        <p id="concept_definition"><strong class="green">Stream</strong>:&#160;append-only data (messages or events) coming from one or more external <strong class="green">Contributors </strong>. Each stream has a <strong class="green">schema </strong>that defines what information is expected, and in what format .  Multiple streams can be organized into <strong class="green">Collections</strong>.</p>
+        <p>
+            <img src="file:///C:/Users/sdavies/Documents/GitHub/ITRS-Insights-Product-Documentation/Output/sdavies/Temporary/PDF User Guide/Query, Search &amp; Transform/Query, Search &amp; Transform_38FE8A0F/Resources/Images/streams.png" style="width: 571px;height: 295px;" />
+        </p>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Example Stream</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p id="Example">Arcadia Avenue a street of 20 houses all with
+the latest smart electricity meters, all sending information to their energy
+supplier HighCostEnergy.com (HCE) through an underground cable. </p>
+                <p id="Example">In the
+village center, HCE has a hub to transmit and process this information.
+Our street has a single cable running down it to the hub, but within
+that cable are thousands of fiber optic cables all taking information
+from the energy consuming devices in the house (refrigerator, toaster,
+TV, coffee machine, boiler, etc.). </p>
+                <p id="Example">In this example, the cable contains
+the stream of data that is passing to the hub, but that stream is made
+up of all the data coming from the individual fibre optic cables, thus
+<strong>the <strong class="green">stream </strong>of data is made up of the data from all the individual
+<strong class="green">contributor </strong>devices</strong>: the toaster at house Number 2, the refrigerator at
+Number 6, the coffee machine at Number 13, and so on.<br /><br />One challenge when you have a number of different contributors is to
+<strong>ensure that everyone is speaking the same language and meaning the same
+thing</strong>, otherwise comparisons and analytics will have limited value. To
+do this, <strong>we use a document of understanding (a <strong class="green">schema</strong><MadCap:keyword term="Schema" />) that
+defines what data the stream contains in what format</strong>. For instance, we
+may want the stream to provide information as data points (also known as
+payloads) about the time of day, the type of appliance, and the current
+consumption. <br /><br />Because the schema ensures that the data flowing in is in a common format, we can
+then meaningfully compare and analyze it based on those common
+attribute values. We can analyze which refrigerator
+consumes the most energy and because our schema clearly detailed to
+format that the time would come in. We can compare all the appliances
+that are on at 8am in each house without fear that some
+payloads included with a time stamp of 8 would in fact be for 8pm. We can analyze pretty much anything we want, in fact. </p>
+                <p id="Example">Now for the vaguely technical bit: <br /></p>
+                <p id="Example">Each stream has a unique name (a Unique Resource Identifier - URI) that allows us to easily categorize and identify it. In Insights, therefore, our smart house stream
+might be called something like <code>/streams/hce/electricity/usage</code></p>
+                <p id="Example">This <MadCap:keyword term="URI" />URI has the form:</p>
+                <blockquote>
+                    <p xml:space="preserve" id="Example"><code>
+/streams/&lt;tenant&gt;/&lt;collection&gt;/&lt;streamName&gt;
+</code>
+                </p>
+                </blockquote>
+                <p id="Example">Where:</p>
+                <ul class="simple">
+                    <p id="Example"><code>tenant</code> = the organizational unit the stream belongs to (see: <MadCap:xref href="file:///C:/Users/sdavies/Documents/GitHub/ITRS-Insights-Product-Documentation/Content/C_User Guides/Organizing Data User Guide.htm#Tenants" MadCap:xrefTarget="$$xref$$_1">"Tenants" on page&#160;1</MadCap:xref>)</p>
+                    <p id="Example"><code>collection</code> = the collection the stream is contained in </p>
+                    <p id="Example"><code>streamName</code> = the name of the stream</p>
+                </ul>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <h3><a name="Contributors"></a>
+            <MadCap:keyword term="Contributor" />&#160;Contributor</h3>
+        <p>With our streams added, we  can define who  the external sources are. We do so with <strong class="green">contributors</strong>.</p>
+        <p id="concept_definition"><strong class="green">Contributor</strong>:  anything that generates and publishes data to Valo or Insights. A probe or an app are example contributors. Contributors of the same type have common characteristics but  can also have different metadata to one another. For
+example, a probe contributor on a Windows server might be able to provide more
+metadata than probe contributor on a Linux server. Contributors can be grouped together by common attributes to create <strong class="green">Domains&#160;</strong>. </p>
+        <p>
+            <img src="file:///C:/Users/sdavies/Documents/GitHub/ITRS-Insights-Product-Documentation/Output/sdavies/Temporary/PDF User Guide/Query, Search &amp; Transform/Query, Search &amp; Transform_38FE8A0F/Resources/Images/01_contributors.gif" style="width: 577px;height: 206px;" />
+        </p>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Example Contributor</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p id="Example"><strong>We use the concept of contributors to assign metadata to each data source</strong>. For example, is the source is a sensor in a heating system, we might categorize it based on what type of heater its in, who owns it, who it was manufactured by, or who installed it.&#160;You get the idea. </p>
+                <p id="Example">Like streams, each contributor has a unique <MadCap:keyword term="URI" />URI. </p>
+                <p id="Example">If we imagine that the electric kettle in the kitchen at house Number 4 contained a probe, it could have a URI along the lines of <code>/contributors/hce/Num4/kettle</code>, for example. </p>
+                <p id="Example">The contributor URI has the form:</p>
+                <blockquote>
+                    <p xml:space="preserve" id="Example"><code>
+/contributors/&lt;tenant&gt;/&lt;type&gt;
+</code>
+                    </p>
+                </blockquote>
+                <p id="Example">Where:</p>
+                <ul class="simple">
+                    <p id="Example"><code>tenant</code> = the organizational unit the stream belongs to</p>
+                    <p id="Example"><code>type</code> = the type of contributor (for example probe or app)</p>
+                </ul>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <h3><a name="Domain"></a>
+            <MadCap:keyword term="Domain" />Domain</h3>
+        <p>Now that we've got our stream(s) and contributor(s) categorized, we can further define our data sources. </p>
+        <p>Creating domains has several distinct advantages. Firstly, they're dynamic -  they're an attribute of a contributor (as opposed to a flag), so create a domain and it'll automatically detect any new contributors that come into it. Secondly, domains provide another layer of granularity, control and time-saving when it comes to actually analyzing the data. </p>
+        <p>So, let's group our contributors together to form <strong class="green">Domains</strong>.</p>
+        <p id="concept_definition"><strong class="green">Domain</strong>: two or more contributors grouped together by a common attribute. Domains help to organize and group different data sources in intuitive ways. </p>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Example Domain</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p id="Example">In our street of smart metered houses, <strong>we could define
+house Number 6 as a <strong class="green">domain</strong>, thus every smart device that is identified as
+being in house number 6 is considered part of that <strong class="green">domain </strong>for the
+purposes of our analysis</strong>. </p>
+                <p id="Example">But a domain doesn't have to be a locational entity. We could define a domain of TVs on Arcadia Avenue, thus
+every contributing device that is identified as a TV that is within our
+street is considered part of our domain for analysis.</p>
+                <p id="Example">A powerful attribute of Insights' domains is that because the
+domain is defined by an attribute of the contributor rather than a flag
+that has to be set manually at installation, domains can be
+dynamic, automatically picking up new contributors coming into the
+domain. </p>
+                <p id="Example">So for instance if Mr Smith in No2 Arcadia Avenue goes out and
+buys a new TV for his teenage son to have in his bedroom then once the
+TV is plugged into the system it is automatically included in the
+Arcadia Ave TV domain.</p>
+                <p id="Example">Having domains also means you can have higher level metrics or data that
+relate to that domain which can be published, the value of this is you
+can publish this higher level information to people and systems who are
+interested in the domain but for instance do not have permission to see
+all the details of the data within the domain. Again looking at our
+example Mr Smith could see the energy consumption of all the TVs in his
+house, but without having access to the energy consumption (and thus
+potentially the hours of watching!) that came from the new TV in his
+son's bedroom. Or perhaps HCE could have access to the energy
+consumption of each house within the street without being allowed access
+to the consumption of the individual devices in each house, which might
+be considered somewhat invasive.</p>
+                <p id="Example">A domain is used at query time to filter a stream to only include data
+entries for contributors and tags defined by the domain. The filter is
+dynamic, so a contributor which no longer matches the query will be
+automatically removed from the domain.</p>
+                <p id="Example">A domain definition is identified by a unique <MadCap:keyword term="URI" />URI in the following format</p>
+                <blockquote>
+                    <p id="Example"><tt class="docutils literal">/domain/tenant/collection/name</tt>
+                    </p>
+                </blockquote>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <h3 MadCap:xrefTargetName="$$xref$$_1" MadCap:sourceTitle="Organizing Data in  ITRS&#160;Insights"><a name="Tenants"></a>
+            <MadCap:keyword term="Tenant" />Tenants</h3>
+        <p>Still with us?&#160;Great. Only two more steps to go. </p>
+        <p>Before we can complete the organization of the data come from our smart city into Insights, we're going to define the highest level of organizational attribute: <strong class="green">Tenants</strong>.  </p>
+        <p id="concept_definition"><strong class="green">Tenant</strong>:&#160;the highest level of data grouping in Insights and Valo. Within a company, it may be different departments such as Sales or Engineering. If a government is collecting data from its cities, the tenant could be the city name. Tenants can be further subcategorized as <strong class="green">Collections</strong>. </p>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Tenants Example</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p id="Example"><strong>A <strong class="green">tenant </strong>is the highest level of grouping. It helps us to understand who owns the data and, if we so
+wish, to place virtual walls around the data limiting visibility and
+access.</strong>
+                </p>
+                <p id="Example">In our smart house example, we could say that <strong>HCE is a <strong class="green">tenant </strong>as it is
+the organization to which the stream of
+electricity consumption data goes:</strong> the stream name is:
+</p>
+                <p id="Example" style="text-indent: 0.5in;"><code>/streams/hce/electricity/usage</code>. </p>
+                <p id="Example">100 miles away in another area of
+the country, there maybe another street of smart houses called Privet
+Drive, this road is supplied by the local company Really Expensive
+Electricity (REE). In this instance we may call the stream:
+</p>
+                <p id="Example" style="text-indent: 0.5in;"><code>/streams/ree/electricity/usage</code>, where REE is the tenant.</p>
+                <p id="Example"> You can assign tenants within a company, perhaps to different departments such as Sales or Engineering. For big businesses, you may define tenants by the city or office they're located in.&#160;The bottom line is that you can organize your data how you wish. </p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <h3><a name="Collections"></a>
+            <MadCap:keyword term="Collection" />Collections</h3>
+        <p>Finally, we can further logically group streams inside a tenant using <strong class="green">Collections</strong>. </p>
+        <p id="concept_definition"><strong class="green">Collections</strong>:&#160;two or more streams grouped together inside a tenant. </p>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Example Collection</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p id="Example"><strong>Inside a <strong class="green">collection </strong>are the names of the individual <strong class="green">streams</strong></strong>. </p>
+                <p id="Example">In our smart metered houses example, a collection might consist of two streams:&#160;one from&#160;Arcadia Avenue, and the other from&#160;Privet Drive. </p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <p>&#160;</p>
+        <p>&#160;</p>
+    </body>
+</html>

@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="2" MadCap:lastHeight="103" MadCap:lastWidth="1232">
+    <body>
+        <p id="concept_definition"><strong class="green">Tenant</strong>:&#160;the highest level of data grouping in <MadCap:variable name="General.Product Name Insights&#160;(abbreviated)" /> and <MadCap:variable name="General.ProductNameValo" />. Within a company, it may be different departments such as Sales or Engineering. If a government is collecting data from its cities, the tenant could be the city name. Tenants can be further subcategorized as <strong class="green">Collections</strong>. <MadCap:conditionalText MadCap:conditions="Output.Digital">See <MadCap:xref href="../../C_User Guides/Organizing Data User Guide.htm#Collections">Collections</MadCap:xref>.</MadCap:conditionalText></p>
+    </body>
+</html>

@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultFileLinkSet
+  FileTitle="Anomaly"
+  FileSearchable="true"
+  OnlyLocalStylesheets="false"
+  FileTimeEstimate="0"
+  FilePriority="0">
+  <Links>
+    <Link
+      Url="http://alumni.cs.ucr.edu/~ratana/SSDBM05.pdf" />
+    <Link
+      Url="Content/Resources/Images/AnomalyButton.png" />
+    <Link
+      Url="Content/Resources/Images/ECG-Anom-01.png" />
+    <Link
+      Url="Content/Resources/Images/SAX.png" />
+    <Link
+      Url="https://www.quora.com/MLconf-2015-Seattle/How-does-the-symbolic-aggregate-approximation-SAX-technique-work" />
+    <Link
+      Url="Project/ConditionTagSets/Output.flcts" />
+  </Links>
+  <LongLinks>
+    <Link
+      Url="http://alumni.cs.ucr.edu/~ratana/SSDBM05.pdf" />
+    <Link
+      Url="Content/Resources/Images/AnomalyButton.png" />
+    <Link
+      Url="Content/Resources/Images/ECG-Anom-01.png" />
+    <Link
+      Url="Content/Resources/Images/SAX.png" />
+    <Link
+      Url="https://www.quora.com/MLconf-2015-Seattle/How-does-the-symbolic-aggregate-approximation-SAX-technique-work" />
+    <Link
+      Url="Project/ConditionTagSets/Output.flcts" />
+  </LongLinks>
+  <Anchors />
+  <Keywords />
+  <Concepts />
+  <ConceptControlNames />
+  <IndexControlNames />
+  <Variables />
+  <FileConditions />
+  <FileTags />
+  <AllConditions>
+    <Condition
+      Tag="Output.Null" />
+  </AllConditions>
+  <Stylesheets />
+</CatapultFileLinkSet>

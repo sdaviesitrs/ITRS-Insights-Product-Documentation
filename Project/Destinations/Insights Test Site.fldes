@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultDestination
+  Version="1"
+  Comment="This is my publish destination"
+  Host="pulsetestweb.itrsgroup.com"
+  User="MyAccountId"
+  Password=""
+  Directory="Insights"
+  Port="21"
+  ViewUrl="http://pulsetestweb.itrsgroup.com/Insights"
+  Type="ftp"></CatapultDestination>

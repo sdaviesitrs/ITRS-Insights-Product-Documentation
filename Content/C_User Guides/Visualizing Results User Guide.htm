@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="5" MadCap:lastHeight="3240" MadCap:lastWidth="1480">
+    <head>
+    </head>
+    <body>
+        <h1><MadCap:variable name="General.Product Name&#160;Insights (Full)" /> Visualizing Results User Guide</h1>
+        <div class="document" id="visualising-data">
+            <p><MadCap:variable name="General.Product Name&#160;Insights (Full)" /> provides a number of different ways to visualize your data
+and the outcome of your queries and analysis. Once you have run the
+query the relevant chart options are displayed at the top to choose
+from.</p>
+            <div class="section" id="tables-image0">
+                <h3>Tables <img alt="image0" src="../Resources/Images/TableButton.png" /></h3>
+                <p>The most simple, and default, manner of displaying query results is a
+table</p>
+                <p>
+                    <img alt="image1" src="../Resources/Images/FlightData-SampleLateTbl.png" />
+                </p>
+                <p>Tables can be sorted by selecting the appropriate column. For instance selecting the
+<img alt="image2" src="../Resources/Images/FlightData-SampleLateTbl-Sort.png" /></p>
+            </div>
+            <div class="section" id="column-chart-image3">
+                <h3>Column Chart <img alt="image3" src="../Resources/Images/ColumnButton.png" /></h3>
+                <p>Selecting the column chart an axis selection that makes sense is automatically chosen, so from the example above selecting the Column button results in the following visualisation:
+<img alt="image4" src="../Resources/Images/FlightData-SampleLateCol.png" /></p>
+                <div class="system-message"> <pre class="literal-block" xml:space="preserve">
+from historical /streams/demo/fix/exchange where MsgType=="New Order Single" group by Symbol select Symbol, sum(OrderQty) as Volume
+</pre></div>
+                <p>
+                    <img alt="image5" src="../Resources/Images/fix_volume.png" />
+                </p>
+                <p>Depending on the contents of your query return you can change the axis
+configurations and also group by certain values.</p>
+            </div>
+            <div class="section" id="spark-lines-image6">
+                <h3>Spark lines <img alt="image6" src="../Resources/Images/SparkButton.png" /></h3>
+                <p>A sparkline is a very small line chart, typically drawn without axes or
+coordinates and presents the general shape of the variation (typically
+over time) in some measurement.</p>
+                <p>For example in our USA flight data we can see what the pattern of
+lateness looks like for each carrier.</p>
+                <div class="system-message"> <pre class="literal-block" xml:space="preserve">
+from historical /streams/demo/usa/flightdata
+where flightDate == "2005-06-01" &amp;&amp; DepTime &gt; "12:00" &amp;&amp; DepTime &lt; "13:00"
+select UniqueCarrier, minutes(ArrDelay) as ArrivalDelay
+</pre></div>
+                <p>
+                    <img alt="image7" src="../Resources/Images/FlightData-Delay-Spark.png" />
+                </p>
+            </div>
+            <div class="section" id="anomaly-detection-image8">
+                <h3>Anomaly Detection <img alt="image8" src="../Resources/Images/AnomalyButton.png" /></h3>
+                <p>This chart option will appear when using <a href="#id1"><MadCap:xref href="../B_Technical Reference/Algorithms/Anomaly.htm">Anomaly</MadCap:xref></a> and highlights where anomalies are
+found. So for instance if we take an ECG stream then we can run a query
+to emit and chart the following. With the anomaly displayed underneath
+and any area where this is breached highlighted on the main chart.</p>
+                <div class="system-message"> <pre class="literal-block" xml:space="preserve">
+from /streams/demo/infrastructure/ecg
+group by contributor
+select contributor, anomaly(200, 40, 20) (value) as result
+emit every value
+</pre></div>
+                <p>
+                    <img alt="image9" src="../Resources/Images/ECG-Anom-01.png" />
+                </p>
+            </div>
+            <div class="section" id="line-chart-image10">
+                <h3>Line Chart <img alt="image10" src="../Resources/Images/LineButton.png" /></h3>
+                <p>A line chart or line graph is a type of chart which displays information
+as a series of data points called 'markers' connected by straight line
+segments. The measurement points are ordered (typically by their x-axis
+value) and joined with straight line segments. A line chart is often
+used to visualize a trend in data over intervals of time – a time series
+– thus the line is often drawn chronologically.</p>
+                <div class="system-message"> <pre class="literal-block" xml:space="preserve">
+from historical /streams/demo/fix/exchange into left
+inner join  from historical /streams/demo/fix/exchange into right
+on left.ClOrdID == right.ClOrdID &amp;&amp; left.MsgType=="New Order Single" &amp;&amp; right.MsgType=="Execution Report"
+select left.SenderCompID, left.ClOrdID, millis(diff(left.TransactTime, right.TransactTime)) as Latency
+</pre></div>
+                <p>
+                    <img alt="image11" src="../Resources/Images/trading_latency.png" />
+                </p>
+            </div>
+            <div class="section" id="bubble-chart-image12">
+                <h3>Bubble Chart <img alt="image12" src="../Resources/Images/BubbleButton.png" /></h3>
+                <p>A bubble chart is a type of chart that displays three dimensions of
+data. Each entity with its triplet (v1, v2, v3) of associated data is
+plotted as a disk that expresses two of the vi values through the disk's
+xy location and the third through its size.</p>
+                <p>For example with the query:</p>
+                <div class="system-message"> <pre class="literal-block" xml:space="preserve">
+from /streams/demo/infrastructure/cpu
+select process, host, sampleTime, kernel, user, kernel as kernel1, user as user1, kernel as kernel2, user as user2, kernel as kernel3, user as user3
+</pre></div>
+                <p>
+                    <img alt="image13" src="../Resources/Images/KernelData-Bubble.png" />
+                </p>
+            </div>
+            <div class="section" id="scatterplot-chart-image14">
+                <h3>Scatterplot Chart <img alt="image14" src="../Resources/Images/ScatterButton.png" /></h3>
+                <p>A scatterplot is a useful summary of a set of bivariate data (two
+variables),it gives a good visual picture of the relationship between
+the two variables, and aids the interpretation of the correlation
+coefficient or regression model.</p>
+                <p>For example from the following query on USA flight data we can compare
+the distance travelled vs flight time for flights departing on a given
+hour. As you would expect there is a strong correlation, but you can
+also see some of the outliers where those carriers seemed to take longer
+to fly a given journey.... if your aim is to get home as soon as
+possible make be you would chose one of the others.</p>
+                <div class="system-message"> <pre class="literal-block" xml:space="preserve">
+from historical /streams/demo/usa/flightdata
+where flightDate == "2005-06-01" &amp;&amp; DepTime &gt; "12:00" &amp;&amp; DepTime &lt; "13:00"
+select UniqueCarrier, Distance, minutes(AirTime) as AirMinutes
+</pre></div>
+                <p>
+                    <img alt="image15" src="../Resources/Images/FlightData-DistVsTime-ScatGrp.png" />
+                </p>
+            </div>
+            <div class="section" id="dashboards">
+                <h3>Dashboards</h3>
+                <p>You can also use a <a href="#id3"><MadCap:xref href="Organizing Data User Guide.htm#Dashboard">Dashboard</MadCap:xref></a> to share the visualization of query results without the viewer needing to have direct access to the query and/or data.</p>
+            </div>
+        </div>
+    </body>
+</html>

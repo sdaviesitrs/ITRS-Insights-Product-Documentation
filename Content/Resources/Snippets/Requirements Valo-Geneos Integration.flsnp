@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>Valo-Geneos integration requires a GA3.3.0 Gateway or newer running on 64 bit Linux. This can be downloaded from the <a class="reference external" href="https://resources.itrsgroup.com/download.html">ITRS Group website</a>. If you are running Valo on Windows, <a class="reference external" href="https://www.microsoft.com/en-us/download/details.aspx?id=48145">Visual C++ Redistributable for Visual Studio 2015</a> is required.</body>
+</html>

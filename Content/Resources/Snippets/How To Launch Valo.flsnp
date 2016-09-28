@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="120" MadCap:lastWidth="1181">
+    <body>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>How to Launch <MadCap:variable name="General.ProductNameValo" /></MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <ol>
+                    <li>Navigate to the <strong>\valo\bin</strong> directory in your <MadCap:variable name="General.ProductNameValo" /> installation folder</li>
+                    <li>Double click the <MadCap:snippetText src="Icon Valo Binary.flsnp" /></li>
+                </ol>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+    </body>
+</html>

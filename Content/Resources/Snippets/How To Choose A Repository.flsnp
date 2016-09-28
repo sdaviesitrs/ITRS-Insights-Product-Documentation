@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="7" MadCap:lastHeight="899" MadCap:lastWidth="1167">
+    <body>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot><a name="Choose_Repository"></a>Choose a Repository</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <div class="section">
+                    <h3>Historical analysis?</h3>
+                    <ul class="simple">
+                        <li>Will you need to perform historical analysis on the stream's data?</li>
+                    </ul>
+                    <p><strong>*No*</strong> -&gt; i.e. you only need to perform real time analysis and have no
+need to retain the data - then you don't need to use a repository at
+all.</p>
+                    <p><strong>*Yes*</strong> -&gt; Continue reading</p>
+                </div>
+                <div class="section" id="hierarchical-data">
+                    <h3>Hierarchical data?</h3>
+                    <ul class="simple">
+                        <li>Is your data hierarchical in nature (i.e. does it have a nested JSON
+structure)?</li>
+                    </ul>
+                    <p><strong>*Yes*</strong> -&gt; you need to use the <strong>SSR</strong>, because the TSR doesn't
+support hierarchical data.</p>
+                </div>
+                <div class="section" id="schema">
+                    <h4>Schema?</h4>
+                    <ul class="simple">
+                        <li>Does your data have a flexible or unknown structure (i.e. would it be
+hard to produce a schema for your data)?</li>
+                    </ul>
+                    <p>or</p>
+                    <ul class="simple">
+                        <li>Do you want to begin storing data without specifying a schema?</li>
+                    </ul>
+                    <p><strong>*Yes*</strong> -&gt; you need to use the <strong>SSR</strong>, because the TSR requires that
+streams have a schema and that payloads match the schema exactly</p>
+                </div>
+                <div class="section" id="textual-analysis">
+                    <h3>Textual analysis?</h3>
+                    <ul class="simple">
+                        <li>Do you need to perform mostly text based analysis, or do you need to
+use free text search?</li>
+                    </ul>
+                    <p><strong>*Yes*</strong> -&gt; you should use the <strong>SSR</strong>.</p>
+                </div>
+                <div class="section" id="numeric-analysis">
+                    <h3>Numeric analysis?</h3>
+                    <ul class="simple">
+                        <li>Do you need to perform mostly numeric analysis, or do you need to be
+able to search by the shape of a graph?</li>
+                    </ul>
+                    <p><strong>*Yes*</strong> -&gt; you should use the <strong>TSR</strong>.</p>
+                </div>
+                <div class="section" id="queries-only">
+                    <h3>Queries Only?</h3>
+                    <ul class="simple">
+                        <li>Do you generally only select a handful of the available fields
+present in your data?</li>
+                    </ul>
+                    <p><strong>*Yes*</strong> -&gt; you should use the <strong>TSR</strong> as it is based on column store
+technology so is likely to be faster.</p>
+                </div>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+    </body>
+</html>

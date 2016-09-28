@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultVariableSet>
+  <Variable
+    Comment=""
+    Name="CurrentInsights"
+    EvaluatedDefinition="v1.4">v1.4</Variable>
+  <Variable
+    Comment=""
+    Name="CurrentValo"
+    EvaluatedDefinition="v1.2">v1.2</Variable>
+  <Variable
+    Name="CurrentGeneos"
+    Comment=""
+    EvaluatedDefinition="v3.0">v3.0</Variable>
+  <Variable
+    Name="Insights1.2"
+    Comment=""
+    EvaluatedDefinition="v1.2">v1.2</Variable>
+</CatapultVariableSet>

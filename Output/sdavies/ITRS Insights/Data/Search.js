@@ -1,0 +1,1 @@
+define({r:0.5,st:'Stem',n:1,t:[0],u:['../Content/A_Quick Start/Getting Started with ITRS Insights.htm'],s:['$','geograph','seen'],p:[['$',9],['and',29],['contain',42],['fact',14],['in',20],['more',24],['processed',15],['square',33],['together',3],['zone',42]]});

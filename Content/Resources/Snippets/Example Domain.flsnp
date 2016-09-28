@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="5" MadCap:lastHeight="692" MadCap:lastWidth="1194">
+    <body>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Example Domain</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p id="Example">In our street of smart metered houses, <strong>we could define
+house Number 6 as a <strong class="green">domain</strong>, thus every smart device that is identified as
+being in house number 6 is considered part of that <strong class="green">domain </strong>for the
+purposes of our analysis</strong>. </p>
+                <p id="Example">But a domain doesn't have to be a locational entity. We could define a domain of TVs on Arcadia Avenue, thus
+every contributing device that is identified as a TV that is within our
+street is considered part of our domain for analysis.</p>
+                <p id="Example">A powerful attribute of <MadCap:variable name="General.Product Name Insights&#160;(abbreviated)" />' domains is that because the
+domain is defined by an attribute of the contributor rather than a flag
+that has to be set manually at installation, domains can be
+dynamic, automatically picking up new contributors coming into the
+domain. </p>
+                <p id="Example">So for instance if Mr Smith in No2 Arcadia Avenue goes out and
+buys a new TV for his teenage son to have in his bedroom then once the
+TV is plugged into the system it is automatically included in the
+Arcadia Ave TV domain.</p>
+                <p id="Example">Having domains also means you can have higher level metrics or data that
+relate to that domain which can be published, the value of this is you
+can publish this higher level information to people and systems who are
+interested in the domain but for instance do not have permission to see
+all the details of the data within the domain. Again looking at our
+example Mr Smith could see the energy consumption of all the TVs in his
+house, but without having access to the energy consumption (and thus
+potentially the hours of watching!) that came from the new TV in his
+son's bedroom. Or perhaps HCE could have access to the energy
+consumption of each house within the street without being allowed access
+to the consumption of the individual devices in each house, which might
+be considered somewhat invasive.</p>
+                <p id="Example">A domain is used at query time to filter a stream to only include data
+entries for contributors and tags defined by the domain. The filter is
+dynamic, so a contributor which no longer matches the query will be
+automatically removed from the domain.</p>
+                <p id="Example">A domain definition is identified by a unique <MadCap:keyword term="URI" />URI in the following format</p>
+                <blockquote>
+                    <p id="Example"><tt class="docutils literal">/domain/tenant/collection/name</tt>
+                    </p>
+                </blockquote>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+    </body>
+</html>

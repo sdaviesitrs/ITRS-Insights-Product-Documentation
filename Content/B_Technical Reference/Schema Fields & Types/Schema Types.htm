@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="1057" MadCap:lastWidth="933">
+    <head>
+    </head>
+    <body>
+        <h1>Schema Types</h1>
+        <MadCap:snippetBlock src="../../Resources/Snippets/Definition Schema.flsnp" />
+        <p>Every stream needs a schema, which describes the ‘shape’ of the data being streamed through Valo. Let’s dig into an example with our air pollution stream’s schema:</p><pre>{
+  "schema": {
+    "topDef": {
+      "type": "record",
+      "properties":
+        "area": { "type": "string" },
+        "carbonm": { "type": "double" },
+        "nitrouso": { "type": "double" },
+        "sampleTime": { "type": "datetime" }
+      }
+    }
+  }
+}</pre>
+        <p>The four fields within ‘properties’ are the key pieces of data the sensor will provide: carbon monoxide levels, nitrous oxide levels, the location or area of the sensor, and the time at which the sample was taken. We must specify the data type for each field so that Valo knows what type of data to expect.</p>
+        <p>What does a payload look like?</p>
+        <p>After establishing a schema, we can start streaming events to Valo from the devices such as the JSON payload below:</p><pre>{
+  "area": "East",
+  "carbonm": 25,
+  "nitrouso": 20,
+  "sampleTime": "Fri May 6 2016 15:03:53"
+}</pre>
+        <p>Note that Valo also supports numerous other payload types including VBOR, JSON, CSV, JAML and BSON. Although the four fields in the air quality schema have been included in the payload above, it is also possible to send data to Valo with only a selection of fields filled in.</p>
+        <p>&#160;</p>
+    </body>
+</html>

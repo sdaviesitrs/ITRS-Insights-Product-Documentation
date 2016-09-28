@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="7" MadCap:lastHeight="1007" MadCap:lastWidth="1168">
+    <body>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Example Stream</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p id="Example">Arcadia Avenue a street of 20 houses all with
+the latest smart electricity meters, all sending information to their energy
+supplier HighCostEnergy.com (HCE) through an underground cable. </p>
+                <p id="Example">In the
+village center, HCE has a hub to transmit and process this information.
+Our street has a single cable running down it to the hub, but within
+that cable are thousands of fiber optic cables all taking information
+from the energy consuming devices in the house (refrigerator, toaster,
+TV, coffee machine, boiler, etc.). </p>
+                <p id="Example">In this example, the cable contains
+the stream of data that is passing to the hub, but that stream is made
+up of all the data coming from the individual fibre optic cables, thus
+<strong>the <strong class="green">stream </strong>of data is made up of the data from all the individual
+<strong class="green">contributor </strong>devices</strong>: the toaster at house Number 2, the refrigerator at
+Number 6, the coffee machine at Number 13, and so on.<br /><br />One challenge when you have a number of different contributors is to
+<strong>ensure that everyone is speaking the same language and meaning the same
+thing</strong>, otherwise comparisons and analytics will have limited value. To
+do this, <strong>we use a document of understanding (a <strong class="green">schema</strong><MadCap:keyword term="Schema" />) that
+defines what data the stream contains in what format</strong>. For instance, we
+may want the stream to provide information as data points (also known as
+payloads) about the time of day, the type of appliance, and the current
+consumption. <br /><br />Because the schema ensures that the data flowing in is in a common format, we can
+then meaningfully compare and analyze it based on those common
+attribute values. We can analyze which refrigerator
+consumes the most energy and because our schema clearly detailed to
+format that the time would come in. We can compare all the appliances
+that are on at 8am in each house without fear that some
+payloads included with a time stamp of 8 would in fact be for 8pm. We can analyze pretty much anything we want, in fact. </p>
+                <p id="Example">Now for the vaguely technical bit: <br /></p>
+                <p id="Example">Each stream has a unique name (a Unique Resource Identifier - URI) that allows us to easily categorize and identify it<MadCap:conditionalText MadCap:conditions="Product.Valo"> via Valo's RESTful API</MadCap:conditionalText>. In <MadCap:variable name="General.Product Name Insights&#160;(abbreviated)" />, therefore, our smart house stream
+might be called something like <code>/streams/hce/electricity/usage</code></p>
+                <p id="Example">This <MadCap:keyword term="URI" />URI has the form:</p>
+                <blockquote>
+                    <p xml:space="preserve" id="Example"><code>
+/streams/&lt;tenant&gt;/&lt;collection&gt;/&lt;streamName&gt;
+</code>
+                </p>
+                </blockquote>
+                <p id="Example">Where:</p>
+                <ul class="simple">
+                    <p id="Example"><code>tenant</code> = the organizational unit the stream belongs to (see: <MadCap:xref href="../../C_User Guides/Organizing Data User Guide.htm#Tenants">Tenants</MadCap:xref>)</p>
+                    <p id="Example"><code>collection</code> = the collection the stream is contained in </p>
+                    <p id="Example"><code>streamName</code> = the name of the stream</p>
+                </ul>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+    </body>
+</html>

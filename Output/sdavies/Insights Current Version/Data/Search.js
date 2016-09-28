@@ -1,0 +1,1 @@
+define({r:0.5,st:'Stem',n:1,t:[0],u:['../Content/A_Quick Start/Getting Started with ITRS Insights.htm'],s:['$','graphic','sinc'],p:[['$',8],['anomaly',5],['correlation',11],['flightdate',11],['install',2],['not',4],['referenced',4],['table',32],['user',35]]});

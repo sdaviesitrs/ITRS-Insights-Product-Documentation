@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultGlobalGlossaryCache
+  SavedSource="file:///C:/Users/sdavies/Documents/GitHub/ITRS-Insights-Product-Documentation/Output/sdavies/Temporary/GlobalGlossarySet v.2.xml">
+  <Map>
+    <GlossaryCacheEntry
+      Term="Stream"
+      glossTerm="Glossary.Term16"
+      SourceFile="/Project/Glossaries/Glossary.flglo">
+      <Definition
+        Link="">A stream is made up of data (messages or events) coming from one or more external contributors. Each stream has a schema that defines what information, in what format is expected. Streams are append only.</Definition>
+    </GlossaryCacheEntry>
+    <GlossaryCacheEntry
+      Term="Contributor"
+      glossTerm="Glossary.Term17"
+      SourceFile="/Project/Glossaries/Glossary.flglo">
+      <Definition
+        Link="">An external source that provides one or more data streams to Valo. Contributors can be grouped together by common attributes to create Domains.</Definition>
+    </GlossaryCacheEntry>
+    <GlossaryCacheEntry
+      Term="Tennant"
+      glossTerm="Glossary.Term18"
+      SourceFile="/Project/Glossaries/Glossary.flglo">
+      <Definition
+        Link="">The highest level of data grouping. Within a company, it may be different departments such as Sales or Engineering. If a government is collecting data from its cities, the tenant could be the city name.</Definition>
+    </GlossaryCacheEntry>
+    <GlossaryCacheEntry
+      Term="Domain"
+      glossTerm="Glossary.Term19"
+      SourceFile="/Project/Glossaries/Glossary.flglo">
+      <Definition
+        Link="">two or more contributors grouped together by a common attribute. Domains help to organise and group different data sources in intuitive ways.</Definition>
+    </GlossaryCacheEntry>
+    <GlossaryCacheEntry
+      Term="Notebook"
+      glossTerm="Glossary.Term20"
+      SourceFile="/Project/Glossaries/Glossary.flglo">
+      <Definition
+        Link="" />
+    </GlossaryCacheEntry>
+    <GlossaryCacheEntry
+      Term="Dashboard"
+      glossTerm="Glossary.Term21"
+      SourceFile="/Project/Glossaries/Glossary.flglo">
+      <Definition
+        Link="" />
+    </GlossaryCacheEntry>
+    <GlossaryCacheEntry
+      Term="Valo"
+      glossTerm="Glossary.Term22"
+      SourceFile="/Project/Glossaries/Glossary.flglo">
+      <Definition
+        Link="" />
+    </GlossaryCacheEntry>
+    <GlossaryCacheEntry
+      Term="Insights"
+      glossTerm="Glossary.Term23"
+      SourceFile="/Project/Glossaries/Glossary.flglo">
+      <Definition
+        Link="">A streaming big data analytics platform that simplifies the complexity involved in analysing vast amounts of data at speed. Insights combines big data storage with a real time computation engine and in-built machine learning and algorithms.</Definition>
+    </GlossaryCacheEntry>
+    <GlossaryCacheEntry
+      Term="ITRS Geneos"
+      glossTerm="Glossary.Term24"
+      SourceFile="/Project/Glossaries/Glossary.flglo">
+      <Definition
+        Link="">A real-time monitoring tool for managing increasingly complex and interconnected IT estates. Built for financial services and trading organisations, it collects a multitude of data relating to the performance of the servers, infrastructure, connectivity and applications, analyses it to detect anything untoward, and presents it in relevant, intuitive visualisations to help diagnose and fix issues quickly.</Definition>
+    </GlossaryCacheEntry>
+    <GlossaryCacheEntry
+      Term="Gateway"
+      glossTerm="Glossary.Term25"
+      SourceFile="/Project/Glossaries/Glossary.flglo">
+      <Definition
+        Link="" />
+    </GlossaryCacheEntry>
+    <GlossaryCacheEntry
+      Term="Collector"
+      glossTerm="Glossary.Term26"
+      SourceFile="/Project/Glossaries/Glossary.flglo">
+      <Definition
+        Link="" />
+    </GlossaryCacheEntry>
+    <GlossaryCacheEntry
+      Term="Netprobe"
+      glossTerm="Glossary.Term27"
+      SourceFile="/Project/Glossaries/Glossary.flglo">
+      <Definition
+        Link="" />
+    </GlossaryCacheEntry>
+    <GlossaryCacheEntry
+      Term="Schema"
+      glossTerm="Glossary.Term0"
+      SourceFile="/Project/Glossaries/Glossary.flglo">
+      <Definition
+        Link="">Defines the structure of a stream - what data it contains and in what format.</Definition>
+    </GlossaryCacheEntry>
+    <GlossaryCacheEntry
+      Term="TSR"
+      glossTerm="Glossary.Term1"
+      SourceFile="/Project/Glossaries/Glossary.flglo">
+      <Definition
+        Link="">The Time Series Repository (TSR) is a custom built data repository designed to handle numerical time series oriented data streams. By time series we mean a series of data points each of which has an associated time stamp.</Definition>
+    </GlossaryCacheEntry>
+    <GlossaryCacheEntry
+      Term="SSR"
+      glossTerm="Glossary.Term2"
+      SourceFile="/Project/Glossaries/Glossary.flglo">
+      <Definition
+        Link="">The semi-structured repository (SSR) is based on Lucene which provides very powerful text search capabilities. Even though Lucene is geared towards indexing text, it also has very good index support for numerical data. However, if the data contains purely numerical fields the TSR might be a better fit as a repository for this kind of data.</Definition>
+    </GlossaryCacheEntry>
+  </Map>
+  <SourceUrls />
+</CatapultGlobalGlossaryCache>

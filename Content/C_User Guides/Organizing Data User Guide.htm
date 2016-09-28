@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="7" MadCap:lastHeight="5120" MadCap:lastWidth="1167">
+    <head>
+        <link href="" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <h1>Organizing Data in  <MadCap:variable name="General.Product Name&#160;Insights (Full)" /></h1>
+        <h2 class="nokeyline">Introduction</h2>
+        <p>To help you get the most from <MadCap:variable name="General.Product Name Insights&#160;(abbreviated)" />, it's important to understand a little about the organizational concepts that underpin it. </p>
+        <p>Because <MadCap:variable name="General.Product Name Insights&#160;(abbreviated)" />' query tool acts like a pipeline - you can build successive queries to be applied to one set of results in order to iteratively pare down the data - categorizing where your data is coming from, and defining the hierarchy of who owns it and what type it is, will make it much easier for you to query it later on. </p>
+        <p>The good news is that there is a limited number of hierarchical levels available&#160;- three main ones and two sub types - so it won't take you long to read this document and then get on with the much more exciting prospect of actually using <MadCap:variable name="General.Product Name Insights&#160;(abbreviated)" />. </p>
+        <p>And don't forget, when you're finished here, check out some of our user guides:</p>
+        <blockquote>
+            <p>
+                <MadCap:xref href="Query, Search &amp; Transform Data User Guide.htm">[%=General.Product Name&#160;Insights (Full)%] Query,&#160;Search&#160;and Transform Data User Guide</MadCap:xref>
+            </p>
+            <p>
+                <MadCap:xref href="Domain &amp; Contributors User Guide.htm">[%=General.Product Name&#160;Insights (Full)%]Domain &amp;&#160;Contributors User Guide</MadCap:xref>
+            </p>
+            <p>
+                <MadCap:xref href="Dashboard &amp; Notebook User Guide.htm">[%=General.Product Name&#160;Insights (Full)%] Dashboard &amp;&#160;Notebook&#160;User Guide</MadCap:xref>
+            </p>
+            <p>
+                <MadCap:xref href="Template User Guide.htm">[%=General.Product Name&#160;Insights (Full)%] Template User Guide</MadCap:xref>
+            </p>
+        </blockquote>
+        <h2 class="nokeyline">Cities are getting smarter.</h2>
+        <p>For the purposes of illustrating how we organize data in <MadCap:variable name="General.Product Name Insights&#160;(abbreviated)" />, we're going to imagine a smart city... </p>
+        <p> A key part of smart cities will be establishing the right infrastructure to collect and intelligently analyze streams of data from connected 'things'. This is where <MadCap:variable name="General.Product Name Insights&#160;(abbreviated)" /> and <MadCap:variable name="General.ProductNameValo" /> come in. </p>
+        <p>To enable you to make sense of your data and to really leverage <MadCap:variable name="General.Product Name Insights&#160;(abbreviated)" />' ability to query it, we've implemented a straightforward hierarchy and organizational structure for it:</p>
+        <blockquote>
+            <p><strong class="green">Streams </strong>and <strong class="green">Contributors </strong>&gt; <strong class="green">Domains </strong>&gt;&#160;<strong class="green">Tenants </strong></p>
+        </blockquote>
+        <p>Now, let's look at how each of these works in action. </p>
+        <h2><a name="Stream"></a>
+            <MadCap:keyword term="Stream" />Stream</h2>
+        <p>Before you can query or search your data, you have to actually get it into <MadCap:variable name="General.Product Name Insights&#160;(abbreviated)" />. You do this through data <strong class="green">streams</strong>. </p>
+        <MadCap:snippetBlock src="../Resources/Snippets/Definition Stream.flsnp" />
+        <p>
+            <img src="../Resources/Images/streams.png" style="width: 571px;height: 295px;" />
+        </p>
+        <MadCap:snippetBlock src="../Resources/Snippets/Example Stream.flsnp" />
+        <h2><a name="Contributors"></a>
+            <MadCap:keyword term="Contributor" />&#160;Contributor</h2>
+        <p>With our streams added, we  can define who  the external sources are. We do so with <strong class="green">contributors</strong>.</p>
+        <MadCap:snippetBlock src="../Resources/Snippets/Definition Contributor.flsnp" />
+        <p>
+            <img src="../Resources/Images/01_contributors.gif" style="width: 577px;height: 206px;" />
+        </p>
+        <MadCap:snippetBlock src="../Resources/Snippets/Example Contributor.flsnp" />
+        <h2><a name="Domain"></a>
+            <MadCap:keyword term="Domain" />Domain</h2>
+        <p>Now that we've got our stream(s) and contributor(s) categorized, we can further define our data sources. </p>
+        <p>Creating domains has several distinct advantages. Firstly, they're dynamic -  they're an attribute of a contributor (as opposed to a flag), so create a domain and it'll automatically detect any new contributors that come into it. Secondly, domains provide another layer of granularity, control and time-saving when it comes to actually analyzing the data. </p>
+        <p>So, let's group our contributors together to form <strong class="green">Domains</strong>.</p>
+        <MadCap:snippetBlock src="../Resources/Snippets/Definition Domain.flsnp" />
+        <MadCap:snippetBlock src="../Resources/Snippets/Example Domain.flsnp" />
+        <h2><a name="Tenants"></a>
+            <MadCap:keyword term="Tenant" />Tenants</h2>
+        <p>Still with us?&#160;Great. Only two more steps to go. </p>
+        <p>Before we can complete the organization of the data come from our smart city into <MadCap:variable name="General.Product Name Insights&#160;(abbreviated)" />, we're going to define the highest level of organizational attribute: <strong class="green">Tenants</strong>.  </p>
+        <MadCap:snippetBlock src="../Resources/Snippets/Definition Tenant.flsnp" />
+        <MadCap:snippetBlock src="../Resources/Snippets/Example Tenants.flsnp" />
+        <h2><a name="Collections"></a>
+            <MadCap:keyword term="Collection" />Collections</h2>
+        <p>Finally, we can further logically group streams inside a tenant using <strong class="green">Collections</strong>. </p>
+        <MadCap:snippetBlock src="../Resources/Snippets/Definition Collections.flsnp" />
+        <MadCap:snippetBlock src="../Resources/Snippets/Example Collection.flsnp" />
+        <p>&#160;</p>
+        <p>&#160;</p>
+    </body>
+</html>

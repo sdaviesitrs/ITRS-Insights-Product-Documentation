@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultVariableSet>
+  <Variable
+    Comment=""
+    Name="ITRS Company Name"
+    EvaluatedDefinition="ITRS Group Ltd.">ITRS Group Ltd.</Variable>
+  <Variable
+    Comment=""
+    Name="LondonPhoneNumber"
+    EvaluatedDefinition="t: +44 (0)20 7638 6700">t: +44 (0)20 7638 6700</Variable>
+  <Variable
+    Name="LondonStreetAddress"
+    Comment=""
+    Definition="Some text"
+    OriginalName="StreetAddress"
+    EvaluatedDefinition="6th Floor, The Bonhill Building, &#xA;15 Bonhill Street,">6th Floor, The Bonhill Building, 
+15 Bonhill Street,</Variable>
+  <Variable
+    Name="Product Name Insights (Full)"
+    Comment=""
+    OriginalName="ProductName"
+    EvaluatedDefinition="ITRS Insights">ITRS Insights</Variable>
+  <Variable
+    Name="LondonFax"
+    Comment=""
+    OriginalName="Fax"
+    EvaluatedDefinition="f: +44 (0)20 7256 5760">f: +44 (0)20 7256 5760</Variable>
+  <Variable
+    Name="CityStateZip"
+    Comment=""
+    Definition="Some text"
+    EvaluatedDefinition="London, EC2A 4DN, UK">London, EC2A 4DN, UK</Variable>
+  <Variable
+    Name="Year"
+    Comment=""
+    Type="DateTime"
+    LastUpdated="2016-02-16T18:02:51.1357833-08:00"
+    EvaluatedDefinition="yyyy">yyyy</Variable>
+  <Variable
+    Name="Product Name Insights (abbreviated)"
+    Comment=""
+    EvaluatedDefinition="Insights">Insights</Variable>
+  <Variable
+    Name="ProductNameValo"
+    Comment=""
+    EvaluatedDefinition="Valo">Valo</Variable>
+  <Variable
+    Name="ProductNameGeneos"
+    Comment=""
+    EvaluatedDefinition="Geneos">Geneos</Variable>
+  <Variable
+    Name="LondonEmail"
+    Comment=""
+    EvaluatedDefinition="e: europe@itrsgroup.com">e: europe@itrsgroup.com</Variable>
+</CatapultVariableSet>

@@ -1,0 +1,1 @@
+define({numchunks:1,prefix:'Index_Chunk',terms:[{t:'Collection',c:0,$:1},{t:'Contributor',c:0,$:1},{t:'Domain',c:0,$:1},{t:'Schema',c:0,$:1},{t:'Stream',c:0,$:1},{t:'Tenant',c:0,$:1},{t:'URI',c:0,$:1}]});

@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1"
+  conditions="">
+  <TocEntry
+    Title="Title"
+    Link="/Content/Print Files/Front Matter Topics/Title.htm"
+    StartSection="false"
+    PageNumber="1"
+    PageNumberReset="reset"
+    PageLayout="/Content/Resources/PageLayouts/8_5X11/Title8_5X11.flpgl"
+    StartPageLayout="false"
+    BreakType="pageLayout"></TocEntry>
+  <TocEntry
+    Title="Copyright"
+    Link="/Content/Print Files/Front Matter Topics/Copyright.htm"
+    StartPageLayout="true"
+    StartSection="false"
+    BreakType="pageLayout"
+    PageLayout="../../Content/Resources/PageLayouts/8_5X11/Copyright8_5X11.flpgl"></TocEntry>
+  <TocEntry
+    Title="TOC"
+    Link="/Content/Print Files/Front Matter Topics/TOC.htm"
+    StartSection="false"
+    PageNumber=""
+    PageNumberReset="continue"
+    StartChapter="true"
+    PageLayout="/Content/Resources/PageLayouts/8_5X11/TOC8_5X11.flpgl"
+    PageType="firstright"
+    PageNumberFormat="lower-roman"
+    StartPageLayout="false"
+    AutoEndOnLeftPage="enabled"></TocEntry>
+  <TocEntry
+    Title="CHAPTER 1"
+    Link="/Content/Print Files/Misc/ChapterNumber.htm"
+    BreakType="chapter"
+    PageType="firstright"
+    PageNumberReset="continue"
+    PageNumberFormat="decimal"
+    ChapterNumberReset="reset"
+    ChapterNumber="1"
+    ChapterNumberFormat="decimal"
+    StartSection="false"
+    PageLayout="/Content/Resources/PageLayouts/8_5X11/Chapters8_5X11.flpgl"
+    SectionNumberReset="continue"
+    VolumeNumberReset="same"></TocEntry>
+  <TocEntry
+    Title="Introduction to [%=General.Product Name Insights (Full)%] Concepts"
+    Link="/Content/C_User Guides/Organizing Data User Guide.htm" />
+  <TocEntry
+    Title="CHAPTER 2"
+    Link="/Content/Print Files/Misc/ChapterNumber.htm"
+    BreakType="chapter"
+    PageType="firstright"
+    PageNumberReset="continue"
+    StartSection="false"
+    PageLayout="/Content/Resources/PageLayouts/8_5X11/Chapters8_5X11.flpgl"
+    SectionNumberReset="continue"
+    VolumeNumberReset="same"
+    ChapterNumberReset="continue"></TocEntry>
+  <TocEntry
+    Title="[%=General.Product Name Insights (Full)%]Domain &amp; Contributors User Guide"
+    Link="/Content/C_User Guides/Domain &amp; Contributors User Guide.htm">
+    <TocEntry
+      Title="[%=General.Product Name Insights (Full)%] Query, Search and Transform Data User Guide"
+      Link="/Content/C_User Guides/Query, Search &amp; Transform Data User Guide.htm" />
+  </TocEntry>
+  <TocEntry
+    Title="Appendix"
+    Link="/Content/Print Files/Back Matter Topics/Appendix.htm"
+    StartPageLayout="false"
+    StartSection="false"
+    BreakPageType="normal"
+    PageLayout="/Content/Resources/PageLayouts/8_5X11/Chapters8_5X11.flpgl"
+    PageNumber=""
+    PageNumberReset="continue"
+    PageType="firstright"
+    AutoEndOnLeftPage="enabled"
+    SectionNumberReset="continue"
+    VolumeNumberReset="same"
+    ChapterNumberReset="continue"
+    BreakType="pageLayout" />
+  <TocEntry
+    Title="Glossary"
+    Link="/Content/Print Files/Back Matter Topics/Glossary.htm"
+    BreakType="pageLayout"
+    PageLayout="/Content/Resources/PageLayouts/8_5X11/Glossary8_5X11.flpgl"
+    PageType="firstright"
+    StartSection="false"
+    PageNumberReset="continue" />
+  <TocEntry
+    Title="Index"
+    Link="/Content/Print Files/Back Matter Topics/Index.htm"
+    BreakType="pageLayout"
+    PageLayout="/Content/Resources/PageLayouts/8_5X11/Index8_5X11.flpgl"
+    PageType="firstright"
+    StartSection="false"
+    PageNumberReset="continue"
+    SectionNumberReset="continue"
+    VolumeNumberReset="same"
+    ChapterNumberReset="continue" />
+</CatapultToc>
