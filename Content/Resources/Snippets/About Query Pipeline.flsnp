@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="2" MadCap:lastHeight="75" MadCap:lastWidth="1229">
+    <body>
+        <p class="note">Note:&#160;<MadCap:variable name="General.Product Name Insights&#160;(abbreviated)" /> queries data in a transformation pipeline. Each instruction takes an input and produces an output via some form of transformation. </p>
+    </body>
+</html>

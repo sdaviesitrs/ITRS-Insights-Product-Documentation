@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>One challenge when you have a number of different contributors is to
+<strong>ensure that everyone is speaking the same language and meaning the same
+thing</strong>, otherwise comparisons and analytics will have limited value. To
+do this, <strong>we use a document of understanding (a <strong class="green">schema</strong><MadCap:keyword term="Schema" />) that
+defines what data the stream contains in what format</strong>. For instance, we
+may want the stream to provide information as data points (also known as
+payloads) about the time of day, the type of appliance, and the current
+consumption. </body>
+</html>

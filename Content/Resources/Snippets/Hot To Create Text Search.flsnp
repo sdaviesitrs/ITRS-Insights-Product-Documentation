@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="560" MadCap:lastWidth="1177">
+    <body>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>How to Create a Free Text Search</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <ol>
+                    <li>On the main navigation panel, click the <MadCap:snippetText src="Icon Notebook.flsnp" /></li>
+                    <li>From the tree, select the <strong>Notebook </strong>to run the search from</li>
+                    <li>Click the <strong><MadCap:snippetText src="Icon Add Query.flsnp" /></strong></li>
+                    <li>Click <strong>Search</strong></li>
+                    <li>Enter your <strong>search string</strong> <![CDATA[ ]]></li>
+                </ol>
+                <p class="note">Note: use double quotes around your search string: "your text here". </p>
+                <p class="note">Note: You can use the wildcard * in your free text search, but the search must
+not start with it.</p>
+                <p class="note">Note: string searches are case sensitive.</p>
+                <ol MadCap:continue="true">
+                    <li>(optional) enter <strong>date </strong>or <strong>time search boundaries</strong></li>
+                    <li>Click <strong><MadCap:snippetText src="Icon Run.flsnp" /></strong></li>
+                </ol>
+                <blockquote>
+                    <p>
+                        <img src="../Images/CreateSearch1.PNG" alt="" title="" class="screenshotsmall" />
+                    </p>
+                    <p>
+                        <img src="../Images/createSearch2.PNG" alt="" title="" class="screenshotsmall" />
+                    </p>
+                </blockquote>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+    </body>
+</html>

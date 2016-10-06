@@ -1,6 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="3" MadCap:lastHeight="90" MadCap:lastWidth="1216">
     <body>
-        <p id="concept_definition">The <strong class="green">Time Series Repository</strong> (<strong class="green">TSR</strong>) is a custom built data repository designed to handle numerical time series oriented data streams. By time series we mean a series of data points each of which have an associated time stamp.</p>
+        <blockquote>
+            <p id="concept_definition">The <strong class="green">Time Series Repository</strong> (<strong class="green">TSR</strong>) is a custom built data repository designed to handle numerical time series oriented data streams. By time series we mean a series of data points each of which have an associated time stamp.</p>
+        </blockquote>
     </body>
 </html>

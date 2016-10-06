@@ -11,7 +11,7 @@
                     <ul class="simple">
                         <li>Will you need to perform historical analysis on the stream's data?</li>
                     </ul>
-                    <p><strong>*No*</strong> -&gt; i.e. you only need to perform real time analysis and have no
+                    <p><strong>*No*</strong> -&gt; i.e. you only need to perform real-time analysis and have no
 need to retain the data - then you don't need to use a repository at
 all.</p>
                     <p><strong>*Yes*</strong> -&gt; Continue reading</p>

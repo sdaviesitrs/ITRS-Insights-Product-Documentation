@@ -2,9 +2,9 @@
 
 body
 {
-	color: #404040;
-	font-family: Arial, Avenir, Myriad;
 	line-height: 1.7em;
+	color: #111111;
+	font-family: 'open sans';
 }
 
 a.MCBreadcrumbsLink
@@ -21,7 +21,7 @@ a.MCBreadcrumbsLink:visited
 
 a.MCBreadcrumbsLink:hover
 {
-	color: #BED230;
+	color: #a7da1c;
 }
 
 div.TopicContent
@@ -68,6 +68,7 @@ h3
 	margin-bottom: 4px;
 	margin-top: 16px;
 	font-family: exo;
+	font-style: italic;
 }
 
 h4
@@ -93,16 +94,17 @@ MadCap|breadcrumbsProxy
 
 MadCap|xref
 {
-	color: #2D8DCC;
 	font-weight: bold;
 	mc-format: '{para}';
 	text-decoration: underline;
 	font-family: exo;
+	font-style: italic;
+	color: #2d8dcc;
 }
 
 MadCap|xref:hover
 {
-	color: #BED230;
+	color: #2D8DCC;
 }
 
 p
@@ -110,6 +112,7 @@ p
 	margin-bottom: 8px;
 	margin-top: 8px;
 	font-family: 'open sans';
+	color: #2c2c2c;
 }
 
 div.sideContent
@@ -153,8 +156,8 @@ p#Example
 
 MadCap|dropDownHead
 {
-	color: #9dca1f;
 	font-family: exo;
+	color: #a7da1c;
 }
 
 MadCap|dropDownBody
@@ -215,17 +218,141 @@ img.icon
 	mc-thumbnail: normal;
 }
 
+a:link
+{
+	color: #2d8dcc;
+}
+
 a:visited
 {
-	color: #2D8DCC;
 	font-weight: bold;
 	mc-format: '{para}';
 	text-decoration: underline;
 	font-family: exo;
+	color: #242528;
 }
 
 a:hover
 {
-	color: #BED230;
+	color: #2d8dcc;
+}
+
+a:active
+{
+	color: #2d8dcc;
+}
+
+p.note
+{
+	margin-top: 8px;
+	font-family: exo;
+	margin-bottom: 8px;
+	border-left: solid 10px #000000;
+	border-left-color: #a7da1c;
+	margin-left: 25px;
+	padding-left: 10px;
+	background-color: #565656;
+	color: #e8e8e8;
+	border-right: solid 10px #a7da1c;
+	padding-right: 10px;
+	margin-right: 50px;
+}
+
+img.screenshotsmall
+{
+	border: solid 1px #000000;
+	padding: 0px;
+	mc-thumbnail: hover;
+	mc-thumbnail-max-height: 140;
+	mc-thumbnail-max-width: 140;
+}
+
+img.screenshotsmedium
+{
+	border: solid 1px #000000;
+	padding: 0px;
+	mc-thumbnail: hover;
+	mc-thumbnail-max-height: 400;
+	mc-thumbnail-max-width: 600;
+}
+
+td
+{
+	font-family: 'open sans';
+}
+
+thead
+{
+	font-size: ;
+	font-family: 'open sans';
+}
+
+th
+{
+	font-family: 'open sans';
+}
+
+MadCap|dropDownHead.H2
+{
+	font-family: exo;
+	font-size: 1.2em;
+	text-transform: uppercase;
+	border-top: solid 1px #000000;
+	color: #242528;
+	font-style: italic;
+	font-weight: bolder;
+}
+
+MadCap|dropDownHead.H2NoKeyline
+{
+	font-family: exo;
+	font-size: 1.2em;
+	text-transform: uppercase;
+	color: #242528;
+	font-style: italic;
+	font-weight: bolder;
+}
+
+MadCap|glossaryTerm
+{
+	color: #a7da1c;
+}
+
+a
+{
+	font-family: 'open sans';
+	color: #2d8dcc;
+}
+
+MadCap|popupHead
+{
+	color: #2d8dcc;
+}
+
+a.Popup
+{
+	color: #2d8dcc;
+}
+
+strong.greenlowercase
+{
+	color: #a7da1c;
+	font-family: exo;
+}
+
+p.technicalfielddefinition
+{
+	margin-top: 8px;
+	font-family: exo;
+	margin-bottom: 8px;
+	border-left: solid 10px #000000;
+	border-left-color: #a7da1c;
+	margin-left: 25px;
+	padding-left: 10px;
+	border-right: solid 10px #a7da1c;
+	padding-right: 10px;
+	margin-right: 50px;
+	color: #000000;
+	background-color: #f5f5f5;
 }
 

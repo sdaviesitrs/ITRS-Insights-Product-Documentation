@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html MadCap:lastBlockDepth="6" MadCap:lastHeight="655" MadCap:lastWidth="1049" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
-    <head><title>Where</title>
+<html MadCap:lastBlockDepth="8" MadCap:lastHeight="1161" MadCap:lastWidth="1151" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head><title>FROM</title>
         <style type="text/css">
 /*
 :Author: David Goodger (goodger@python.org)
@@ -468,34 +468,57 @@ ul.auto-toc
 </style>
     </head>
     <body>
-        <div class="document" id="where">
-            <h1>Where</h1>
-            <p>The where clause is used to return only rows that match a specified
-condition. Field identifiers, scalar functions, or operators can be used
-in a where clause.</p>
-            <h3>Form</h3>
-            <p>
-                <div class="system-message">WHERE &lt;predicate&gt;
-            </div>
-            </p>
-            <h3>Examples</h3>
-            <div class="system-message"><pre class="literal-block" xml:space="preserve">
-FROM {{book.cpu}} WHERE user &gt; 50
-FROM HISTORICAL {{book.cpu}} WHERE max(user, kernel) &gt; 50
-FROM {{book.cpu}} WHERE user &gt; 50 AND host == "MyMachine"
-FROM {{book.cpu}} WHERE (user &gt; 80 AND kernel &gt; 80) OR (user &lt; 20 AND kernel &lt; 20)
-</pre>
-            </div>
-            <div class="section" id="rules">
-                <h3>Rules:</h3>
-                <div class="line-block">
-                    <div class="line">The clause must evaluate to a boolean expression.</div>
-                    <div class="line-block">
-                        <div class="line">The following expression is invalid as user evaluates to a double.</div>
-                    </div>
-                </div>
+        <div class="document" id="from">
+            <h1>from</h1>
+            <MadCap:snippetBlock src="../../../Resources/Snippets/Query Definition From.flsnp" />
+            <MadCap:snippetBlock src="../../../Resources/Snippets/Query Syntax From.flsnp" />
+            <p>Every query starts with a <tt class="docutils literal">from</tt> followed by the entity that you are
+querying; so for example</p>
+            <blockquote>
                 <div class="system-message"><pre class="literal-block" xml:space="preserve">
-FROM {{book.cpu}} WHERE user
+from /streams/hce/electricity/usage
+</pre>
+                </div>
+            </blockquote>
+            <p>or</p>
+            <blockquote>
+                <div class="system-message"><pre class="literal-block" xml:space="preserve">
+from {{book.cpu}}
+</pre>
+                </div>
+            </blockquote>
+            <p>If you are querying data already in the repository (as opposed to a
+real-time stream coming in) then you need to indicate this by using the
+<tt class="docutils literal">historical</tt> operator:</p>
+            <MadCap:snippetBlock src="../../../Resources/Snippets/Query Syntax From Historical.flsnp" />
+            <p>So for example the above become:</p>
+            <blockquote>
+                <div class="system-message"><pre class="literal-block" xml:space="preserve">
+from historical /streams/hce/electricity/usage
+</pre>
+                </div>
+            </blockquote>
+            <p>or</p>
+            <blockquote>
+                <div class="system-message"><pre class="literal-block" xml:space="preserve">
+from historical {{book.cpu}}
+</pre>
+                </div>
+            </blockquote>
+            <div class="section" id="logical-stream-uris">
+                <h2>Logical stream URI</h2>
+                <p>A logical stream is referred using the name specified in the
+<MadCap:xref href="Into.htm">Into</MadCap:xref> part of the previous query.</p>
+                <p>So for example if we previously executed:</p>
+                <div class="system-message"><pre class="literal-block" xml:space="preserve">
+FROM {{book.cpu}}
+        WHERE user &gt; 50
+        INTO myLogicalStream
+</pre>
+                </div>
+                <p>then you can simply say in a later query:</p>
+                <div class="system-message"><pre class="literal-block" xml:space="preserve">
+FROM myLogicalStream
 </pre>
                 </div>
             </div>

@@ -48,7 +48,7 @@
       <Term>Notebook</Term>
     </Terms>
     <Definition
-      Link=""></Definition>
+      Link="">A place in which to store a query or search, or a pipeline of queries or searches.</Definition>
   </GlossaryEntry>
   <GlossaryEntry
     glossTerm="Glossary.Term21"
@@ -128,7 +128,7 @@
       <Term>Schema</Term>
     </Terms>
     <Definition
-      Link="">Defines the structure of a stream - what data it contains and in what format.</Definition>
+      Link="">a document of understanding that defines what data a stream contains - its structure and shape - and in what format.</Definition>
   </GlossaryEntry>
   <GlossaryEntry
     glossTerm="Glossary.Term1"
@@ -149,5 +149,15 @@
     </Terms>
     <Definition
       Link="">The semi-structured repository (SSR) is based on Lucene which provides very powerful text search capabilities. Even though Lucene is geared towards indexing text, it also has very good index support for numerical data. However, if the data contains purely numerical fields the TSR might be a better fit as a repository for this kind of data.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="Glossary.Term3"
+    Stem=""
+    IgnoreCase="false">
+    <Terms>
+      <Term>Transformational Pipeline</Term>
+    </Terms>
+    <Definition
+      Link="">Eeach query instruction takes an input and produces an output via some form of transformation.</Definition>
   </GlossaryEntry>
 </CatapultGlossary>

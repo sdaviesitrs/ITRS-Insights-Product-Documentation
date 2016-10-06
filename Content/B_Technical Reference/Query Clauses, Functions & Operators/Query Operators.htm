@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html MadCap:lastBlockDepth="6" MadCap:lastHeight="507" MadCap:lastWidth="1049" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+<html MadCap:lastBlockDepth="10" MadCap:lastHeight="540" MadCap:lastWidth="1125" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
     <head><title>Query Operators and Their Precedence</title>
         <style type="text/css">
 /*
@@ -469,74 +469,10 @@ ul.auto-toc
     </head>
     <body>
         <div class="document" id="query-operators-and-their-precedence">
-            <h1>Query Operators and Their Precedence</h1>
-            <p>When processing query expressions, Insights uses the table below to
+            <h1>Query Operators</h1>
+            <p>When processing query expressions, <MadCap:variable name="General.Product Name Insights&#160;(abbreviated)" /> uses the table below to
 determine the order of operations.</p>
-            <table border="1" class="docutils">
-                <colgroup>
-                    <col width="18%" />
-                    <col width="29%" />
-                    <col width="54%" />
-                </colgroup>
-                <thead valign="bottom">
-                    <tr>
-                        <th class="head">Precedence</th>
-                        <th class="head">Operators</th>
-                        <th class="head">Description</th>
-                    </tr>
-                </thead>
-                <tbody valign="top">
-                    <tr>
-                        <td>1</td>
-                        <td><tt class="docutils literal">()</tt>
-                        </td>
-                        <td>Explicit precedence</td>
-                    </tr>
-                    <tr>
-                        <td>2</td>
-                        <td><tt class="docutils literal">* / %</tt>
-                        </td>
-                        <td>Multiplication, division, and remainder</td>
-                    </tr>
-                    <tr>
-                        <td>3</td>
-                        <td><tt class="docutils literal">+ -</tt>
-                        </td>
-                        <td>Addition and subtraction</td>
-                    </tr>
-                    <tr>
-                        <td>4</td>
-                        <td><tt class="docutils literal">&lt; &lt;= == != &gt;= &gt;</tt>
-                        </td>
-                        <td>Comparison</td>
-                    </tr>
-                    <tr>
-                        <td>5</td>
-                        <td><tt class="docutils literal">NOT</tt>
-                        </td>
-                        <td>Logical not</td>
-                    </tr>
-                    <tr>
-                        <td>6</td>
-                        <td><tt class="docutils literal">AND</tt>
-                        </td>
-                        <td>Logical and</td>
-                    </tr>
-                    <tr>
-                        <td>7</td>
-                        <td><tt class="docutils literal">OR</tt>
-                        </td>
-                        <td>Logical or</td>
-                    </tr>
-                </tbody>
-            </table>
-            <p>Using the table:</p>
-            <ul class="simple">
-                <li>Operators with a lower precedence are evaluated before operators with
-a higher precedence.</li>
-                <li>Operators with the same precedence are evaluated in order of
-appearance in the query expression.</li>
-            </ul>
+            <MadCap:snippetBlock src="../../Resources/Snippets/Query Operators.flsnp" />
         </div>
     </body>
 </html>

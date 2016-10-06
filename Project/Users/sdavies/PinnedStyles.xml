@@ -10,4 +10,10 @@
     <PinnedItem Name="code" />
     <PinnedItem Name="strong" />
     <PinnedItem Name="h2.nokeyline" />
+    <PinnedItem Name="p.note" />
+    <PinnedItem Name="MadCap:dropDownHead.H2" />
+    <PinnedItem Name="MadCap:dropDownHead.H2NoKeyline" />
+    <PinnedItem Name="pre" />
+    <PinnedItem Name="strong.greenlowercase" />
+    <PinnedItem Name="p.technicalfielddefinition" />
 </PinnedItems>

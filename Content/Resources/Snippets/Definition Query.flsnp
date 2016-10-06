@@ -1,4 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="1" MadCap:lastHeight="27" MadCap:lastWidth="1245">
-    <body><strong class="green">Query </strong>: a powerful SQL-like query used for historical and streaming data stored in any repository type (SSR or time series repository)</body>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="3" MadCap:lastHeight="90" MadCap:lastWidth="997">
+    <body>
+        <blockquote>
+            <p id="concept_definition"><strong class="green">Query</strong>: a powerful SQL-like query used for historical and streaming data stored in any repository type (SSR or time series repository)</p>
+        </blockquote>
+    </body>
 </html>

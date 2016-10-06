@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="1063" MadCap:lastWidth="1206">
     <body>
-        <h2>Semi-Structured Repository</h2>
+        <h2><a name="SSR"></a>Semi-Structured Repository</h2>
         <MadCap:snippetBlock src="Definition SSR.flsnp" />
         <p>In contrast to other systems based on Lucene, the SSR does not use the index to store the raw payloads. Instead, it stores the payloads separately in a highly efficient and compacting data store. The data in the data store is indexed in Lucene to provide fast execution of historical queries.</p>
         <p>By default the SSR will index all fields in a payload, even those fields which are not present in the schema. The fields without a schema mapping will be indexed using a default index which best suits the data type. The correct schema type can be set at a later point by updating the schema. Although fields which are not defined in the schema cannot be used in a query, they can be used in a native SSR search. See: <MadCap:xref href="../../C_User Guides/Query, Search &amp; Transform Data User Guide.htm">[%=General.Product Name&#160;Insights (Full)%] Query,&#160;Search&#160;and Transform Data User Guide.</MadCap:xref></p>

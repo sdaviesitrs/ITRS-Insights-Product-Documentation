@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="7" MadCap:lastHeight="1007" MadCap:lastWidth="1168">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="7" MadCap:lastHeight="1007" MadCap:lastWidth="1164">
     <body>
         <MadCap:dropDown>
             <MadCap:dropDownHead>
@@ -20,14 +20,7 @@ the stream of data that is passing to the hub, but that stream is made
 up of all the data coming from the individual fibre optic cables, thus
 <strong>the <strong class="green">stream </strong>of data is made up of the data from all the individual
 <strong class="green">contributor </strong>devices</strong>: the toaster at house Number 2, the refrigerator at
-Number 6, the coffee machine at Number 13, and so on.<br /><br />One challenge when you have a number of different contributors is to
-<strong>ensure that everyone is speaking the same language and meaning the same
-thing</strong>, otherwise comparisons and analytics will have limited value. To
-do this, <strong>we use a document of understanding (a <strong class="green">schema</strong><MadCap:keyword term="Schema" />) that
-defines what data the stream contains in what format</strong>. For instance, we
-may want the stream to provide information as data points (also known as
-payloads) about the time of day, the type of appliance, and the current
-consumption. <br /><br />Because the schema ensures that the data flowing in is in a common format, we can
+Number 6, the coffee machine at Number 13, and so on.<br /><br /><MadCap:snippetText src="About Schema.flsnp" /><br /><br />Because the schema ensures that the data flowing in is in a common format, we can
 then meaningfully compare and analyze it based on those common
 attribute values. We can analyze which refrigerator
 consumes the most energy and because our schema clearly detailed to

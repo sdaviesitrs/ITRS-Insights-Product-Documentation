@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="8" MadCap:lastHeight="655" MadCap:lastWidth="1151">
+    <body>
+        <blockquote>
+            <MadCap:dropDown>
+                <MadCap:dropDownHead>
+                    <MadCap:dropDownHotspot>How to Create a Derived Steam</MadCap:dropDownHotspot>
+                </MadCap:dropDownHead>
+                <MadCap:dropDownBody>
+                    <ol>
+                        <li>(Optional)&#160;Hover your cursor over the <strong>Stream </strong>of interest, then click the <MadCap:snippetText src="Icon Copy to Clipboard.flsnp" />. This will commit a basic <code>from </code>query of that stream to the clipboard</li>
+                        <li>On the main navigation panel, click the <MadCap:snippetText src="Icon Notebook.flsnp" /></li>
+                        <li>From the tree, select the <strong>Notebook </strong>to create the derived stream within</li>
+                        <li>Click the <strong><MadCap:snippetText src="Icon Add Query.flsnp" /></strong>, then select <strong>Query </strong></li>
+                        <li>Press CTRL V on your keyboard to paste the <code>from</code> query into the <strong>query field</strong>, or <strong>manually enter</strong> the stream you wish to create the derived stream from</li>
+                        <li>Use additional <MadCap:xref href="../../B_Technical Reference/Query Clauses, Functions &amp; Operators/Query Clauses.htm">Query Clauses</MadCap:xref> and <MadCap:xref href="../../B_Technical Reference/Query Clauses, Functions &amp; Operators/Query Functions.htm">Query&#160;Functions</MadCap:xref> to specify which data to transform into the derived stream</li>
+                        <li>Complete the query with <code>into</code>, followed by the <strong>name</strong> you want to give the derived stream. For example: </li>
+                        <div class="system-message">
+                            <blockquote><pre class="literal-block" xml:space="preserve">from /streams/demo/infrastructure/cpu</pre><pre class="literal-block" xml:space="preserve">where contributor == "DEMOSVR38"</pre><pre class="literal-block" xml:space="preserve">into myNewStream</pre>
+                            </blockquote>
+                        </div>
+                        <li>Click the <strong><MadCap:snippetText src="Icon Run.flsnp" /></strong>.&#160;A panel will appear at the bottom of your query to confirm that the derived stream has been created  </li>
+                    </ol>
+                    <div class="system-message">
+                        <blockquote>
+                            <img src="../Images/create_derivedstream.PNG" class="screenshotsmall" />
+                        </blockquote>
+                    </div>
+                </MadCap:dropDownBody>
+            </MadCap:dropDown>
+        </blockquote>
+    </body>
+</html>

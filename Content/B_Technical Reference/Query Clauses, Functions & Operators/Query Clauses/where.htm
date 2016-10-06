@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html MadCap:lastBlockDepth="6" MadCap:lastHeight="675" MadCap:lastWidth="1049" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
-    <head><title>Select</title>
+<html MadCap:lastBlockDepth="6" MadCap:lastHeight="670" MadCap:lastWidth="1177" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head><title>Where</title>
         <style type="text/css">
 /*
 :Author: David Goodger (goodger@python.org)
@@ -468,36 +468,34 @@ ul.auto-toc
 </style>
     </head>
     <body>
-        <div class="document" id="select">
-            <h1>Select</h1>
-            <p>The select clause is used to specify which fields should appear in the
-results, the fields separated by commas. Fields in a select clause can
-be field identifiers, scalar functions, or values computed with
-operators.</p>
-            <h3>Form:</h3>
-            <div class="system-message"><pre class="literal-block" xml:space="preserve">
-SELECT &lt;field&gt;    or    SELECT &lt;field1, field2, ...&gt;
-</pre>
+        <div class="document" id="where">
+            <h1>where</h1>
+        </div>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/Query Definition Where.flsnp" />
+        <div class="document" id="where">
+            <h3>Form</h3>
+            <p>
+                <div class="system-message">WHERE &lt;predicate&gt;
             </div>
-            <h3>Examples:</h3>
+            </p>
+            <h3>Examples</h3>
             <div class="system-message"><pre class="literal-block" xml:space="preserve">
-FROM {{book.cpu}} SELECT host, user, kernel
-FROM {{book.cpu}} SELECT host, max(user, kernel) AS max
-FROM {{book.cpu}}
-SELECT host, user + kernel AS sum
+FROM {{book.cpu}} WHERE user &gt; 50
+FROM HISTORICAL {{book.cpu}} WHERE max(user, kernel) &gt; 50
+FROM {{book.cpu}} WHERE user &gt; 50 AND host == "MyMachine"
+FROM {{book.cpu}} WHERE (user &gt; 80 AND kernel &gt; 80) OR (user &lt; 20 AND kernel &lt; 20)
 </pre>
             </div>
             <div class="section" id="rules">
                 <h3>Rules:</h3>
-                <ul class="simple">
-                    <li>A select clause cannot contain references to aggregator functions -
-i.e. a select clause cannot mix aggregated and non-aggregated
-results.</li>
-                </ul>
-                <p>For example the following is invalid as avg(user) as u is an aggregator
-function.</p>
+                <div class="line-block">
+                    <div class="line">The clause must evaluate to a boolean expression.</div>
+                    <div class="line-block">
+                        <div class="line">The following expression is invalid as user evaluates to a double.</div>
+                    </div>
+                </div>
                 <div class="system-message"><pre class="literal-block" xml:space="preserve">
-FROM {{book.cpu}} SELECT user, avg(user) AS u, user + kernel AS sum
+FROM {{book.cpu}} WHERE user
 </pre>
                 </div>
             </div>

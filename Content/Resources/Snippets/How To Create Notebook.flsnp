@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="497" MadCap:lastWidth="576">
+    <body>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>How to Create a Notebook</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <ol>
+                    <li>Run <MadCap:variable name="General.Product Name&#160;Insights (Full)" style="font-weight: bold;" /></li>
+                    <li>Click the <MadCap:snippetText src="Icon Notebook.flsnp" /> on the main navigation panel </li>
+                    <li>Click the <MadCap:snippetText src="Icon Add.flsnp" /> - a new Notebook tab will open</li>
+                    <li>Use the <strong>drop-down dialog</strong> to select the <strong>Collection </strong>to save the new Notebook in</li>
+                    <li>Enter a <strong>name </strong>and <strong>description </strong>for the new Notebook</li>
+                    <li>Click <strong><MadCap:snippetText src="Icon Save.flsnp" /></strong></li>
+                </ol>
+                <blockquote>
+                    <p>
+                        <img src="../Images/CreateNotebook.PNG" alt="" title="" class="screenshotsmall" style="width: 177px;height: 113px;" />
+                    </p>
+                    <p>
+                        <img src="../Images/addnewnotebook.PNG" class="screenshotsmall" />
+                    </p>
+                </blockquote>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+    </body>
+</html>

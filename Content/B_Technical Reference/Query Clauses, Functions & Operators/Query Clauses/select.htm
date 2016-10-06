@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html MadCap:lastBlockDepth="6" MadCap:lastHeight="1070" MadCap:lastWidth="1180" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
-    <head><title>FROM</title>
+<html MadCap:lastBlockDepth="6" MadCap:lastHeight="690" MadCap:lastWidth="1177" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head><title>Select</title>
         <style type="text/css">
 /*
 :Author: David Goodger (goodger@python.org)
@@ -468,52 +468,33 @@ ul.auto-toc
 </style>
     </head>
     <body>
-        <div class="document" id="from">
-            <h1>from</h1>
-            <p>The <tt class="docutils literal">from</tt> clause is used to specify which stream will be used as the
-initial source for data in the query.</p>
+        <div class="document" id="select">
+            <h1>select</h1>
+            <MadCap:snippetBlock src="../../../Resources/Snippets/Query Definition Select.flsnp" />
+            <h3>Form:</h3>
             <div class="system-message"><pre class="literal-block" xml:space="preserve">
-FROM &lt;stream_name&gt;
+SELECT &lt;field&gt;    or    SELECT &lt;field1, field2, ...&gt;
 </pre>
             </div>
-            <p>Every query starts with a <tt class="docutils literal">from</tt> followed by the entity that you are
-querying; so for example</p>
+            <h3>Examples:</h3>
             <div class="system-message"><pre class="literal-block" xml:space="preserve">
-from /streams/hce/electricity/usage
-</pre>
-            </div>
-            <p>or</p>
-            <div class="system-message"><pre class="literal-block" xml:space="preserve">
-from {{book.cpu}}
-</pre>
-            </div>
-            <p>If you are querying data already in the repository (as opposed to a
-real-time stream coming in) then you need to indicate this by using the
-<tt class="docutils literal">HISTORICAL</tt> operator</p>
-            <p>So for example the above become:</p>
-            <div class="system-message"><pre class="literal-block" xml:space="preserve">
-from historical /streams/hce/electricity/usage
-</pre>
-            </div>
-            <p>or</p>
-            <div class="system-message"><pre class="literal-block" xml:space="preserve">
-from historical {{book.cpu}}
-</pre>
-            </div>
-            <div class="section" id="logical-stream-uris">
-                <h2>Logical stream URI</h2>
-                <p>A logical stream is referred using the name specified in the
-<MadCap:xref href="Into.htm">Into</MadCap:xref> part of the previous query.</p>
-                <p>So for example if we previously executed:</p>
-                <div class="system-message"><pre class="literal-block" xml:space="preserve">
+FROM {{book.cpu}} SELECT host, user, kernel
+FROM {{book.cpu}} SELECT host, max(user, kernel) AS max
 FROM {{book.cpu}}
-        WHERE user &gt; 50
-        INTO myLogicalStream
+SELECT host, user + kernel AS sum
 </pre>
-                </div>
-                <p>then you can simply say in a later query:</p>
+            </div>
+            <div class="section" id="rules">
+                <h3>Rules:</h3>
+                <ul class="simple">
+                    <li>A select clause cannot contain references to aggregator functions -
+i.e. a select clause cannot mix aggregated and non-aggregated
+results.</li>
+                </ul>
+                <p>For example the following is invalid as avg(user) as u is an aggregator
+function.</p>
                 <div class="system-message"><pre class="literal-block" xml:space="preserve">
-FROM myLogicalStream
+FROM {{book.cpu}} SELECT user, avg(user) AS u, user + kernel AS sum
 </pre>
                 </div>
             </div>

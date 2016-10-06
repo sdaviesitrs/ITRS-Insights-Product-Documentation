@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="3" MadCap:lastHeight="62" MadCap:lastWidth="1216">
+    <body>
+        <blockquote>
+            <p id="concept_definition"><strong class="greenlowercase">from</strong>: specifies which stream will be used as the
+initial source for data in the query.</p>
+        </blockquote>
+    </body>
+</html>

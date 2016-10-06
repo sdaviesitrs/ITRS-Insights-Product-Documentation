@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="248" MadCap:lastWidth="1180">
+    <body>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>How to Select a Notebook</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <ol>
+                    <li>Run <MadCap:variable name="General.Product Name&#160;Insights (Full)" style="font-weight: bold;" /></li>
+                    <li>Click the <MadCap:snippetText src="Icon Notebook.flsnp" /> on the main navigation panel </li>
+                    <li>Select the <strong>Collection </strong>the Notebook is saved in, then select the <strong>Notebook </strong>from the tree</li>
+                </ol>
+                <blockquote>
+                    <p>
+                        <img src="../Images/NotebookTree.PNG" class="screenshotsmall" />
+                    </p>
+                </blockquote>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+    </body>
+</html>

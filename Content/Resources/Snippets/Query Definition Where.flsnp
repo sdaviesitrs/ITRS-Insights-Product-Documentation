@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="3" MadCap:lastHeight="90" MadCap:lastWidth="1216">
+    <body>
+        <blockquote>
+            <p id="concept_definition"><strong class="greenlowercase">where </strong>: a clause used to return only rows that match a specified
+condition. Field identifiers, scalar functions, or operators can be also used
+in a where clause.</p>
+        </blockquote>
+    </body>
+</html>

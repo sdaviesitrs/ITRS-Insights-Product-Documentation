@@ -46,10 +46,14 @@
     VolumeNumberReset="same">
     <TocEntry
       Title="[%=General.Product Name Insights (Full)%] Query, Search and Transform Data User Guide"
-      Link="/Content/C_User Guides/Query, Search &amp; Transform Data User Guide.htm" />
+      Link="/Content/C_User Guides/Query, Search &amp; Transform Data User Guide.htm"
+      BreakType="none"
+      StartSection="false"
+      PageNumberReset="continue"
+      PageLayout="/Content/Resources/PageLayouts/8_5X11/ChaptersLandscape8_5X11.flpgl" />
   </TocEntry>
   <TocEntry
-    Title="Appendix"
+    Title="Appendix A"
     Link="/Content/Print Files/Back Matter Topics/Appendix.htm"
     StartPageLayout="false"
     StartSection="false"
@@ -74,6 +78,71 @@
       ReplaceMergeNode="false"
       BreakType="pageLayout"
       PageLayout="/Content/Resources/PageLayouts/8_5X11/Appendix8_5X11.flpgl" />
+  </TocEntry>
+  <TocEntry
+    Title="Appendix B"
+    Link="/Content/Print Files/Back Matter Topics/Appendix.htm">
+    <TocEntry
+      Title="Query Clauses"
+      Link="/Content/B_Technical Reference/Query Clauses, Functions &amp; Operators/Query Clauses.htm" />
+    <TocEntry
+      Title="Query Clauses">
+      <TocEntry
+        Title="Aggregation"
+        Link="/Content/B_Technical Reference/Query Clauses, Functions &amp; Operators/Query Clauses/aggregation.htm" />
+      <TocEntry
+        Title="As"
+        Link="/Content/B_Technical Reference/Query Clauses, Functions &amp; Operators/Query Clauses/As.htm" />
+      <TocEntry
+        Title="Comment"
+        Link="/Content/B_Technical Reference/Query Clauses, Functions &amp; Operators/Query Clauses/Comment.htm" />
+      <TocEntry
+        Title="FROM"
+        Link="/Content/B_Technical Reference/Query Clauses, Functions &amp; Operators/Query Clauses/from.htm" />
+      <TocEntry
+        Title="Group By"
+        Link="/Content/B_Technical Reference/Query Clauses, Functions &amp; Operators/Query Clauses/GroupBy.htm" />
+      <TocEntry
+        Title="Into"
+        Link="/Content/B_Technical Reference/Query Clauses, Functions &amp; Operators/Query Clauses/Into.htm" />
+      <TocEntry
+        Title="Join"
+        Link="/Content/B_Technical Reference/Query Clauses, Functions &amp; Operators/Query Clauses/Join.htm" />
+      <TocEntry
+        Title="Order By"
+        Link="/Content/B_Technical Reference/Query Clauses, Functions &amp; Operators/Query Clauses/OrderBy.htm" />
+      <TocEntry
+        Title="Select"
+        Link="/Content/B_Technical Reference/Query Clauses, Functions &amp; Operators/Query Clauses/select.htm" />
+      <TocEntry
+        Title="Take"
+        Link="/Content/B_Technical Reference/Query Clauses, Functions &amp; Operators/Query Clauses/take.htm" />
+      <TocEntry
+        Title="Time Window"
+        Link="/Content/B_Technical Reference/Query Clauses, Functions &amp; Operators/Query Clauses/TimeWindow.htm" />
+      <TocEntry
+        Title="Union"
+        Link="/Content/B_Technical Reference/Query Clauses, Functions &amp; Operators/Query Clauses/Union.htm" />
+      <TocEntry
+        Title="Unique"
+        Link="/Content/B_Technical Reference/Query Clauses, Functions &amp; Operators/Query Clauses/Unique.htm" />
+      <TocEntry
+        Title="Where"
+        Link="/Content/B_Technical Reference/Query Clauses, Functions &amp; Operators/Query Clauses/where.htm" />
+      <TocEntry
+        Title="Window Join"
+        Link="/Content/B_Technical Reference/Query Clauses, Functions &amp; Operators/Query Clauses/WindowJoin.htm" />
+    </TocEntry>
+  </TocEntry>
+  <TocEntry
+    Title="Appendix C"
+    Link="/Content/Print Files/Back Matter Topics/Appendix.htm">
+    <TocEntry
+      Title="Query Operators and Their Precedence"
+      Link="/Content/B_Technical Reference/Query Clauses, Functions &amp; Operators/Query Operators.htm" />
+    <TocEntry
+      Title="Analysing Data"
+      Link="/Content/B_Technical Reference/Query Clauses, Functions &amp; Operators/Query Functions.htm" />
   </TocEntry>
   <TocEntry
     Title="Glossary"

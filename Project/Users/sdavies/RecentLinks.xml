@@ -1,15 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <RecentLinks>
     <Dialog Name="B3.XmlMdiEditorKit.ImageGeneralDialogPage">
-        <Link Value="C:\Users\sdavies\Documents\GitHub\ITRS-Insights-Product-Documentation\Content\Resources\Images\Valo Binary Icon.PNG" />
+        <Link Value="C:\Users\sdavies\Documents\GitHub\ITRS-Insights-Product-Documentation\Content\Resources\Images\TableButton.png" />
     </Dialog>
     <Dialog Name="B3.XmlTextKit.InsertHyperlinkDialog">
         <Link Value="C:\Users\sdavies\Documents\GitHub\ITRS-Insights-Product-Documentation\ITRS Insights Product Documentation\Content\A_Quick Start\Getting Started with ITRS Insights.htm" />
     </Dialog>
     <Dialog Name="B3.CatapultProjectUserInterfaceKit.InsertSnippetDialog">
-        <Link Value="C:\Users\sdavies\Documents\GitHub\ITRS-Insights-Product-Documentation\ITRS Insights Product Documentation\Content\Resources\Snippets\Requirements Valo-Geneos Integration.flsnp" />
+        <Link Value="C:\Users\sdavies\Documents\GitHub\ITRS-Insights-Product-Documentation\Content\Resources\Snippets\About Free Text Search.flsnp" />
     </Dialog>
     <Dialog Name="B3.XmlTextKit.InsertCrossReferenceDialog">
-        <Link Value="C:\Users\sdavies\Documents\GitHub\ITRS-Insights-Product-Documentation\Content\C_User Guides\Query, Search &amp; Transform Data User Guide.htm" />
+        <Link Value="C:\Users\sdavies\Documents\GitHub\ITRS-Insights-Product-Documentation\Content\C_User Guides\Dashboard &amp; Notebook User Guide.htm" />
     </Dialog>
 </RecentLinks>

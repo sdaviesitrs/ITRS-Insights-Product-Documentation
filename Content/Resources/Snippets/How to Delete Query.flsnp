@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="358" MadCap:lastWidth="1177">
+    <body>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>How to Delete a Query</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <ol>
+                    <li>Click the <MadCap:snippetText src="Icon Notebook.flsnp"></MadCap:snippetText> and select the Notebook that contains the query</li>
+                    <li>Click the <MadCap:snippetText src="Icon Breadcrumbs.flsnp" /></li>
+                    <li>Select <MadCap:snippetText src="Icon Delete.flsnp" /> from the drop-down menu</li>
+                </ol>
+                <blockquote>
+                    <p>
+                        <img src="../Images/delete_query2.PNG" class="screenshotsmedium" />
+                    </p>
+                </blockquote>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+    </body>
+</html>

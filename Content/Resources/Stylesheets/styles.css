@@ -661,3 +661,29 @@ strong.green
 	color: #a7da1c;
 }
 
+img.icon
+{
+	padding: 0px;
+	border: 0;
+	mc-thumbnail-max-height: 25px;
+	mc-thumbnail: normal;
+}
+
+img.screenshotsmall
+{
+	border: solid 1px #000000;
+	padding: 0px;
+	mc-thumbnail: hover;
+	mc-thumbnail-max-height: 140;
+	mc-thumbnail-max-width: 140;
+}
+
+img.screenshotsmedium
+{
+	border: solid 1px #000000;
+	padding: 0px;
+	mc-thumbnail: hover;
+	mc-thumbnail-max-height: 400;
+	mc-thumbnail-max-width: 600;
+}
+
