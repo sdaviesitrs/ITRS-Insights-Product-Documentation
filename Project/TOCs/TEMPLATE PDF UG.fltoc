@@ -46,7 +46,7 @@
     VolumeNumberReset="same"></TocEntry>
   <TocEntry
     Title="Introduction to [%=General.Product Name Insights (Full)%] Concepts"
-    Link="/Content/C_User Guides/Organizing Data User Guide.htm" />
+    Link="/Content/A_Quick Start/Organizing Data in ITRS Insights.htm" />
   <TocEntry
     Title="CHAPTER 2"
     Link="/Content/Print Files/Misc/ChapterNumber.htm"

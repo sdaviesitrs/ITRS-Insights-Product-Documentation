@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="120" MadCap:lastWidth="1180">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="8" MadCap:lastHeight="120" MadCap:lastWidth="1139">
     <body>
         <MadCap:dropDown>
             <MadCap:dropDownHead>
@@ -8,7 +8,7 @@
             <MadCap:dropDownBody>
                 <ol>
                     <li>Navigate to the <MadCap:variable name="General.Product Name Insights&#160;(abbreviated)" /> installation folder</li>
-                    <li>Double click the <MadCap:snippetText src="Icon ITRS Insights.flsnp" /></li>
+                    <li>Double click <MadCap:snippetText src="Icon ITRS Insights.flsnp" /></li>
                 </ol>
             </MadCap:dropDownBody>
         </MadCap:dropDown>

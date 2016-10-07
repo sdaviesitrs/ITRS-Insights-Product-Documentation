@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="120" MadCap:lastWidth="1203">
+    <body>
+        <p><MadCap:variable name="General.Product Name Insights&#160;(abbreviated)" /> features a live syntax highlighter to enable you to rapidly see any errors in your query syntax. </p>
+        <ul>
+            <li>As you type your query, valid clauses, functions and operators turn <span style="color: #3cb371;">green </span>once you've typed them </li>
+            <li>For Free Text Searches, valid strings are highlighted in <span style="color: #4169e1;">blue</span></li>
+        </ul>
+    </body>
+</html>

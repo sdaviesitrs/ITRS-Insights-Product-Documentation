@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="620" MadCap:lastWidth="1177">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="615" MadCap:lastWidth="1165">
     <body>
         <MadCap:dropDown>
             <MadCap:dropDownHead>
@@ -8,12 +8,12 @@
             <MadCap:dropDownBody>
                 <ol>
                     <li>(Optional)&#160;Hover your cursor over the <strong>Stream </strong>of interest, then click the <MadCap:snippetText src="Icon Copy to Clipboard.flsnp" />. This will commit a basic <code>from </code>query of that stream to the clipboard</li>
-                    <li>On the main navigation panel, click the <MadCap:snippetText src="Icon Notebook.flsnp" /></li>
-                    <li>From the tree, select the <strong>Notebook </strong>to run the query from</li>
-                    <li>Click the<strong> <MadCap:snippetText src="Icon Add Query.flsnp" /></strong></li>
+                    <li>On the main navigation panel, click <MadCap:snippetText src="Icon Notebook.flsnp" /></li>
+                    <li>From the tree, select the <strong>Notebook </strong>to save the query in</li>
+                    <li>Click <strong> <MadCap:snippetText src="Icon Add Query.flsnp" /></strong></li>
                     <li>Click <strong>Query </strong></li>
                     <li>Press CTRL V on your keyboard to paste the <code>from </code>query into the <strong>query field</strong>, or <strong>manually enter</strong> the stream you wish to query</li>
-                    <li>Click the <strong><MadCap:snippetText src="Icon Run.flsnp" /></strong></li>
+                    <li>Click <strong><MadCap:snippetText src="Icon Run.flsnp" /></strong></li>
                 </ol>
                 <blockquote>
                     <p>

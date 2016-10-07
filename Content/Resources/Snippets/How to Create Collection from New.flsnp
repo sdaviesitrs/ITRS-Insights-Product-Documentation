@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="413" MadCap:lastWidth="1165">
+    <body>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>To Create a Collection at the Same Time as Adding a New Entity</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <ol>
+                    <li>Run <MadCap:variable name="General.Product Name&#160;Insights (Full)" style="font-weight: bold;" /></li>
+                    <li>Click any of the following entities on the main navigation panel, depending on where you want to create the Collection: <MadCap:snippetText src="Icon Notebook.flsnp" />, <MadCap:snippetText src="Icon Dashboard.flsnp" /> or <MadCap:snippetText src="Icon Domain.flsnp" /></li>
+                    <li>Click <MadCap:snippetText src="Icon Add.flsnp" /> - a new tab will open</li>
+                    <li>If you chose to create a Collection for a new <strong>Domain </strong>or <strong>Notebook</strong>: </li>
+                </ol>
+                <blockquote>
+                    <p>
+                        <MadCap:snippetText src="Procedure Type in Collection Drop-Down.flsnp" />. Complete the creation process as normal</p>
+                </blockquote>
+                <ol MadCap:continue="true">
+                    <li>If you chose to create a new Collection from a new <strong>Dashboard</strong>:</li>
+                </ol>
+                <blockquote>
+                    <p>Select the Dashboard from the Dashboard Panel, then click <MadCap:snippetText src="Icon Edit.flsnp" />. <MadCap:snippetText src="Procedure Type in Collection Drop-Down.flsnp" />. Click <MadCap:snippetText src="Icon Save Dashboard.flsnp" /></p>
+                </blockquote>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+    </body>
+</html>

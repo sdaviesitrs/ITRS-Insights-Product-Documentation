@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="719" MadCap:lastWidth="1206">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="5" MadCap:lastHeight="729" MadCap:lastWidth="1190">
     <body>
-        <h2><a name="TSR"></a>Time Series Repository</h2>
+        <h2>Time Series Repository</h2>
         <MadCap:snippetBlock src="Definition TSR.flsnp" />
         <p>The TSR is also column oriented (unlike the SSR which is document oriented). Column oriented databases store each field in a specific file. This is helpful for certain operations as the DBMS does not need skip over other fields as with row oriented databases, or de-serialise whole document blobs as with document oriented databases. Since like data is ‘lined up’, it is possible to compress data better and to perform scan operations much faster. This is more suited to analytical operations.</p>
         <p>The TSR is optimised to rapidly scan through time series data, and apply analytics to the data. All of the Scalar and Online Algorithm’s available to the Execution engine and to the SSR are also available within the TSR. This makes for a seamless experience in writing and deploying algorithms across all kinds of real time and historical data.</p>

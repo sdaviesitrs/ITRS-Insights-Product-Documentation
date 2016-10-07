@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="2" MadCap:lastHeight="138" MadCap:lastWidth="1217">
+    <body>
+        <p><strong class="green">Domains </strong>can be used to filter the results of a <strong class="green">query </strong>to only the data
+emanating from <strong class="green">contributors </strong>in the Domain. This allows you to
+contextualise and re-use a particular query across different sources
+without having to modify it.</p>
+        <p>For instance, you can set up a domain that is all Windows servers in a
+particular IP range, including only data with tags <code>critical </code>and <code>error</code>.
+In this way you can run simple queries on this Domain, knowing that the
+appropriate data (i.e. <code>critical </code>and <code>error</code>) is always dynamically
+included in real-time.</p>
+    </body>
+</html>

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="2" MadCap:lastHeight="233" MadCap:lastWidth="1229">
+    <body>
+        <p>A  <strong class="green">time series repository</strong> gives <MadCap:variable name="General.Product Name Insights&#160;(abbreviated)" /> an understanding, to some extent, of the concepts of time. It also comes
+with some complex algorithms built into the query language.&#160;Combined, these mean that it's possible to run a single query that is sophisticated enough to spot
+anomalies in the data. </p>
+        <p id="Example">For instance, if aging Mrs Brown at No 4 always
+watches her favorite soap opera at 7pm every evening and straight afterward
+gets up and makes a cup of tea, then the notebook can help you spot that
+this evening she didn’t switch the kettle on at 8pm, which may be cause
+for concern. Because it is real-time then the queries can immediately
+identify anomalies, however you can also run the same thing against
+historic data to find previous patterns and areas for further
+investigation.</p>
+    </body>
+</html>

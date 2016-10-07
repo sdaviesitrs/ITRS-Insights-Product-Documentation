@@ -130,10 +130,10 @@ html.templateTopic div.sideContent
 
 img
 {
-	border: solid 1px #000000;
 	padding: 0px;
 	mc-thumbnail-max-height: 140px;
 	mc-thumbnail: none;
+	border: 0;
 }
 
 p#Example
@@ -229,7 +229,7 @@ a:visited
 	mc-format: '{para}';
 	text-decoration: underline;
 	font-family: exo;
-	color: #242528;
+	color: #2d8dcc;
 }
 
 a:hover
@@ -260,20 +260,20 @@ p.note
 
 img.screenshotsmall
 {
-	border: solid 1px #000000;
 	padding: 0px;
 	mc-thumbnail: hover;
 	mc-thumbnail-max-height: 140;
 	mc-thumbnail-max-width: 140;
+	border: 0;
 }
 
 img.screenshotsmedium
 {
-	border: solid 1px #000000;
 	padding: 0px;
 	mc-thumbnail: hover;
 	mc-thumbnail-max-height: 400;
 	mc-thumbnail-max-width: 600;
+	border: 0;
 }
 
 td

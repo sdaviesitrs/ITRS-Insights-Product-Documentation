@@ -1,4 +1,4 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
-    <body>Home icon <img src="../Images/icon_home.PNG" class="icon"></img></body>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="1" MadCap:lastHeight="35" MadCap:lastWidth="1230">
+    <body>Home <img src="../Images/icon_home.PNG" class="icon" /></body>
 </html>

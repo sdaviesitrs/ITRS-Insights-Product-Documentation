@@ -1,6 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
-    <body>
-        <strong>add icon <img src="../Images/icon_add.PNG" class="icon"></img></strong>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="1" MadCap:lastHeight="39" MadCap:lastWidth="1230">
+    <body><strong>add <img src="../Images/icon_add.PNG" class="icon" /></strong>
     </body>
 </html>

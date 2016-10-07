@@ -1,23 +1,23 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <UrlList>
-    <Url Source="Resources/Snippets/UI Definition Delete.flsnp" />
-    <Url Source="Resources/Snippets/UI Definition Edit.flsnp" />
-    <Url Source="Resources/Snippets/UI Definition Export.flsnp" />
+    <Url Source="Resources/Snippets/How to Create Collection from New.flsnp" />
+    <Url Source="Resources/Snippets/Icon Save Dashboard.flsnp" />
+    <Url Source="Resources/Snippets/Procedure Type in Collection Drop-Down.flsnp" />
+    <Url Source="Resources/Snippets/Icon Edit.flsnp" />
+    <Url Source="Resources/Snippets/How to Edit Query.flsnp" />
+    <Url Source="Resources/Snippets/Icon Domain.flsnp" />
+    <Url Source="Resources/Snippets/Icon Notebook.flsnp" />
+    <Url Source="Resources/Snippets/UI Definition Home Dashboard.flsnp" />
+    <Url Source="Resources/Snippets/UI Definition Home Panel.flsnp" />
+    <Url Source="Resources/Snippets/UI Definition Domain Panel.flsnp" />
+    <Url Source="Resources/Snippets/UI Definition Dashboards Panel.flsnp" />
+    <Url Source="Resources/Snippets/UI Definition Notebook Panel.flsnp" />
+    <Url Source="Resources/Snippets/About Domain.flsnp" />
+    <Url Source="Resources/Snippets/About Query Domain.flsnp" />
     <Url Source="Resources/Snippets/About Schema.flsnp" />
+    <Url Source="Resources/Snippets/About TSR Simple.flsnp" />
+    <Url Source="Resources/Snippets/About TSR Technical.flsnp" />
+    <Url Source="Resources/Snippets/Definition Collections.flsnp" />
+    <Url Source="Resources/Snippets/Definition Notebook.flsnp" />
     <Url Source="Resources/Snippets/Definition Schema.flsnp" />
-    <Url Source="Resources/Snippets/Definition Transformational Pipeline.flsnp" />
-    <Url Source="Resources/Snippets/How To Create Derived Stream.flsnp" />
-    <Url Source="Resources/Snippets/How To View Schema.flsnp" />
-    <Url Source="Resources/Snippets/Icon Chart Bubble.flsnp" />
-    <Url Source="Resources/Snippets/Icon Chart Grid.flsnp" />
-    <Url Source="Resources/Snippets/Icon Chart Line.flsnp" />
-    <Url Source="Resources/Snippets/Icon Chart List.flsnp" />
-    <Url Source="Resources/Snippets/Icon Chart Single.flsnp" />
-    <Url Source="Resources/Snippets/Icon Chart Sparklines.flsnp" />
-    <Url Source="Resources/Snippets/Icon Chart Table.flsnp" />
-    <Url Source="Resources/Snippets/Icon Delete.flsnp" />
-    <Url Source="Resources/Snippets/Icon Home.flsnp" />
-    <Url Source="Resources/Snippets/Query Definition From.flsnp" />
-    <Url Source="Resources/Snippets/Query Definition Select.flsnp" />
-    <Url Source="Resources/Snippets/UI Definition Active Tab.flsnp" />
 </UrlList>

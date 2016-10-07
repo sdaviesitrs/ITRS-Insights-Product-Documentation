@@ -1,13 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="131" MadCap:lastWidth="1207">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="85" MadCap:lastWidth="1191">
     <body>
         <MadCap:dropDown>
             <MadCap:dropDownHead>
                 <MadCap:dropDownHotspot>Example Collection</MadCap:dropDownHotspot>
             </MadCap:dropDownHead>
             <MadCap:dropDownBody>
-                <p id="Example"><strong>Inside a <strong class="green">collection </strong>are the names of the individual <strong class="green">streams</strong></strong>. </p>
-                <p id="Example">In our smart metered houses example, a collection might consist of two streams:&#160;one from&#160;Arcadia Avenue, and the other from&#160;Privet Drive. </p>
+                <p id="Example">In our smart metered houses example, a Collection might consist of two Streams:&#160;one from&#160;Arcadia Avenue, and the other from&#160;Privet Drive. </p>
             </MadCap:dropDownBody>
         </MadCap:dropDown>
     </body>

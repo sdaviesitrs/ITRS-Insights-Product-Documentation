@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="264" MadCap:lastWidth="1177">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="262" MadCap:lastWidth="1177">
     <body>
         <MadCap:dropDown>
             <MadCap:dropDownHead>
@@ -7,7 +7,7 @@
             </MadCap:dropDownHead>
             <MadCap:dropDownBody>
                 <ol>
-                    <li>Click the <MadCap:snippetText src="Icon Notebook.flsnp" /> and select the Notebook that contains the query</li>
+                    <li>Click <MadCap:snippetText src="Icon Notebook.flsnp" /> and select the Notebook that contains the query</li>
                     <li>Click the mouse cursor in the <strong>query field</strong>, then make your edits</li>
                     <li>Run your query or navigate to another part of the interface - <strong>your edits will be saved automatically</strong></li>
                 </ol>

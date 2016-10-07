@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="337" MadCap:lastWidth="1165">
+    <body>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>How to Create a Dashboard</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <ol>
+                    <li>Run <MadCap:variable name="General.Product Name&#160;Insights (Full)" style="font-weight: bold;" /></li>
+                    <li>Click <MadCap:snippetText src="Icon Dashboard.flsnp" /> on the main navigation panel </li>
+                    <li>Click <MadCap:snippetText src="Icon Add.flsnp" /> - a new Dashboard tab will open. Your Dashboard has been created and will be automatically saved</li>
+                    <li>(Optional) click <MadCap:snippetText src="Icon Edit.flsnp" /> to change the Collection, Dashboard name or Dashboard description. When finished, click <strong><MadCap:snippetText src="Icon Save Dashboard.flsnp" /></strong></li>
+                </ol>
+                <blockquote>
+                    <p>
+                        <img src="../Images/DashboardMenu.png" class="screenshotsmall" />
+                    </p>
+                </blockquote>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+    </body>
+</html>

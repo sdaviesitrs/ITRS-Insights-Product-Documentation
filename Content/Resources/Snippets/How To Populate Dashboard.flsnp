@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="8" MadCap:lastHeight="1088" MadCap:lastWidth="1139">
+    <body>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>How to Populate a Dashboard</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <ol>
+                    <li>Run <MadCap:variable name="General.Product Name&#160;Insights (Full)" style="font-weight: bold;" /></li>
+                    <li>Click <MadCap:snippetText src="Icon Notebook.flsnp" /> on the main navigation panel </li>
+                    <li>Select the <strong>Collection </strong>the Notebook is saved in, then select the <strong>Notebook </strong>from the tree</li>
+                    <li>Run the <strong>Query </strong>or <strong>Free Text Search</strong> that you want to visualize in your Dashboard, or simply click <MadCap:snippetText src="Icon Run All.flsnp" /> to run all the queries and searches in the active Notepad</li>
+                    <li> Choose and configure a <strong>visualization </strong>from the <strong>Visualization&#160;Panel </strong> in each of the results that you want to send to the Dashboard</li>
+                    <li>Click <strong><MadCap:snippetText src="Icon Send to Dashboard.flsnp" /></strong> for the first visualization (repeat steps 6 to 10 for each additional visualization you want to add to the Dashboard). A Send Visualization to Dashboard dialog will open</li>
+                    <li>In the <strong>Destination Dashboard text field</strong>, begin typing the name of the Dashboard you want to select. If you don't know the name, press SPACE BAR and a drop-down list of all available Dashboards will appear</li>
+                    <li>Select the <strong>Dashboard </strong>you want, then click <strong><MadCap:snippetText src="Icon Configure.flsnp" /></strong></li>
+                    <li>Enter a <strong>name </strong>for the visualization, and select whether or not to apply a <strong>domain filter</strong>, then click <MadCap:snippetText src="Icon Preview.flsnp" /></li>
+                    <li>If you are happy with the visualization, click <strong>Send </strong><img src="../Images/icon_send.PNG" class="icon" /> - an on-screen confirmation will appear. Alternatively, click <strong>Configure </strong>to return to the previous screen, or <strong><MadCap:snippetText src="Icon Cancel X.flsnp" /></strong> to return to the Dashboard view </li>
+                    <li>Select the <strong>Dashboard </strong>from the <strong>Dashboard Menu Tree</strong> to view your visualization(s) in place</li>
+                </ol>
+                <blockquote>
+                    <p>
+                        <img src="../Images/NotebookTree.PNG" class="screenshotsmall" />
+                    </p>
+                    <p>
+                        <img src="../Images/populatedashboard1.PNG" class="screenshotsmall" />
+                    </p>
+                    <p>
+                        <img src="../Images/SendToDash01.png" class="screenshotsmall" />
+                    </p>
+                    <p>
+                        <img src="../Images/SendToDash02.png" class="screenshotsmall" />
+                    </p>
+                    <p>
+                        <img src="../Images/SendToDash03.png" class="screenshotsmall" />
+                    </p>
+                </blockquote>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+    </body>
+</html>

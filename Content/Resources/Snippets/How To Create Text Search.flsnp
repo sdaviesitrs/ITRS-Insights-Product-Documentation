@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="560" MadCap:lastWidth="1177">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="556" MadCap:lastWidth="1165">
     <body>
         <MadCap:dropDown>
             <MadCap:dropDownHead>
@@ -7,9 +7,9 @@
             </MadCap:dropDownHead>
             <MadCap:dropDownBody>
                 <ol>
-                    <li>On the main navigation panel, click the <MadCap:snippetText src="Icon Notebook.flsnp" /></li>
+                    <li>On the main navigation panel, click <MadCap:snippetText src="Icon Notebook.flsnp" /></li>
                     <li>From the tree, select the <strong>Notebook </strong>to run the search from</li>
-                    <li>Click the <strong><MadCap:snippetText src="Icon Add Query.flsnp" /></strong></li>
+                    <li>Click <strong><MadCap:snippetText src="Icon Add Query.flsnp" /></strong></li>
                     <li>Click <strong>Search</strong></li>
                     <li>Enter your <strong>search string</strong> <![CDATA[ ]]></li>
                 </ol>

@@ -3,6 +3,6 @@
     <body>
         <p id="concept_definition"><strong class="green">Contributor</strong>:  anything that generates and publishes data to <MadCap:variable name="General.ProductNameValo" /> or <MadCap:variable name="General.Product Name Insights&#160;(abbreviated)" />. A probe or an app are example contributors. Contributors of the same type have common characteristics but  can also have different metadata to one another. For
 example, a probe contributor on a Windows server might be able to provide more
-metadata than probe contributor on a Linux server. Contributors can be grouped together by common attributes to create <strong class="green">Domains&#160;</strong><MadCap:conditionalText MadCap:conditions="Output.Digital">(see: <MadCap:xref href="../../C_User Guides/Organizing Data User Guide.htm#Domain">Domain</MadCap:xref>)</MadCap:conditionalText>. </p>
+metadata than probe contributor on a Linux server. Contributors can be grouped together by common attributes to create <strong class="green">Domains&#160;</strong><MadCap:conditionalText MadCap:conditions="Output.Digital">(see: <MadCap:xref href="../../A_Quick Start/Organizing Data in ITRS Insights.htm#Domain">Domain</MadCap:xref>)</MadCap:conditionalText>. </p>
     </body>
 </html>
