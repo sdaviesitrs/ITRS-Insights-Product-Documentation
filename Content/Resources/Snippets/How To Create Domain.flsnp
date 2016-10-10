@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="955" MadCap:lastWidth="1177">
+    <body>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>How to Create a Domain</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <ol>
+                    <li>Run <MadCap:variable name="General.Product Name&#160;Insights (Full)" style="font-weight: bold;" /></li>
+                    <li>Click  <MadCap:snippetText src="Icon Domain.flsnp" /> on the main navigation panel </li>
+                    <li>Click <MadCap:snippetText src="Icon Add.flsnp" /> - a new Domain window will open</li>
+                    <li>
+                        <MadCap:snippetText src="Procedure Type in Collection Drop-Down.flsnp" />
+                    </li>
+                    <li>
+               Enter a <strong>name </strong>and <strong>description </strong>for the new Domain. The Alias URI&#160;field will automatically update</li>
+                    <li>Use the <strong>Domain Contributor Filters </strong>panel to define which <strong>Contributors </strong>you want to include in your new Domain. Turn a filter on or off using <MadCap:snippetText src="Icon Enable Filter.flsnp" /></li>
+                </ol>
+                <p class="note">Filters are turned on by default. The filter list will automatically populate with the Contributor types that exist in your data Stream</p>
+                <ol MadCap:continue="true">
+                    <li>(Optional) Enter a query to further refine the Contributors added to the Domain</li>
+                </ol>
+                <p class="note">a query of <code>os.name == 'windows' </code>will limit the Contributors to those whose payloads contain the 'windows' operating system value</p>
+                <ol MadCap:continue="true">
+                    <li>(Optional) Click <MadCap:snippetText src="Icon_Preview_Swirl.flsnp" /> to preview the <strong>Contributors </strong>and associated <strong>payloads </strong>that this Domain will contain</li>
+                    <li>Click <strong><MadCap:snippetText src="Icon Save.flsnp" /></strong></li>
+                </ol>
+                <blockquote>
+                    <p>
+                        <img src="../Images/interface_newdomain.PNG" class="screenshotsmedium" />
+                    </p>
+                </blockquote>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+    </body>
+</html>

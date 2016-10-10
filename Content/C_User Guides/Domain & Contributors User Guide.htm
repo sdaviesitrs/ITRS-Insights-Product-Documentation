@@ -1,35 +1,65 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="10" MadCap:lastHeight="4990" MadCap:lastWidth="1113">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="10" MadCap:lastHeight="5301" MadCap:lastWidth="1125">
     <head>
         <link href="" rel="stylesheet" type="text/css" />
     </head>
     <body>
-        <h1><MadCap:variable name="General.Product Name&#160;Insights (Full)" /> Domain &amp;&#160;Contributors User Guide</h1>
-        <p>&#160;</p>
+        <h1><MadCap:variable name="General.Product Name&#160;Insights (Full)" /> Contributor &amp; Domain User Guide</h1>
         <h2 class="nokeyline">Introduction</h2>
-        <p><strong class="green">Domains </strong>can be used to filter the results of a <strong class="green">query </strong>to only the data
-emanating from <strong class="green">contributors </strong>in the Domain. This allows you to
+        <p><strong class="green">Contributors</strong> and <strong class="green">Domains </strong> form the lifeblood of <MadCap:variable name="General.Product Name Insights&#160;(abbreviated)" /> - Contributors feed it data, while Domains provide a granular level of organization by allowing you to clump together two or more Contributors. </p>
+        <p>Domains are dynamic entities that can be used to filter the results of a <strong class="green">query </strong>(see <MadCap:xref href="Query, Search &amp; Transform Data User Guide.htm">[%=General.Product Name&#160;Insights (Full)%] Query,&#160;Search&#160;and Transform Data User Guide</MadCap:xref>) to only the data
+emanating from a set of grouped Contributors, and that allows you to
 contextualize and re-use a particular query across different sources
 without having to modify it.</p>
-        <MadCap:dropDown>
-            <MadCap:dropDownHead class="H2">
-                <MadCap:dropDownHotspot>What are Domains?</MadCap:dropDownHotspot>
-            </MadCap:dropDownHead>
-            <MadCap:dropDownBody>
-                <MadCap:snippetBlock src="../Resources/Snippets/Definition Domain.flsnp" />
-                <MadCap:snippetBlock src="../Resources/Snippets/About Domain.flsnp" />
-                <p>For more about querying in <MadCap:variable name="General.Product Name Insights&#160;(abbreviated)" />, see <MadCap:xref href="Query, Search &amp; Transform Data User Guide.htm">[%=General.Product Name&#160;Insights (Full)%] Query,&#160;Search&#160;and Transform Data User Guide</MadCap:xref>.</p>
-                <MadCap:snippetBlock src="../Resources/Snippets/Example Domain.flsnp" />
-                <p>&#160;</p>
-            </MadCap:dropDownBody>
-        </MadCap:dropDown>
+        <h2>Contributor</h2>
+        <MadCap:snippetBlock src="../Resources/Snippets/Definition Contributor.flsnp" />
+        <p>Assigning a data Stream as a Contributor allows us to record its static metadata (say, the make of a sensor, or the location of a probe) and then run queries against it.</p>
+        <p MadCap:conditions="Output.Null">@mdd this comes from here: post on <a href="https://valo.io/blog/post/what-are-streams-in-valo">streams</a></p>
+        <p MadCap:conditions="Output.Null">we indirectly assigned metadata about each sensor (eg. area) inside the stream's schema. Because this sensor-specific data does not change with every new event, it may make sense to take it out of the real-time payloads and store it separately as contributor metadata. This means that the unchanging metadata does not need to be POSTed to the stream each time (and potentially wastefully stored), but instead, can be stored once externally. </p>
+        <p MadCap:conditions="Output.Null">To set up contributors in Valo, we first need to register the sensors' "contributor type" with an HTTP PUT command with the json schema below. This specifies the metadata fields that we can store for each air quality sensor. In the schema below we have simply defined the contributor type as 'sensor' since we can potentially have different types of sensors with the same contributor type. Note that it is essential to have a field (in this case, 'id') that is a unique identifier for each sensor and has the type 'contributor'.</p><pre MadCap:conditions="Output.Null">
+{
+“schema” {
+    type: “record”,
+    properties: {
+        id: {"type": “contributor”, "definition": "sensor"},
+        area: {"type": “string”},
+        manufacturer: {"type": “string”}
+        }
+    }
+}</pre>
+        <p MadCap:conditions="Output.Null">The air quality stream's schema (below) should also have the 'id' field of type 'contributor' in order to connect the real time air quality measurements with their corresponding sensor's metadata.</p><pre MadCap:conditions="Output.Null">
+{
+  "schema": {
+    "topDef": {
+      "type": "record",
+      "properties":
+        "id": {"type": “contributor”, "definition": "sensor"},
+        "carbonm": { "type": "double"},
+        "nitrouso": { "type": "double"},
+        "sampleTime": { "type": "datetime"}
+      }
+    }
+  }
+}</pre>
+        <p MadCap:conditions="Output.Null">Let's say that we have just installed two new sensors in a smart city. After having established the contributor type, we can now assign the specific metadata to each of our sensors with an HTTP PUT command.</p>
+        <p MadCap:conditions="Output.Null">Here's an example of what an air quality payload would look like with the contributor id field:</p><pre MadCap:conditions="Output.Null">{
+    "id": "3450af"
+    "carbonm": 0.05,
+    "nitrouso": 0.04,
+    "sampleTime": "Thu Jul 7 2016 15:03:53"     
+}</pre>
+        <h2> Domain</h2>
+        <MadCap:snippetBlock src="../Resources/Snippets/Definition Domain.flsnp" />
+        <MadCap:snippetBlock src="../Resources/Snippets/About Domain.flsnp" />
+        <p>For more about querying in <MadCap:variable name="General.Product Name Insights&#160;(abbreviated)" />, see <MadCap:xref href="Query, Search &amp; Transform Data User Guide.htm">[%=General.Product Name&#160;Insights (Full)%] Query,&#160;Search&#160;and Transform Data User Guide</MadCap:xref>.</p>
+        <MadCap:snippetBlock src="../Resources/Snippets/Example Domain.flsnp" />
         <MadCap:dropDown>
             <MadCap:dropDownHead class="H2NoKeyline">
                 <MadCap:dropDownHotspot>What are the benefits of domains?</MadCap:dropDownHotspot>
             </MadCap:dropDownHead>
             <MadCap:dropDownBody>
                 <ul>
-                    <li>Dynamic sets of contributors - If a new sensor is added or meta data of any existing sensor is changed, the domains and any running queries within the domains would adjust automatically to operate on the updated set of contributors</li>
+                    <li>Dynamic sets of Contributors - If a new sensor is added or meta data of any existing sensor is changed, the Domains and any running queries within the Domains would adjust automatically to operate on the updated set of Contributors</li>
                     <li>Querying convenience - Let's say in this smart city there are two local authorities for the West and the East. Creating a different domain for each area would be helpful as the local authorities are only concerned with the data from air sensors in their respective area and do not want to specify the location each time in their queries</li>
                     <li>Control access to data in an organization - If we scale this example to a smart city with lots of different types of sensors and streams of data, domains would be a good way to control access to data so that employees would only have access to the data from the contributors that concern them.</li>
                     <li>Shareable - Imagine a smart city with lots of different local authorities with the same querying needs. The key queries only need to be created in one authority and then shared across all of the different areas.</li>
@@ -65,76 +95,34 @@ without having to modify it.</p>
                             <MadCap:snippetText src="../Resources/Snippets/UI Definition Delete.flsnp" />
                         </li>
                     </ol>
-                    <p>&#160;</p>
                 </MadCap:dropDownBody>
             </MadCap:dropDown>
         </div>
-        <div class="section" id="creating-a-domain">
-            <h2 class="nokeyline">Create a Domain</h2>
-            <div class="line-block">
-                <div class="line">You can create a domain by selecting the domain menu and clicking on
-the <strong>+</strong> in the top right.</div>
-                <div class="line">
-                    <img alt="insights_working_domains_image1" src="../Resources/Images/DomainMenu.png" class="screenshotsmedium" />
-                </div>
-                <div class="line">This brings you into the domain editor where you can specify your
-domain name and importantly filter your contributors. The contributor
-types will be shown automatically for you to add your filter to.</div>
-            </div>
-            <p>
-                <img alt="insights_working_domains_image2" src="../Resources/Images/DomainEditor.png" class="screenshotsmedium" />
-            </p>
-            <p>Once you have selected save then you will be presented with your
-domain's home page with details of the included contributors and
-streams. From here creating a new notebook for the screen is as easy as
-selecting the <strong>+ Add A Notebook to this domain</strong> button at the bottom
-of the home page. When you return to your domain homepage from the menu
-all the notebooks for that domain will be displayed on the page.</p>
-            <p>Your domain notebooks will also appear in the Notebook menu <img alt="insights_working_domains_image3" src="../Resources/Images/NotebookIcon.png" class="icon" /></p>
-        </div>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead class="H2NoKeyline">
+                <MadCap:dropDownHotspot>Create a Domain</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>Once you've created the Domain, the active interface tab will become the new Domain's home page. From here, you can <MadCap:xref href="Dashboard, Notebook &amp; Collection User Guide.htm#CreateNewNotebook">Create A&#160;Notebook </MadCap:xref> and <MadCap:xref href="Dashboard, Notebook &amp; Collection User Guide.htm#CreateNewDashboard.">Create a Dashboard</MadCap:xref>.</p>
+                <MadCap:snippetBlock src="../Resources/Snippets/How To Create Domain.flsnp" />
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
         <div class="section" id="cloning-a-domain">
-            <h3>Cloning a Domain</h3>
-            <p>You can easily clone a domain from the domain menu selecting the
-<img alt="insights_working_domains_image4" src="../Resources/Images/CopyIcon.png" />, this allows you to duplicate all the existing notebooks,
-queries etc. on that domain and move it to a different domain. So if for
+            <MadCap:dropDown>
+                <MadCap:dropDownHead class="H2NoKeyline">
+                    <MadCap:dropDownHotspot>Clone a Domain</MadCap:dropDownHotspot>
+                </MadCap:dropDownHead>
+                <MadCap:dropDownBody>
+                    <p MadCap:conditions="Output.Null">@mdd procedure requires writing</p>
+                    <p>You can easily clone a domain from the Domain menu selecting <MadCap:snippetText src="../Resources/Snippets/Icon Copy to Clipboard.flsnp" />, this allows you to duplicate all the existing notebooks,
+queries etc. on that domain and move it to a different domain. </p>
+                    <p>So if for
 example I have lots of analytics running on my European IT operations, I
 can clone the domain and by just updating the domain definition in the
 clone have all the same capabilities immediately over my North American
 operations.</p>
+                </MadCap:dropDownBody>
+            </MadCap:dropDown>
         </div>
-        <h2>Contributor</h2>
-        <p>In a blog post on <a href="https://valo.io/blog/post/what-are-streams-in-valo">streams</a>, we indirectly assigned metadata about each sensor (eg. area) inside the stream's schema. Because this sensor-specific data does not change with every new event, it may make sense to take it out of the real-time payloads and store it separately as contributor metadata. This means that the unchanging metadata does not need to be POSTed to the stream each time (and potentially wastefully stored), but instead, can be stored once externally. By storing information against a contributor, we are also able to run queries against subsets of the data such as sensors from a particular location or manufacturer.</p>
-        <p>To set up contributors in Valo, we first need to register the sensors' "contributor type" with an HTTP PUT command with the json schema below. This specifies the metadata fields that we can store for each air quality sensor. In the schema below we have simply defined the contributor type as 'sensor' since we can potentially have different types of sensors with the same contributor type. Note that it is essential to have a field (in this case, 'id') that is a unique identifier for each sensor and has the type 'contributor'.</p><pre>
-{
-“schema” {
-    type: “record”,
-    properties: {
-        id: {"type": “contributor”, "definition": "sensor"},
-        area: {"type": “string”},
-        manufacturer: {"type": “string”}
-        }
-    }
-}</pre>
-        <p>The air quality stream's schema (below) should also have the 'id' field of type 'contributor' in order to connect the real time air quality measurements with their corresponding sensor's metadata.</p><pre>
-{
-  "schema": {
-    "topDef": {
-      "type": "record",
-      "properties":
-        "id": {"type": “contributor”, "definition": "sensor"},
-        "carbonm": { "type": "double"},
-        "nitrouso": { "type": "double"},
-        "sampleTime": { "type": "datetime"}
-      }
-    }
-  }
-}</pre>
-        <p>Let's say that we have just installed two new sensors in a smart city. After having established the contributor type, we can now assign the specific metadata to each of our sensors with an HTTP PUT command.</p>
-        <p>Here's an example of what an air quality payload would look like with the contributor id field:</p><pre>{
-    "id": "3450af"
-    "carbonm": 0.05,
-    "nitrouso": 0.04,
-    "sampleTime": "Thu Jul 7 2016 15:03:53"     
-}</pre>
     </body>
 </html>
