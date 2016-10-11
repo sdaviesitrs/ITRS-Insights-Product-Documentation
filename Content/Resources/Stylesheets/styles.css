@@ -1,6 +1,4 @@
-﻿/*<meta />*/
-
- 
+/*<meta />*/
 
 body
 {
@@ -688,3 +686,22 @@ img.screenshotsmedium
 	mc-thumbnail-max-height: 400;
 	mc-thumbnail-max-width: 600;
 }
+
+p.pagebreak
+{
+	
+}
+
+@media print
+{
+	p.pagebreak
+	{
+		page-break-after: always;
+	}
+
+	tr
+	{
+		font-size: 9pt;
+	}
+}
+

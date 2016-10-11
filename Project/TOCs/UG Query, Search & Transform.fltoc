@@ -47,10 +47,10 @@
     <TocEntry
       Title="[%=General.Product Name Insights (Full)%] Query, Search and Transform Data User Guide"
       Link="/Content/C_User Guides/Query, Search &amp; Transform Data User Guide.htm"
-      BreakType="none"
+      BreakType="pageLayout"
       StartSection="false"
       PageNumberReset="continue"
-      PageLayout="/Content/Resources/PageLayouts/8_5X11/ChaptersLandscape8_5X11.flpgl" />
+      PageLayout="/Content/Resources/PageLayouts/8_5X11/Chapters8_5X11.flpgl" />
   </TocEntry>
   <TocEntry
     Title="Appendix A"
@@ -65,8 +65,8 @@
     SectionNumberReset="continue"
     VolumeNumberReset="same"
     ChapterNumberReset="continue"
-    BreakType="pageLayout"
-    PageLayout="/Content/Resources/PageLayouts/8_5X11/Chapters8_5X11.flpgl">
+    BreakType="chapter"
+    PageLayout="/Content/Resources/PageLayouts/8_5X11/Appendix8_5X11.flpgl">
     <TocEntry
       Title="Introduction to [%=General.Product Name Insights (Full)%] Concepts"
       Link="/Content/A_Quick Start/Organizing Data in ITRS Insights.htm"
@@ -81,10 +81,17 @@
   </TocEntry>
   <TocEntry
     Title="Appendix B"
-    Link="/Content/Print Files/Back Matter Topics/Appendix.htm">
+    Link="/Content/Print Files/Back Matter Topics/Appendix.htm"
+    BreakType="chapter"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/8_5X11/Appendix8_5X11.flpgl">
     <TocEntry
       Title="Query Clauses"
-      Link="/Content/B_Technical Reference/Query Clauses, Functions &amp; Operators/Query Clauses.htm" />
+      Link="/Content/B_Technical Reference/Query Clauses, Functions &amp; Operators/Query Clauses.htm"
+      BreakType="pageLayout"
+      StartSection="false"
+      PageLayout="/Content/Resources/PageLayouts/8_5X11/Appendix8_5X11.flpgl" />
     <TocEntry
       Title="Query Clauses">
       <TocEntry
@@ -136,10 +143,17 @@
   </TocEntry>
   <TocEntry
     Title="Appendix C"
-    Link="/Content/Print Files/Back Matter Topics/Appendix.htm">
+    Link="/Content/Print Files/Back Matter Topics/Appendix.htm"
+    BreakType="chapter"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/8_5X11/Appendix8_5X11.flpgl">
     <TocEntry
       Title="Query Operators and Their Precedence"
-      Link="/Content/B_Technical Reference/Query Clauses, Functions &amp; Operators/Query Operators.htm" />
+      Link="/Content/B_Technical Reference/Query Clauses, Functions &amp; Operators/Query Operators.htm"
+      BreakType="pageLayout"
+      StartSection="false"
+      PageLayout="/Content/Resources/PageLayouts/8_5X11/Appendix8_5X11.flpgl" />
     <TocEntry
       Title="Analysing Data"
       Link="/Content/B_Technical Reference/Query Clauses, Functions &amp; Operators/Query Functions.htm" />
@@ -147,7 +161,7 @@
   <TocEntry
     Title="Glossary"
     Link="/Content/Print Files/Back Matter Topics/Glossary.htm"
-    BreakType="pageLayout"
+    BreakType="chapter"
     PageLayout="/Content/Resources/PageLayouts/8_5X11/Glossary8_5X11.flpgl"
     PageType="firstright"
     StartSection="false"
@@ -155,7 +169,7 @@
   <TocEntry
     Title="Index"
     Link="/Content/Print Files/Back Matter Topics/Index.htm"
-    BreakType="pageLayout"
+    BreakType="chapter"
     PageLayout="/Content/Resources/PageLayouts/8_5X11/Index8_5X11.flpgl"
     PageType="firstright"
     StartSection="false"

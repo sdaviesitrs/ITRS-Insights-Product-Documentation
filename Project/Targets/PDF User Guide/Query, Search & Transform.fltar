@@ -7,7 +7,7 @@
   GlossaryTermConversion="marked"
   MasterToc="/Project/TOCs/UG Query, Search &amp; Transform.fltoc"
   ConditionTagExpression="exclude[Output.Digital or Output.Null or Product.Valo or &quot;Versions.Current Valo&quot;] "
-  PatchHeadingLevels="true"
+  PatchHeadingLevels="false"
   InjectEmptyPages="true"
   MasterStylesheet="/Content/Resources/Stylesheets/styles.css">
   <PrintedOutput
@@ -20,9 +20,10 @@
   <PDF
     ShowUsedBookmarks="false"
     InitialMagnification="75"
-    PageLayout="TwoColumnRight"
+    PageLayout="SinglePage"
     TitleBar="DocumentTitle"
-    CollapsedBookmarks="true"
+    CollapsedBookmarks="false"
     CropAndRegistrationMarks="false"
-    ConvertToCMYK="true" />
+    ConvertToCMYK="true"
+    PageMode="UseNone" />
 </CatapultTarget>

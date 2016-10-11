@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="262" MadCap:lastWidth="1177">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="295" MadCap:lastWidth="576">
     <body>
         <MadCap:dropDown>
             <MadCap:dropDownHead>
@@ -12,7 +12,7 @@
                     <li>Run your query or navigate to another part of the interface - <strong>your edits will be saved automatically</strong></li>
                 </ol>
                 <blockquote>
-                    <p><a href="../Images/edit_query.PNG"><img src="../Images/edit_query.PNG" class="screenshotsmedium" /></a>
+                    <p style="text-align: left;"><a href="../Images/edit_query.PNG"><img src="../Images/edit_query.PNG" class="screenshotsmedium" /></a>
                     </p>
                 </blockquote>
             </MadCap:dropDownBody>
