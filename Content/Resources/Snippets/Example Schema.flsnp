@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="5" MadCap:lastHeight="534" MadCap:lastWidth="1190">
+    <body>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Example Schema</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>For an example the first version of a schema which defines a schema for a stream of data coming from our smart houses – with 4 elements in each payload, the date, the house number, the energy consumed in the last 12 hours and the quality of the data – may look like this:</p>
+                <blockquote><pre>{
+    "schema": {
+        "version": "1.0.0",
+        "config": {},
+        "topDef": {
+            "type": "record",
+            "properties": {
+                "date": { "type": "date", "optional": "false" },
+                "energyConsumed": { "type": "double", "optional": "false" },
+                "houseNumber": { "type": "byte", "optional": "true" },
+                "quality": { "type": "boolean", "optional": "true" }
+            }
+        }
+    }
+}</pre>
+                </blockquote>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+    </body>
+</html>
