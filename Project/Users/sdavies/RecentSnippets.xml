@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <UrlList>
+    <Url Source="Resources/Snippets/Example Contributor.flsnp" />
     <Url Source="Resources/Snippets/About Domain.flsnp" />
     <Url Source="Resources/Snippets/Definition Contributor.flsnp" />
-    <Url Source="Resources/Snippets/Example Contributor.flsnp" />
     <Url Source="Resources/Snippets/Icon Copy to Clipboard.flsnp" />
     <Url Source="Resources/Snippets/Icon Enable Filter.flsnp" />
     <Url Source="Resources/Snippets/Icon Notebook.flsnp" />

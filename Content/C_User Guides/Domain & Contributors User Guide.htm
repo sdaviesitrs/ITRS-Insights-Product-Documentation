@@ -1,19 +1,18 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="10" MadCap:lastHeight="5301" MadCap:lastWidth="1125">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="10" MadCap:lastHeight="5780" MadCap:lastWidth="1125">
     <head>
         <link href="" rel="stylesheet" type="text/css" />
     </head>
     <body>
         <h1><MadCap:variable name="General.Product Name&#160;Insights (Full)" /> Contributor &amp; Domain User Guide</h1>
         <h2 class="nokeyline">Introduction</h2>
-        <p><strong class="green">Contributors</strong> and <strong class="green">Domains </strong> form the lifeblood of <MadCap:variable name="General.Product Name Insights&#160;(abbreviated)" /> - Contributors feed it data, while Domains provide a granular level of organization by allowing you to clump together two or more Contributors. </p>
-        <p>Domains are dynamic entities that can be used to filter the results of a <strong class="green">query </strong>(see <MadCap:xref href="Query, Search &amp; Transform Data User Guide.htm">[%=General.Product Name&#160;Insights (Full)%] Query,&#160;Search&#160;and Transform Data User Guide</MadCap:xref>) to only the data
-emanating from a set of grouped Contributors, and that allows you to
-contextualize and re-use a particular query across different sources
+        <p><strong class="green">Contributors</strong> and <strong class="green">Domains </strong> form the lifeblood of <MadCap:variable name="General.Product Name Insights&#160;(abbreviated)" /> - Contributors contain <strong class="green">Streams </strong>that feed it data, while Domains provide a granular level of organization by allowing you to clump together two or more Contributors.</p>
+        <p>Contributors are used to assign metadata to each data stream. Domains are dynamic entities that can be used to filter the results of a <strong class="green">query </strong>(see <MadCap:xref href="Query, Search &amp; Transform Data User Guide.htm">[%=General.Product Name&#160;Insights (Full)%] Query,&#160;Search&#160;and Transform Data User Guide</MadCap:xref>). You can use Domains to contextualize and re-use a particular query across different sources
 without having to modify it.</p>
         <h2>Contributor</h2>
         <MadCap:snippetBlock src="../Resources/Snippets/Definition Contributor.flsnp" />
-        <p>Assigning a data Stream as a Contributor allows us to record its static metadata (say, the make of a sensor, or the location of a probe) and then run queries against it.</p>
+        <p>Assigning a data Stream as a Contributor allows us to record its static metadata (say, the make of a sensor, or the location of a probe) and then run queries against it</p>
+        <MadCap:snippetBlock src="../Resources/Snippets/Example Contributor.flsnp" />
         <p MadCap:conditions="Output.Null">@mdd this comes from here: post on <a href="https://valo.io/blog/post/what-are-streams-in-valo">streams</a></p>
         <p MadCap:conditions="Output.Null">we indirectly assigned metadata about each sensor (eg. area) inside the stream's schema. Because this sensor-specific data does not change with every new event, it may make sense to take it out of the real-time payloads and store it separately as contributor metadata. This means that the unchanging metadata does not need to be POSTed to the stream each time (and potentially wastefully stored), but instead, can be stored once externally. </p>
         <p MadCap:conditions="Output.Null">To set up contributors in Valo, we first need to register the sensors' "contributor type" with an HTTP PUT command with the json schema below. This specifies the metadata fields that we can store for each air quality sensor. In the schema below we have simply defined the contributor type as 'sensor' since we can potentially have different types of sensors with the same contributor type. Note that it is essential to have a field (in this case, 'id') that is a unique identifier for each sensor and has the type 'contributor'.</p><pre MadCap:conditions="Output.Null">
