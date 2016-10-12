@@ -7,22 +7,24 @@
   GlossaryTermConversion="marked"
   MasterToc="/Project/TOCs/UG Query, Search &amp; Transform.fltoc"
   ConditionTagExpression="exclude[Output.Digital or Output.Null or Product.Valo or &quot;Versions.Current Valo&quot;] "
-  PatchHeadingLevels="true"
+  PatchHeadingLevels="false"
   InjectEmptyPages="true"
-  MasterStylesheet="/Content/Resources/Stylesheets/styles.css">
+  MasterStylesheet="/Content/Resources/Stylesheets/styles.css"
+  MasterPageLayout="/Content/Resources/PageLayouts/a4_pdf_layouts/ug_chapters.flpgl">
   <PrintedOutput
     CollapseMargins="true"
     ExpandingTextConversion="expand"
     PopupConversion="remove-body" />
   <DocumentProperties
     Title="ITRS Insights Query, Search &amp; Transform User Guide"
-    Author="Steve Davies" />
+    Author="ITRS Group Ltd" />
   <PDF
     ShowUsedBookmarks="false"
     InitialMagnification="75"
-    PageLayout="TwoColumnRight"
     TitleBar="DocumentTitle"
-    CollapsedBookmarks="true"
+    CollapsedBookmarks="false"
     CropAndRegistrationMarks="false"
-    ConvertToCMYK="true" />
+    ConvertToCMYK="true"
+    PageMode="UseOutlines"
+    PageLayout="SinglePage" />
 </CatapultTarget>

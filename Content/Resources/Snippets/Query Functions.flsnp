@@ -1,24 +1,25 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="8" MadCap:lastHeight="6119" MadCap:lastWidth="1151">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="8" MadCap:lastHeight="734" MadCap:lastWidth="576">
+    <head>
+        <link href="../TableStyles/Standard.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
     <body>
         <MadCap:dropDown>
             <MadCap:dropDownHead>
                 <MadCap:dropDownHotspot><MadCap:variable name="General.Product Name Insights&#160;(abbreviated)" /> Query Functions</MadCap:dropDownHotspot>
             </MadCap:dropDownHead>
             <MadCap:dropDownBody>
-                <table border="1" class="docutils">
-                    <colgroup>
-                        <col width="27%" />
-                        <col width="19%" />
-                        <col width="54%" />
-                    </colgroup>
+                <table border="1" style="width: 100%;">
+                    <col width="27%" />
+                    <col width="19%" />
+                    <col width="54%" />
                     <thead valign="bottom">
                         <tr>
-                            <th class="head">Function (Input)</th>
-                            <th class="head">
+                            <th>Function (Input)</th>
+                            <th>
                                 <p class="first">Output</p>
                             </th>
-                            <th class="head">Description</th>
+                            <th>Description</th>
                         </tr>
                     </thead>
                     <tbody valign="top">

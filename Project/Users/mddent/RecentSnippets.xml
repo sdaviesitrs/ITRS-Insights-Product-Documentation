@@ -1,2 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<UrlList />
+<UrlList>
+    <Url Source="Resources/Snippets/How to Edit Query.flsnp" />
+    <Url Source="Resources/Snippets/Interface Query &amp; FTS.flsnp" />
+    <Url Source="Resources/Snippets/Definition Query.flsnp" />
+    <Url Source="Resources/Snippets/About Free Text Search.flsnp" />
+    <Url Source="Resources/Snippets/Query Clauses.flsnp" />
+</UrlList>

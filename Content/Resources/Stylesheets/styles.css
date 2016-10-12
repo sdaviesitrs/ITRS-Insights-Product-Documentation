@@ -1,6 +1,4 @@
-﻿/*<meta />*/
-
- 
+/*<meta />*/
 
 body
 {
@@ -177,11 +175,11 @@ h2
 
 h3
 {
-	font-size: 10pt;
 	font-weight: normal;
 	line-height: 12pt;
 	mc-heading-level: 0;
 	font-family: exo;
+	font-size: 14pt;
 }
 
 h4
@@ -688,3 +686,64 @@ img.screenshotsmedium
 	mc-thumbnail-max-height: 400;
 	mc-thumbnail-max-width: 600;
 }
+
+p.pagebreak
+{
+	
+}
+
+@media print
+{
+	p.pagebreak
+	{
+		page-break-after: always;
+	}
+
+	tr
+	{
+		font-size: 9pt;
+	}
+
+	p.Copyright
+	{
+		font-size: 8pt;
+	}
+
+	p.CopyrightAddress
+	{
+		font-size: 8pt;
+	}
+
+	li.numbered_list_print
+	{
+		font-size: 10;
+		line-height: 20pt;
+	}
+
+	p
+	{
+		
+	}
+
+	li
+	{
+		font-size: 10;
+		line-height: 20pt;
+	}
+
+	MadCap|dropDownHead.H2NoKeyline
+	{
+		
+	}
+
+	MadCap|dropDownHead.H2
+	{
+		
+	}
+
+	h1
+	{
+		font-size: 20pt;
+	}
+}
+
