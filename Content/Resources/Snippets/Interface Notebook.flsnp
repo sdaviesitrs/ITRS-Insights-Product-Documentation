@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="569" MadCap:lastWidth="1177">
+    <body>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead class="H2NoKeyline">
+                <MadCap:dropDownHotspot>The Notebook Interface</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>Specific information about the <strong class="green">query </strong>and<strong class="green"> free text search</strong> interface elements can be found here: <MadCap:xref href="../../C_User Guides/Query, Search &amp; Transform Data User Guide.htm#Query_Text_Interface">The Query and Free Text Search Interface</MadCap:xref>.</p>
+                <p>
+                    <img src="../Images/interface_notebook.PNG" class="screenshotsmedium" />
+                </p>
+                <ol>
+                    <li>
+                        <MadCap:snippetText src="UI Definition Active Tab.flsnp" />
+                    </li>
+                    <li>
+                        <MadCap:snippetText src="UI Definition Breadcrumbs.flsnp" />
+                    </li>
+                    <li><strong>Queries&#160;&amp;&#160;Free Text Searches</strong> - your searches and queries are stored here </li>
+                    <li>
+                        <MadCap:snippetText src="UI Definition Add.flsnp" />
+                    </li>
+                    <li><strong>Add New Dialog</strong> - when you click Add, this dialog opens to allow you to choose whether to create a new query, free text search or text comment</li>
+                </ol>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+    </body>
+</html>

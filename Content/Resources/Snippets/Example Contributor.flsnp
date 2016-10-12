@@ -1,26 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="5" MadCap:lastHeight="478" MadCap:lastWidth="1194">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="5" MadCap:lastHeight="113" MadCap:lastWidth="1190">
     <body>
         <MadCap:dropDown>
             <MadCap:dropDownHead>
                 <MadCap:dropDownHotspot>Example Contributor</MadCap:dropDownHotspot>
             </MadCap:dropDownHead>
             <MadCap:dropDownBody>
-                <p id="Example"><strong>We use the concept of contributors to assign metadata to each data source</strong>. For example, is the source is a sensor in a heating system, we might categorize it based on what type of heater its in, who owns it, who it was manufactured by, or who installed it.&#160;You get the idea. </p>
-                <p id="Example">Like streams, each contributor has a unique <MadCap:keyword term="URI" />URI. </p>
                 <p id="Example">If we imagine that the electric kettle in the kitchen at house Number 4 contained a probe, it could have a URI along the lines of <code>/contributors/hce/Num4/kettle</code>, for example. </p>
-                <p id="Example">The contributor URI has the form:</p>
-                <blockquote>
-                    <p xml:space="preserve" id="Example"><code>
-/contributors/&lt;tenant&gt;/&lt;type&gt;
-</code>
-                    </p>
-                </blockquote>
-                <p id="Example">Where:</p>
-                <ul class="simple">
-                    <p id="Example"><code>tenant</code> = the organizational unit the stream belongs to</p>
-                    <p id="Example"><code>type</code> = the type of contributor (for example probe or app)</p>
-                </ul>
             </MadCap:dropDownBody>
         </MadCap:dropDown>
     </body>

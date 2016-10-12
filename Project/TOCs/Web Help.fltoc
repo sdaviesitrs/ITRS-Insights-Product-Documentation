@@ -48,13 +48,7 @@
       Link="/Content/C_User Guides/Template User Guide.htm" />
   </TocEntry>
   <TocEntry
-    Title="TECH REFERENCE">
-    <TocEntry
-      Title="Repositories">
-      <TocEntry
-        Title="Repositories - TSR &amp; SSR"
-        Link="/Content/B_Technical Reference/Repositories/Repositories - TSR &amp; SSR.htm" />
-    </TocEntry>
+    Title="TECHNICAL REFERENCE">
     <TocEntry
       Title="Algorithms">
       <TocEntry
@@ -101,64 +95,79 @@
         Link="/Content/B_Technical Reference/Geneos Integration/Streams.htm" />
     </TocEntry>
     <TocEntry
-      Title="Query Syntax &amp; Operators">
+      Title="Query Clauses, Functions &amp; Operators">
       <TocEntry
-        Title="Aggregation"
-        Link="/Content/B_Technical Reference/Query Clauses, Functions &amp; Operators/Query Clauses/aggregation.htm" />
+        Title="Query Clauses">
+        <TocEntry
+          Title="Aggregation"
+          Link="/Content/B_Technical Reference/Query Clauses, Functions &amp; Operators/Query Clauses/aggregation.htm" />
+        <TocEntry
+          Title="As"
+          Link="/Content/B_Technical Reference/Query Clauses, Functions &amp; Operators/Query Clauses/As.htm" />
+        <TocEntry
+          Title="Comment"
+          Link="/Content/B_Technical Reference/Query Clauses, Functions &amp; Operators/Query Clauses/Comment.htm" />
+        <TocEntry
+          Title="FROM"
+          Link="/Content/B_Technical Reference/Query Clauses, Functions &amp; Operators/Query Clauses/from.htm" />
+        <TocEntry
+          Title="Group By"
+          Link="/Content/B_Technical Reference/Query Clauses, Functions &amp; Operators/Query Clauses/GroupBy.htm" />
+        <TocEntry
+          Title="Into"
+          Link="/Content/B_Technical Reference/Query Clauses, Functions &amp; Operators/Query Clauses/Into.htm" />
+        <TocEntry
+          Title="Join"
+          Link="/Content/B_Technical Reference/Query Clauses, Functions &amp; Operators/Query Clauses/Join.htm" />
+        <TocEntry
+          Title="Order By"
+          Link="/Content/B_Technical Reference/Query Clauses, Functions &amp; Operators/Query Clauses/OrderBy.htm" />
+        <TocEntry
+          Title="Select"
+          Link="/Content/B_Technical Reference/Query Clauses, Functions &amp; Operators/Query Clauses/select.htm" />
+        <TocEntry
+          Title="Take"
+          Link="/Content/B_Technical Reference/Query Clauses, Functions &amp; Operators/Query Clauses/take.htm" />
+        <TocEntry
+          Title="Time Window"
+          Link="/Content/B_Technical Reference/Query Clauses, Functions &amp; Operators/Query Clauses/TimeWindow.htm" />
+        <TocEntry
+          Title="Union"
+          Link="/Content/B_Technical Reference/Query Clauses, Functions &amp; Operators/Query Clauses/Union.htm" />
+        <TocEntry
+          Title="Unique"
+          Link="/Content/B_Technical Reference/Query Clauses, Functions &amp; Operators/Query Clauses/Unique.htm" />
+        <TocEntry
+          Title="Where"
+          Link="/Content/B_Technical Reference/Query Clauses, Functions &amp; Operators/Query Clauses/where.htm" />
+        <TocEntry
+          Title="Window Join"
+          Link="/Content/B_Technical Reference/Query Clauses, Functions &amp; Operators/Query Clauses/WindowJoin.htm" />
+      </TocEntry>
       <TocEntry
-        Title="As"
-        Link="/Content/B_Technical Reference/Query Clauses, Functions &amp; Operators/Query Clauses/As.htm" />
+        Title="Query Clauses"
+        Link="/Content/B_Technical Reference/Query Clauses, Functions &amp; Operators/Query Clauses.htm" />
       <TocEntry
-        Title="Comment"
-        Link="/Content/B_Technical Reference/Query Clauses, Functions &amp; Operators/Query Clauses/Comment.htm" />
-      <TocEntry
-        Title="FROM"
-        Link="/Content/B_Technical Reference/Query Clauses, Functions &amp; Operators/Query Clauses/from.htm" />
-      <TocEntry
-        Title="Group By"
-        Link="/Content/B_Technical Reference/Query Clauses, Functions &amp; Operators/Query Clauses/GroupBy.htm" />
-      <TocEntry
-        Title="Into"
-        Link="/Content/B_Technical Reference/Query Clauses, Functions &amp; Operators/Query Clauses/Into.htm" />
-      <TocEntry
-        Title="Join"
-        Link="/Content/B_Technical Reference/Query Clauses, Functions &amp; Operators/Query Clauses/Join.htm" />
-      <TocEntry
-        Title="Order By"
-        Link="/Content/B_Technical Reference/Query Clauses, Functions &amp; Operators/Query Clauses/OrderBy.htm" />
-      <TocEntry
-        Title="Analysing Data"
+        Title="Query Functions"
         Link="/Content/B_Technical Reference/Query Clauses, Functions &amp; Operators/Query Functions.htm" />
       <TocEntry
         Title="Query Operators and Their Precedence"
         Link="/Content/B_Technical Reference/Query Clauses, Functions &amp; Operators/Query Operators.htm" />
-      <TocEntry
-        Title="Select"
-        Link="/Content/B_Technical Reference/Query Clauses, Functions &amp; Operators/Query Clauses/select.htm" />
-      <TocEntry
-        Title="Take"
-        Link="/Content/B_Technical Reference/Query Clauses, Functions &amp; Operators/Query Clauses/take.htm" />
-      <TocEntry
-        Title="Time Window"
-        Link="/Content/B_Technical Reference/Query Clauses, Functions &amp; Operators/Query Clauses/TimeWindow.htm" />
-      <TocEntry
-        Title="Union"
-        Link="/Content/B_Technical Reference/Query Clauses, Functions &amp; Operators/Query Clauses/Union.htm" />
-      <TocEntry
-        Title="Unique"
-        Link="/Content/B_Technical Reference/Query Clauses, Functions &amp; Operators/Query Clauses/Unique.htm" />
-      <TocEntry
-        Title="Where"
-        Link="/Content/B_Technical Reference/Query Clauses, Functions &amp; Operators/Query Clauses/where.htm" />
-      <TocEntry
-        Title="Window Join"
-        Link="/Content/B_Technical Reference/Query Clauses, Functions &amp; Operators/Query Clauses/WindowJoin.htm" />
     </TocEntry>
     <TocEntry
-      Title="Schema Fields">
+      Title="Repositories">
+      <TocEntry
+        Title="Repositories - TSR &amp; SSR"
+        Link="/Content/B_Technical Reference/Repositories/Repositories - TSR &amp; SSR.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="Schema Fields &amp; Types">
       <TocEntry
         Title="Field Identifiers and Formats"
         Link="/Content/B_Technical Reference/Schema Fields &amp; Types/field_identifiers_and_formats.htm" />
+      <TocEntry
+        Title="Schema Types"
+        Link="/Content/B_Technical Reference/Schema Fields &amp; Types/Schema Types.htm" />
     </TocEntry>
   </TocEntry>
   <TocEntry
