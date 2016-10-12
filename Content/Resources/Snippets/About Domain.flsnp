@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="2" MadCap:lastHeight="298" MadCap:lastWidth="1217">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="2" MadCap:lastHeight="299" MadCap:lastWidth="1229">
     <body>
         <p> Domains are dynamic groups of Contributors. </p>
-        <p>Because Domains are dynamic, they take the attribute (meta data)of a Contributor (as opposed to a flag), and will automatically detect any new Contributors have that attribute (while ignoring those that don't). </p>
+        <p>Because Domains are dynamic, they take the attribute (meta data) of a Contributor (as opposed to a flag), and will automatically detect any new Contributors have that attribute (while ignoring those that don't). </p>
         <p>In a smart city, we can create a Domain for all Contributors (sensors and other smart devices) in the West, and one for Contributors in the East. Any queries made to various Streams within the West domain will only operate on data coming from contributors in the West. </p>
         <p>In an&#160;ITOA example, you might have a Domain for Windows servers within a
 particular IP range, and query for only those that have the tags <code>critical </code>and <code>error</code>.

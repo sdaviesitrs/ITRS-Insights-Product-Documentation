@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="670" MadCap:lastWidth="1177">
+    <body>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead class="H2NoKeyline">
+                <MadCap:dropDownHotspot>The Domain Interface</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>
+                    <img src="../Images/interface_domain.PNG" class="screenshotsmedium" />
+                </p>
+                <ol>
+                    <li>
+                        <MadCap:snippetText src="UI Definition Active Tab.flsnp" />
+                    </li>
+                    <li>
+                        <MadCap:snippetText src="UI Definition Breadcrumbs.flsnp" />
+                    </li>
+                    <li>
+                        <MadCap:snippetText src="UI Definition Notebook Panel.flsnp" />
+                    </li>
+                    <li>
+                        <MadCap:snippetText src="UI Definition Dashboards Panel.flsnp" />
+                    </li>
+                    <li>
+                        <MadCap:snippetText src="UI Definition Edit.flsnp" />
+                    </li>
+                    <li>
+                        <MadCap:snippetText src="UI Definition Delete.flsnp" />
+                    </li>
+                </ol>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+    </body>
+</html>

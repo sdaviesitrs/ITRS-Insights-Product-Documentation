@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="735" MadCap:lastWidth="1177">
+    <body>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead class="H2NoKeyline">
+                <MadCap:dropDownHotspot><a name="Query_Text_Interface"></a>Query and Free Text Search Interface</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>
+                    <img src="../Images/interface_query&amp;search.PNG" class="screenshotsmedium" />
+                </p>
+                <ol>
+                    <li>
+                        <MadCap:snippetText src="UI Definition Active Tab.flsnp" />
+                    </li>
+                    <li><strong>Re-ordering bar </strong>- drag and drop to reorder your query or free text search</li>
+                    <li>
+                        <MadCap:snippetText src="UI Definition Breadcrumbs.flsnp" />
+                    </li>
+                    <li><strong>Query Panel</strong> - a text box in which you enter your query. <MadCap:variable name="General.Product Name Insights&#160;(abbreviated)" /> features a live syntax highlighter to enable you to rapidly see any errors in your query syntax</li>
+                    <li><strong>Free Text&#160;Panel </strong>- a text box in which you enter your text string </li>
+                    <li><strong>Run </strong>- runs all of the queries and free text searches in the active Notebook</li>
+                    <li>
+                        <MadCap:snippetText src="UI Definition Edit.flsnp" />
+                    </li>
+                    <li>
+                        <MadCap:snippetText src="UI Definition Export.flsnp" />
+                    </li>
+                    <li><strong>Run Query</strong> - runs the query</li>
+                    <li><strong>Time Boundary&#160;Selection</strong> - visible only in free text searches, these controls allow you to specify a time and date range for returned results</li>
+                    <li><strong>Search </strong>- runs the free text search</li>
+                    <li><strong>Additional Options </strong>- opens a dialog displaying additional options (duplicate and delete)</li>
+                    <li>
+                        <MadCap:snippetText src="UI Definition Add.flsnp" />
+                    </li>
+                </ol>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+    </body>
+</html>

@@ -1,23 +1,23 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <UrlList>
-    <Url Source="Resources/Snippets/How to Create Collection from New.flsnp" />
-    <Url Source="Resources/Snippets/Icon Save Dashboard.flsnp" />
+    <Url Source="Resources/Snippets/Example Schema.flsnp" />
+    <Url Source="Resources/Snippets/Icon Home.flsnp" />
+    <Url Source="Resources/Snippets/Icon Create Schema.flsnp" />
     <Url Source="Resources/Snippets/Procedure Type in Collection Drop-Down.flsnp" />
-    <Url Source="Resources/Snippets/Icon Edit.flsnp" />
-    <Url Source="Resources/Snippets/How to Edit Query.flsnp" />
-    <Url Source="Resources/Snippets/Icon Domain.flsnp" />
-    <Url Source="Resources/Snippets/Icon Notebook.flsnp" />
-    <Url Source="Resources/Snippets/UI Definition Home Dashboard.flsnp" />
-    <Url Source="Resources/Snippets/UI Definition Home Panel.flsnp" />
-    <Url Source="Resources/Snippets/UI Definition Domain Panel.flsnp" />
-    <Url Source="Resources/Snippets/UI Definition Dashboards Panel.flsnp" />
-    <Url Source="Resources/Snippets/UI Definition Notebook Panel.flsnp" />
-    <Url Source="Resources/Snippets/About Domain.flsnp" />
-    <Url Source="Resources/Snippets/About Query Domain.flsnp" />
+    <Url Source="Resources/Snippets/Icon Add New Data Stream.flsnp" />
+    <Url Source="Resources/Snippets/How To Create Domain.flsnp" />
+    <Url Source="Resources/Snippets/How To Create Schema.flsnp" />
     <Url Source="Resources/Snippets/About Schema.flsnp" />
-    <Url Source="Resources/Snippets/About TSR Simple.flsnp" />
-    <Url Source="Resources/Snippets/About TSR Technical.flsnp" />
-    <Url Source="Resources/Snippets/Definition Collections.flsnp" />
-    <Url Source="Resources/Snippets/Definition Notebook.flsnp" />
-    <Url Source="Resources/Snippets/Definition Schema.flsnp" />
+    <Url Source="Resources/Snippets/About Domain.flsnp" />
+    <Url Source="Resources/Snippets/Interface Domain.flsnp" />
+    <Url Source="Resources/Snippets/Interface Query &amp; FTS.flsnp" />
+    <Url Source="Resources/Snippets/Interface Notebook.flsnp" />
+    <Url Source="Resources/Snippets/Interface Dashboard.flsnp" />
+    <Url Source="Resources/Snippets/About Contributor.flsnp" />
+    <Url Source="Resources/Snippets/Example Contributor.flsnp" />
+    <Url Source="Resources/Snippets/Definition Contributor.flsnp" />
+    <Url Source="Resources/Snippets/Icon Copy to Clipboard.flsnp" />
+    <Url Source="Resources/Snippets/Icon Enable Filter.flsnp" />
+    <Url Source="Resources/Snippets/Icon Notebook.flsnp" />
+    <Url Source="Resources/Snippets/Icon_Preview_Swirl.flsnp" />
 </UrlList>
