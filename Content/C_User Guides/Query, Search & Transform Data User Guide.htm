@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="15" MadCap:lastHeight="16570" MadCap:lastWidth="1006">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="15" MadCap:lastHeight="814" MadCap:lastWidth="702">
     <head>
         <link href="../Resources/Stylesheets/styles.css" rel="stylesheet" type="text/css" />
     </head>
@@ -7,18 +7,13 @@
         <body>
             <h1><MadCap:variable name="General.Product Name&#160;Insights (Full)" /> Query,&#160;Search&#160;and Transform Data User Guide</h1>
             <p><MadCap:variable name="General.Product Name&#160;Insights (Full)" /> provides you with two powerful tools for analyzing and searching your data:</p>
-            <ul>
-                <li>
-                    <MadCap:snippetText src="../Resources/Snippets/About Free Text Search.flsnp" />
-                </li>
-                <li>
-                    <MadCap:snippetText src="../Resources/Snippets/Definition Query.flsnp" />
-                </li>
-            </ul>
+            <p>
+                <MadCap:snippetText src="../Resources/Snippets/About Free Text Search.flsnp" />
+            </p>
+            <MadCap:snippetBlock src="../Resources/Snippets/Definition Query.flsnp" />
             <p>This user guide will talk you through how <MadCap:variable name="General.Product Name Insights&#160;(abbreviated)" /> uses <strong class="green">queries </strong>and <strong class="green">free text searches</strong>, how to create basic and sophisticated queries, and how to run free text searches.</p>
             <p>If you're an advanced user and you're tempted to skip the introduction, please read our section on <MadCap:xref href="#TransformationalPipeline">The Transformational Pipeline</MadCap:xref>, as this will likely be different from your previous SQL experience.</p>
-            <p>Once you've run your query, you'll almost certainly want to visulize the results. For this, check out our <MadCap:xref href="Visualizing Results User Guide.htm">[%=General.Product Name&#160;Insights (Full)%] Visualizing Results User Guide</MadCap:xref>.</p>
-            <MadCap:pageBreak />
+            <p>Once you've run your query, you'll almost certainly want to visualize the results. For this, check out our <MadCap:xref href="Visualizing Results User Guide.htm">[%=General.Product Name&#160;Insights (Full)%] Visualizing Results User Guide</MadCap:xref>.</p>
             <MadCap:dropDown>
                 <MadCap:dropDownHead class="H2NoKeyline">
                     <MadCap:dropDownHotspot>Introduction</MadCap:dropDownHotspot>
@@ -73,50 +68,20 @@ anomaly detection and univariate analysis.</p>
                             <MadCap:snippetBlock src="../Resources/Snippets/How To Launch Valo.flsnp" />
                         </p>
                     </blockquote>
-                    <ol MadCap:continue="true">
+                    <ol start="3" MadCap:continue="true">
                         <li><MadCap:variable name="General.Product Name Insights&#160;(abbreviated)" /> running...</li>
                     </ol>
-                    <MadCap:pageBreak />
                     <blockquote>
                         <p>
                             <MadCap:snippetBlock src="../Resources/Snippets/How To Launch Insights.flsnp" />
                         </p>
                     </blockquote>
                     <ol MadCap:continue="true">
-                        <li>...a data stream in an&#160;SSR or TSR</li>
+                        <li class="numbered_list_print">...a data stream in an&#160;SSR or TSR</li>
                     </ol>
                     <p style="text-indent: 0.5in;">Ask your systems administrator if you need help with this bit. </p>
                 </MadCap:dropDownBody>
             </MadCap:dropDown>
-            <h2><a name="Query_Text_Interface"></a>Query and Free Text Search Interface</h2>
-            <p style="text-align: left;">
-                <img src="../Resources/Images/interface_query&amp;search.PNG" class="screenshotsmedium" />
-            </p>
-            <ol>
-                <li>
-                    <MadCap:snippetText src="../Resources/Snippets/UI Definition Active Tab.flsnp" />
-                </li>
-                <li><strong>Re-ordering bar </strong>- drag and drop to reorder your query or free text search</li>
-                <li>
-                    <MadCap:snippetText src="../Resources/Snippets/UI Definition Breadcrumbs.flsnp" />
-                </li>
-                <li><strong>Query Panel</strong> - a text box in which you enter your query. <MadCap:variable name="General.Product Name Insights&#160;(abbreviated)" /> features a live syntax highlighter to enable you to rapidly see any errors in your query syntax</li>
-                <li><strong>Free Text&#160;Panel </strong>- a text box in which you enter your text string </li>
-                <li><strong>Run </strong>- runs all of the queries and free text searches in the active Notebook</li>
-                <li>
-                    <MadCap:snippetText src="../Resources/Snippets/UI Definition Edit.flsnp" />
-                </li>
-                <li>
-                    <MadCap:snippetText src="../Resources/Snippets/UI Definition Export.flsnp" />
-                </li>
-                <li><strong>Run Query</strong> - runs the query</li>
-                <li><strong>Time Boundary&#160;Selection</strong> - visible only in free text searches, these controls allow you to specify a time and date range for returned results</li>
-                <li><strong>Search </strong>- runs the free text search</li>
-                <li><strong>Additional Options </strong>- opens a dialog displaying additional options (duplicate and delete)</li>
-                <li>
-                    <MadCap:snippetText src="../Resources/Snippets/UI Definition Add.flsnp" />
-                </li>
-            </ol>
             <MadCap:snippetBlock src="../Resources/Snippets/Interface Query &amp; FTS.flsnp" />
             <p>For information about the interface displayed once a free text search or query has been run, see <MadCap:xref href="Visualizing Results User Guide.htm#VisualizingInterface">The Visualization Interface</MadCap:xref>.</p>
             <h2><MadCap:variable name="General.Product Name Insights&#160;(abbreviated)" /> Query</h2>
@@ -336,7 +301,7 @@ select sampleTime, area, count(carbonm) as criticalCarbonMCount</pre>
             </MadCap:dropDown>
             <h2><a name="Search"></a><MadCap:variable name="General.Product Name Insights&#160;(abbreviated)" /> FREE&#160;TEXT&#160;Search </h2>
             <p><MadCap:variable name="General.Product Name Insights&#160;(abbreviated)" />' allows you to conduct a free text search across all of your data streams at the same time. </p>
-            <p class="note">In <MadCap:variable name="General.Product Name Insights&#160;(abbreviated)" /><MadCap:variable name="Version.CurrentInsights" />, only a single search term can be entered, and Boolean operators are not supported. </p>
+            <p class="note">In <MadCap:variable name="General.Product Name Insights&#160;(abbreviated)" /> <MadCap:variable name="Version.CurrentInsights" />, only a single search term can be entered, and Boolean operators are not supported. </p>
             <p>Similar to an internet search engine, <strong class="green">Free Text&#160;Search</strong> searches your data for a number or text string that you specify.</p>
             <p>The search capability supports the wildcard *, allows you to search within a query and across multiple data streams. It returns and orders results based on their relevance.</p>
             <MadCap:dropDown>
