@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <PageStyles xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:conditions="Output.Print">
     <Page Name="All" Padding="20px" PageSize="A4" PageType="normal" PaddingLeft="1in" PaddingRight="1.00in" PaddingTop="1in" PaddingBottom="1in" Orientation="portrait" Height="9in" Width="7in" BleedLeft="0.25in" BleedRight="0.25in" BleedTop="0.25in" BleedBottom="0.25in">
-        <Frame Flow="body" Y="-20px" Bottom="72px" X="-51px" Right="-56px" ColumnCount="1" ColumnGap="30px" ColumnDivider="Solid 1px Red" Anchors="Left,Right,Top,Bottom" Width="709px" Height="879px">
+        <Frame Flow="body" Y="-20px" Bottom="72px" X="1px" Right="-2px" ColumnCount="1" ColumnGap="30px" ColumnDivider="Solid 1px Red" Anchors="Left,Right,Top,Bottom" Width="603px" Height="879px">
         </Frame>
     </Page>
 </PageStyles>

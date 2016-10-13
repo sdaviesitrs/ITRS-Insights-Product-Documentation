@@ -733,7 +733,9 @@ p.pagebreak
 
 	MadCap|dropDownHead.H2NoKeyline
 	{
-		
+		color: #000000;
+		font-family: 'open sans';
+		font-size: 14pt;
 	}
 
 	MadCap|dropDownHead.H2
@@ -744,6 +746,43 @@ p.pagebreak
 	h1
 	{
 		font-size: 20pt;
+	}
+
+	p.front_cover_title
+	{
+		font: inherit;
+		font-size: 25pt;
+		font-weight: bold;
+		color: #b4c66c;
+		text-align: right;
+	}
+
+	p.front_cover_text
+	{
+		font: inherit;
+		font-weight: bold;
+		font-size: 20pt;
+		color: #b4c66c;
+		text-align: right;
+	}
+
+	p.front_cover_smaller_text
+	{
+		text-align: right;
+		font-size: 9pt;
+	}
+
+	h1.UserGuideBHeading
+	{
+		text-align: center;
+	}
+
+	p.ReferenceTableHdr
+	{
+		color: #a7da1c;
+		font-size: 20pt;
+		font-weight: bold;
+		text-align: center;
 	}
 }
 

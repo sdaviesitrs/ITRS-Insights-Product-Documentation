@@ -3,7 +3,7 @@
   <Variable
     Comment=""
     Name="ITRS Company Name"
-    EvaluatedDefinition="ITRS Group Ltd.">ITRS Group Ltd.</Variable>
+    EvaluatedDefinition="ITRS Group Ltd">ITRS Group Ltd</Variable>
   <Variable
     Comment=""
     Name="LondonPhoneNumber"
@@ -52,4 +52,12 @@
     Name="LondonEmail"
     Comment=""
     EvaluatedDefinition="e: europe@itrsgroup.com">e: europe@itrsgroup.com</Variable>
+  <Variable
+    Name="DocumentType"
+    Comment=""
+    EvaluatedDefinition="User Guide">User Guide</Variable>
+  <Variable
+    Name="DocumentTitle"
+    Comment=""
+    EvaluatedDefinition="Document title">Document title</Variable>
 </CatapultVariableSet>

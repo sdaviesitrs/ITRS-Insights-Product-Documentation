@@ -27,4 +27,8 @@
     ConvertToCMYK="true"
     PageMode="UseOutlines"
     PageLayout="SinglePage" />
+  <Variables>
+    <Variable
+      Name="General/DocumentTitle">Query, Search and Transform</Variable>
+  </Variables>
 </CatapultTarget>
