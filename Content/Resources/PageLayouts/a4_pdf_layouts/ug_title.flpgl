@@ -13,5 +13,14 @@
         </Frame>
         <Frame Flow="body" Y="-20px" Bottom="72px" X="-51px" Right="-56px" ColumnCount="1" ColumnGap="30px" ColumnDivider="Solid 1px Red" Anchors="Left,Right,Top,Bottom" Width="709px" Height="879px">
         </Frame>
+        <Frame X="279px" Y="0px" Width="321px" Height="61px" Flow="decoration0" BackgroundImage="../../Images/logo_ITRSInsights_Valogreen_grey.png" BackgroundRepeat="stretch" Right="2px" Bottom="870px" Anchors="">
+            <Content>
+                <xhtml:html xmlns:xhtml="http://www.w3.org/1999/xhtml">
+                    <xhtml:body>
+                        <xhtml:p>&#160;</xhtml:p>
+                    </xhtml:body>
+                </xhtml:html>
+            </Content>
+        </Frame>
     </Page>
 </PageStyles>

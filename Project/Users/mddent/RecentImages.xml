@@ -1,5 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <UrlList>
+    <Url Source="file:///C:/Users/mddent/Documents/GitHub/ITRS-Insights-Product-Documentation/Content/Resources/Images/logo_ITRSInsights_Valogreen_grey.png" />
+    <Url Source="file:///C:/Users/mddent/Documents/GitHub/ITRS-Insights-Product-Documentation/Content/Resources/Images/InsightsLogo.png" />
+    <Url Source="Resources/Images/InsightsLogo.png" />
+    <Url Source="Resources/Images/CompanyLogo.png" />
     <Url Source="Resources/Images/createQuery1.PNG" />
     <Url Source="Resources/Images/addnewnotebook.PNG" />
     <Url Source="Resources/Images/createquery4.PNG" />

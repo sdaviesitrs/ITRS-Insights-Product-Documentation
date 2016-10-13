@@ -75,8 +75,8 @@
                                         <xhtml:p xhtml:class="FrameFooterText2"><MadCap:variable xhtml:name="General.Product Name&#160;Insights (Full)" /> User Guide</xhtml:p>
                                     </xhtml:td>
                                     <xhtml:td xhtml:class="TableStyle-Simple-BodyA-Column1-Row1">
-                                        <xhtml:p xhtml:class="FrameFooterText2" xhtml:style="text-align: right;">
-                                            <xhtml:img xhtml:src="../../../../../../../Desktop/ITRS Insights PDF User Guides/Content/Resources/Images/FooterCircleBlack.eps" xhtml:style="max-width: 30px;" />&#160;<xhtml:img xhtml:src="../../../../../../../Desktop/ITRS Insights PDF User Guides/Content/Resources/Images/FooterCircleBlack.eps" xhtml:style="max-width: 30px;" />&#160;<xhtml:img xhtml:src="../../../../../../../Desktop/ITRS Insights PDF User Guides/Content/Resources/Images/FooterLogoBlack.eps" xhtml:style="max-width: 30px;" /></xhtml:p>
+                                        <xhtml:p xhtml:class="FrameFooterText2" xhtml:style="text-align: right;"><MadCap:variable xhtml:name="General.ITRS Company&#160;Name" />
+                                        </xhtml:p>
                                     </xhtml:td>
                                 </xhtml:tr>
                             </xhtml:tbody>
