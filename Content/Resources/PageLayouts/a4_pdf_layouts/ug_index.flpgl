@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<PageStyles xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:conditions="Output.Print">
+<PageStyles xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
     <Page Name="First Right" Padding="20px" PageSize="A4" PageType="firstright" PaddingLeft="1.5in" PaddingRight="1in" PaddingTop="1in" PaddingBottom="1in" Orientation="portrait" BackgroundType="Solid" BackgroundColor="#26272a" BleedLeft="0.25in" BleedRight="0.25in" BleedTop="0.25in" BleedBottom="0.25in">
         <Frame Flow="footer" Height="47px" Anchors="Left,Right,Bottom" Right="0px" Bottom="0px" X="85px" Y="884px" Width="469px" TextAlign="right" VerticalAlign="top">
             <Content>
@@ -7,8 +7,7 @@
                     <xhtml:head>
                     </xhtml:head>
                     <xhtml:body>
-                        <xhtml:p xhtml:class="FrameFooterText">
-                            <xhtml:img xhtml:src="../../../../../../../Desktop/ITRS Insights PDF User Guides/Content/Resources/Images/FooterCircle.eps" xhtml:style="max-width: 30px;" />&#160;<xhtml:img xhtml:src="../../../../../../../Desktop/ITRS Insights PDF User Guides/Content/Resources/Images/FooterCircle.eps" xhtml:style="max-width: 30px;" />&#160;<xhtml:img xhtml:src="../../../../../../../Desktop/ITRS Insights PDF User Guides/Content/Resources/Images/FooterLogo.eps" xhtml:style="max-width: 30px;" /></xhtml:p>
+                        <xhtml:p xhtml:class="FrameFooterText">&#160;</xhtml:p>
                     </xhtml:body>
                 </xhtml:html>
             </Content>
@@ -18,23 +17,22 @@
         </Frame>
     </Page>
     <Page Name="Left" Padding="20px" PageSize="A4" PageType="left" PaddingLeft="1.5in" PaddingRight="1in" PaddingTop="1in" PaddingBottom="1in" Orientation="portrait" BackgroundType="Solid" BackgroundColor="#242527" BleedBottom="0.25in" BleedTop="0.25in" BleedRight="0.25in" BleedLeft="0.25in">
-        <Frame Flow="body" Y="48px" Bottom="72px" X="-65px" Right="0px" ColumnCount="2" ColumnGap="30px" ColumnDivider="Solid 1px Red" Anchors="Left,Right,Top,Bottom" Width="619px" Height="811px">
+        <Frame Flow="body" Y="48px" Bottom="72px" X="0px" Right="0px" ColumnCount="2" ColumnGap="30px" ColumnDivider="Solid 1px Red" Anchors="Left,Right,Top,Bottom" Width="554px" Height="811px">
         </Frame>
-        <Frame Flow="footer" Height="47px" Anchors="Left,Right,Bottom" Right="0px" Bottom="0px" X="-66px" Y="884px" Width="620px" TextAlign="left" VerticalAlign="top">
+        <Frame Flow="footer" Height="47px" Anchors="Left,Right,Bottom" Right="0px" Bottom="0px" X="0px" Y="884px" Width="554px" TextAlign="left" VerticalAlign="top">
             <Content>
                 <xhtml:html xmlns:xhtml="http://www.w3.org/1999/xhtml">
                     <xhtml:head>
                     </xhtml:head>
                     <xhtml:body>
-                        <xhtml:p xhtml:class="FrameFooterText"><MadCap:variable xhtml:name="System.PageNumber" />
-                        </xhtml:p>
+                        <xhtml:p>&#160;</xhtml:p>
                     </xhtml:body>
                 </xhtml:html>
             </Content>
         </Frame>
     </Page>
-    <Page Name="Empty Left" Width="7in" Height="9in" Padding="20px" PageSize="Letter" PageType="emptyleft" PaddingLeft="1.5in" PaddingRight="1in" PaddingTop="1in" PaddingBottom="1in" Orientation="portrait" BleedBottom="0.25in" BleedTop="0.25in" BleedRight="0.25in" BleedLeft="0.25in">
-        <Frame Flow="footer" Height="47px" Anchors="Left,Right,Bottom" Right="0px" Bottom="0px" X="0px" Y="817px" Width="576px" TextAlign="left" VerticalAlign="top">
+    <Page Name="Empty Left" Width="7in" Height="9in" Padding="20px" PageSize="A4" PageType="emptyleft" PaddingLeft="1.5in" PaddingRight="1in" PaddingTop="1in" PaddingBottom="1in" Orientation="portrait" BleedBottom="0.25in" BleedTop="0.25in" BleedRight="0.25in" BleedLeft="0.25in">
+        <Frame Flow="footer" Height="47px" Anchors="Left,Right,Bottom" Right="0px" Bottom="0px" X="0px" Y="884px" Width="554px" TextAlign="left" VerticalAlign="top">
             <Content>
                 <xhtml:html xmlns:xhtml="http://www.w3.org/1999/xhtml">
                     <xhtml:head>
@@ -46,7 +44,7 @@
                 </xhtml:html>
             </Content>
         </Frame>
-        <Frame X="137px" Y="406px" Width="303px" Height="52px" Flow="decoration0" Right="136px" Bottom="406px" Anchors="Left,Right,Top,Bottom">
+        <Frame X="137px" Y="406px" Width="281px" Height="119px" Flow="decoration0" Right="136px" Bottom="406px" Anchors="Left,Right,Top,Bottom">
             <Content>
                 <xhtml:html xmlns:xhtml="http://www.w3.org/1999/xhtml">
                     <xhtml:body>
@@ -57,9 +55,9 @@
         </Frame>
     </Page>
     <Page Name="Right" Padding="20px" PageSize="A4" PageType="right" PaddingLeft="1.5in" PaddingRight="1in" PaddingTop="1in" PaddingBottom="1in" Orientation="portrait" BackgroundType="Solid" BackgroundColor="#26282b" BleedBottom="0.25in" BleedTop="0.25in" BleedRight="0.25in" BleedLeft="0.25in">
-        <Frame Flow="body" Y="48px" Bottom="72px" X="-65px" Right="-1px" ColumnCount="2" ColumnGap="30px" ColumnDivider="Solid 1px Red" Anchors="Left,Right,Top,Bottom" Width="620px" Height="811px">
+        <Frame Flow="body" Y="48px" Bottom="72px" X="0px" Right="0px" ColumnCount="2" ColumnGap="30px" ColumnDivider="Solid 1px Red" Anchors="Left,Right,Top,Bottom" Width="554px" Height="811px">
         </Frame>
-        <Frame Flow="footer" Height="47px" Anchors="Left,Right,Bottom" Right="0px" Bottom="0px" X="-66px" Y="884px" Width="620px" TextAlign="right" VerticalAlign="top">
+        <Frame Flow="footer" Height="47px" Anchors="Left,Right,Bottom" Right="0px" Bottom="0px" X="0px" Y="884px" Width="554px" TextAlign="right" VerticalAlign="top">
             <Content>
                 <xhtml:html xmlns:xhtml="http://www.w3.org/1999/xhtml">
                     <xhtml:head>
@@ -72,11 +70,10 @@
                             <xhtml:tbody>
                                 <xhtml:tr xhtml:class="TableStyle-Simple-Body-Row1">
                                     <xhtml:td xhtml:class="TableStyle-Simple-BodyB-Column1-Row1">
-                                        <xhtml:p xhtml:class="FrameFooterText2">INDEX │<MadCap:variable xhtml:name="General.Product Name&#160;Insights (Full)" /> User Guide</xhtml:p>
+                                        <xhtml:p xhtml:class="FrameFooterText2">&#160;</xhtml:p>
                                     </xhtml:td>
                                     <xhtml:td xhtml:class="TableStyle-Simple-BodyA-Column1-Row1">
-                                        <xhtml:p xhtml:class="FrameFooterText2" xhtml:style="text-align: right;">
-                                            <xhtml:img xhtml:src="../../../../../../../Desktop/ITRS Insights PDF User Guides/Content/Resources/Images/FooterCircle.eps" xhtml:style="max-width: 30px;" />&#160;<xhtml:img xhtml:src="../../../../../../../Desktop/ITRS Insights PDF User Guides/Content/Resources/Images/FooterCircle.eps" xhtml:style="max-width: 30px;" />&#160;<xhtml:img xhtml:src="../../../../../../../Desktop/ITRS Insights PDF User Guides/Content/Resources/Images/FooterLogo.eps" xhtml:style="max-width: 30px;" /></xhtml:p>
+                                        <xhtml:p xhtml:class="FrameFooterText2" xhtml:style="text-align: right;">&#160;</xhtml:p>
                                     </xhtml:td>
                                 </xhtml:tr>
                             </xhtml:tbody>

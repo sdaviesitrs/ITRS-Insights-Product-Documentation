@@ -1,12 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="7" MadCap:lastHeight="397" MadCap:lastWidth="1164">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="7" MadCap:lastHeight="492.6667" MadCap:lastWidth="576">
+    <head>
+        <link href="../TableStyles/Standard.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
     <body>
         <MadCap:dropDown>
             <MadCap:dropDownHead>
                 <MadCap:dropDownHotspot><MadCap:variable name="General.Product Name Insights&#160;(abbreviated)" /> Query&#160;Operators</MadCap:dropDownHotspot>
             </MadCap:dropDownHead>
             <MadCap:dropDownBody>
-                <table border="1" class="docutils">
+                <table border="1" class="TableStyle-Standard" style="mc-table-style: url('../TableStyles/Standard.css');" cellspacing="0">
                     <colgroup>
                         <col width="18%">
                         </col>
@@ -16,54 +19,54 @@
                         </col>
                     </colgroup>
                     <thead valign="bottom">
-                        <tr>
-                            <th class="head">Precedence</th>
-                            <th class="head">Operators</th>
-                            <th class="head">Description</th>
+                        <tr class="TableStyle-Standard-Head-Header1">
+                            <th class="TableStyle-Standard-HeadE-Column1-Header1">Precedence</th>
+                            <th class="TableStyle-Standard-HeadE-Column2-Header1">Operators</th>
+                            <th class="TableStyle-Standard-HeadD-Column3-Header1">Description</th>
                         </tr>
                     </thead>
                     <tbody valign="top">
-                        <tr>
-                            <td>1</td>
-                            <td><tt class="docutils literal">()</tt>
+                        <tr class="TableStyle-Standard-Body-Row1">
+                            <td class="TableStyle-Standard-BodyE-Column1-Row1">1</td>
+                            <td class="TableStyle-Standard-BodyE-Column2-Row1"><tt class="docutils literal">()</tt>
                             </td>
-                            <td>Explicit precedence</td>
+                            <td class="TableStyle-Standard-BodyD-Column3-Row1">Explicit precedence</td>
                         </tr>
-                        <tr>
-                            <td>2</td>
-                            <td><tt class="docutils literal">* / %</tt>
+                        <tr class="TableStyle-Standard-Body-Row1">
+                            <td class="TableStyle-Standard-BodyE-Column1-Row1">2</td>
+                            <td class="TableStyle-Standard-BodyE-Column2-Row1"><tt class="docutils literal">* / %</tt>
                             </td>
-                            <td>Multiplication, division, and remainder</td>
+                            <td class="TableStyle-Standard-BodyD-Column3-Row1">Multiplication, division, and remainder</td>
                         </tr>
-                        <tr>
-                            <td>3</td>
-                            <td><tt class="docutils literal">+ -</tt>
+                        <tr class="TableStyle-Standard-Body-Row1">
+                            <td class="TableStyle-Standard-BodyE-Column1-Row1">3</td>
+                            <td class="TableStyle-Standard-BodyE-Column2-Row1"><tt class="docutils literal">+ -</tt>
                             </td>
-                            <td>Addition and subtraction</td>
+                            <td class="TableStyle-Standard-BodyD-Column3-Row1">Addition and subtraction</td>
                         </tr>
-                        <tr>
-                            <td>4</td>
-                            <td><tt class="docutils literal">&lt; &lt;= == != &gt;= &gt;</tt>
+                        <tr class="TableStyle-Standard-Body-Row1">
+                            <td class="TableStyle-Standard-BodyE-Column1-Row1">4</td>
+                            <td class="TableStyle-Standard-BodyE-Column2-Row1"><tt class="docutils literal">&lt; &lt;= == != &gt;= &gt;</tt>
                             </td>
-                            <td>Comparison</td>
+                            <td class="TableStyle-Standard-BodyD-Column3-Row1">Comparison</td>
                         </tr>
-                        <tr>
-                            <td>5</td>
-                            <td><tt class="docutils literal">NOT</tt>
+                        <tr class="TableStyle-Standard-Body-Row1">
+                            <td class="TableStyle-Standard-BodyE-Column1-Row1">5</td>
+                            <td class="TableStyle-Standard-BodyE-Column2-Row1"><tt class="docutils literal">NOT</tt>
                             </td>
-                            <td>Logical not</td>
+                            <td class="TableStyle-Standard-BodyD-Column3-Row1">Logical not</td>
                         </tr>
-                        <tr>
-                            <td>6</td>
-                            <td><tt class="docutils literal">AND</tt>
+                        <tr class="TableStyle-Standard-Body-Row1">
+                            <td class="TableStyle-Standard-BodyE-Column1-Row1">6</td>
+                            <td class="TableStyle-Standard-BodyE-Column2-Row1"><tt class="docutils literal">AND</tt>
                             </td>
-                            <td>Logical and</td>
+                            <td class="TableStyle-Standard-BodyD-Column3-Row1">Logical and</td>
                         </tr>
-                        <tr>
-                            <td>7</td>
-                            <td><tt class="docutils literal">OR</tt>
+                        <tr class="TableStyle-Standard-Body-Row1">
+                            <td class="TableStyle-Standard-BodyB-Column1-Row1">7</td>
+                            <td class="TableStyle-Standard-BodyB-Column2-Row1"><tt class="docutils literal">OR</tt>
                             </td>
-                            <td>Logical or</td>
+                            <td class="TableStyle-Standard-BodyA-Column3-Row1">Logical or</td>
                         </tr>
                     </tbody>
                 </table>

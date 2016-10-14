@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="15" MadCap:lastHeight="666" MadCap:lastWidth="576">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="15" MadCap:lastHeight="663" MadCap:lastWidth="576">
     <head>
         <link href="../Resources/Stylesheets/styles.css" rel="stylesheet" type="text/css" />
     </head>
@@ -155,11 +155,12 @@ example:</p>
                             <img src="../Resources/Images/pipelineexample1.PNG" class="screenshotsmedium" />
                         </p>
                     </blockquote>
-                    <p>Now we can modify the query and start performing some transformations. Lets add a <code>where </code>clause:</p>
+                    <p class="caption" MadCap:autonum=" Figure 1.1: ">Basic Queries</p>
+                    <p>Now we can modify the query and start performing some trans</p>
+                    <p>formations. Lets add a <code>where </code>clause:</p>
                     <blockquote><pre xml:space="preserve">from historical /streams/demo/infrastructure/cpu
 where kernel &gt; 10</pre>
                     </blockquote>
-                    <MadCap:pageBreak />
                     <p>The results of this first transformation would be:</p>
                     <blockquote><pre>[
   { "host": "c.itrs", "process": "Excel", "user": 50.0, "kernel": 75.0 },
@@ -175,7 +176,6 @@ order by host</pre>
   { "host": "b.itrs", "process": "RiskEngine", "user": 70.0, "kernel": 99.0 },
   { "host": "c.itrs", "process": "Excel", "user": 50.0, "kernel": 75.0 }
 ]</pre>
-                    <MadCap:pageBreak />
                     <p>Our final transformation will select some fields and alias them:</p>
                     <blockquote><pre>from historical /streams/demo/infrastructure/cpu
 where kernel &gt; 50
@@ -219,6 +219,7 @@ where kernel &gt; 50</pre>
                         <p style="text-align: left;">
                             <img src="../Resources/Images/createquery4.PNG" class="screenshotsmedium" />
                         </p>
+                        <p class="caption" MadCap:autonum=" Figure 1.2: ">Results Window</p>
                     </blockquote>
                     <p>You can now group your results and sort them by clicking on the column headers in the same way that you would a commercial spreadsheet program. </p>
                     <p>You'll also notice that the visualization panel has appeared below the query you wrote. This allows you  to start visualizing your data, and even start putting it into <strong class="green">Dashboards</strong>. Check out our <MadCap:xref href="Visualizing Results User Guide.htm">[%=General.Product Name&#160;Insights (Full)%] Visualizing Results User Guide</MadCap:xref> and our <MadCap:xref href="Dashboard, Notebook &amp; Collection User Guide.htm">[%=General.Product Name&#160;Insights (Full)%] &#160;Notebook&#160;&amp; Dashboard User Guide</MadCap:xref>.</p>
@@ -262,6 +263,7 @@ where kernel &gt; 50</pre>
                     <MadCap:snippetBlock src="../Resources/Snippets/Definition Schema.flsnp" />
                     <MadCap:snippetBlock src="../Resources/Snippets/How To View Schema.flsnp" />
                     <p>If you need to know more, check out our <MadCap:xref href="Data Streams &amp; Schema User Guide.htm">[%=General.Product Name&#160;Insights (Full)%] Data Streams &amp;&#160;Schema User Guide</MadCap:xref>.</p>
+                    <MadCap:pageBreak />
                     <h3><MadCap:variable name="General.Product Name Insights&#160;(abbreviated)" />' Query&#160;Syntax &amp;&#160;Constructions</h3>
                     <p>Query clauses are the foundation of <MadCap:variable name="General.Product Name Insights&#160;(abbreviated)" />' transformation query capability. </p>
                     <p>There are a limited number of them, and if you have any SQL experience you should be familiar with them. If not, we'd recommend taking a free online SQL course as a quick primer (you can try <a href="https://www.codecademy.com/learn/learn-sql">Code Academy</a>, for <MadCap:annotation MadCap:createDate="2016-10-11T16:38:36.6893974+01:00" MadCap:creator="mddent" MadCap:initials="MD" MadCap:comment="Moved the Insights Query Clauses (Transformations) snippet to a new topic called Query Clause Transfomations" MadCap:editor="mddent" MadCap:editDate="2016-10-11T16:40:09.0861143+01:00">example</MadCap:annotation>). </p>
@@ -292,13 +294,14 @@ where carbonm &gt; 15
 group by sampleTime window of 2 minutes, area
 select sampleTime, area, count(carbonm) as criticalCarbonMCount</pre>
                     </blockquote>
-                    <MadCap:snippetBlock src="../Resources/Snippets/Query Functions.flsnp" />
-                    <MadCap:snippetBlock src="../Resources/Snippets/Query Operators.flsnp" />
+                    <p>See <MadCap:xref href="../B_Technical Reference/Query Clauses, Functions &amp; Operators/Query Functions.htm">"Query&#160;Functions" on page&#160;1</MadCap:xref> and <MadCap:xref href="../B_Technical Reference/Query Clauses, Functions &amp; Operators/Query Operators.htm">"Query Operators" on page&#160;1</MadCap:xref> for more information.</p>
                     <p>More information on field identifiers, formats and types can be found here: <MadCap:xref href="../B_Technical Reference/Schema Fields &amp; Types/field_identifiers_and_formats.htm">Field Identifiers and Formats.</MadCap:xref></p>
+                    <MadCap:pageBreak />
                     <h3>Using <MadCap:variable name="General.Product Name Insights&#160;(abbreviated)" />' Data Structure to Improve your Queries</h3>
                     <MadCap:snippetBlock src="../Resources/Snippets/About Query Domain.flsnp" />
                 </MadCap:dropDownBody>
             </MadCap:dropDown>
+            <p>See Query Functions and Query Operators for more information</p>
             <h2><a name="Search"></a><MadCap:variable name="General.Product Name Insights&#160;(abbreviated)" /> FREE&#160;TEXT&#160;Search </h2>
             <p><MadCap:variable name="General.Product Name Insights&#160;(abbreviated)" />' allows you to conduct a free text search across all of your data streams at the same time. </p>
             <p class="note">In <MadCap:variable name="General.Product Name Insights&#160;(abbreviated)" /> <MadCap:variable name="Version.CurrentInsights" />, only a single search term can be entered, and Boolean operators are not supported. </p>
