@@ -71,8 +71,7 @@
     VolumeNumberReset="same"
     ChapterNumberReset="continue"
     BreakType="pageLayout"
-    PageLayout="/Content/Resources/PageLayouts/a4_pdf_layouts/ug_chapters.flpgl"
-    PageType="left">
+    PageLayout="/Content/Resources/PageLayouts/a4_pdf_layouts/ug_chapters.flpgl">
     <TocEntry
       Title="Introduction to [%=General.Product Name Insights (Full)%] Concepts"
       Link="/Content/A_Quick Start/Organizing Data in ITRS Insights.htm"
@@ -92,7 +91,7 @@
     BreakType="chapter"
     StartSection="false"
     PageNumberReset="continue"
-    PageLayout="/Content/Resources/PageLayouts/a4_pdf_layouts/ug_appendix.flpgl"
+    PageLayout="/Content/Resources/PageLayouts/a4_pdf_layouts/ug_chapters.flpgl"
     PageType="firstright"
     ChapterNumberReset="reset"
     ChapterNumber="2"
@@ -103,7 +102,7 @@
       Link="/Content/B_Technical Reference/Query Clauses, Functions &amp; Operators/Query Clauses.htm"
       BreakType="pageLayout"
       StartSection="false"
-      PageLayout="/Content/Resources/PageLayouts/a4_pdf_layouts/ug_chapters.flpgl"
+      PageLayout="/Content/Resources/PageLayouts/a4_pdf_layouts/ug_landscape.flpgl"
       PageNumberReset="continue" />
     <TocEntry
       Title="Aggregation"
@@ -111,7 +110,8 @@
       BreakType="pageLayout"
       PageNumberReset="continue"
       StartSection="false"
-      PageLayout="/Content/Resources/PageLayouts/a4_pdf_layouts/ug_chapters.flpgl" />
+      PageLayout="/Content/Resources/PageLayouts/a4_pdf_layouts/ug_chapters.flpgl"
+      PageType="left" />
     <TocEntry
       Title="As"
       Link="/Content/B_Technical Reference/Query Clauses, Functions &amp; Operators/Query Clauses/As.htm"
@@ -217,7 +217,7 @@
     BreakType="chapter"
     StartSection="false"
     PageNumberReset="continue"
-    PageLayout="/Content/Resources/PageLayouts/a4_pdf_layouts/ug_appendix.flpgl"
+    PageLayout="/Content/Resources/PageLayouts/a4_pdf_layouts/ug_chapters.flpgl"
     PageType="firstright"
     ChapterNumber="3"
     SectionNumberReset="continue"
@@ -232,7 +232,8 @@
       Title="Query Functions"
       Link="/Content/B_Technical Reference/Query Clauses, Functions &amp; Operators/Query Functions.htm"
       StartSection="false"
-      BreakType="pageLayout" />
+      BreakType="pageLayout"
+      PageLayout="/Content/Resources/PageLayouts/a4_pdf_layouts/ug_landscape.flpgl" />
   </TocEntry>
   <TocEntry
     Title="Glossary"
