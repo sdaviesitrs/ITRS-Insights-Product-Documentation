@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html MadCap:lastBlockDepth="10" MadCap:lastHeight="13063" MadCap:lastWidth="1133" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
-    <head><title>Analysing Data</title>
+<html MadCap:lastBlockDepth="10" MadCap:lastHeight="235" MadCap:lastWidth="576" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+        <link href="../../Resources/TableStyles/Standard.css" rel="stylesheet" MadCap:stylesheetType="table" /><title>Analysing Data</title>
         <style type="text/css">
 /*
 :Author: David Goodger (goodger@python.org)
@@ -475,74 +476,76 @@ box. </p>
 to perform complex mathematical and analytical operations on your data.
 See <MadCap:xref href="../../C_User Guides/Query, Search &amp; Transform Data User Guide.htm">Query,&#160;Search&#160;and Transforming Data User Guide</MadCap:xref>.</p>
         <MadCap:snippetBlock src="../../Resources/Snippets/Query Functions.flsnp" />
+        <MadCap:pageBreak />
         <h2><a name="abs"></a>abs: absolute value</h2>
         <p>Returns the absolute value of the input</p>
-        <table border="1" class="docutils">
+        <table border="1" class="TableStyle-Standard" style="mc-table-style: url('../../Resources/TableStyles/Standard.css');" cellspacing="0">
             <colgroup>
                 <col width="48%" />
                 <col width="52%" />
             </colgroup>
             <thead valign="bottom">
-                <tr>
-                    <th class="head">Input</th>
-                    <th class="head">Output</th>
+                <tr class="TableStyle-Standard-Head-Header1">
+                    <th class="TableStyle-Standard-HeadE-Column1-Header1">Input</th>
+                    <th class="TableStyle-Standard-HeadD-Column2-Header1">Output</th>
                 </tr>
             </thead>
             <tbody valign="top">
-                <tr>
-                    <td>double</td>
-                    <td>double</td>
+                <tr class="TableStyle-Standard-Body-Row1">
+                    <td class="TableStyle-Standard-BodyE-Column1-Row1">double</td>
+                    <td class="TableStyle-Standard-BodyD-Column2-Row1">double</td>
                 </tr>
-                <tr>
-                    <td>long</td>
-                    <td>long</td>
+                <tr class="TableStyle-Standard-Body-Row1">
+                    <td class="TableStyle-Standard-BodyE-Column1-Row1">long</td>
+                    <td class="TableStyle-Standard-BodyD-Column2-Row1">long</td>
                 </tr>
-                <tr>
-                    <td>integer</td>
-                    <td>integer</td>
+                <tr class="TableStyle-Standard-Body-Row1">
+                    <td class="TableStyle-Standard-BodyE-Column1-Row1">integer</td>
+                    <td class="TableStyle-Standard-BodyD-Column2-Row1">integer</td>
                 </tr>
-                <tr>
-                    <td>short</td>
-                    <td>integer</td>
+                <tr class="TableStyle-Standard-Body-Row1">
+                    <td class="TableStyle-Standard-BodyE-Column1-Row1">short</td>
+                    <td class="TableStyle-Standard-BodyD-Column2-Row1">integer</td>
                 </tr>
-                <tr>
-                    <td>byte</td>
-                    <td>integer</td>
+                <tr class="TableStyle-Standard-Body-Row1">
+                    <td class="TableStyle-Standard-BodyB-Column1-Row1">byte</td>
+                    <td class="TableStyle-Standard-BodyA-Column2-Row1">integer</td>
                 </tr>
             </tbody>
         </table>
         <h2><a name="contains"></a>contains</h2>
-        <table border="1" class="docutils">
+        <table border="1" class="TableStyle-Standard" style="mc-table-style: url('../../Resources/TableStyles/Standard.css');" cellspacing="0">
             <colgroup>
                 <col width="24%" />
                 <col width="12%" />
                 <col width="64%" />
             </colgroup>
             <thead valign="bottom">
-                <tr>
-                    <th class="head">Input</th>
-                    <th class="head">Output</th>
-                    <th class="head">Explanation</th>
+                <tr class="TableStyle-Standard-Head-Header1">
+                    <th class="TableStyle-Standard-HeadE-Column1-Header1">Input</th>
+                    <th class="TableStyle-Standard-HeadE-Column2-Header1">Output</th>
+                    <th class="TableStyle-Standard-HeadD-Column3-Header1">Explanation</th>
                 </tr>
             </thead>
             <tbody valign="top">
-                <tr>
-                    <td>(string, string)</td>
-                    <td>boolean</td>
-                    <td>True if the first string contains the character sequence of the second</td>
+                <tr class="TableStyle-Standard-Body-Row1">
+                    <td class="TableStyle-Standard-BodyE-Column1-Row1">(string, string)</td>
+                    <td class="TableStyle-Standard-BodyE-Column2-Row1">boolean</td>
+                    <td class="TableStyle-Standard-BodyD-Column3-Row1">True if the first string contains the character sequence of the second</td>
                 </tr>
-                <tr>
-                    <td>(geoPoint, geoCircle)</td>
-                    <td>boolean</td>
-                    <td>True if the geo circle contains the geoPoint</td>
+                <tr class="TableStyle-Standard-Body-Row1">
+                    <td class="TableStyle-Standard-BodyE-Column1-Row1">(geoPoint, geoCircle)</td>
+                    <td class="TableStyle-Standard-BodyE-Column2-Row1">boolean</td>
+                    <td class="TableStyle-Standard-BodyD-Column3-Row1">True if the geo circle contains the geoPoint</td>
                 </tr>
-                <tr>
-                    <td>(geoPoint, geoRectangle)</td>
-                    <td>boolean</td>
-                    <td>True if the geo rectangle contains the geoPoint</td>
+                <tr class="TableStyle-Standard-Body-Row1">
+                    <td class="TableStyle-Standard-BodyB-Column1-Row1">(geoPoint, geoRectangle)</td>
+                    <td class="TableStyle-Standard-BodyB-Column2-Row1">boolean</td>
+                    <td class="TableStyle-Standard-BodyA-Column3-Row1">True if the geo rectangle contains the geoPoint</td>
                 </tr>
             </tbody>
         </table>
+        <MadCap:pageBreak />
         <h2><a name="counter"></a>counter</h2>
         <p>Counts the number of occurrences of unique values. Returns all the
 values seen along with their counts (a histogram essentially).</p>
@@ -553,37 +556,37 @@ values seen along with their counts (a histogram essentially).</p>
             <p>Format: <tt class="docutils literal"><span class="pre">EMA(period)(timestamp,</span> value)</tt></p>
             <div class="section" id="parameters">
                 <h2><a name="Parameters"></a>Parameters</h2>
-                <table border="1" class="docutils">
+                <table border="1" class="TableStyle-Standard" style="mc-table-style: url('../../Resources/TableStyles/Standard.css');" cellspacing="0">
                     <colgroup>
                         <col width="16%" />
                         <col width="15%" />
                         <col width="69%" />
                     </colgroup>
                     <thead valign="bottom">
-                        <tr>
-                            <th class="head"><strong>Name</strong>
+                        <tr class="TableStyle-Standard-Head-Header1">
+                            <th class="TableStyle-Standard-HeadE-Column1-Header1"><strong>Name</strong>
                             </th>
-                            <th class="head"><strong>Type</strong>
+                            <th class="TableStyle-Standard-HeadE-Column2-Header1"><strong>Type</strong>
                             </th>
-                            <th class="head"><strong>Comments</strong>
+                            <th class="TableStyle-Standard-HeadD-Column3-Header1"><strong>Comments</strong>
                             </th>
                         </tr>
                     </thead>
                     <tbody valign="top">
-                        <tr>
-                            <td>period</td>
-                            <td>double</td>
-                            <td>Range of the operator in units of time</td>
+                        <tr class="TableStyle-Standard-Body-Row1">
+                            <td class="TableStyle-Standard-BodyE-Column1-Row1">period</td>
+                            <td class="TableStyle-Standard-BodyE-Column2-Row1">double</td>
+                            <td class="TableStyle-Standard-BodyD-Column3-Row1">Range of the operator in units of time</td>
                         </tr>
-                        <tr>
-                            <td>timestamp</td>
-                            <td>datetime</td>
-                            <td>Timestamp associated with the point being processed.</td>
+                        <tr class="TableStyle-Standard-Body-Row1">
+                            <td class="TableStyle-Standard-BodyE-Column1-Row1">timestamp</td>
+                            <td class="TableStyle-Standard-BodyE-Column2-Row1">datetime</td>
+                            <td class="TableStyle-Standard-BodyD-Column3-Row1">Timestamp associated with the point being processed.</td>
                         </tr>
-                        <tr>
-                            <td>value</td>
-                            <td>double</td>
-                            <td>value of the time series at the given timestamp</td>
+                        <tr class="TableStyle-Standard-Body-Row1">
+                            <td class="TableStyle-Standard-BodyB-Column1-Row1">value</td>
+                            <td class="TableStyle-Standard-BodyB-Column2-Row1">double</td>
+                            <td class="TableStyle-Standard-BodyA-Column3-Row1">value of the time series at the given timestamp</td>
                         </tr>
                     </tbody>
                 </table>
@@ -599,193 +602,186 @@ values seen along with their counts (a histogram essentially).</p>
             </p>
         </div>
         <p>Where format is a string of one of the following</p>
-        <table border="1" class="docutils">
-            <colgroup>
-                <col width="100%" />
-            </colgroup>
+        <table border="1" class="TableStyle-Standard" style="margin-left: 0;margin-right: auto;mc-table-style: url('../../Resources/TableStyles/Standard.css');" cellspacing="0">
+            <col style="width: 100%;" class="TableStyle-Standard-Column-Column1" />
             <thead valign="bottom">
-                <tr>
-                    <th class="head"><strong>Supported Formats</strong>
+                <tr class="TableStyle-Standard-Head-Header1">
+                    <th class="TableStyle-Standard-HeadD-Column1-Header1"><strong>Supported Formats</strong>
                     </th>
                 </tr>
             </thead>
             <tbody valign="top">
-                <tr>
-                    <td>BASIC_ISO_DATE</td>
+                <tr class="TableStyle-Standard-Body-Row1">
+                    <td class="TableStyle-Standard-BodyD-Column1-Row1">BASIC_ISO_DATE</td>
                 </tr>
-                <tr>
-                    <td>ISO_DATE</td>
+                <tr class="TableStyle-Standard-Body-Row1">
+                    <td class="TableStyle-Standard-BodyD-Column1-Row1">ISO_DATE</td>
                 </tr>
-                <tr>
-                    <td>ISO_DATE_TIME</td>
+                <tr class="TableStyle-Standard-Body-Row1">
+                    <td class="TableStyle-Standard-BodyD-Column1-Row1">ISO_DATE_TIME</td>
                 </tr>
-                <tr>
-                    <td>ISO_INSTANT</td>
+                <tr class="TableStyle-Standard-Body-Row1">
+                    <td class="TableStyle-Standard-BodyD-Column1-Row1">ISO_INSTANT</td>
                 </tr>
-                <tr>
-                    <td>ISO_LOCAL_DATE</td>
+                <tr class="TableStyle-Standard-Body-Row1">
+                    <td class="TableStyle-Standard-BodyD-Column1-Row1">ISO_LOCAL_DATE</td>
                 </tr>
-                <tr>
-                    <td>ISO_LOCAL_DATE_TIME</td>
+                <tr class="TableStyle-Standard-Body-Row1">
+                    <td class="TableStyle-Standard-BodyD-Column1-Row1">ISO_LOCAL_DATE_TIME</td>
                 </tr>
-                <tr>
-                    <td>ISO_LOCAL_TIME</td>
+                <tr class="TableStyle-Standard-Body-Row1">
+                    <td class="TableStyle-Standard-BodyD-Column1-Row1">ISO_LOCAL_TIME</td>
                 </tr>
-                <tr>
-                    <td>ISO_OFFSET_DATE</td>
+                <tr class="TableStyle-Standard-Body-Row1">
+                    <td class="TableStyle-Standard-BodyD-Column1-Row1">ISO_OFFSET_DATE</td>
                 </tr>
-                <tr>
-                    <td>ISO_OFFSET_DATE_TIME</td>
+                <tr class="TableStyle-Standard-Body-Row1">
+                    <td class="TableStyle-Standard-BodyD-Column1-Row1">ISO_OFFSET_DATE_TIME</td>
                 </tr>
-                <tr>
-                    <td>ISO_OFFSET_TIME</td>
+                <tr class="TableStyle-Standard-Body-Row1">
+                    <td class="TableStyle-Standard-BodyD-Column1-Row1">ISO_OFFSET_TIME</td>
                 </tr>
-                <tr>
-                    <td>ISO_ORDINAL_DATE</td>
+                <tr class="TableStyle-Standard-Body-Row1">
+                    <td class="TableStyle-Standard-BodyD-Column1-Row1">ISO_ORDINAL_DATE</td>
                 </tr>
-                <tr>
-                    <td>ISO_TIME</td>
+                <tr class="TableStyle-Standard-Body-Row1">
+                    <td class="TableStyle-Standard-BodyD-Column1-Row1">ISO_TIME</td>
                 </tr>
-                <tr>
-                    <td>ISO_WEEK_DATE</td>
+                <tr class="TableStyle-Standard-Body-Row1">
+                    <td class="TableStyle-Standard-BodyD-Column1-Row1">ISO_WEEK_DATE</td>
                 </tr>
-                <tr>
-                    <td>ISO_ZONED_DATE_TIME</td>
+                <tr class="TableStyle-Standard-Body-Row1">
+                    <td class="TableStyle-Standard-BodyA-Column1-Row1">ISO_ZONED_DATE_TIME</td>
                 </tr>
             </tbody>
         </table>
         <h2><a name="geoCircle"></a>geoCircle</h2>
         <p>Creates a Geo circle the coordinates of its center and another point</p>
-        <table border="1" class="docutils">
-            <colgroup>
-                <col width="17%" />
-                <col width="8%" />
-                <col width="75%" />
-            </colgroup>
+        <table border="1" class="TableStyle-Standard" style="margin-left: 0;margin-right: auto;mc-table-style: url('../../Resources/TableStyles/Standard.css');" cellspacing="0">
+            <col width="17%" class="TableStyle-Standard-Column-Column1" />
+            <col width="8%" class="TableStyle-Standard-Column-Column2" />
+            <col width="75%" class="TableStyle-Standard-Column-Column3" />
             <thead valign="bottom">
-                <tr>
-                    <th class="head">Input</th>
-                    <th class="head">Output</th>
-                    <th class="head">Explanation</th>
+                <tr class="TableStyle-Standard-Head-Header1">
+                    <th class="TableStyle-Standard-HeadE-Column1-Header1">Input</th>
+                    <th class="TableStyle-Standard-HeadE-Column2-Header1">Output</th>
+                    <th class="TableStyle-Standard-HeadD-Column3-Header1">Explanation</th>
                 </tr>
             </thead>
             <tbody valign="top">
-                <tr>
-                    <td>(geoPoint, geoPoint)</td>
-                    <td>geoCircle</td>
-                    <td>Creates a Geo circle the coordinates of its centre the first point and a point on it circumference set by the second</td>
+                <tr class="TableStyle-Standard-Body-Row1">
+                    <td class="TableStyle-Standard-BodyE-Column1-Row1">(geoPoint, geoPoint)</td>
+                    <td class="TableStyle-Standard-BodyE-Column2-Row1">geoCircle</td>
+                    <td class="TableStyle-Standard-BodyD-Column3-Row1">Creates a Geo circle the coordinates of its centre the first point and a point on it circumference set by the second</td>
                 </tr>
-                <tr>
-                    <td>(geoPoint, double)</td>
-                    <td>geoCircle</td>
-                    <td>Creates a Geo circle the coordinates of its centre the first point and a radius of the second argument in km</td>
+                <tr class="TableStyle-Standard-Body-Row1">
+                    <td class="TableStyle-Standard-BodyE-Column1-Row1">(geoPoint, double)</td>
+                    <td class="TableStyle-Standard-BodyE-Column2-Row1">geoCircle</td>
+                    <td class="TableStyle-Standard-BodyD-Column3-Row1">Creates a Geo circle the coordinates of its centre the first point and a radius of the second argument in km</td>
                 </tr>
-                <tr>
-                    <td>(double, double, double)</td>
-                    <td>geoCircle</td>
-                    <td>Creates a Geo circle with its centre at longitude of the first argument, latitude the second argument and radius the third</td>
+                <tr class="TableStyle-Standard-Body-Row1">
+                    <td class="TableStyle-Standard-BodyE-Column1-Row1">(double, double, double)</td>
+                    <td class="TableStyle-Standard-BodyE-Column2-Row1">geoCircle</td>
+                    <td class="TableStyle-Standard-BodyD-Column3-Row1">Creates a Geo circle with its centre at longitude of the first argument, latitude the second argument and radius the third</td>
                 </tr>
-                <tr>
-                    <td>(string)</td>
-                    <td>geoCircle</td>
-                    <td>Creates a Geo circle using a string of format [38.898648N 77.037692W 10.0]</td>
+                <tr class="TableStyle-Standard-Body-Row1">
+                    <td class="TableStyle-Standard-BodyB-Column1-Row1">(string)</td>
+                    <td class="TableStyle-Standard-BodyB-Column2-Row1">geoCircle</td>
+                    <td class="TableStyle-Standard-BodyA-Column3-Row1">Creates a Geo circle using a string of format [38.898648N 77.037692W 10.0]</td>
                 </tr>
             </tbody>
         </table>
         <h2><a name="geoPoint"></a>geoPoint</h2>
-        <table border="1" class="docutils">
-            <colgroup>
-                <col width="19%" />
-                <col width="13%" />
-                <col width="68%" />
-            </colgroup>
+        <table border="1" class="TableStyle-Standard" style="margin-left: 0;margin-right: auto;mc-table-style: url('../../Resources/TableStyles/Standard.css');" cellspacing="0">
+            <col width="19%" class="TableStyle-Standard-Column-Column1" />
+            <col width="13%" class="TableStyle-Standard-Column-Column2" />
+            <col width="68%" class="TableStyle-Standard-Column-Column3" />
             <thead valign="bottom">
-                <tr>
-                    <th class="head">Input</th>
-                    <th class="head">Output</th>
-                    <th class="head">Explanation</th>
+                <tr class="TableStyle-Standard-Head-Header1">
+                    <th class="TableStyle-Standard-HeadE-Column1-Header1">Input</th>
+                    <th class="TableStyle-Standard-HeadE-Column2-Header1">Output</th>
+                    <th class="TableStyle-Standard-HeadD-Column3-Header1">Explanation</th>
                 </tr>
             </thead>
             <tbody valign="top">
-                <tr>
-                    <td>(double, double)</td>
-                    <td>geoPoint</td>
-                    <td>Creates a Geo Point by longitude and latitude</td>
+                <tr class="TableStyle-Standard-Body-Row1">
+                    <td class="TableStyle-Standard-BodyE-Column1-Row1">(double, double)</td>
+                    <td class="TableStyle-Standard-BodyE-Column2-Row1">geoPoint</td>
+                    <td class="TableStyle-Standard-BodyD-Column3-Row1">Creates a Geo Point by longitude and latitude</td>
                 </tr>
-                <tr>
-                    <td>(string)</td>
-                    <td>geoPoint</td>
-                    <td>Creates a Geo Point by passing a string like [28.898648N 77.037692W]</td>
+                <tr class="TableStyle-Standard-Body-Row1">
+                    <td class="TableStyle-Standard-BodyB-Column1-Row1">(string)</td>
+                    <td class="TableStyle-Standard-BodyB-Column2-Row1">geoPoint</td>
+                    <td class="TableStyle-Standard-BodyA-Column3-Row1">Creates a Geo Point by passing a string like [28.898648N 77.037692W]</td>
                 </tr>
             </tbody>
         </table>
         <h2><a name="geoRectangle"></a>geoRectangle</h2>
         <p>Creates a geoRectangle from various parameters</p>
-        <table border="1" class="docutils">
-            <colgroup>
-                <col width="18%" />
-                <col width="8%" />
-                <col width="74%" />
-            </colgroup>
+        <table border="1" class="TableStyle-Standard" style="margin-left: 0;margin-right: auto;mc-table-style: url('../../Resources/TableStyles/Standard.css');" cellspacing="0">
+            <col width="18%" class="TableStyle-Standard-Column-Column1" />
+            <col width="8%" class="TableStyle-Standard-Column-Column2" />
+            <col width="74%" class="TableStyle-Standard-Column-Column3" />
             <thead valign="bottom">
-                <tr>
-                    <th class="head">Input</th>
-                    <th class="head">Output</th>
-                    <th class="head">Explanation</th>
+                <tr class="TableStyle-Standard-Head-Header1">
+                    <th class="TableStyle-Standard-HeadE-Column1-Header1">Input</th>
+                    <th class="TableStyle-Standard-HeadE-Column2-Header1">Output</th>
+                    <th class="TableStyle-Standard-HeadD-Column3-Header1">Explanation</th>
                 </tr>
             </thead>
             <tbody valign="top">
-                <tr>
-                    <td>(string)</td>
-                    <td>geoRectangle</td>
-                    <td>reates a Geo Rectangle by passing a string like [28.898648N 77.037692W 38.898648N 67.037692W]</td>
+                <tr class="TableStyle-Standard-Body-Row1">
+                    <td class="TableStyle-Standard-BodyE-Column1-Row1">(string)</td>
+                    <td class="TableStyle-Standard-BodyE-Column2-Row1">geoRectangle</td>
+                    <td class="TableStyle-Standard-BodyD-Column3-Row1">Creates a Geo Rectangle by passing a string like [28.898648N 77.037692W 38.898648N 67.037692W]</td>
                 </tr>
-                <tr>
-                    <td>(double, double, double, double)</td>
-                    <td>geoRectangle</td>
-                    <td>Creates a Geo Rectangle by specifying all four coordinates in the order longditude min, latitude min, longditude max and latitude max</td>
+                <tr class="TableStyle-Standard-Body-Row1">
+                    <td class="TableStyle-Standard-BodyE-Column1-Row1">(double, double, double, double)</td>
+                    <td class="TableStyle-Standard-BodyE-Column2-Row1">geoRectangle</td>
+                    <td class="TableStyle-Standard-BodyD-Column3-Row1">Creates a Geo Rectangle by specifying all four coordinates in the order longditude min, latitude min, longditude max and latitude max</td>
                 </tr>
-                <tr>
-                    <td>(geoPoint, geoPoint)</td>
-                    <td>geoRectangle</td>
-                    <td>Creates a Geo Rectangle by specifying two opposite corners where the first arguement is the lower left corner and the second the upper right</td>
+                <tr class="TableStyle-Standard-Body-Row1">
+                    <td class="TableStyle-Standard-BodyB-Column1-Row1">(geoPoint, geoPoint)</td>
+                    <td class="TableStyle-Standard-BodyB-Column2-Row1">geoRectangle</td>
+                    <td class="TableStyle-Standard-BodyA-Column3-Row1">Creates a Geo Rectangle by specifying two opposite corners where the first arguement is the lower left corner and the second the upper right</td>
                 </tr>
             </tbody>
         </table>
         <h2><a name="Last"></a>Last</h2>
         <p>Returns the last in an ordered set.</p>
+        <MadCap:pageBreak />
         <h2><a name="max"></a>max</h2>
-        <table border="1" class="docutils">
+        <table border="1" class="TableStyle-Standard" style="mc-table-style: url('../../Resources/TableStyles/Standard.css');" cellspacing="0">
             <colgroup>
                 <col width="61%" />
                 <col width="39%" />
             </colgroup>
             <thead valign="bottom">
-                <tr>
-                    <th class="head">Input</th>
-                    <th class="head">Output</th>
+                <tr class="TableStyle-Standard-Head-Header1">
+                    <th class="TableStyle-Standard-HeadE-Column1-Header1">Input</th>
+                    <th class="TableStyle-Standard-HeadD-Column2-Header1">Output</th>
                 </tr>
             </thead>
             <tbody valign="top">
-                <tr>
-                    <td>(double, double)</td>
-                    <td>double</td>
+                <tr class="TableStyle-Standard-Body-Row1">
+                    <td class="TableStyle-Standard-BodyE-Column1-Row1">(double, double)</td>
+                    <td class="TableStyle-Standard-BodyD-Column2-Row1">double</td>
                 </tr>
-                <tr>
-                    <td>(long, long)</td>
-                    <td>long</td>
+                <tr class="TableStyle-Standard-Body-Row1">
+                    <td class="TableStyle-Standard-BodyE-Column1-Row1">(long, long)</td>
+                    <td class="TableStyle-Standard-BodyD-Column2-Row1">long</td>
                 </tr>
-                <tr>
-                    <td>(integer, integer)</td>
-                    <td>integer</td>
+                <tr class="TableStyle-Standard-Body-Row1">
+                    <td class="TableStyle-Standard-BodyE-Column1-Row1">(integer, integer)</td>
+                    <td class="TableStyle-Standard-BodyD-Column2-Row1">integer</td>
                 </tr>
-                <tr>
-                    <td>(short, short)</td>
-                    <td>integer</td>
+                <tr class="TableStyle-Standard-Body-Row1">
+                    <td class="TableStyle-Standard-BodyE-Column1-Row1">(short, short)</td>
+                    <td class="TableStyle-Standard-BodyD-Column2-Row1">integer</td>
                 </tr>
-                <tr>
-                    <td>(byte, byte)</td>
-                    <td>integer</td>
+                <tr class="TableStyle-Standard-Body-Row1">
+                    <td class="TableStyle-Standard-BodyB-Column1-Row1">(byte, byte)</td>
+                    <td class="TableStyle-Standard-BodyA-Column2-Row1">integer</td>
                 </tr>
             </tbody>
         </table>
@@ -819,42 +815,43 @@ from /streams/demo/infrastructure/cpu
 select host, max(user, kernel) as max, (user + kernel) * 100 as f
 </pre>
         </div>
+        <MadCap:pageBreak />
         <h2><a name="Max"></a>Max</h2>
-        <table border="1" class="docutils">
+        <table border="1" class="TableStyle-Standard" style="mc-table-style: url('../../Resources/TableStyles/Standard.css');" cellspacing="0">
             <colgroup>
                 <col width="50%" />
                 <col width="50%" />
             </colgroup>
             <thead valign="bottom">
-                <tr>
-                    <th class="head">Input</th>
-                    <th class="head">Output</th>
+                <tr class="TableStyle-Standard-Head-Header1">
+                    <th class="TableStyle-Standard-HeadE-Column1-Header1">Input</th>
+                    <th class="TableStyle-Standard-HeadD-Column2-Header1">Output</th>
                 </tr>
             </thead>
             <tbody valign="top">
-                <tr>
-                    <td>(byte)</td>
-                    <td>byte</td>
+                <tr class="TableStyle-Standard-Body-Row1">
+                    <td class="TableStyle-Standard-BodyE-Column1-Row1">(byte)</td>
+                    <td class="TableStyle-Standard-BodyD-Column2-Row1">byte</td>
                 </tr>
-                <tr>
-                    <td>(short)</td>
-                    <td>short</td>
+                <tr class="TableStyle-Standard-Body-Row1">
+                    <td class="TableStyle-Standard-BodyE-Column1-Row1">(short)</td>
+                    <td class="TableStyle-Standard-BodyD-Column2-Row1">short</td>
                 </tr>
-                <tr>
-                    <td>(integer)</td>
-                    <td>integer</td>
+                <tr class="TableStyle-Standard-Body-Row1">
+                    <td class="TableStyle-Standard-BodyE-Column1-Row1">(integer)</td>
+                    <td class="TableStyle-Standard-BodyD-Column2-Row1">integer</td>
                 </tr>
-                <tr>
-                    <td>(double)</td>
-                    <td>double</td>
+                <tr class="TableStyle-Standard-Body-Row1">
+                    <td class="TableStyle-Standard-BodyE-Column1-Row1">(double)</td>
+                    <td class="TableStyle-Standard-BodyD-Column2-Row1">double</td>
                 </tr>
-                <tr>
-                    <td>(long)</td>
-                    <td>long</td>
+                <tr class="TableStyle-Standard-Body-Row1">
+                    <td class="TableStyle-Standard-BodyE-Column1-Row1">(long)</td>
+                    <td class="TableStyle-Standard-BodyD-Column2-Row1">long</td>
                 </tr>
-                <tr>
-                    <td>(datetime)</td>
-                    <td>datetime</td>
+                <tr class="TableStyle-Standard-Body-Row1">
+                    <td class="TableStyle-Standard-BodyB-Column1-Row1">(datetime)</td>
+                    <td class="TableStyle-Standard-BodyA-Column2-Row1">datetime</td>
                 </tr>
             </tbody>
         </table>
@@ -886,37 +883,35 @@ select max(b) as r
 </pre>
         </div>
         <h2><a name="min"></a>min</h2>
-        <table border="1" class="docutils">
-            <colgroup>
-                <col width="61%" />
-                <col width="39%" />
-            </colgroup>
+        <table border="1" class="TableStyle-Standard" style="margin-left: 0;margin-right: auto;mc-table-style: url('../../Resources/TableStyles/Standard.css');" cellspacing="0">
+            <col width="61%" class="TableStyle-Standard-Column-Column1" />
+            <col width="39%" class="TableStyle-Standard-Column-Column2" />
             <thead valign="bottom">
-                <tr>
-                    <th class="head">Input</th>
-                    <th class="head">Output</th>
+                <tr class="TableStyle-Standard-Head-Header1">
+                    <th class="TableStyle-Standard-HeadE-Column1-Header1">Input</th>
+                    <th class="TableStyle-Standard-HeadD-Column2-Header1">Output</th>
                 </tr>
             </thead>
             <tbody valign="top">
-                <tr>
-                    <td>(double, double)</td>
-                    <td>double</td>
+                <tr class="TableStyle-Standard-Body-Row1">
+                    <td class="TableStyle-Standard-BodyE-Column1-Row1">(double, double)</td>
+                    <td class="TableStyle-Standard-BodyD-Column2-Row1">double</td>
                 </tr>
-                <tr>
-                    <td>(long, long)</td>
-                    <td>long</td>
+                <tr class="TableStyle-Standard-Body-Row1">
+                    <td class="TableStyle-Standard-BodyE-Column1-Row1">(long, long)</td>
+                    <td class="TableStyle-Standard-BodyD-Column2-Row1">long</td>
                 </tr>
-                <tr>
-                    <td>(integer, integer)</td>
-                    <td>integer</td>
+                <tr class="TableStyle-Standard-Body-Row1">
+                    <td class="TableStyle-Standard-BodyE-Column1-Row1">(integer, integer)</td>
+                    <td class="TableStyle-Standard-BodyD-Column2-Row1">integer</td>
                 </tr>
-                <tr>
-                    <td>(short, short)</td>
-                    <td>integer</td>
+                <tr class="TableStyle-Standard-Body-Row1">
+                    <td class="TableStyle-Standard-BodyE-Column1-Row1">(short, short)</td>
+                    <td class="TableStyle-Standard-BodyD-Column2-Row1">integer</td>
                 </tr>
-                <tr>
-                    <td>(byte, byte)</td>
-                    <td>integer</td>
+                <tr class="TableStyle-Standard-Body-Row1">
+                    <td class="TableStyle-Standard-BodyB-Column1-Row1">(byte, byte)</td>
+                    <td class="TableStyle-Standard-BodyA-Column2-Row1">integer</td>
                 </tr>
             </tbody>
         </table>
@@ -948,44 +943,45 @@ from historical ...
 </pre>
         </div>
         <h2><a name="Min"></a>Min</h2>
-        <table border="1" class="docutils">
+        <table border="1" class="TableStyle-Standard" style="mc-table-style: url('../../Resources/TableStyles/Standard.css');" cellspacing="0">
             <colgroup>
                 <col width="50%" />
                 <col width="50%" />
             </colgroup>
             <thead valign="bottom">
-                <tr>
-                    <th class="head">Input</th>
-                    <th class="head">Output</th>
+                <tr class="TableStyle-Standard-Head-Header1">
+                    <th class="TableStyle-Standard-HeadE-Column1-Header1">Input</th>
+                    <th class="TableStyle-Standard-HeadD-Column2-Header1">Output</th>
                 </tr>
             </thead>
             <tbody valign="top">
-                <tr>
-                    <td>(byte)</td>
-                    <td>byte</td>
+                <tr class="TableStyle-Standard-Body-Row1">
+                    <td class="TableStyle-Standard-BodyE-Column1-Row1">(byte)</td>
+                    <td class="TableStyle-Standard-BodyD-Column2-Row1">byte</td>
                 </tr>
-                <tr>
-                    <td>(short)</td>
-                    <td>short</td>
+                <tr class="TableStyle-Standard-Body-Row1">
+                    <td class="TableStyle-Standard-BodyE-Column1-Row1">(short)</td>
+                    <td class="TableStyle-Standard-BodyD-Column2-Row1">short</td>
                 </tr>
-                <tr>
-                    <td>(integer)</td>
-                    <td>integer</td>
+                <tr class="TableStyle-Standard-Body-Row1">
+                    <td class="TableStyle-Standard-BodyE-Column1-Row1">(integer)</td>
+                    <td class="TableStyle-Standard-BodyD-Column2-Row1">integer</td>
                 </tr>
-                <tr>
-                    <td>(double)</td>
-                    <td>double</td>
+                <tr class="TableStyle-Standard-Body-Row1">
+                    <td class="TableStyle-Standard-BodyE-Column1-Row1">(double)</td>
+                    <td class="TableStyle-Standard-BodyD-Column2-Row1">double</td>
                 </tr>
-                <tr>
-                    <td>(long)</td>
-                    <td>long</td>
+                <tr class="TableStyle-Standard-Body-Row1">
+                    <td class="TableStyle-Standard-BodyE-Column1-Row1">(long)</td>
+                    <td class="TableStyle-Standard-BodyD-Column2-Row1">long</td>
                 </tr>
-                <tr>
-                    <td>(datetime)</td>
-                    <td>datetime</td>
+                <tr class="TableStyle-Standard-Body-Row1">
+                    <td class="TableStyle-Standard-BodyB-Column1-Row1">(datetime)</td>
+                    <td class="TableStyle-Standard-BodyA-Column2-Row1">datetime</td>
                 </tr>
             </tbody>
         </table>
+        <MadCap:pageBreak />
         <h3>Example</h3>
         <div class="line">So for example with the data:</div>
         <div class="system-message">

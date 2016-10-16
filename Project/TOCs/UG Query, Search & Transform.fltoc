@@ -26,232 +26,69 @@
     PageNumberReset="continue"
     StartChapter="true"
     PageLayout="/Content/Resources/PageLayouts/a4_pdf_layouts/ug_toc.flpgl"
-    PageNumberFormat="lower-roman"
     StartPageLayout="false"
     AutoEndOnLeftPage="enabled"
     PageType="firstright"></TocEntry>
   <TocEntry
-    Title="[%=System.ChapterNumber%]"
-    Link="/Content/Print Files/Misc/ChapterNumber.htm"
+    Title="Query, Search and Transform"
     BreakType="chapter"
-    PageNumberReset="continue"
-    PageNumberFormat="decimal"
-    ChapterNumberReset="reset"
-    ChapterNumber="1"
-    ChapterNumberFormat="decimal"
+    Link="/Content/C_User Guides/Query, Search &amp; Transform Data User Guide.htm"
     StartSection="false"
+    PageNumberReset="reset"
     PageLayout="/Content/Resources/PageLayouts/a4_pdf_layouts/ug_chapters.flpgl"
+    PageNumber="1"
     SectionNumberReset="continue"
     VolumeNumberReset="same"
-    PageType="firstright">
+    ChapterNumberReset="continue">
     <TocEntry
-      Title="[%=General.Product Name Insights (Full)%] Query, Search and Transform Data User Guide"
-      Link="/Content/C_User Guides/Query, Search &amp; Transform Data User Guide.htm"
+      Title="Query Clauses"
+      Link="/Content/B_Technical Reference/Query Clauses, Functions &amp; Operators/Query Clauses.htm"
       BreakType="pageLayout"
       StartSection="false"
-      PageNumberReset="continue"
-      PageLayout="/Content/Resources/PageLayouts/a4_pdf_layouts/ug_chapters.flpgl"
-      PageType="left" />
+      PageLayout="/Content/Resources/PageLayouts/a4_pdf_layouts/ug_landscape.flpgl" />
     <TocEntry
       Title="Query Clauses Transformations"
       Link="/Content/B_Technical Reference/Query Clauses, Functions &amp; Operators/Query Clauses Transformations.htm"
       BreakType="pageLayout"
       StartSection="false"
       PageLayout="/Content/Resources/PageLayouts/a4_pdf_layouts/ug_landscape.flpgl" />
-  </TocEntry>
-  <TocEntry
-    Title="Organizing Data in ITRS Insights"
-    StartPageLayout="false"
-    StartSection="false"
-    BreakPageType="normal"
-    PageNumber=""
-    PageNumberReset="continue"
-    AutoEndOnLeftPage="enabled"
-    SectionNumberReset="continue"
-    VolumeNumberReset="same"
-    ChapterNumberReset="continue"
-    BreakType="pageLayout"
-    PageLayout="/Content/Resources/PageLayouts/a4_pdf_layouts/ug_chapters.flpgl">
     <TocEntry
-      Title="Introduction to [%=General.Product Name Insights (Full)%] Concepts"
-      Link="/Content/A_Quick Start/Organizing Data in ITRS Insights.htm"
-      StartSection="false"
-      SectionNumberReset="continue"
-      VolumeNumberReset="same"
-      ChapterNumberReset="continue"
-      ComputeToc="false"
-      ReplaceMergeNode="false"
-      BreakType="pageLayout"
-      PageLayout="/Content/Resources/PageLayouts/a4_pdf_layouts/ug_chapters.flpgl"
-      PageType="left" />
-  </TocEntry>
-  <TocEntry
-    Title="[%=System.ChapterNumber%] Appendix A"
-    Link="/Content/Print Files/Misc/ChapterNumber.htm"
-    BreakType="chapter"
-    StartSection="false"
-    PageNumberReset="continue"
-    PageLayout="/Content/Resources/PageLayouts/a4_pdf_layouts/ug_chapters.flpgl"
-    PageType="firstright"
-    ChapterNumberReset="reset"
-    ChapterNumber="2"
-    SectionNumberReset="continue"
-    VolumeNumberReset="same">
-    <TocEntry
-      Title="Query Clauses"
-      Link="/Content/B_Technical Reference/Query Clauses, Functions &amp; Operators/Query Clauses.htm"
+      Title="Query Functions"
+      Link="/Content/B_Technical Reference/Query Clauses, Functions &amp; Operators/Query Functions.htm"
       BreakType="pageLayout"
       StartSection="false"
-      PageLayout="/Content/Resources/PageLayouts/a4_pdf_layouts/ug_landscape.flpgl"
-      PageNumberReset="continue" />
-    <TocEntry
-      Title="Aggregation"
-      Link="/Content/B_Technical Reference/Query Clauses, Functions &amp; Operators/Query Clauses/aggregation.htm"
-      BreakType="pageLayout"
-      PageNumberReset="continue"
-      StartSection="false"
-      PageLayout="/Content/Resources/PageLayouts/a4_pdf_layouts/ug_chapters.flpgl"
-      PageType="left" />
-    <TocEntry
-      Title="As"
-      Link="/Content/B_Technical Reference/Query Clauses, Functions &amp; Operators/Query Clauses/As.htm"
-      BreakType="pageLayout"
-      PageNumberReset="continue"
-      StartSection="false"
-      PageLayout="/Content/Resources/PageLayouts/a4_pdf_layouts/ug_chapters.flpgl"></TocEntry>
-    <TocEntry
-      Title="Comment"
-      Link="/Content/B_Technical Reference/Query Clauses, Functions &amp; Operators/Query Clauses/Comment.htm"
-      BreakType="pageLayout"
-      PageNumberReset="continue"
-      StartSection="false"
-      PageLayout="/Content/Resources/PageLayouts/a4_pdf_layouts/ug_chapters.flpgl" />
-    <TocEntry
-      Title="FROM"
-      Link="/Content/B_Technical Reference/Query Clauses, Functions &amp; Operators/Query Clauses/from.htm"
-      BreakType="pageLayout"
-      PageNumberReset="continue"
-      StartSection="false"
-      PageLayout="/Content/Resources/PageLayouts/a4_pdf_layouts/ug_chapters.flpgl" />
-    <TocEntry
-      Title="Group By"
-      Link="/Content/B_Technical Reference/Query Clauses, Functions &amp; Operators/Query Clauses/GroupBy.htm"
-      BreakType="pageLayout"
-      PageNumberReset="continue"
-      StartSection="false"
-      PageLayout="/Content/Resources/PageLayouts/a4_pdf_layouts/ug_chapters.flpgl" />
-    <TocEntry
-      Title="Into"
-      Link="/Content/B_Technical Reference/Query Clauses, Functions &amp; Operators/Query Clauses/Into.htm"
-      BreakType="pageLayout"
-      PageNumberReset="continue"
-      StartSection="false"
-      PageLayout="/Content/Resources/PageLayouts/a4_pdf_layouts/ug_chapters.flpgl" />
-    <TocEntry
-      Title="Join"
-      Link="/Content/B_Technical Reference/Query Clauses, Functions &amp; Operators/Query Clauses/Join.htm"
-      BreakType="pageLayout"
-      PageNumberReset="continue"
-      StartSection="false"
-      PageLayout="/Content/Resources/PageLayouts/a4_pdf_layouts/ug_chapters.flpgl" />
-    <TocEntry
-      Title="Order By"
-      Link="/Content/B_Technical Reference/Query Clauses, Functions &amp; Operators/Query Clauses/OrderBy.htm"
-      BreakType="pageLayout"
-      PageNumberReset="continue"
-      StartSection="false"
-      PageLayout="/Content/Resources/PageLayouts/a4_pdf_layouts/ug_chapters.flpgl" />
-    <TocEntry
-      Title="Select"
-      Link="/Content/B_Technical Reference/Query Clauses, Functions &amp; Operators/Query Clauses/select.htm"
-      BreakType="pageLayout"
-      PageNumberReset="continue"
-      StartSection="false"
-      PageLayout="/Content/Resources/PageLayouts/a4_pdf_layouts/ug_chapters.flpgl" />
-    <TocEntry
-      Title="Take"
-      Link="/Content/B_Technical Reference/Query Clauses, Functions &amp; Operators/Query Clauses/take.htm"
-      BreakType="pageLayout"
-      PageNumberReset="continue"
-      StartSection="false"
-      PageLayout="/Content/Resources/PageLayouts/a4_pdf_layouts/ug_chapters.flpgl" />
-    <TocEntry
-      Title="Time Window"
-      Link="/Content/B_Technical Reference/Query Clauses, Functions &amp; Operators/Query Clauses/TimeWindow.htm"
-      BreakType="pageLayout"
-      PageNumberReset="continue"
-      StartSection="false"
-      PageLayout="/Content/Resources/PageLayouts/a4_pdf_layouts/ug_chapters.flpgl" />
-    <TocEntry
-      Title="Union"
-      Link="/Content/B_Technical Reference/Query Clauses, Functions &amp; Operators/Query Clauses/Union.htm"
-      BreakType="pageLayout"
-      PageNumberReset="continue"
-      StartSection="false"
-      PageLayout="/Content/Resources/PageLayouts/a4_pdf_layouts/ug_chapters.flpgl" />
-    <TocEntry
-      Title="Unique"
-      Link="/Content/B_Technical Reference/Query Clauses, Functions &amp; Operators/Query Clauses/Unique.htm"
-      BreakType="pageLayout"
-      PageNumberReset="continue"
-      StartSection="false"
-      PageLayout="/Content/Resources/PageLayouts/a4_pdf_layouts/ug_chapters.flpgl" />
-    <TocEntry
-      Title="Where"
-      Link="/Content/B_Technical Reference/Query Clauses, Functions &amp; Operators/Query Clauses/where.htm"
-      BreakType="pageLayout"
-      PageNumberReset="continue"
-      StartSection="false"
-      PageLayout="/Content/Resources/PageLayouts/a4_pdf_layouts/ug_chapters.flpgl" />
-    <TocEntry
-      Title="Window Join"
-      Link="/Content/B_Technical Reference/Query Clauses, Functions &amp; Operators/Query Clauses/WindowJoin.htm"
-      BreakType="pageLayout"
-      PageNumberReset="continue"
-      StartSection="false"
-      PageLayout="/Content/Resources/PageLayouts/a4_pdf_layouts/ug_chapters.flpgl" />
-  </TocEntry>
-  <TocEntry
-    Title="[%=System.ChapterNumber%] Appendix B"
-    Link="/Content/Print Files/Misc/ChapterNumber.htm"
-    BreakType="chapter"
-    StartSection="false"
-    PageNumberReset="continue"
-    PageLayout="/Content/Resources/PageLayouts/a4_pdf_layouts/ug_chapters.flpgl"
-    PageType="firstright"
-    ChapterNumber="3"
-    SectionNumberReset="continue"
-    VolumeNumberReset="same"
-    ChapterNumberReset="continue">
+      PageLayout="/Content/Resources/PageLayouts/a4_pdf_layouts/ug_landscape.flpgl" />
     <TocEntry
       Title="Query Operators and Their Precedence"
       Link="/Content/B_Technical Reference/Query Clauses, Functions &amp; Operators/Query Operators.htm"
       BreakType="pageLayout"
-      StartSection="false" />
-    <TocEntry
-      Title="Query Functions"
-      Link="/Content/B_Technical Reference/Query Clauses, Functions &amp; Operators/Query Functions.htm"
       StartSection="false"
-      BreakType="pageLayout"
       PageLayout="/Content/Resources/PageLayouts/a4_pdf_layouts/ug_landscape.flpgl" />
   </TocEntry>
   <TocEntry
-    Title="Glossary"
-    Link="/Content/Print Files/Back Matter Topics/Glossary.htm"
-    BreakType="chapter"
-    PageLayout="/Content/Resources/PageLayouts/a4_pdf_layouts/ug_glossary.flpgl"
-    PageType="firstright"
+    Title="Introduction to [%=General.Product Name Insights (Full)%] Concepts"
+    Link="/Content/A_Quick Start/Organizing Data in ITRS Insights.htm"
     StartSection="false"
-    PageNumberReset="continue" />
-  <TocEntry
-    Title="Index"
-    Link="/Content/Print Files/Back Matter Topics/Index.htm"
-    BreakType="chapter"
-    PageLayout="/Content/Resources/PageLayouts/a4_pdf_layouts/ug_index.flpgl"
-    PageType="firstright"
-    StartSection="false"
-    PageNumberReset="continue"
     SectionNumberReset="continue"
     VolumeNumberReset="same"
-    ChapterNumberReset="continue" />
+    ChapterNumberReset="continue"
+    ComputeToc="false"
+    ReplaceMergeNode="false"
+    BreakType="chapter"
+    PageLayout="/Content/Resources/PageLayouts/a4_pdf_layouts/ug_chapters.flpgl"
+    PageNumberReset="continue"></TocEntry>
+  <TocEntry
+    Title="Glossary"
+    BreakType="pageLayout"
+    StartSection="false"
+    PageNumberReset="continue"
+    Link="/Content/Print Files/Back Matter Topics/Glossary.htm"
+    PageLayout="/Content/Resources/PageLayouts/a4_pdf_layouts/ug_glossary.flpgl"></TocEntry>
+  <TocEntry
+    Title="INDEX"
+    Link="/Content/Print Files/Back Matter Topics/Index.htm"
+    BreakType="pageLayout"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/a4_pdf_layouts/ug_index.flpgl" />
 </CatapultToc>

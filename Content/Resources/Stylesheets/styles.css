@@ -753,8 +753,8 @@ p.pagebreak
 		font: inherit;
 		font-size: 25pt;
 		font-weight: bold;
-		color: #b4c66c;
 		text-align: right;
+		color: A7DA1C;
 	}
 
 	p.front_cover_text
@@ -762,19 +762,22 @@ p.pagebreak
 		font: inherit;
 		font-weight: bold;
 		font-size: 20pt;
-		color: #b4c66c;
 		text-align: right;
+		color: #a7da1c;
 	}
 
 	p.front_cover_smaller_text
 	{
 		text-align: right;
 		font-size: 9pt;
+		color: A7DA1C;
 	}
 
 	h1.UserGuideBHeading
 	{
 		text-align: center;
+		column-break-after: always;
+		color: #a7da1c;
 	}
 
 	p.ReferenceTableHdr
@@ -783,6 +786,59 @@ p.pagebreak
 		font-size: 20pt;
 		font-weight: bold;
 		text-align: center;
+	}
+
+	p.caption
+	{
+		font-size: 9pt;
+		font-style: italic;
+		font-weight: bold;
+		text-align: center;
+		mc-auto-number-position: inside-head;
+		mc-auto-number-format: 'CF: Figure {chapnum}.{n+}: ';
+		margin: 0;
+		margin-top: 0px;
+	}
+
+	blockquote
+	{
+		margin-bottom: -2pt;
+	}
+
+	h2
+	{
+		page-break-before: avoid;
+	}
+
+	h1.AppendixTitle
+	{
+		color: #a7da1c;
+	}
+
+	p.ManualTitle2
+	{
+		color: A7DA1C;
+	}
+
+	h1.GlossaryHeading
+	{
+		color: #a7da1c;
+		page-break-after: always;
+	}
+
+	h1.BackmatterHeadings
+	{
+		page-break-before: always;
+		page-break-after: always;
+		line-height: 80pt;
+		font-size: 65pt;
+	}
+
+	MadCap|footnote
+	{
+		mc-footnote-format: '{n}';
+		font-family: 'Open Sans';
+		font-size: 8pt;
 	}
 }
 

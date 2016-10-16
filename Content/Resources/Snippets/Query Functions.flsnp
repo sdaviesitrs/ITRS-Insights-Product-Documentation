@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="8" MadCap:lastHeight="734" MadCap:lastWidth="576">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="8" MadCap:lastHeight="738.6666" MadCap:lastWidth="576">
     <head>
         <link href="../TableStyles/Standard.css" rel="stylesheet" MadCap:stylesheetType="table" />
     </head>
@@ -9,1029 +9,1029 @@
                 <MadCap:dropDownHotspot><MadCap:variable name="General.Product Name Insights&#160;(abbreviated)" /> Query Functions</MadCap:dropDownHotspot>
             </MadCap:dropDownHead>
             <MadCap:dropDownBody>
-                <table border="1" style="width: 100%;">
-                    <col width="27%" />
-                    <col width="19%" />
-                    <col width="54%" />
+                <table border="1" style="width: 100%;margin-left: 0;margin-right: auto;mc-table-style: url('../TableStyles/Standard.css');" class="TableStyle-Standard" cellspacing="0">
+                    <col width="27%" class="TableStyle-Standard-Column-Column1" />
+                    <col width="19%" class="TableStyle-Standard-Column-Column2" />
+                    <col width="54%" class="TableStyle-Standard-Column-Column3" />
                     <thead valign="bottom">
-                        <tr>
-                            <th>Function (Input)</th>
-                            <th>
+                        <tr class="TableStyle-Standard-Head-Header1">
+                            <th class="TableStyle-Standard-HeadE-Column1-Header1">Function (Input)</th>
+                            <th class="TableStyle-Standard-HeadE-Column2-Header1">
                                 <p class="first">Output</p>
                             </th>
-                            <th>Description</th>
+                            <th class="TableStyle-Standard-HeadD-Column3-Header1">Description</th>
                         </tr>
                     </thead>
                     <tbody valign="top">
-                        <tr>
-                            <td>
+                        <tr class="TableStyle-Standard-Body-Row1">
+                            <td class="TableStyle-Standard-BodyE-Column1-Row1">
                                 <p class="first"><a href="#id5"><MadCap:xref href="#abs">abs : absolute value</MadCap:xref></a>
                                 </p>
                             </td>
-                            <td>
+                            <td class="TableStyle-Standard-BodyE-Column2-Row1">
                                 <p class="first">Various</p>
                             </td>
-                            <td>Returns the absolute value</td>
+                            <td class="TableStyle-Standard-BodyD-Column3-Row1">Returns the absolute value</td>
                         </tr>
-                        <tr>
-                            <td>acos(<em>double</em>)</td>
-                            <td>double</td>
-                            <td>arccosine</td>
+                        <tr class="TableStyle-Standard-Body-Row1">
+                            <td class="TableStyle-Standard-BodyE-Column1-Row1">acos(<em>double</em>)</td>
+                            <td class="TableStyle-Standard-BodyE-Column2-Row1">double</td>
+                            <td class="TableStyle-Standard-BodyD-Column3-Row1">arccosine</td>
                         </tr>
-                        <tr>
-                            <td>
+                        <tr class="TableStyle-Standard-Body-Row1">
+                            <td class="TableStyle-Standard-BodyE-Column1-Row1">
                                 <p>
                                     <MadCap:xref href="../../B_Technical Reference/Algorithms/Anomaly.htm">Anomaly</MadCap:xref>
                                 </p>
                             </td>
-                            <td>
+                            <td class="TableStyle-Standard-BodyE-Column2-Row1">
                                 <p class="first"><a href="#id11"><MadCap:xref href="../../B_Technical Reference/Algorithms/Anomaly.htm">Anomaly</MadCap:xref></a>
                                 </p>
                             </td>
-                            <td>Identification of events which do not conform to the pattern set by other events in a dataset.</td>
+                            <td class="TableStyle-Standard-BodyD-Column3-Row1">Identification of events which do not conform to the pattern set by other events in a dataset.</td>
                         </tr>
-                        <tr>
-                            <td>asin(<em>double</em>)</td>
-                            <td>double</td>
-                            <td>arcsine</td>
+                        <tr class="TableStyle-Standard-Body-Row1">
+                            <td class="TableStyle-Standard-BodyE-Column1-Row1">asin(<em>double</em>)</td>
+                            <td class="TableStyle-Standard-BodyE-Column2-Row1">double</td>
+                            <td class="TableStyle-Standard-BodyD-Column3-Row1">arcsine</td>
                         </tr>
-                        <tr>
-                            <td>atan(<em>double</em>)</td>
-                            <td>double</td>
-                            <td>arctangent</td>
+                        <tr class="TableStyle-Standard-Body-Row1">
+                            <td class="TableStyle-Standard-BodyE-Column1-Row1">atan(<em>double</em>)</td>
+                            <td class="TableStyle-Standard-BodyE-Column2-Row1">double</td>
+                            <td class="TableStyle-Standard-BodyD-Column3-Row1">arctangent</td>
                         </tr>
-                        <tr>
-                            <td>atan2(<em>double</em>, <em>double</em>)| double</td>
-                            <td>double</td>
-                            <td>arctangent with 2 arguments</td>
+                        <tr class="TableStyle-Standard-Body-Row1">
+                            <td class="TableStyle-Standard-BodyE-Column1-Row1">atan2(<em>double</em>, <em>double</em>)| double</td>
+                            <td class="TableStyle-Standard-BodyE-Column2-Row1">double</td>
+                            <td class="TableStyle-Standard-BodyD-Column3-Row1">arctangent with 2 arguments</td>
                         </tr>
-                        <tr>
-                            <td>avg(double)</td>
-                            <td>double</td>
-                            <td>average</td>
+                        <tr class="TableStyle-Standard-Body-Row1">
+                            <td class="TableStyle-Standard-BodyE-Column1-Row1">avg(double)</td>
+                            <td class="TableStyle-Standard-BodyE-Column2-Row1">double</td>
+                            <td class="TableStyle-Standard-BodyD-Column3-Row1">average</td>
                         </tr>
-                        <tr>
-                            <td>
+                        <tr class="TableStyle-Standard-Body-Row1">
+                            <td class="TableStyle-Standard-BodyE-Column1-Row1">
                                 <p>
                                     <MadCap:xref href="../../B_Technical Reference/Algorithms/Bivar.htm">Bivar</MadCap:xref>
                                 </p>
                             </td>
-                            <td>
+                            <td class="TableStyle-Standard-BodyE-Column2-Row1">
                                 <p class="first"><a href="#id15"><MadCap:xref href="../../B_Technical Reference/Algorithms/Bivar.htm">Bivar</MadCap:xref></a>
                                 </p>
                             </td>
-                            <td>Bivariate correlative statistics for use with 2 variables.</td>
+                            <td class="TableStyle-Standard-BodyD-Column3-Row1">Bivariate correlative statistics for use with 2 variables.</td>
                         </tr>
-                        <tr>
-                            <td>boundingBox(geoCircle)</td>
-                            <td>geoRectangle</td>
-                            <td>Returns geo rectangle that contains the original geo Circle</td>
+                        <tr class="TableStyle-Standard-Body-Row1">
+                            <td class="TableStyle-Standard-BodyE-Column1-Row1">boundingBox(geoCircle)</td>
+                            <td class="TableStyle-Standard-BodyE-Column2-Row1">geoRectangle</td>
+                            <td class="TableStyle-Standard-BodyD-Column3-Row1">Returns geo rectangle that contains the original geo Circle</td>
                         </tr>
-                        <tr>
-                            <td>cbrt(double)</td>
-                            <td>double</td>
-                            <td>cubed root</td>
+                        <tr class="TableStyle-Standard-Body-Row1">
+                            <td class="TableStyle-Standard-BodyE-Column1-Row1">cbrt(double)</td>
+                            <td class="TableStyle-Standard-BodyE-Column2-Row1">double</td>
+                            <td class="TableStyle-Standard-BodyD-Column3-Row1">cubed root</td>
                         </tr>
-                        <tr>
-                            <td>ceil(double)</td>
-                            <td>double</td>
-                            <td>Ceiling function, returns the smallest natural number that is greater than or equal to the input</td>
+                        <tr class="TableStyle-Standard-Body-Row1">
+                            <td class="TableStyle-Standard-BodyE-Column1-Row1">ceil(double)</td>
+                            <td class="TableStyle-Standard-BodyE-Column2-Row1">double</td>
+                            <td class="TableStyle-Standard-BodyD-Column3-Row1">Ceiling function, returns the smallest natural number that is greater than or equal to the input</td>
                         </tr>
-                        <tr>
-                            <td>center(geoRectangle)</td>
-                            <td>geoPoint</td>
-                            <td>returns centre point of the geoRectangle</td>
+                        <tr class="TableStyle-Standard-Body-Row1">
+                            <td class="TableStyle-Standard-BodyE-Column1-Row1">center(geoRectangle)</td>
+                            <td class="TableStyle-Standard-BodyE-Column2-Row1">geoPoint</td>
+                            <td class="TableStyle-Standard-BodyD-Column3-Row1">returns centre point of the geoRectangle</td>
                         </tr>
-                        <tr>
-                            <td>centerLatitude(geoCircle)</td>
-                            <td>double</td>
-                            <td>Gets the latitude of the centre of the circle in degrees</td>
+                        <tr class="TableStyle-Standard-Body-Row1">
+                            <td class="TableStyle-Standard-BodyE-Column1-Row1">centerLatitude(geoCircle)</td>
+                            <td class="TableStyle-Standard-BodyE-Column2-Row1">double</td>
+                            <td class="TableStyle-Standard-BodyD-Column3-Row1">Gets the latitude of the centre of the circle in degrees</td>
                         </tr>
-                        <tr>
-                            <td>centerLongitude(geoCircle)</td>
-                            <td>double</td>
-                            <td>Gets the longitude of the centre of the circle in degrees</td>
+                        <tr class="TableStyle-Standard-Body-Row1">
+                            <td class="TableStyle-Standard-BodyE-Column1-Row1">centerLongitude(geoCircle)</td>
+                            <td class="TableStyle-Standard-BodyE-Column2-Row1">double</td>
+                            <td class="TableStyle-Standard-BodyD-Column3-Row1">Gets the longitude of the centre of the circle in degrees</td>
                         </tr>
-                        <tr>
-                            <td>concat(string, string)</td>
-                            <td>string</td>
-                            <td>concatenation of 2 strings</td>
+                        <tr class="TableStyle-Standard-Body-Row1">
+                            <td class="TableStyle-Standard-BodyE-Column1-Row1">concat(string, string)</td>
+                            <td class="TableStyle-Standard-BodyE-Column2-Row1">string</td>
+                            <td class="TableStyle-Standard-BodyD-Column3-Row1">concatenation of 2 strings</td>
                         </tr>
-                        <tr>
-                            <td>
+                        <tr class="TableStyle-Standard-Body-Row1">
+                            <td class="TableStyle-Standard-BodyE-Column1-Row1">
                                 <p>
                                     <MadCap:xref href="#contains">contains</MadCap:xref>
                                 </p>
                             </td>
-                            <td>boolean</td>
-                            <td>returns true if the first input includes the second (follow link for more detail)</td>
+                            <td class="TableStyle-Standard-BodyE-Column2-Row1">boolean</td>
+                            <td class="TableStyle-Standard-BodyD-Column3-Row1">returns true if the first input includes the second (follow link for more detail)</td>
                         </tr>
-                        <tr>
-                            <td>contributor(string)</td>
-                            <td>contributor</td>
-                            <td>Constructs a contributor object from a string</td>
+                        <tr class="TableStyle-Standard-Body-Row1">
+                            <td class="TableStyle-Standard-BodyE-Column1-Row1">contributor(string)</td>
+                            <td class="TableStyle-Standard-BodyE-Column2-Row1">contributor</td>
+                            <td class="TableStyle-Standard-BodyD-Column3-Row1">Constructs a contributor object from a string</td>
                         </tr>
-                        <tr>
-                            <td>cos(double)</td>
-                            <td>double</td>
-                            <td>cosine</td>
+                        <tr class="TableStyle-Standard-Body-Row1">
+                            <td class="TableStyle-Standard-BodyE-Column1-Row1">cos(double)</td>
+                            <td class="TableStyle-Standard-BodyE-Column2-Row1">double</td>
+                            <td class="TableStyle-Standard-BodyD-Column3-Row1">cosine</td>
                         </tr>
-                        <tr>
-                            <td>cosh(double)</td>
-                            <td>double</td>
-                            <td>hyperbolic cosine</td>
+                        <tr class="TableStyle-Standard-Body-Row1">
+                            <td class="TableStyle-Standard-BodyE-Column1-Row1">cosh(double)</td>
+                            <td class="TableStyle-Standard-BodyE-Column2-Row1">double</td>
+                            <td class="TableStyle-Standard-BodyD-Column3-Row1">hyperbolic cosine</td>
                         </tr>
-                        <tr>
-                            <td>count()</td>
-                            <td>long</td>
-                            <td>Increments a counter each time the function is called</td>
+                        <tr class="TableStyle-Standard-Body-Row1">
+                            <td class="TableStyle-Standard-BodyE-Column1-Row1">count()</td>
+                            <td class="TableStyle-Standard-BodyE-Column2-Row1">long</td>
+                            <td class="TableStyle-Standard-BodyD-Column3-Row1">Increments a counter each time the function is called</td>
                         </tr>
-                        <tr>
-                            <td>countDistinct(string)</td>
-                            <td>int</td>
-                            <td>Counts the number of unique values</td>
+                        <tr class="TableStyle-Standard-Body-Row1">
+                            <td class="TableStyle-Standard-BodyE-Column1-Row1">countDistinct(string)</td>
+                            <td class="TableStyle-Standard-BodyE-Column2-Row1">int</td>
+                            <td class="TableStyle-Standard-BodyD-Column3-Row1">Counts the number of unique values</td>
                         </tr>
-                        <tr>
-                            <td>
+                        <tr class="TableStyle-Standard-Body-Row1">
+                            <td class="TableStyle-Standard-BodyE-Column1-Row1">
                                 <p>
                                     <MadCap:xref href="#counter">counter</MadCap:xref>
                                 </p>
                             </td>
-                            <td>(value:string,count:double)</td>
-                            <td>Counts the number of occurrences of unique values, like collections.</td>
+                            <td class="TableStyle-Standard-BodyE-Column2-Row1">(value:string,count:double)</td>
+                            <td class="TableStyle-Standard-BodyD-Column3-Row1">Counts the number of occurrences of unique values, like collections.</td>
                         </tr>
-                        <tr>
-                            <td>crossesDateLine(geoRectangle)</td>
-                            <td>boolean</td>
-                            <td>returns true if area in rectangle crosses international date line</td>
+                        <tr class="TableStyle-Standard-Body-Row1">
+                            <td class="TableStyle-Standard-BodyE-Column1-Row1">crossesDateLine(geoRectangle)</td>
+                            <td class="TableStyle-Standard-BodyE-Column2-Row1">boolean</td>
+                            <td class="TableStyle-Standard-BodyD-Column3-Row1">returns true if area in rectangle crosses international date line</td>
                         </tr>
-                        <tr>
-                            <td>date(string)</td>
-                            <td>date</td>
-                            <td>converts a string into date format</td>
+                        <tr class="TableStyle-Standard-Body-Row1">
+                            <td class="TableStyle-Standard-BodyE-Column1-Row1">date(string)</td>
+                            <td class="TableStyle-Standard-BodyE-Column2-Row1">date</td>
+                            <td class="TableStyle-Standard-BodyD-Column3-Row1">converts a string into date format</td>
                         </tr>
-                        <tr>
-                            <td>datetime(string)</td>
-                            <td>date</td>
-                            <td>
+                        <tr class="TableStyle-Standard-Body-Row1">
+                            <td class="TableStyle-Standard-BodyE-Column1-Row1">datetime(string)</td>
+                            <td class="TableStyle-Standard-BodyE-Column2-Row1">date</td>
+                            <td class="TableStyle-Standard-BodyD-Column3-Row1">
                                 <p class="first">converts a string into schema format. See: <MadCap:xref href="../../B_Technical Reference/Schema Fields &amp; Types/Schema Types.htm">Schema Types</MadCap:xref></p>
                             </td>
                         </tr>
-                        <tr>
-                            <td>day(date or datetime)</td>
-                            <td>integer</td>
-                            <td>Returns day of the month from 1 to 31</td>
+                        <tr class="TableStyle-Standard-Body-Row1">
+                            <td class="TableStyle-Standard-BodyE-Column1-Row1">day(date or datetime)</td>
+                            <td class="TableStyle-Standard-BodyE-Column2-Row1">integer</td>
+                            <td class="TableStyle-Standard-BodyD-Column3-Row1">Returns day of the month from 1 to 31</td>
                         </tr>
-                        <tr>
-                            <td>dayOfWeek(date or datetime)</td>
-                            <td>string</td>
-                            <td>Returns day of the week</td>
+                        <tr class="TableStyle-Standard-Body-Row1">
+                            <td class="TableStyle-Standard-BodyE-Column1-Row1">dayOfWeek(date or datetime)</td>
+                            <td class="TableStyle-Standard-BodyE-Column2-Row1">string</td>
+                            <td class="TableStyle-Standard-BodyD-Column3-Row1">Returns day of the week</td>
                         </tr>
-                        <tr>
-                            <td>dayOfWeekValue(date or datetime)</td>
-                            <td>integer</td>
-                            <td>Returns day of the week as an integer where Monday is 1</td>
+                        <tr class="TableStyle-Standard-Body-Row1">
+                            <td class="TableStyle-Standard-BodyE-Column1-Row1">dayOfWeekValue(date or datetime)</td>
+                            <td class="TableStyle-Standard-BodyE-Column2-Row1">integer</td>
+                            <td class="TableStyle-Standard-BodyD-Column3-Row1">Returns day of the week as an integer where Monday is 1</td>
                         </tr>
-                        <tr>
-                            <td>dayOfYear(date or datetime)</td>
-                            <td>int</td>
-                            <td>Returns the day of the year since 1st January</td>
+                        <tr class="TableStyle-Standard-Body-Row1">
+                            <td class="TableStyle-Standard-BodyE-Column1-Row1">dayOfYear(date or datetime)</td>
+                            <td class="TableStyle-Standard-BodyE-Column2-Row1">int</td>
+                            <td class="TableStyle-Standard-BodyD-Column3-Row1">Returns the day of the year since 1st January</td>
                         </tr>
-                        <tr>
-                            <td>days(duration)</td>
-                            <td>long</td>
-                            <td>Converts a duration into the number of days</td>
+                        <tr class="TableStyle-Standard-Body-Row1">
+                            <td class="TableStyle-Standard-BodyE-Column1-Row1">days(duration)</td>
+                            <td class="TableStyle-Standard-BodyE-Column2-Row1">long</td>
+                            <td class="TableStyle-Standard-BodyD-Column3-Row1">Converts a duration into the number of days</td>
                         </tr>
-                        <tr>
-                            <td>diff(date or datetime , date or datetime)</td>
-                            <td>duration</td>
-                            <td>Difference between 2 dates/times as a duration</td>
+                        <tr class="TableStyle-Standard-Body-Row1">
+                            <td class="TableStyle-Standard-BodyE-Column1-Row1">diff(date or datetime , date or datetime)</td>
+                            <td class="TableStyle-Standard-BodyE-Column2-Row1">duration</td>
+                            <td class="TableStyle-Standard-BodyD-Column3-Row1">Difference between 2 dates/times as a duration</td>
                         </tr>
-                        <tr>
-                            <td>distance(geoPoint, geoPoint)</td>
-                            <td>double</td>
-                            <td>Distance between two geographical points in km, using Haversine and earth mean radius = 6371.0087714 Km</td>
+                        <tr class="TableStyle-Standard-Body-Row1">
+                            <td class="TableStyle-Standard-BodyE-Column1-Row1">distance(geoPoint, geoPoint)</td>
+                            <td class="TableStyle-Standard-BodyE-Column2-Row1">double</td>
+                            <td class="TableStyle-Standard-BodyD-Column3-Row1">Distance between two geographical points in km, using Haversine and earth mean radius = 6371.0087714 Km</td>
                         </tr>
-                        <tr>
-                            <td>distanceDEG(geoPoint, geoPoint)</td>
-                            <td>double</td>
-                            <td>distance between 2 points in degrees</td>
+                        <tr class="TableStyle-Standard-Body-Row1">
+                            <td class="TableStyle-Standard-BodyE-Column1-Row1">distanceDEG(geoPoint, geoPoint)</td>
+                            <td class="TableStyle-Standard-BodyE-Column2-Row1">double</td>
+                            <td class="TableStyle-Standard-BodyD-Column3-Row1">distance between 2 points in degrees</td>
                         </tr>
-                        <tr>
-                            <td>domain (email)</td>
-                            <td>string</td>
-                            <td>returns the domain name from an email address</td>
+                        <tr class="TableStyle-Standard-Body-Row1">
+                            <td class="TableStyle-Standard-BodyE-Column1-Row1">domain (email)</td>
+                            <td class="TableStyle-Standard-BodyE-Column2-Row1">string</td>
+                            <td class="TableStyle-Standard-BodyD-Column3-Row1">returns the domain name from an email address</td>
                         </tr>
-                        <tr>
-                            <td>duration(int, int, int, double)</td>
-                            <td>duration</td>
-                            <td>Calculates the duration based on the intput arguments (days, hours, minutes, seconds)</td>
+                        <tr class="TableStyle-Standard-Body-Row1">
+                            <td class="TableStyle-Standard-BodyE-Column1-Row1">duration(int, int, int, double)</td>
+                            <td class="TableStyle-Standard-BodyE-Column2-Row1">duration</td>
+                            <td class="TableStyle-Standard-BodyD-Column3-Row1">Calculates the duration based on the intput arguments (days, hours, minutes, seconds)</td>
                         </tr>
-                        <tr>
-                            <td>duration(string)</td>
-                            <td>duration</td>
-                            <td>converts duration in string format into duration type</td>
+                        <tr class="TableStyle-Standard-Body-Row1">
+                            <td class="TableStyle-Standard-BodyE-Column1-Row1">duration(string)</td>
+                            <td class="TableStyle-Standard-BodyE-Column2-Row1">duration</td>
+                            <td class="TableStyle-Standard-BodyD-Column3-Row1">converts duration in string format into duration type</td>
                         </tr>
-                        <tr>
-                            <td>
+                        <tr class="TableStyle-Standard-Body-Row1">
+                            <td class="TableStyle-Standard-BodyE-Column1-Row1">
                                 <p>
                                     <MadCap:xref href="#EMA">EMA</MadCap:xref>
                                 </p>
                             </td>
-                            <td>double</td>
-                            <td>exponential moving average</td>
+                            <td class="TableStyle-Standard-BodyE-Column2-Row1">double</td>
+                            <td class="TableStyle-Standard-BodyD-Column3-Row1">exponential moving average</td>
                         </tr>
-                        <tr>
-                            <td>email(string)</td>
-                            <td>email</td>
-                            <td>converts string into an email</td>
+                        <tr class="TableStyle-Standard-Body-Row1">
+                            <td class="TableStyle-Standard-BodyE-Column1-Row1">email(string)</td>
+                            <td class="TableStyle-Standard-BodyE-Column2-Row1">email</td>
+                            <td class="TableStyle-Standard-BodyD-Column3-Row1">converts string into an email</td>
                         </tr>
-                        <tr>
-                            <td>erf(double)</td>
-                            <td>double</td>
-                            <td>error function (aka Gauss error function)</td>
+                        <tr class="TableStyle-Standard-Body-Row1">
+                            <td class="TableStyle-Standard-BodyE-Column1-Row1">erf(double)</td>
+                            <td class="TableStyle-Standard-BodyE-Column2-Row1">double</td>
+                            <td class="TableStyle-Standard-BodyD-Column3-Row1">error function (aka Gauss error function)</td>
                         </tr>
-                        <tr>
-                            <td>erfc(double)</td>
-                            <td>double</td>
-                            <td>complementary error function</td>
+                        <tr class="TableStyle-Standard-Body-Row1">
+                            <td class="TableStyle-Standard-BodyE-Column1-Row1">erfc(double)</td>
+                            <td class="TableStyle-Standard-BodyE-Column2-Row1">double</td>
+                            <td class="TableStyle-Standard-BodyD-Column3-Row1">complementary error function</td>
                         </tr>
-                        <tr>
-                            <td>exp(double)</td>
-                            <td>double</td>
-                            <td>natural exponential function = ex where e is Euler's number</td>
+                        <tr class="TableStyle-Standard-Body-Row1">
+                            <td class="TableStyle-Standard-BodyE-Column1-Row1">exp(double)</td>
+                            <td class="TableStyle-Standard-BodyE-Column2-Row1">double</td>
+                            <td class="TableStyle-Standard-BodyD-Column3-Row1">natural exponential function = ex where e is Euler's number</td>
                         </tr>
-                        <tr>
-                            <td>expml(double)</td>
-                            <td>double</td>
-                            <td>natural exponential function minus 1 = ex-1 where e is Euler's number</td>
+                        <tr class="TableStyle-Standard-Body-Row1">
+                            <td class="TableStyle-Standard-BodyE-Column1-Row1">expml(double)</td>
+                            <td class="TableStyle-Standard-BodyE-Column2-Row1">double</td>
+                            <td class="TableStyle-Standard-BodyD-Column3-Row1">natural exponential function minus 1 = ex-1 where e is Euler's number</td>
                         </tr>
-                        <tr>
-                            <td>
+                        <tr class="TableStyle-Standard-Body-Row1">
+                            <td class="TableStyle-Standard-BodyE-Column1-Row1">
                                 <p>
                                     <MadCap:xref href="#first">first</MadCap:xref>
                                 </p>
                             </td>
-                            <td>various</td>
-                            <td>Returns the first of an ordered set (see link for more detail)</td>
+                            <td class="TableStyle-Standard-BodyE-Column2-Row1">various</td>
+                            <td class="TableStyle-Standard-BodyD-Column3-Row1">Returns the first of an ordered set (see link for more detail)</td>
                         </tr>
-                        <tr>
-                            <td>floor(double)</td>
-                            <td>double</td>
-                            <td>Floor function, returns the greatest natural number that is less than or equal to x</td>
+                        <tr class="TableStyle-Standard-Body-Row1">
+                            <td class="TableStyle-Standard-BodyE-Column1-Row1">floor(double)</td>
+                            <td class="TableStyle-Standard-BodyE-Column2-Row1">double</td>
+                            <td class="TableStyle-Standard-BodyD-Column3-Row1">Floor function, returns the greatest natural number that is less than or equal to x</td>
                         </tr>
-                        <tr>
-                            <td>format(datetime, string)</td>
-                            <td>string</td>
-                            <td>&#160;</td>
+                        <tr class="TableStyle-Standard-Body-Row1">
+                            <td class="TableStyle-Standard-BodyE-Column1-Row1">format(datetime, string)</td>
+                            <td class="TableStyle-Standard-BodyE-Column2-Row1">string</td>
+                            <td class="TableStyle-Standard-BodyD-Column3-Row1">&#160;</td>
                         </tr>
-                        <tr>
-                            <td>
+                        <tr class="TableStyle-Standard-Body-Row1">
+                            <td class="TableStyle-Standard-BodyE-Column1-Row1">
                                 <p>
                                     <MadCap:xref href="#geoCircle">geoCircle</MadCap:xref>
                                 </p>
                             </td>
-                            <td>geoCircle</td>
-                            <td>Creates a Geo circle the coordinates of its center and another point (click link for more detail)</td>
+                            <td class="TableStyle-Standard-BodyE-Column2-Row1">geoCircle</td>
+                            <td class="TableStyle-Standard-BodyD-Column3-Row1">Creates a Geo circle the coordinates of its center and another point (click link for more detail)</td>
                         </tr>
-                        <tr>
-                            <td>
+                        <tr class="TableStyle-Standard-Body-Row1">
+                            <td class="TableStyle-Standard-BodyE-Column1-Row1">
                                 <p>
                                     <MadCap:xref href="#geoPoint">geoPoint</MadCap:xref>
                                 </p>
                             </td>
-                            <td>geoPoint</td>
-                            <td>Creates a geoPoint from string or longitude and latitude points</td>
+                            <td class="TableStyle-Standard-BodyE-Column2-Row1">geoPoint</td>
+                            <td class="TableStyle-Standard-BodyD-Column3-Row1">Creates a geoPoint from string or longitude and latitude points</td>
                         </tr>
-                        <tr>
-                            <td>
+                        <tr class="TableStyle-Standard-Body-Row1">
+                            <td class="TableStyle-Standard-BodyE-Column1-Row1">
                                 <p>
                                     <MadCap:xref href="#geoRectangle">geoRectangle</MadCap:xref>
                                 </p>
                             </td>
-                            <td>geoRectangle</td>
-                            <td>Creates a geoRectangle from various parameters</td>
+                            <td class="TableStyle-Standard-BodyE-Column2-Row1">geoRectangle</td>
+                            <td class="TableStyle-Standard-BodyD-Column3-Row1">Creates a geoRectangle from various parameters</td>
                         </tr>
-                        <tr>
-                            <td>getAuthority(uri)</td>
-                            <td>string</td>
-                            <td>Returns the decoded authority component of this URI</td>
+                        <tr class="TableStyle-Standard-Body-Row1">
+                            <td class="TableStyle-Standard-BodyE-Column1-Row1">getAuthority(uri)</td>
+                            <td class="TableStyle-Standard-BodyE-Column2-Row1">string</td>
+                            <td class="TableStyle-Standard-BodyD-Column3-Row1">Returns the decoded authority component of this URI</td>
                         </tr>
-                        <tr>
-                            <td>getFragment(uri)</td>
-                            <td>string</td>
-                            <td>Returns the decoded fragment component of this URI</td>
+                        <tr class="TableStyle-Standard-Body-Row1">
+                            <td class="TableStyle-Standard-BodyE-Column1-Row1">getFragment(uri)</td>
+                            <td class="TableStyle-Standard-BodyE-Column2-Row1">string</td>
+                            <td class="TableStyle-Standard-BodyD-Column3-Row1">Returns the decoded fragment component of this URI</td>
                         </tr>
-                        <tr>
-                            <td>getHost(uri)</td>
-                            <td>string</td>
-                            <td>Returns the host component of this URI</td>
+                        <tr class="TableStyle-Standard-Body-Row1">
+                            <td class="TableStyle-Standard-BodyE-Column1-Row1">getHost(uri)</td>
+                            <td class="TableStyle-Standard-BodyE-Column2-Row1">string</td>
+                            <td class="TableStyle-Standard-BodyD-Column3-Row1">Returns the host component of this URI</td>
                         </tr>
-                        <tr>
-                            <td>getPath(uri)</td>
-                            <td>string</td>
-                            <td>Returns the decoded path component of this URI</td>
+                        <tr class="TableStyle-Standard-Body-Row1">
+                            <td class="TableStyle-Standard-BodyE-Column1-Row1">getPath(uri)</td>
+                            <td class="TableStyle-Standard-BodyE-Column2-Row1">string</td>
+                            <td class="TableStyle-Standard-BodyD-Column3-Row1">Returns the decoded path component of this URI</td>
                         </tr>
-                        <tr>
-                            <td>getPort(uri)</td>
-                            <td>integer</td>
-                            <td>Returns the port number of this URI</td>
+                        <tr class="TableStyle-Standard-Body-Row1">
+                            <td class="TableStyle-Standard-BodyE-Column1-Row1">getPort(uri)</td>
+                            <td class="TableStyle-Standard-BodyE-Column2-Row1">integer</td>
+                            <td class="TableStyle-Standard-BodyD-Column3-Row1">Returns the port number of this URI</td>
                         </tr>
-                        <tr>
-                            <td>getQuery(uri)</td>
-                            <td>string</td>
-                            <td>Returns the decoded query component of this URI</td>
+                        <tr class="TableStyle-Standard-Body-Row1">
+                            <td class="TableStyle-Standard-BodyE-Column1-Row1">getQuery(uri)</td>
+                            <td class="TableStyle-Standard-BodyE-Column2-Row1">string</td>
+                            <td class="TableStyle-Standard-BodyD-Column3-Row1">Returns the decoded query component of this URI</td>
                         </tr>
-                        <tr>
-                            <td>getScheme(uri)</td>
-                            <td>string</td>
-                            <td>Returns the scheme component of this URI</td>
+                        <tr class="TableStyle-Standard-Body-Row1">
+                            <td class="TableStyle-Standard-BodyE-Column1-Row1">getScheme(uri)</td>
+                            <td class="TableStyle-Standard-BodyE-Column2-Row1">string</td>
+                            <td class="TableStyle-Standard-BodyD-Column3-Row1">Returns the scheme component of this URI</td>
                         </tr>
-                        <tr>
-                            <td>getUserInfo(uri)</td>
-                            <td>string</td>
-                            <td>Returns the user-information component of this URI</td>
+                        <tr class="TableStyle-Standard-Body-Row1">
+                            <td class="TableStyle-Standard-BodyE-Column1-Row1">getUserInfo(uri)</td>
+                            <td class="TableStyle-Standard-BodyE-Column2-Row1">string</td>
+                            <td class="TableStyle-Standard-BodyD-Column3-Row1">Returns the user-information component of this URI</td>
                         </tr>
-                        <tr>
-                            <td>height(geoRectangle)</td>
-                            <td>double</td>
-                            <td>Gets the height of the rectangle in degrees latitude</td>
+                        <tr class="TableStyle-Standard-Body-Row1">
+                            <td class="TableStyle-Standard-BodyE-Column1-Row1">height(geoRectangle)</td>
+                            <td class="TableStyle-Standard-BodyE-Column2-Row1">double</td>
+                            <td class="TableStyle-Standard-BodyD-Column3-Row1">Gets the height of the rectangle in degrees latitude</td>
                         </tr>
-                        <tr>
-                            <td>
+                        <tr class="TableStyle-Standard-Body-Row1">
+                            <td class="TableStyle-Standard-BodyE-Column1-Row1">
                                 <p>
                                     <MadCap:xref href="../../B_Technical Reference/Algorithms/Histogram.htm">Histogram</MadCap:xref>
                                 </p>
                             </td>
-                            <td>&#160;</td>
-                            <td>&#160;</td>
+                            <td class="TableStyle-Standard-BodyE-Column2-Row1">&#160;</td>
+                            <td class="TableStyle-Standard-BodyD-Column3-Row1">&#160;</td>
                         </tr>
-                        <tr>
-                            <td><a name="hour"></a>hour(datetime or time)</td>
-                            <td>integer</td>
-                            <td>Hour of the day</td>
+                        <tr class="TableStyle-Standard-Body-Row1">
+                            <td class="TableStyle-Standard-BodyE-Column1-Row1"><a name="hour"></a>hour(datetime or time)</td>
+                            <td class="TableStyle-Standard-BodyE-Column2-Row1">integer</td>
+                            <td class="TableStyle-Standard-BodyD-Column3-Row1">Hour of the day</td>
                         </tr>
-                        <tr>
-                            <td>hours(duration)</td>
-                            <td>long</td>
-                            <td>Number of hours</td>
+                        <tr class="TableStyle-Standard-Body-Row1">
+                            <td class="TableStyle-Standard-BodyE-Column1-Row1">hours(duration)</td>
+                            <td class="TableStyle-Standard-BodyE-Column2-Row1">long</td>
+                            <td class="TableStyle-Standard-BodyD-Column3-Row1">Number of hours</td>
                         </tr>
-                        <tr>
-                            <td>hypot(double, double)</td>
-                            <td>double</td>
-                            <td>Returns hypotenuse; square root of the sum of the squares of the 2 inputs</td>
+                        <tr class="TableStyle-Standard-Body-Row1">
+                            <td class="TableStyle-Standard-BodyE-Column1-Row1">hypot(double, double)</td>
+                            <td class="TableStyle-Standard-BodyE-Column2-Row1">double</td>
+                            <td class="TableStyle-Standard-BodyD-Column3-Row1">Returns hypotenuse; square root of the sum of the squares of the 2 inputs</td>
                         </tr>
-                        <tr>
-                            <td>I(boolean)</td>
-                            <td>integer</td>
-                            <td>The indicator function. Returns 1 if true, otherwise 0</td>
+                        <tr class="TableStyle-Standard-Body-Row1">
+                            <td class="TableStyle-Standard-BodyE-Column1-Row1">I(boolean)</td>
+                            <td class="TableStyle-Standard-BodyE-Column2-Row1">integer</td>
+                            <td class="TableStyle-Standard-BodyD-Column3-Row1">The indicator function. Returns 1 if true, otherwise 0</td>
                         </tr>
-                        <tr>
-                            <td>
+                        <tr class="TableStyle-Standard-Body-Row1">
+                            <td class="TableStyle-Standard-BodyE-Column1-Row1">
                                 <p>&#160;</p>
                             </td>
-                            <td>double</td>
-                            <td>Iterated (Recursive) EMA Operator</td>
+                            <td class="TableStyle-Standard-BodyE-Column2-Row1">double</td>
+                            <td class="TableStyle-Standard-BodyD-Column3-Row1">Iterated (Recursive) EMA Operator</td>
                         </tr>
-                        <tr>
-                            <td>ifNull(-type-, -type-)</td>
-                            <td><em>-type-</em>
+                        <tr class="TableStyle-Standard-Body-Row1">
+                            <td class="TableStyle-Standard-BodyE-Column1-Row1">ifNull(-type-, -type-)</td>
+                            <td class="TableStyle-Standard-BodyE-Column2-Row1"><em>-type-</em>
                             </td>
-                            <td>if first input is null use the second value</td>
+                            <td class="TableStyle-Standard-BodyD-Column3-Row1">if first input is null use the second value</td>
                         </tr>
-                        <tr>
-                            <td>
+                        <tr class="TableStyle-Standard-Body-Row1">
+                            <td class="TableStyle-Standard-BodyE-Column1-Row1">
                                 <p class="first"><a href="#id37"><MadCap:xref href="../../B_Technical Reference/Algorithms/Irregular Time Series Functions.htm#iMicroTickFrequency">iMicroTickFrequency</MadCap:xref></a>
                                 </p>
                             </td>
-                            <td>double</td>
-                            <td>Average tick arrival over the given period</td>
+                            <td class="TableStyle-Standard-BodyE-Column2-Row1">double</td>
+                            <td class="TableStyle-Standard-BodyD-Column3-Row1">Average tick arrival over the given period</td>
                         </tr>
-                        <tr>
-                            <td>
+                        <tr class="TableStyle-Standard-Body-Row1">
+                            <td class="TableStyle-Standard-BodyE-Column1-Row1">
                                 <p class="first"><a href="#id39"><MadCap:xref href="../../B_Technical Reference/Algorithms/Irregular Time Series Functions.htm#iMicroVolatility">iMicroVolatility</MadCap:xref></a>
                                 </p>
                             </td>
-                            <td>double</td>
-                            <td>Microscopic Volatility is computed as the norm of the microscopic derivative of the signal</td>
+                            <td class="TableStyle-Standard-BodyE-Column2-Row1">double</td>
+                            <td class="TableStyle-Standard-BodyD-Column3-Row1">Microscopic Volatility is computed as the norm of the microscopic derivative of the signal</td>
                         </tr>
-                        <tr>
-                            <td>
+                        <tr class="TableStyle-Standard-Body-Row1">
+                            <td class="TableStyle-Standard-BodyE-Column1-Row1">
                                 <p class="first"><a href="#id41"><MadCap:xref href="../../B_Technical Reference/Algorithms/Irregular Time Series Functions.htm#iMovAverage">iMovAverage</MadCap:xref></a>
                                 </p>
                             </td>
-                            <td>double</td>
-                            <td>Moving Average for irregular time series</td>
+                            <td class="TableStyle-Standard-BodyE-Column2-Row1">double</td>
+                            <td class="TableStyle-Standard-BodyD-Column3-Row1">Moving Average for irregular time series</td>
                         </tr>
-                        <tr>
-                            <td>
+                        <tr class="TableStyle-Standard-Body-Row1">
+                            <td class="TableStyle-Standard-BodyE-Column1-Row1">
                                 <p class="first"><a href="#id43"><MadCap:xref href="../../B_Technical Reference/Algorithms/Irregular Time Series Functions.htm#iMovDerivative">iMovDerivative</MadCap:xref></a>
                                 </p>
                             </td>
-                            <td>double</td>
-                            <td>Moving Derivative for irregular time series</td>
+                            <td class="TableStyle-Standard-BodyE-Column2-Row1">double</td>
+                            <td class="TableStyle-Standard-BodyD-Column3-Row1">Moving Derivative for irregular time series</td>
                         </tr>
-                        <tr>
-                            <td>
+                        <tr class="TableStyle-Standard-Body-Row1">
+                            <td class="TableStyle-Standard-BodyE-Column1-Row1">
                                 <p class="first"><a href="#id45"><MadCap:xref href="../../B_Technical Reference/Algorithms/Irregular Time Series Functions.htm#iMovDifferential">iMovDifferential</MadCap:xref></a>
                                 </p>
                             </td>
-                            <td>double</td>
-                            <td>Moving Differential for irregular time series</td>
+                            <td class="TableStyle-Standard-BodyE-Column2-Row1">double</td>
+                            <td class="TableStyle-Standard-BodyD-Column3-Row1">Moving Differential for irregular time series</td>
                         </tr>
-                        <tr>
-                            <td>
+                        <tr class="TableStyle-Standard-Body-Row1">
+                            <td class="TableStyle-Standard-BodyE-Column1-Row1">
                                 <p class="first"><a href="#id47"><MadCap:xref href="../../B_Technical Reference/Algorithms/Irregular Time Series Functions.htm#iMovKurtosis">iMovKurtosis</MadCap:xref></a>
                                 </p>
                             </td>
-                            <td>double</td>
-                            <td>Moving Kurtosis for irregular time series</td>
+                            <td class="TableStyle-Standard-BodyE-Column2-Row1">double</td>
+                            <td class="TableStyle-Standard-BodyD-Column3-Row1">Moving Kurtosis for irregular time series</td>
                         </tr>
-                        <tr>
-                            <td>
+                        <tr class="TableStyle-Standard-Body-Row1">
+                            <td class="TableStyle-Standard-BodyE-Column1-Row1">
                                 <p class="first"><a href="#id49"><MadCap:xref href="../../B_Technical Reference/Algorithms/Irregular Time Series Functions.htm#iMovNorm">iMovNorm</MadCap:xref></a>
                                 </p>
                             </td>
-                            <td>double</td>
-                            <td>Moving Norm for irregular time series</td>
+                            <td class="TableStyle-Standard-BodyE-Column2-Row1">double</td>
+                            <td class="TableStyle-Standard-BodyD-Column3-Row1">Moving Norm for irregular time series</td>
                         </tr>
-                        <tr>
-                            <td>
+                        <tr class="TableStyle-Standard-Body-Row1">
+                            <td class="TableStyle-Standard-BodyE-Column1-Row1">
                                 <p class="first"><a href="#id51"><MadCap:xref href="../../B_Technical Reference/Algorithms/Irregular Time Series Functions.htm#iMovOscilator">iMovOscilator</MadCap:xref></a>
                                 </p>
                             </td>
-                            <td>double</td>
-                            <td>Classical oscilator that computes the difference between the current value and a simple EMA operator defined for a given period.</td>
+                            <td class="TableStyle-Standard-BodyE-Column2-Row1">double</td>
+                            <td class="TableStyle-Standard-BodyD-Column3-Row1">Classical oscilator that computes the difference between the current value and a simple EMA operator defined for a given period.</td>
                         </tr>
-                        <tr>
-                            <td>
+                        <tr class="TableStyle-Standard-Body-Row1">
+                            <td class="TableStyle-Standard-BodyE-Column1-Row1">
                                 <p class="first"><a href="#id53"><MadCap:xref href="../../B_Technical Reference/Algorithms/Irregular Time Series Functions.htm#iMovSkewness">iMovSkewness</MadCap:xref></a>
                                 </p>
                             </td>
-                            <td>double</td>
-                            <td>Returns the amount of skewness for an irregular time series</td>
+                            <td class="TableStyle-Standard-BodyE-Column2-Row1">double</td>
+                            <td class="TableStyle-Standard-BodyD-Column3-Row1">Returns the amount of skewness for an irregular time series</td>
                         </tr>
-                        <tr>
-                            <td>
+                        <tr class="TableStyle-Standard-Body-Row1">
+                            <td class="TableStyle-Standard-BodyE-Column1-Row1">
                                 <p class="first"><a href="#id55"><MadCap:xref href="../../B_Technical Reference/Algorithms/Irregular Time Series Functions.htm#iMovStandardDeviation">iMovStandardDeviation</MadCap:xref></a>
                                 </p>
                             </td>
-                            <td>double</td>
-                            <td>Moving Standard Deviation for irregular time series</td>
+                            <td class="TableStyle-Standard-BodyE-Column2-Row1">double</td>
+                            <td class="TableStyle-Standard-BodyD-Column3-Row1">Moving Standard Deviation for irregular time series</td>
                         </tr>
-                        <tr>
-                            <td>
+                        <tr class="TableStyle-Standard-Body-Row1">
+                            <td class="TableStyle-Standard-BodyE-Column1-Row1">
                                 <p class="first"><a href="#id57"><MadCap:xref href="../../B_Technical Reference/Algorithms/Irregular Time Series Functions.htm#iMovVariance">iMovVariance</MadCap:xref></a>
                                 </p>
                             </td>
-                            <td>double</td>
-                            <td>Moving Variance for irregular time series</td>
+                            <td class="TableStyle-Standard-BodyE-Column2-Row1">double</td>
+                            <td class="TableStyle-Standard-BodyD-Column3-Row1">Moving Variance for irregular time series</td>
                         </tr>
-                        <tr>
-                            <td>
+                        <tr class="TableStyle-Standard-Body-Row1">
+                            <td class="TableStyle-Standard-BodyE-Column1-Row1">
                                 <p class="first"><a href="#id59"><MadCap:xref href="../../B_Technical Reference/Algorithms/Irregular Time Series Functions.htm#iMovOscilator">iMovOscilator</MadCap:xref></a>
                                 </p>
                             </td>
-                            <td>double</td>
-                            <td>Moving Oscilator over an irregular time series</td>
+                            <td class="TableStyle-Standard-BodyE-Column2-Row1">double</td>
+                            <td class="TableStyle-Standard-BodyD-Column3-Row1">Moving Oscilator over an irregular time series</td>
                         </tr>
-                        <tr>
-                            <td>
+                        <tr class="TableStyle-Standard-Body-Row1">
+                            <td class="TableStyle-Standard-BodyE-Column1-Row1">
                                 <p class="first"><a href="#id61"><MadCap:xref href="../../B_Technical Reference/Algorithms/Irregular Time Series Functions.htm#iMovZ">iMovZ</MadCap:xref></a>
                                 </p>
                             </td>
-                            <td>double</td>
-                            <td>Moving Standardized time series (average 0, var 1)</td>
+                            <td class="TableStyle-Standard-BodyE-Column2-Row1">double</td>
+                            <td class="TableStyle-Standard-BodyD-Column3-Row1">Moving Standardized time series (average 0, var 1)</td>
                         </tr>
-                        <tr>
-                            <td>inetAddress(string)</td>
-                            <td>ip</td>
-                            <td>Converts a string into an inet address</td>
+                        <tr class="TableStyle-Standard-Body-Row1">
+                            <td class="TableStyle-Standard-BodyE-Column1-Row1">inetAddress(string)</td>
+                            <td class="TableStyle-Standard-BodyE-Column2-Row1">ip</td>
+                            <td class="TableStyle-Standard-BodyD-Column3-Row1">Converts a string into an inet address</td>
                         </tr>
-                        <tr>
-                            <td>inetAddressByName(string)</td>
-                            <td>ip</td>
-                            <td>Creates an inet address based on a host name</td>
+                        <tr class="TableStyle-Standard-Body-Row1">
+                            <td class="TableStyle-Standard-BodyE-Column1-Row1">inetAddressByName(string)</td>
+                            <td class="TableStyle-Standard-BodyE-Column2-Row1">ip</td>
+                            <td class="TableStyle-Standard-BodyD-Column3-Row1">Creates an inet address based on a host name</td>
                         </tr>
-                        <tr>
-                            <td>isAbsolute(uri)</td>
-                            <td>boolean</td>
-                            <td>Returns true is the URI is absolutel</td>
+                        <tr class="TableStyle-Standard-Body-Row1">
+                            <td class="TableStyle-Standard-BodyE-Column1-Row1">isAbsolute(uri)</td>
+                            <td class="TableStyle-Standard-BodyE-Column2-Row1">boolean</td>
+                            <td class="TableStyle-Standard-BodyD-Column3-Row1">Returns true is the URI is absolutel</td>
                         </tr>
-                        <tr>
-                            <td>isAfter(date, date) or (datetime, datetime)</td>
-                            <td>boolean</td>
-                            <td>Returns true if first time point is after the second</td>
+                        <tr class="TableStyle-Standard-Body-Row1">
+                            <td class="TableStyle-Standard-BodyE-Column1-Row1">isAfter(date, date) or (datetime, datetime)</td>
+                            <td class="TableStyle-Standard-BodyE-Column2-Row1">boolean</td>
+                            <td class="TableStyle-Standard-BodyD-Column3-Row1">Returns true if first time point is after the second</td>
                         </tr>
-                        <tr>
-                            <td>isBefore(date, date) or (datetime, datetime)</td>
-                            <td>boolean</td>
-                            <td>Returns true if first time point is before second)</td>
+                        <tr class="TableStyle-Standard-Body-Row1">
+                            <td class="TableStyle-Standard-BodyE-Column1-Row1">isBefore(date, date) or (datetime, datetime)</td>
+                            <td class="TableStyle-Standard-BodyE-Column2-Row1">boolean</td>
+                            <td class="TableStyle-Standard-BodyD-Column3-Row1">Returns true if first time point is before second)</td>
                         </tr>
-                        <tr>
-                            <td>isGlobalMulticastAddress(ip)</td>
-                            <td>boolean</td>
-                            <td>Returns true if the multicast address has global scope</td>
+                        <tr class="TableStyle-Standard-Body-Row1">
+                            <td class="TableStyle-Standard-BodyE-Column1-Row1">isGlobalMulticastAddress(ip)</td>
+                            <td class="TableStyle-Standard-BodyE-Column2-Row1">boolean</td>
+                            <td class="TableStyle-Standard-BodyD-Column3-Row1">Returns true if the multicast address has global scope</td>
                         </tr>
-                        <tr>
-                            <td>isInfinity(double)</td>
-                            <td>boolean</td>
-                            <td>Checks if the double value is Infinity</td>
+                        <tr class="TableStyle-Standard-Body-Row1">
+                            <td class="TableStyle-Standard-BodyE-Column1-Row1">isInfinity(double)</td>
+                            <td class="TableStyle-Standard-BodyE-Column2-Row1">boolean</td>
+                            <td class="TableStyle-Standard-BodyD-Column3-Row1">Checks if the double value is Infinity</td>
                         </tr>
-                        <tr>
-                            <td>isIPv4(ip)</td>
-                            <td>boolean</td>
-                            <td>Returns true if the address is an IPv4</td>
+                        <tr class="TableStyle-Standard-Body-Row1">
+                            <td class="TableStyle-Standard-BodyE-Column1-Row1">isIPv4(ip)</td>
+                            <td class="TableStyle-Standard-BodyE-Column2-Row1">boolean</td>
+                            <td class="TableStyle-Standard-BodyD-Column3-Row1">Returns true if the address is an IPv4</td>
                         </tr>
-                        <tr>
-                            <td>isIPv4Mapped(ip)</td>
-                            <td>boolean</td>
-                            <td>Returns true if the address is an IPv4 mapped as IPv6</td>
+                        <tr class="TableStyle-Standard-Body-Row1">
+                            <td class="TableStyle-Standard-BodyE-Column1-Row1">isIPv4Mapped(ip)</td>
+                            <td class="TableStyle-Standard-BodyE-Column2-Row1">boolean</td>
+                            <td class="TableStyle-Standard-BodyD-Column3-Row1">Returns true if the address is an IPv4 mapped as IPv6</td>
                         </tr>
-                        <tr>
-                            <td>isIPv6(ip)</td>
-                            <td>boolean</td>
-                            <td>Returns true if the address is an IPv6</td>
+                        <tr class="TableStyle-Standard-Body-Row1">
+                            <td class="TableStyle-Standard-BodyE-Column1-Row1">isIPv6(ip)</td>
+                            <td class="TableStyle-Standard-BodyE-Column2-Row1">boolean</td>
+                            <td class="TableStyle-Standard-BodyD-Column3-Row1">Returns true if the address is an IPv6</td>
                         </tr>
-                        <tr>
-                            <td>isLeapYear(date, or datetime)</td>
-                            <td>boolean</td>
-                            <td>Returns true if timepoint is within a leap year</td>
+                        <tr class="TableStyle-Standard-Body-Row1">
+                            <td class="TableStyle-Standard-BodyE-Column1-Row1">isLeapYear(date, or datetime)</td>
+                            <td class="TableStyle-Standard-BodyE-Column2-Row1">boolean</td>
+                            <td class="TableStyle-Standard-BodyD-Column3-Row1">Returns true if timepoint is within a leap year</td>
                         </tr>
-                        <tr>
-                            <td>isLinkLocalMulticastAddress(ip)</td>
-                            <td>boolean</td>
-                            <td>Returns true if the multicast address has link scope</td>
+                        <tr class="TableStyle-Standard-Body-Row1">
+                            <td class="TableStyle-Standard-BodyE-Column1-Row1">isLinkLocalMulticastAddress(ip)</td>
+                            <td class="TableStyle-Standard-BodyE-Column2-Row1">boolean</td>
+                            <td class="TableStyle-Standard-BodyD-Column3-Row1">Returns true if the multicast address has link scope</td>
                         </tr>
-                        <tr>
-                            <td>isLoopbackAddress(ip)</td>
-                            <td>boolean</td>
-                            <td>Returns true if the address is an IPv4 or IPv6 loopback address</td>
+                        <tr class="TableStyle-Standard-Body-Row1">
+                            <td class="TableStyle-Standard-BodyE-Column1-Row1">isLoopbackAddress(ip)</td>
+                            <td class="TableStyle-Standard-BodyE-Column2-Row1">boolean</td>
+                            <td class="TableStyle-Standard-BodyD-Column3-Row1">Returns true if the address is an IPv4 or IPv6 loopback address</td>
                         </tr>
-                        <tr>
-                            <td>isMulticastAddress(ip)</td>
-                            <td>boolean</td>
-                            <td>Returns true if the address is multicast</td>
+                        <tr class="TableStyle-Standard-Body-Row1">
+                            <td class="TableStyle-Standard-BodyE-Column1-Row1">isMulticastAddress(ip)</td>
+                            <td class="TableStyle-Standard-BodyE-Column2-Row1">boolean</td>
+                            <td class="TableStyle-Standard-BodyD-Column3-Row1">Returns true if the address is multicast</td>
                         </tr>
-                        <tr>
-                            <td>isNan(double)</td>
-                            <td>boolean</td>
-                            <td>Checks if the double value is NaN (Not a Number)</td>
+                        <tr class="TableStyle-Standard-Body-Row1">
+                            <td class="TableStyle-Standard-BodyE-Column1-Row1">isNan(double)</td>
+                            <td class="TableStyle-Standard-BodyE-Column2-Row1">boolean</td>
+                            <td class="TableStyle-Standard-BodyD-Column3-Row1">Checks if the double value is NaN (Not a Number)</td>
                         </tr>
-                        <tr>
-                            <td>isNegInfinity(double)</td>
-                            <td>boolean</td>
-                            <td>Checks if the double value is -Infinity</td>
+                        <tr class="TableStyle-Standard-Body-Row1">
+                            <td class="TableStyle-Standard-BodyE-Column1-Row1">isNegInfinity(double)</td>
+                            <td class="TableStyle-Standard-BodyE-Column2-Row1">boolean</td>
+                            <td class="TableStyle-Standard-BodyD-Column3-Row1">Checks if the double value is -Infinity</td>
                         </tr>
-                        <tr>
-                            <td>isNodeLocalMulticastAddress(ip)</td>
-                            <td>boolean</td>
-                            <td>Returns true if the multicast address has node scope</td>
+                        <tr class="TableStyle-Standard-Body-Row1">
+                            <td class="TableStyle-Standard-BodyE-Column1-Row1">isNodeLocalMulticastAddress(ip)</td>
+                            <td class="TableStyle-Standard-BodyE-Column2-Row1">boolean</td>
+                            <td class="TableStyle-Standard-BodyD-Column3-Row1">Returns true if the multicast address has node scope</td>
                         </tr>
-                        <tr>
-                            <td>isNull(-type-)</td>
-                            <td>boolean</td>
-                            <td>returns true if value is null</td>
+                        <tr class="TableStyle-Standard-Body-Row1">
+                            <td class="TableStyle-Standard-BodyE-Column1-Row1">isNull(-type-)</td>
+                            <td class="TableStyle-Standard-BodyE-Column2-Row1">boolean</td>
+                            <td class="TableStyle-Standard-BodyD-Column3-Row1">returns true if value is null</td>
                         </tr>
-                        <tr>
-                            <td>isOpaque(uri)</td>
-                            <td>boolean</td>
-                            <td>returns true if uri is opaque</td>
+                        <tr class="TableStyle-Standard-Body-Row1">
+                            <td class="TableStyle-Standard-BodyE-Column1-Row1">isOpaque(uri)</td>
+                            <td class="TableStyle-Standard-BodyE-Column2-Row1">boolean</td>
+                            <td class="TableStyle-Standard-BodyD-Column3-Row1">returns true if uri is opaque</td>
                         </tr>
-                        <tr>
-                            <td>isOrganisationalMulticastAddress(ip)</td>
-                            <td>boolean</td>
-                            <td>Returns true if the multicast address has organization scope</td>
+                        <tr class="TableStyle-Standard-Body-Row1">
+                            <td class="TableStyle-Standard-BodyE-Column1-Row1">isOrganisationalMulticastAddress(ip)</td>
+                            <td class="TableStyle-Standard-BodyE-Column2-Row1">boolean</td>
+                            <td class="TableStyle-Standard-BodyD-Column3-Row1">Returns true if the multicast address has organization scope</td>
                         </tr>
-                        <tr>
-                            <td>isPosInfinity(double)</td>
-                            <td>boolean</td>
-                            <td>Checks if the double value is +Infinity</td>
+                        <tr class="TableStyle-Standard-Body-Row1">
+                            <td class="TableStyle-Standard-BodyE-Column1-Row1">isPosInfinity(double)</td>
+                            <td class="TableStyle-Standard-BodyE-Column2-Row1">boolean</td>
+                            <td class="TableStyle-Standard-BodyD-Column3-Row1">Checks if the double value is +Infinity</td>
                         </tr>
-                        <tr>
-                            <td>isSiteMulticastAddress(ip)</td>
-                            <td>boolean</td>
-                            <td>Returns true if the multicast address has site scope</td>
+                        <tr class="TableStyle-Standard-Body-Row1">
+                            <td class="TableStyle-Standard-BodyE-Column1-Row1">isSiteMulticastAddress(ip)</td>
+                            <td class="TableStyle-Standard-BodyE-Column2-Row1">boolean</td>
+                            <td class="TableStyle-Standard-BodyD-Column3-Row1">Returns true if the multicast address has site scope</td>
                         </tr>
-                        <tr>
-                            <td>kind(ip)</td>
-                            <td>string</td>
-                            <td>Returns a string with the type of address. "IPv4" or "IPv6"</td>
+                        <tr class="TableStyle-Standard-Body-Row1">
+                            <td class="TableStyle-Standard-BodyE-Column1-Row1">kind(ip)</td>
+                            <td class="TableStyle-Standard-BodyE-Column2-Row1">string</td>
+                            <td class="TableStyle-Standard-BodyD-Column3-Row1">Returns a string with the type of address. "IPv4" or "IPv6"</td>
                         </tr>
-                        <tr>
-                            <td>
+                        <tr class="TableStyle-Standard-Body-Row1">
+                            <td class="TableStyle-Standard-BodyE-Column1-Row1">
                                 <p class="first"><a href="#id63"><MadCap:xref href="#Last">Last</MadCap:xref></a>
                                 </p>
                             </td>
-                            <td>-type-</td>
-                            <td>Returns the last in an ordered set (see link for more detail)</td>
+                            <td class="TableStyle-Standard-BodyE-Column2-Row1">-type-</td>
+                            <td class="TableStyle-Standard-BodyD-Column3-Row1">Returns the last in an ordered set (see link for more detail)</td>
                         </tr>
-                        <tr>
-                            <td>latitude(geoPoint)</td>
-                            <td>double</td>
-                            <td>returns the latitude value of a given point in degrees</td>
+                        <tr class="TableStyle-Standard-Body-Row1">
+                            <td class="TableStyle-Standard-BodyE-Column1-Row1">latitude(geoPoint)</td>
+                            <td class="TableStyle-Standard-BodyE-Column2-Row1">double</td>
+                            <td class="TableStyle-Standard-BodyD-Column3-Row1">returns the latitude value of a given point in degrees</td>
                         </tr>
-                        <tr>
-                            <td>lengthOfMonth(date or datetime)</td>
-                            <td>integer</td>
-                            <td>Returns the number of days in the month of given date</td>
+                        <tr class="TableStyle-Standard-Body-Row1">
+                            <td class="TableStyle-Standard-BodyE-Column1-Row1">lengthOfMonth(date or datetime)</td>
+                            <td class="TableStyle-Standard-BodyE-Column2-Row1">integer</td>
+                            <td class="TableStyle-Standard-BodyD-Column3-Row1">Returns the number of days in the month of given date</td>
                         </tr>
-                        <tr>
-                            <td>lengthOfYear(date or datetime)</td>
-                            <td>integer</td>
-                            <td>Returns the number of days in the year of given date (365 or 366)</td>
+                        <tr class="TableStyle-Standard-Body-Row1">
+                            <td class="TableStyle-Standard-BodyE-Column1-Row1">lengthOfYear(date or datetime)</td>
+                            <td class="TableStyle-Standard-BodyE-Column2-Row1">integer</td>
+                            <td class="TableStyle-Standard-BodyD-Column3-Row1">Returns the number of days in the year of given date (365 or 366)</td>
                         </tr>
-                        <tr>
-                            <td>log(double)</td>
-                            <td>double</td>
-                            <td>Returns the natural logarithm (base e) of the input</td>
+                        <tr class="TableStyle-Standard-Body-Row1">
+                            <td class="TableStyle-Standard-BodyE-Column1-Row1">log(double)</td>
+                            <td class="TableStyle-Standard-BodyE-Column2-Row1">double</td>
+                            <td class="TableStyle-Standard-BodyD-Column3-Row1">Returns the natural logarithm (base e) of the input</td>
                         </tr>
-                        <tr>
-                            <td>log10(double)</td>
-                            <td>double</td>
-                            <td>returns the common logarithm (base 10) of input</td>
+                        <tr class="TableStyle-Standard-Body-Row1">
+                            <td class="TableStyle-Standard-BodyE-Column1-Row1">log10(double)</td>
+                            <td class="TableStyle-Standard-BodyE-Column2-Row1">double</td>
+                            <td class="TableStyle-Standard-BodyD-Column3-Row1">returns the common logarithm (base 10) of input</td>
                         </tr>
-                        <tr>
-                            <td>log1p(double)</td>
-                            <td>double</td>
-                            <td>Returns the natural logarithm of the the argument plus 1</td>
+                        <tr class="TableStyle-Standard-Body-Row1">
+                            <td class="TableStyle-Standard-BodyE-Column1-Row1">log1p(double)</td>
+                            <td class="TableStyle-Standard-BodyE-Column2-Row1">double</td>
+                            <td class="TableStyle-Standard-BodyD-Column3-Row1">Returns the natural logarithm of the the argument plus 1</td>
                         </tr>
-                        <tr>
-                            <td>longitude(geoPoint)</td>
-                            <td>double</td>
-                            <td>returns the longitude value of a given point in degrees</td>
+                        <tr class="TableStyle-Standard-Body-Row1">
+                            <td class="TableStyle-Standard-BodyE-Column1-Row1">longitude(geoPoint)</td>
+                            <td class="TableStyle-Standard-BodyE-Column2-Row1">double</td>
+                            <td class="TableStyle-Standard-BodyD-Column3-Row1">returns the longitude value of a given point in degrees</td>
                         </tr>
-                        <tr>
-                            <td>
+                        <tr class="TableStyle-Standard-Body-Row1">
+                            <td class="TableStyle-Standard-BodyE-Column1-Row1">
                                 <p class="first"><a href="#id65"><MadCap:xref href="#max">max</MadCap:xref></a>
                                 </p>
                             </td>
-                            <td>integer</td>
-                            <td>Returns the largest argument for each payload</td>
+                            <td class="TableStyle-Standard-BodyE-Column2-Row1">integer</td>
+                            <td class="TableStyle-Standard-BodyD-Column3-Row1">Returns the largest argument for each payload</td>
                         </tr>
-                        <tr>
-                            <td>
+                        <tr class="TableStyle-Standard-Body-Row1">
+                            <td class="TableStyle-Standard-BodyE-Column1-Row1">
                                 <p class="first"><a href="#id67"><MadCap:xref href="#Max">Max</MadCap:xref></a>
                                 </p>
                             </td>
-                            <td>-type-</td>
-                            <td>Aggregates payloads into a single result</td>
+                            <td class="TableStyle-Standard-BodyE-Column2-Row1">-type-</td>
+                            <td class="TableStyle-Standard-BodyD-Column3-Row1">Aggregates payloads into a single result</td>
                         </tr>
-                        <tr>
-                            <td>micros(duration)</td>
-                            <td>long</td>
-                            <td>Converts duration into microseconds</td>
+                        <tr class="TableStyle-Standard-Body-Row1">
+                            <td class="TableStyle-Standard-BodyE-Column1-Row1">micros(duration)</td>
+                            <td class="TableStyle-Standard-BodyE-Column2-Row1">long</td>
+                            <td class="TableStyle-Standard-BodyD-Column3-Row1">Converts duration into microseconds</td>
                         </tr>
-                        <tr>
-                            <td>millis(duration)</td>
-                            <td>long</td>
-                            <td>Converts duration into milliseconds</td>
+                        <tr class="TableStyle-Standard-Body-Row1">
+                            <td class="TableStyle-Standard-BodyE-Column1-Row1">millis(duration)</td>
+                            <td class="TableStyle-Standard-BodyE-Column2-Row1">long</td>
+                            <td class="TableStyle-Standard-BodyD-Column3-Row1">Converts duration into milliseconds</td>
                         </tr>
-                        <tr>
-                            <td>
+                        <tr class="TableStyle-Standard-Body-Row1">
+                            <td class="TableStyle-Standard-BodyE-Column1-Row1">
                                 <p class="first"><a href="#id69"><MadCap:xref href="#min">min</MadCap:xref></a>
                                 </p>
                             </td>
-                            <td>integer</td>
-                            <td>Returns the smallest argument for each payload</td>
+                            <td class="TableStyle-Standard-BodyE-Column2-Row1">integer</td>
+                            <td class="TableStyle-Standard-BodyD-Column3-Row1">Returns the smallest argument for each payload</td>
                         </tr>
-                        <tr>
-                            <td>
+                        <tr class="TableStyle-Standard-Body-Row1">
+                            <td class="TableStyle-Standard-BodyE-Column1-Row1">
                                 <p class="first"><a href="#id71"><MadCap:xref href="#Min">Min</MadCap:xref></a>
                                 </p>
                             </td>
-                            <td>-type-</td>
-                            <td>Aggregates payloads into a single result</td>
+                            <td class="TableStyle-Standard-BodyE-Column2-Row1">-type-</td>
+                            <td class="TableStyle-Standard-BodyD-Column3-Row1">Aggregates payloads into a single result</td>
                         </tr>
-                        <tr>
-                            <td>minus(date, duration) or (datetime, duration)</td>
-                            <td>datetime</td>
-                            <td>returns the date and time of the input date minus the duration</td>
+                        <tr class="TableStyle-Standard-Body-Row1">
+                            <td class="TableStyle-Standard-BodyE-Column1-Row1">minus(date, duration) or (datetime, duration)</td>
+                            <td class="TableStyle-Standard-BodyE-Column2-Row1">datetime</td>
+                            <td class="TableStyle-Standard-BodyD-Column3-Row1">returns the date and time of the input date minus the duration</td>
                         </tr>
-                        <tr>
-                            <td>minus(time , duration)</td>
-                            <td>time</td>
-                            <td>returns the time of the input time minus the duration</td>
+                        <tr class="TableStyle-Standard-Body-Row1">
+                            <td class="TableStyle-Standard-BodyE-Column1-Row1">minus(time , duration)</td>
+                            <td class="TableStyle-Standard-BodyE-Column2-Row1">time</td>
+                            <td class="TableStyle-Standard-BodyD-Column3-Row1">returns the time of the input time minus the duration</td>
                         </tr>
-                        <tr>
-                            <td>minute(time) or (datetime)</td>
-                            <td>integer</td>
-                            <td>returns the minutes digits in the time specified</td>
+                        <tr class="TableStyle-Standard-Body-Row1">
+                            <td class="TableStyle-Standard-BodyE-Column1-Row1">minute(time) or (datetime)</td>
+                            <td class="TableStyle-Standard-BodyE-Column2-Row1">integer</td>
+                            <td class="TableStyle-Standard-BodyD-Column3-Row1">returns the minutes digits in the time specified</td>
                         </tr>
-                        <tr>
-                            <td>minuteofDay(time) or (datetime)</td>
-                            <td>integer</td>
-                            <td>minute in the day of the specified time</td>
+                        <tr class="TableStyle-Standard-Body-Row1">
+                            <td class="TableStyle-Standard-BodyE-Column1-Row1">minuteofDay(time) or (datetime)</td>
+                            <td class="TableStyle-Standard-BodyE-Column2-Row1">integer</td>
+                            <td class="TableStyle-Standard-BodyD-Column3-Row1">minute in the day of the specified time</td>
                         </tr>
-                        <tr>
-                            <td>minutes(duration)</td>
-                            <td>long</td>
-                            <td>duration converted into minutes</td>
+                        <tr class="TableStyle-Standard-Body-Row1">
+                            <td class="TableStyle-Standard-BodyE-Column1-Row1">minutes(duration)</td>
+                            <td class="TableStyle-Standard-BodyE-Column2-Row1">long</td>
+                            <td class="TableStyle-Standard-BodyD-Column3-Row1">duration converted into minutes</td>
                         </tr>
-                        <tr>
-                            <td>month(time) or (datetime)</td>
-                            <td>integer</td>
-                            <td>month of the year as an integer where Jan =1, Feb = 2,....</td>
+                        <tr class="TableStyle-Standard-Body-Row1">
+                            <td class="TableStyle-Standard-BodyE-Column1-Row1">month(time) or (datetime)</td>
+                            <td class="TableStyle-Standard-BodyE-Column2-Row1">integer</td>
+                            <td class="TableStyle-Standard-BodyD-Column3-Row1">month of the year as an integer where Jan =1, Feb = 2,....</td>
                         </tr>
-                        <tr>
-                            <td>multicastKind(ip)</td>
-                            <td>string</td>
-                            <td>Returns a string with the type of multicast address [Global, Link, Node, Organisation, Site or Unknown</td>
+                        <tr class="TableStyle-Standard-Body-Row1">
+                            <td class="TableStyle-Standard-BodyE-Column1-Row1">multicastKind(ip)</td>
+                            <td class="TableStyle-Standard-BodyE-Column2-Row1">string</td>
+                            <td class="TableStyle-Standard-BodyD-Column3-Row1">Returns a string with the type of multicast address [Global, Link, Node, Organisation, Site or Unknown</td>
                         </tr>
-                        <tr>
-                            <td>nameOfMonth(date) or (datetime)</td>
-                            <td>string</td>
-                            <td>Returns the name of the month, as a string</td>
+                        <tr class="TableStyle-Standard-Body-Row1">
+                            <td class="TableStyle-Standard-BodyE-Column1-Row1">nameOfMonth(date) or (datetime)</td>
+                            <td class="TableStyle-Standard-BodyE-Column2-Row1">string</td>
+                            <td class="TableStyle-Standard-BodyD-Column3-Row1">Returns the name of the month, as a string</td>
                         </tr>
-                        <tr>
-                            <td>nano(datetime) or (time)</td>
-                            <td>integer</td>
-                            <td>Gets the fractional second in nano units</td>
+                        <tr class="TableStyle-Standard-Body-Row1">
+                            <td class="TableStyle-Standard-BodyE-Column1-Row1">nano(datetime) or (time)</td>
+                            <td class="TableStyle-Standard-BodyE-Column2-Row1">integer</td>
+                            <td class="TableStyle-Standard-BodyD-Column3-Row1">Gets the fractional second in nano units</td>
                         </tr>
-                        <tr>
-                            <td>nanos(duration)</td>
-                            <td>long</td>
-                            <td>converting a duration into nanoseconds</td>
+                        <tr class="TableStyle-Standard-Body-Row1">
+                            <td class="TableStyle-Standard-BodyE-Column1-Row1">nanos(duration)</td>
+                            <td class="TableStyle-Standard-BodyE-Column2-Row1">long</td>
+                            <td class="TableStyle-Standard-BodyD-Column3-Row1">converting a duration into nanoseconds</td>
                         </tr>
-                        <tr>
-                            <td>ordinal(int, int, int, int)</td>
-                            <td>date</td>
-                            <td>Calculates a date based on a ordinal position where arguments are (position, day of week, month, year)</td>
+                        <tr class="TableStyle-Standard-Body-Row1">
+                            <td class="TableStyle-Standard-BodyE-Column1-Row1">ordinal(int, int, int, int)</td>
+                            <td class="TableStyle-Standard-BodyE-Column2-Row1">date</td>
+                            <td class="TableStyle-Standard-BodyD-Column3-Row1">Calculates a date based on a ordinal position where arguments are (position, day of week, month, year)</td>
                         </tr>
-                        <tr>
-                            <td>ordinal(int, int, date)</td>
-                            <td>date</td>
-                            <td>Calculates a date based on a ordinal position and within the month and year given by the last parameter where arguments are (position, day of the week, date in the month and year)</td>
+                        <tr class="TableStyle-Standard-Body-Row1">
+                            <td class="TableStyle-Standard-BodyE-Column1-Row1">ordinal(int, int, date)</td>
+                            <td class="TableStyle-Standard-BodyE-Column2-Row1">date</td>
+                            <td class="TableStyle-Standard-BodyD-Column3-Row1">Calculates a date based on a ordinal position and within the month and year given by the last parameter where arguments are (position, day of the week, date in the month and year)</td>
                         </tr>
-                        <tr>
-                            <td>plus(date, duration) or (datetime, duration)</td>
-                            <td>datetime</td>
-                            <td>returns what the datetime would be after the duration if starting at the input time</td>
+                        <tr class="TableStyle-Standard-Body-Row1">
+                            <td class="TableStyle-Standard-BodyE-Column1-Row1">plus(date, duration) or (datetime, duration)</td>
+                            <td class="TableStyle-Standard-BodyE-Column2-Row1">datetime</td>
+                            <td class="TableStyle-Standard-BodyD-Column3-Row1">returns what the datetime would be after the duration if starting at the input time</td>
                         </tr>
-                        <tr>
-                            <td>plus(time, duration)</td>
-                            <td>time</td>
-                            <td>returns what the time would be after the duration if starting at the input time</td>
+                        <tr class="TableStyle-Standard-Body-Row1">
+                            <td class="TableStyle-Standard-BodyE-Column1-Row1">plus(time, duration)</td>
+                            <td class="TableStyle-Standard-BodyE-Column2-Row1">time</td>
+                            <td class="TableStyle-Standard-BodyD-Column3-Row1">returns what the time would be after the duration if starting at the input time</td>
                         </tr>
-                        <tr>
-                            <td>pointOnBearing(geoPoint, double, double)</td>
-                            <td>geoPoint</td>
-                            <td>Returns location as reported at a distance (2nd argument) and bearing (3rd argument) from a known point (1st argument)</td>
+                        <tr class="TableStyle-Standard-Body-Row1">
+                            <td class="TableStyle-Standard-BodyE-Column1-Row1">pointOnBearing(geoPoint, double, double)</td>
+                            <td class="TableStyle-Standard-BodyE-Column2-Row1">geoPoint</td>
+                            <td class="TableStyle-Standard-BodyD-Column3-Row1">Returns location as reported at a distance (2nd argument) and bearing (3rd argument) from a known point (1st argument)</td>
                         </tr>
-                        <tr>
-                            <td>pow(double, double)</td>
-                            <td>double</td>
-                            <td>returns the value of the first input to the power of the second</td>
+                        <tr class="TableStyle-Standard-Body-Row1">
+                            <td class="TableStyle-Standard-BodyE-Column1-Row1">pow(double, double)</td>
+                            <td class="TableStyle-Standard-BodyE-Column2-Row1">double</td>
+                            <td class="TableStyle-Standard-BodyD-Column3-Row1">returns the value of the first input to the power of the second</td>
                         </tr>
-                        <tr>
-                            <td>
+                        <tr class="TableStyle-Standard-Body-Row1">
+                            <td class="TableStyle-Standard-BodyE-Column1-Row1">
                                 <p class="first"><a href="#id73"><MadCap:xref href="#prefix">prefix</MadCap:xref></a>
                                 </p>
                             </td>
-                            <td>boolean</td>
-                            <td>Returns true if the 1st string is prefixed by the specified (2nd) character sequence</td>
+                            <td class="TableStyle-Standard-BodyE-Column2-Row1">boolean</td>
+                            <td class="TableStyle-Standard-BodyD-Column3-Row1">Returns true if the 1st string is prefixed by the specified (2nd) character sequence</td>
                         </tr>
-                        <tr>
-                            <td>
+                        <tr class="TableStyle-Standard-Body-Row1">
+                            <td class="TableStyle-Standard-BodyE-Column1-Row1">
                                 <p class="first"><a href="#id75"><MadCap:xref href="../../B_Technical Reference/Algorithms/Quantiles.htm">Quantiles</MadCap:xref></a>
                                 </p>
                             </td>
-                            <td>sequence</td>
-                            <td>&#160;</td>
+                            <td class="TableStyle-Standard-BodyE-Column2-Row1">sequence</td>
+                            <td class="TableStyle-Standard-BodyD-Column3-Row1">&#160;</td>
                         </tr>
-                        <tr>
-                            <td>radiusDEG (geoCircle)</td>
-                            <td>double</td>
-                            <td>radius of the geo circle in degrees</td>
+                        <tr class="TableStyle-Standard-Body-Row1">
+                            <td class="TableStyle-Standard-BodyE-Column1-Row1">radiusDEG (geoCircle)</td>
+                            <td class="TableStyle-Standard-BodyE-Column2-Row1">double</td>
+                            <td class="TableStyle-Standard-BodyD-Column3-Row1">radius of the geo circle in degrees</td>
                         </tr>
-                        <tr>
-                            <td>radiusKM (geoCircle)</td>
-                            <td>double</td>
-                            <td>radius of the geo circle in kilometres</td>
+                        <tr class="TableStyle-Standard-Body-Row1">
+                            <td class="TableStyle-Standard-BodyE-Column1-Row1">radiusKM (geoCircle)</td>
+                            <td class="TableStyle-Standard-BodyE-Column2-Row1">double</td>
+                            <td class="TableStyle-Standard-BodyD-Column3-Row1">radius of the geo circle in kilometres</td>
                         </tr>
-                        <tr>
-                            <td>relate(geoPoint, geoCircle) or (geoPoint, geoRectangle)</td>
-                            <td>String{"Contains" or "Disjoint" or "Intersects" or "Within"}</td>
-                            <td>returns 1 of 4 options of how the point relates to the geo shape</td>
+                        <tr class="TableStyle-Standard-Body-Row1">
+                            <td class="TableStyle-Standard-BodyE-Column1-Row1">relate(geoPoint, geoCircle) or (geoPoint, geoRectangle)</td>
+                            <td class="TableStyle-Standard-BodyE-Column2-Row1">String{"Contains" or "Disjoint" or "Intersects" or "Within"}</td>
+                            <td class="TableStyle-Standard-BodyD-Column3-Row1">returns 1 of 4 options of how the point relates to the geo shape</td>
                         </tr>
-                        <tr>
-                            <td>search(string)</td>
-                            <td>boolean</td>
-                            <td>Support for fuzzy search over all string fields in a payload</td>
+                        <tr class="TableStyle-Standard-Body-Row1">
+                            <td class="TableStyle-Standard-BodyE-Column1-Row1">search(string)</td>
+                            <td class="TableStyle-Standard-BodyE-Column2-Row1">boolean</td>
+                            <td class="TableStyle-Standard-BodyD-Column3-Row1">Support for fuzzy search over all string fields in a payload</td>
                         </tr>
-                        <tr>
-                            <td>second(datetime) or (time)</td>
-                            <td>int</td>
-                            <td>returns the second field from the time</td>
+                        <tr class="TableStyle-Standard-Body-Row1">
+                            <td class="TableStyle-Standard-BodyE-Column1-Row1">second(datetime) or (time)</td>
+                            <td class="TableStyle-Standard-BodyE-Column2-Row1">int</td>
+                            <td class="TableStyle-Standard-BodyD-Column3-Row1">returns the second field from the time</td>
                         </tr>
-                        <tr>
-                            <td>secondOfDay(datetime) or (time)</td>
-                            <td>int</td>
-                            <td>returns the number of seconds since the previous midnight</td>
+                        <tr class="TableStyle-Standard-Body-Row1">
+                            <td class="TableStyle-Standard-BodyE-Column1-Row1">secondOfDay(datetime) or (time)</td>
+                            <td class="TableStyle-Standard-BodyE-Column2-Row1">int</td>
+                            <td class="TableStyle-Standard-BodyD-Column3-Row1">returns the number of seconds since the previous midnight</td>
                         </tr>
-                        <tr>
-                            <td>seconds(duration)</td>
-                            <td>long</td>
-                            <td>converts duration into seconds</td>
+                        <tr class="TableStyle-Standard-Body-Row1">
+                            <td class="TableStyle-Standard-BodyE-Column1-Row1">seconds(duration)</td>
+                            <td class="TableStyle-Standard-BodyE-Column2-Row1">long</td>
+                            <td class="TableStyle-Standard-BodyD-Column3-Row1">converts duration into seconds</td>
                         </tr>
-                        <tr>
-                            <td>sin(double)</td>
-                            <td>double</td>
-                            <td>sine</td>
+                        <tr class="TableStyle-Standard-Body-Row1">
+                            <td class="TableStyle-Standard-BodyE-Column1-Row1">sin(double)</td>
+                            <td class="TableStyle-Standard-BodyE-Column2-Row1">double</td>
+                            <td class="TableStyle-Standard-BodyD-Column3-Row1">sine</td>
                         </tr>
-                        <tr>
-                            <td>sinh(double)</td>
-                            <td>double</td>
-                            <td>hyperbolic sine function</td>
+                        <tr class="TableStyle-Standard-Body-Row1">
+                            <td class="TableStyle-Standard-BodyE-Column1-Row1">sinh(double)</td>
+                            <td class="TableStyle-Standard-BodyE-Column2-Row1">double</td>
+                            <td class="TableStyle-Standard-BodyD-Column3-Row1">hyperbolic sine function</td>
                         </tr>
-                        <tr>
-                            <td>sqrt(double)</td>
-                            <td>double</td>
-                            <td>Square root</td>
+                        <tr class="TableStyle-Standard-Body-Row1">
+                            <td class="TableStyle-Standard-BodyE-Column1-Row1">sqrt(double)</td>
+                            <td class="TableStyle-Standard-BodyE-Column2-Row1">double</td>
+                            <td class="TableStyle-Standard-BodyD-Column3-Row1">Square root</td>
                         </tr>
-                        <tr>
-                            <td>startOfHour(datetime) or (time)</td>
-                            <td>datetime or time</td>
-                            <td>Strips minute, second and sub-second information from the date time</td>
+                        <tr class="TableStyle-Standard-Body-Row1">
+                            <td class="TableStyle-Standard-BodyE-Column1-Row1">startOfHour(datetime) or (time)</td>
+                            <td class="TableStyle-Standard-BodyE-Column2-Row1">datetime or time</td>
+                            <td class="TableStyle-Standard-BodyD-Column3-Row1">Strips minute, second and sub-second information from the date time</td>
                         </tr>
-                        <tr>
-                            <td>startOfMinute(datetime) or (time)</td>
-                            <td>datetime or time</td>
-                            <td>Strips second and sub-second information from the date time</td>
+                        <tr class="TableStyle-Standard-Body-Row1">
+                            <td class="TableStyle-Standard-BodyE-Column1-Row1">startOfMinute(datetime) or (time)</td>
+                            <td class="TableStyle-Standard-BodyE-Column2-Row1">datetime or time</td>
+                            <td class="TableStyle-Standard-BodyD-Column3-Row1">Strips second and sub-second information from the date time</td>
                         </tr>
-                        <tr>
-                            <td>startOfSecond(datetime) or (time)</td>
-                            <td>datetime or time</td>
-                            <td>Strips sub-second information from the date time</td>
+                        <tr class="TableStyle-Standard-Body-Row1">
+                            <td class="TableStyle-Standard-BodyE-Column1-Row1">startOfSecond(datetime) or (time)</td>
+                            <td class="TableStyle-Standard-BodyE-Column2-Row1">datetime or time</td>
+                            <td class="TableStyle-Standard-BodyD-Column3-Row1">Strips sub-second information from the date time</td>
                         </tr>
-                        <tr>
-                            <td>
+                        <tr class="TableStyle-Standard-Body-Row1">
+                            <td class="TableStyle-Standard-BodyE-Column1-Row1">
                                 <p class="first"><a href="#id77"><MadCap:xref href="#sum">sum</MadCap:xref></a>
                                 </p>
                             </td>
-                            <td>long</td>
-                            <td>&#160;</td>
+                            <td class="TableStyle-Standard-BodyE-Column2-Row1">long</td>
+                            <td class="TableStyle-Standard-BodyD-Column3-Row1">&#160;</td>
                         </tr>
-                        <tr>
-                            <td>
+                        <tr class="TableStyle-Standard-Body-Row1">
+                            <td class="TableStyle-Standard-BodyE-Column1-Row1">
                                 <p class="first">sum</p>
                             </td>
-                            <td>double</td>
-                            <td>&#160;</td>
+                            <td class="TableStyle-Standard-BodyE-Column2-Row1">double</td>
+                            <td class="TableStyle-Standard-BodyD-Column3-Row1">&#160;</td>
                         </tr>
-                        <tr>
-                            <td>tan(double)</td>
-                            <td>double</td>
-                            <td>tangent</td>
+                        <tr class="TableStyle-Standard-Body-Row1">
+                            <td class="TableStyle-Standard-BodyE-Column1-Row1">tan(double)</td>
+                            <td class="TableStyle-Standard-BodyE-Column2-Row1">double</td>
+                            <td class="TableStyle-Standard-BodyD-Column3-Row1">tangent</td>
                         </tr>
-                        <tr>
-                            <td>tanh(double)</td>
-                            <td>double</td>
-                            <td>hyperbolic tangent</td>
+                        <tr class="TableStyle-Standard-Body-Row1">
+                            <td class="TableStyle-Standard-BodyE-Column1-Row1">tanh(double)</td>
+                            <td class="TableStyle-Standard-BodyE-Column2-Row1">double</td>
+                            <td class="TableStyle-Standard-BodyD-Column3-Row1">hyperbolic tangent</td>
                         </tr>
-                        <tr>
-                            <td>time(<em>string</em>)</td>
-                            <td>time</td>
-                            <td>Constructs a time object from a string</td>
+                        <tr class="TableStyle-Standard-Body-Row1">
+                            <td class="TableStyle-Standard-BodyE-Column1-Row1">time(<em>string</em>)</td>
+                            <td class="TableStyle-Standard-BodyE-Column2-Row1">time</td>
+                            <td class="TableStyle-Standard-BodyD-Column3-Row1">Constructs a time object from a string</td>
                         </tr>
-                        <tr>
-                            <td>toBool(-type-)</td>
-                            <td>boolean</td>
-                            <td>converts integer, double, long, short, byte or string to boolean</td>
+                        <tr class="TableStyle-Standard-Body-Row1">
+                            <td class="TableStyle-Standard-BodyE-Column1-Row1">toBool(-type-)</td>
+                            <td class="TableStyle-Standard-BodyE-Column2-Row1">boolean</td>
+                            <td class="TableStyle-Standard-BodyD-Column3-Row1">converts integer, double, long, short, byte or string to boolean</td>
                         </tr>
-                        <tr>
-                            <td>toByte(-type-)</td>
-                            <td>byte</td>
-                            <td>converts integer, double, long, short, boolean or string to byte</td>
+                        <tr class="TableStyle-Standard-Body-Row1">
+                            <td class="TableStyle-Standard-BodyE-Column1-Row1">toByte(-type-)</td>
+                            <td class="TableStyle-Standard-BodyE-Column2-Row1">byte</td>
+                            <td class="TableStyle-Standard-BodyD-Column3-Row1">converts integer, double, long, short, boolean or string to byte</td>
                         </tr>
-                        <tr>
-                            <td>toDate(datetime)</td>
-                            <td>date</td>
-                            <td>converts datetime to date</td>
+                        <tr class="TableStyle-Standard-Body-Row1">
+                            <td class="TableStyle-Standard-BodyE-Column1-Row1">toDate(datetime)</td>
+                            <td class="TableStyle-Standard-BodyE-Column2-Row1">date</td>
+                            <td class="TableStyle-Standard-BodyD-Column3-Row1">converts datetime to date</td>
                         </tr>
-                        <tr>
-                            <td>toDateTime(date)</td>
-                            <td>datetime</td>
-                            <td>converts date to datetime, making the time the earliest possible (e.g 0:00:00...)</td>
+                        <tr class="TableStyle-Standard-Body-Row1">
+                            <td class="TableStyle-Standard-BodyE-Column1-Row1">toDateTime(date)</td>
+                            <td class="TableStyle-Standard-BodyE-Column2-Row1">datetime</td>
+                            <td class="TableStyle-Standard-BodyD-Column3-Row1">converts date to datetime, making the time the earliest possible (e.g 0:00:00...)</td>
                         </tr>
-                        <tr>
-                            <td>toDegrees(double)</td>
-                            <td>double</td>
-                            <td>converts radians to degrees</td>
+                        <tr class="TableStyle-Standard-Body-Row1">
+                            <td class="TableStyle-Standard-BodyE-Column1-Row1">toDegrees(double)</td>
+                            <td class="TableStyle-Standard-BodyE-Column2-Row1">double</td>
+                            <td class="TableStyle-Standard-BodyD-Column3-Row1">converts radians to degrees</td>
                         </tr>
-                        <tr>
-                            <td>toDouble(-type-)</td>
-                            <td>double</td>
-                            <td>converts a long, integer, short, byte, boolean or string to a double</td>
+                        <tr class="TableStyle-Standard-Body-Row1">
+                            <td class="TableStyle-Standard-BodyE-Column1-Row1">toDouble(-type-)</td>
+                            <td class="TableStyle-Standard-BodyE-Column2-Row1">double</td>
+                            <td class="TableStyle-Standard-BodyD-Column3-Row1">converts a long, integer, short, byte, boolean or string to a double</td>
                         </tr>
-                        <tr>
-                            <td>toInt(-type-)</td>
-                            <td>integer</td>
-                            <td>converts a long, double, short, byte, boolean or string to an integer</td>
+                        <tr class="TableStyle-Standard-Body-Row1">
+                            <td class="TableStyle-Standard-BodyE-Column1-Row1">toInt(-type-)</td>
+                            <td class="TableStyle-Standard-BodyE-Column2-Row1">integer</td>
+                            <td class="TableStyle-Standard-BodyD-Column3-Row1">converts a long, double, short, byte, boolean or string to an integer</td>
                         </tr>
-                        <tr>
-                            <td>toLong(-type-)</td>
-                            <td>long</td>
-                            <td>converts a double, integer, short, byte, boolean or string to a long</td>
+                        <tr class="TableStyle-Standard-Body-Row1">
+                            <td class="TableStyle-Standard-BodyE-Column1-Row1">toLong(-type-)</td>
+                            <td class="TableStyle-Standard-BodyE-Column2-Row1">long</td>
+                            <td class="TableStyle-Standard-BodyD-Column3-Row1">converts a double, integer, short, byte, boolean or string to a long</td>
                         </tr>
-                        <tr>
-                            <td>toLower(string)</td>
-                            <td>string</td>
-                            <td>converts string to lower case</td>
+                        <tr class="TableStyle-Standard-Body-Row1">
+                            <td class="TableStyle-Standard-BodyE-Column1-Row1">toLower(string)</td>
+                            <td class="TableStyle-Standard-BodyE-Column2-Row1">string</td>
+                            <td class="TableStyle-Standard-BodyD-Column3-Row1">converts string to lower case</td>
                         </tr>
-                        <tr>
-                            <td>toRadians(double)</td>
-                            <td>double</td>
-                            <td>converts degrees to radians</td>
+                        <tr class="TableStyle-Standard-Body-Row1">
+                            <td class="TableStyle-Standard-BodyE-Column1-Row1">toRadians(double)</td>
+                            <td class="TableStyle-Standard-BodyE-Column2-Row1">double</td>
+                            <td class="TableStyle-Standard-BodyD-Column3-Row1">converts degrees to radians</td>
                         </tr>
-                        <tr>
-                            <td>toShort(-type-)</td>
-                            <td>short</td>
-                            <td>converts a double, integer, long, byte, boolean or string to a short</td>
+                        <tr class="TableStyle-Standard-Body-Row1">
+                            <td class="TableStyle-Standard-BodyE-Column1-Row1">toShort(-type-)</td>
+                            <td class="TableStyle-Standard-BodyE-Column2-Row1">short</td>
+                            <td class="TableStyle-Standard-BodyD-Column3-Row1">converts a double, integer, long, byte, boolean or string to a short</td>
                         </tr>
-                        <tr>
-                            <td>toString(uuid)</td>
-                            <td>string</td>
-                            <td>Converts a UUID to String</td>
+                        <tr class="TableStyle-Standard-Body-Row1">
+                            <td class="TableStyle-Standard-BodyE-Column1-Row1">toString(uuid)</td>
+                            <td class="TableStyle-Standard-BodyE-Column2-Row1">string</td>
+                            <td class="TableStyle-Standard-BodyD-Column3-Row1">Converts a UUID to String</td>
                         </tr>
-                        <tr>
-                            <td>toTime(datetime)</td>
-                            <td>time</td>
-                            <td>converts datetime into time</td>
+                        <tr class="TableStyle-Standard-Body-Row1">
+                            <td class="TableStyle-Standard-BodyE-Column1-Row1">toTime(datetime)</td>
+                            <td class="TableStyle-Standard-BodyE-Column2-Row1">time</td>
+                            <td class="TableStyle-Standard-BodyD-Column3-Row1">converts datetime into time</td>
                         </tr>
-                        <tr>
-                            <td>toUpper(string)</td>
-                            <td>string</td>
-                            <td>converts string to upppercase</td>
+                        <tr class="TableStyle-Standard-Body-Row1">
+                            <td class="TableStyle-Standard-BodyE-Column1-Row1">toUpper(string)</td>
+                            <td class="TableStyle-Standard-BodyE-Column2-Row1">string</td>
+                            <td class="TableStyle-Standard-BodyD-Column3-Row1">converts string to upppercase</td>
                         </tr>
-                        <tr>
-                            <td>
+                        <tr class="TableStyle-Standard-Body-Row1">
+                            <td class="TableStyle-Standard-BodyE-Column1-Row1">
                                 <p class="first">
                                     <MadCap:xref href="../../B_Technical Reference/Algorithms/Univar.htm">Univar</MadCap:xref>
                                 </p>
                             </td>
-                            <td>&#160;</td>
-                            <td>&#160;</td>
+                            <td class="TableStyle-Standard-BodyE-Column2-Row1">&#160;</td>
+                            <td class="TableStyle-Standard-BodyD-Column3-Row1">&#160;</td>
                         </tr>
-                        <tr>
-                            <td>uri(string)</td>
-                            <td>uri</td>
-                            <td>converts string to uri</td>
+                        <tr class="TableStyle-Standard-Body-Row1">
+                            <td class="TableStyle-Standard-BodyE-Column1-Row1">uri(string)</td>
+                            <td class="TableStyle-Standard-BodyE-Column2-Row1">uri</td>
+                            <td class="TableStyle-Standard-BodyD-Column3-Row1">converts string to uri</td>
                         </tr>
-                        <tr>
-                            <td>utcDate()</td>
-                            <td>date</td>
-                            <td>Returns the current date at UTC</td>
+                        <tr class="TableStyle-Standard-Body-Row1">
+                            <td class="TableStyle-Standard-BodyE-Column1-Row1">utcDate()</td>
+                            <td class="TableStyle-Standard-BodyE-Column2-Row1">date</td>
+                            <td class="TableStyle-Standard-BodyD-Column3-Row1">Returns the current date at UTC</td>
                         </tr>
-                        <tr>
-                            <td>utcNow()</td>
-                            <td>datetime</td>
-                            <td>returns current date and time at UTC</td>
+                        <tr class="TableStyle-Standard-Body-Row1">
+                            <td class="TableStyle-Standard-BodyE-Column1-Row1">utcNow()</td>
+                            <td class="TableStyle-Standard-BodyE-Column2-Row1">datetime</td>
+                            <td class="TableStyle-Standard-BodyD-Column3-Row1">returns current date and time at UTC</td>
                         </tr>
-                        <tr>
-                            <td>utcTomorrow()</td>
-                            <td>date</td>
-                            <td>returns the date one day after the current date at UTC</td>
+                        <tr class="TableStyle-Standard-Body-Row1">
+                            <td class="TableStyle-Standard-BodyE-Column1-Row1">utcTomorrow()</td>
+                            <td class="TableStyle-Standard-BodyE-Column2-Row1">date</td>
+                            <td class="TableStyle-Standard-BodyD-Column3-Row1">returns the date one day after the current date at UTC</td>
                         </tr>
-                        <tr>
-                            <td>utcYesterday()</td>
-                            <td>date</td>
-                            <td>returns the date one day before the current date at UTC</td>
+                        <tr class="TableStyle-Standard-Body-Row1">
+                            <td class="TableStyle-Standard-BodyE-Column1-Row1">utcYesterday()</td>
+                            <td class="TableStyle-Standard-BodyE-Column2-Row1">date</td>
+                            <td class="TableStyle-Standard-BodyD-Column3-Row1">returns the date one day before the current date at UTC</td>
                         </tr>
-                        <tr>
-                            <td>uuid(string)</td>
-                            <td>uuid</td>
-                            <td>converts a string to a uudi</td>
+                        <tr class="TableStyle-Standard-Body-Row1">
+                            <td class="TableStyle-Standard-BodyE-Column1-Row1">uuid(string)</td>
+                            <td class="TableStyle-Standard-BodyE-Column2-Row1">uuid</td>
+                            <td class="TableStyle-Standard-BodyD-Column3-Row1">converts a string to a uudi</td>
                         </tr>
-                        <tr>
-                            <td>varient(uuid)</td>
-                            <td>integer</td>
-                            <td>The variant number describing the layout of the UUID</td>
+                        <tr class="TableStyle-Standard-Body-Row1">
+                            <td class="TableStyle-Standard-BodyE-Column1-Row1">varient(uuid)</td>
+                            <td class="TableStyle-Standard-BodyE-Column2-Row1">integer</td>
+                            <td class="TableStyle-Standard-BodyD-Column3-Row1">The variant number describing the layout of the UUID</td>
                         </tr>
-                        <tr>
-                            <td>version(uuid)</td>
-                            <td>integer</td>
-                            <td>The version number describing how this UUID was generated</td>
+                        <tr class="TableStyle-Standard-Body-Row1">
+                            <td class="TableStyle-Standard-BodyE-Column1-Row1">version(uuid)</td>
+                            <td class="TableStyle-Standard-BodyE-Column2-Row1">integer</td>
+                            <td class="TableStyle-Standard-BodyD-Column3-Row1">The version number describing how this UUID was generated</td>
                         </tr>
-                        <tr>
-                            <td>weekOfMonth(date) or (datetime)</td>
-                            <td>integer</td>
-                            <td>returns the week of the month</td>
+                        <tr class="TableStyle-Standard-Body-Row1">
+                            <td class="TableStyle-Standard-BodyE-Column1-Row1">weekOfMonth(date) or (datetime)</td>
+                            <td class="TableStyle-Standard-BodyE-Column2-Row1">integer</td>
+                            <td class="TableStyle-Standard-BodyD-Column3-Row1">returns the week of the month</td>
                         </tr>
-                        <tr>
-                            <td>weekOfYear(date) or (datetime)</td>
-                            <td>integer</td>
-                            <td>returns the week of the year</td>
+                        <tr class="TableStyle-Standard-Body-Row1">
+                            <td class="TableStyle-Standard-BodyE-Column1-Row1">weekOfYear(date) or (datetime)</td>
+                            <td class="TableStyle-Standard-BodyE-Column2-Row1">integer</td>
+                            <td class="TableStyle-Standard-BodyD-Column3-Row1">returns the week of the year</td>
                         </tr>
-                        <tr>
-                            <td>width(geoRectangle)</td>
-                            <td>double</td>
-                            <td>Gets the width of the rectangle in degrees longitude</td>
+                        <tr class="TableStyle-Standard-Body-Row1">
+                            <td class="TableStyle-Standard-BodyE-Column1-Row1">width(geoRectangle)</td>
+                            <td class="TableStyle-Standard-BodyE-Column2-Row1">double</td>
+                            <td class="TableStyle-Standard-BodyD-Column3-Row1">Gets the width of the rectangle in degrees longitude</td>
                         </tr>
-                        <tr>
-                            <td>year(date) or (datetime)</td>
-                            <td>integer</td>
-                            <td>returns the year of the date input</td>
+                        <tr class="TableStyle-Standard-Body-Row1">
+                            <td class="TableStyle-Standard-BodyB-Column1-Row1">year(date) or (datetime)</td>
+                            <td class="TableStyle-Standard-BodyB-Column2-Row1">integer</td>
+                            <td class="TableStyle-Standard-BodyA-Column3-Row1">returns the year of the date input</td>
                         </tr>
                     </tbody>
                 </table>

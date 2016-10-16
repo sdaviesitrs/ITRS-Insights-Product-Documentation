@@ -9,7 +9,7 @@
                     <xhtml:head>
                     </xhtml:head>
                     <xhtml:body>
-                        <xhtml:p xhtml:class="FrameFooterText"><MadCap:variable xhtml:name="System.PageNumber" />
+                        <xhtml:p xhtml:class="FrameFooterText"><xhtml:span xhtml:style="font-size: 8pt;">Page </xhtml:span><MadCap:variable xhtml:name="System.PageNumber" xhtml:style="font-size: 8pt;" /><xhtml:span xhtml:style="font-size: 8pt;"> of </xhtml:span><MadCap:variable xhtml:name="System.PageCount" xhtml:style="font-size: 8pt;" />
                         </xhtml:p>
                     </xhtml:body>
                 </xhtml:html>
