@@ -5,7 +5,7 @@
   Type="PDF"
   Destinations=""
   GlossaryTermConversion="marked"
-  MasterToc="/Project/TOCs/UG Query, Search &amp; Transform.fltoc"
+  MasterToc="/Project/TOCs/UG Query Search and Transform.fltoc"
   ConditionTagExpression="exclude[Output.Digital or Output.Null or Product.Valo or &quot;Versions.Current Valo&quot;] "
   PatchHeadingLevels="false"
   InjectEmptyPages="true"
