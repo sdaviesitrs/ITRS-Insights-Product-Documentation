@@ -2,7 +2,7 @@
 <RecentLinks>
     <Dialog Name="B3.XmlTextKit.InsertHyperlinkDialog" />
     <Dialog Name="B3.XmlMdiEditorKit.ImageGeneralDialogPage">
-        <Link Value="C:\Users\mddent\Documents\GitHub\ITRS-Insights-Product-Documentation\Content\Resources\Images\pipelineexample1.PNG" />
+        <Link Value="C:\Users\mddent\Documents\GitHub\ITRS-Insights-Product-Documentation\Content\Resources\Images\logo_ITRSInsightstrans.png" />
     </Dialog>
     <Dialog Name="B3.XmlTextKit.InsertCrossReferenceDialog">
         <Link Value="C:\Users\mddent\Documents\GitHub\ITRS-Insights-Product-Documentation\Content\B_Technical Reference\Query Clauses, Functions &amp; Operators\Query Operators.htm" />

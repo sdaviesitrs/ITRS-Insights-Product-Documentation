@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <PageStyles xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:conditions="Output.Print">
-    <Page Name="First Right" Padding="20px" PageSize="A4" PageType="firstright" PaddingLeft="1.5in" PaddingRight="1in" PaddingTop="1in" PaddingBottom="1in" Orientation="portrait" BackgroundType="Solid" BackgroundColor="#27282b" BleedLeft="0.25in" BleedRight="0.25in" BleedTop="0.25in" BleedBottom="0.25in">
+    <Page Name="First Right" Padding="20px" PageSize="A4" PageType="firstright" PaddingLeft="1.5in" PaddingRight="1in" PaddingTop="1in" PaddingBottom="1in" Orientation="portrait" BackgroundType="GradientNWSE" BackgroundColor="#b2c041" BleedLeft="0.25in" BleedRight="0.25in" BleedTop="0.25in" BleedBottom="0.25in">
         <Frame Flow="footer" Height="47px" Anchors="Left,Right,Bottom" Right="0px" Bottom="0px" X="85px" Y="884px" Width="469px" TextAlign="right" VerticalAlign="top">
             <Content>
                 <xhtml:html xmlns:xhtml="http://www.w3.org/1999/xhtml">
@@ -16,7 +16,7 @@
         <Frame Flow="body" Y="284px" Bottom="72px" X="85px" Right="0px" ColumnCount="2" ColumnGap="30px" ColumnDivider="Solid 1px Red" Anchors="Left,Right,Bottom" Width="469px" Height="575px" FlowIndex="7">
         </Frame>
     </Page>
-    <Page Name="Left" Padding="20px" PageSize="A4" PageType="left" PaddingLeft="1.5in" PaddingRight="1in" PaddingTop="1in" PaddingBottom="1in" Orientation="portrait" BackgroundType="Solid" BackgroundColor="#242528" BleedBottom="0.25in" BleedTop="0.25in" BleedRight="0.25in" BleedLeft="0.25in">
+    <Page Name="Left" Padding="20px" PageSize="A4" PageType="left" PaddingLeft="1.5in" PaddingRight="1in" PaddingTop="1in" PaddingBottom="1in" Orientation="portrait" BackgroundType="GradientNWSE" BackgroundColor="#b2c041" BleedBottom="0.25in" BleedTop="0.25in" BleedRight="0.25in" BleedLeft="0.25in">
         <Frame Flow="body" Y="48px" Bottom="72px" X="0px" Right="0px" ColumnCount="2" ColumnGap="30px" ColumnDivider="Solid 1px Red" Anchors="Left,Right,Top,Bottom" Width="554px" Height="811px">
         </Frame>
         <Frame Flow="footer" Height="47px" Anchors="Left,Right,Bottom" Right="0px" Bottom="0px" X="0px" Y="884px" Width="554px" TextAlign="left" VerticalAlign="top">
@@ -54,7 +54,7 @@
             </Content>
         </Frame>
     </Page>
-    <Page Name="Right" Padding="20px" PageSize="A4" PageType="right" PaddingLeft="1.5in" PaddingRight="1in" PaddingTop="1in" PaddingBottom="1in" Orientation="portrait" BackgroundType="Solid" BackgroundColor="#2a2a2c" BleedBottom="0.25in" BleedTop="0.25in" BleedRight="0.25in" BleedLeft="0.25in">
+    <Page Name="Right" Padding="20px" PageSize="A4" PageType="right" PaddingLeft="1.5in" PaddingRight="1in" PaddingTop="1in" PaddingBottom="1in" Orientation="portrait" BackgroundType="GradientNWSE" BackgroundColor="#b2c041" BleedBottom="0.25in" BleedTop="0.25in" BleedRight="0.25in" BleedLeft="0.25in">
         <Frame Flow="body" Y="48px" Bottom="72px" X="0px" Right="0px" ColumnCount="2" ColumnGap="30px" ColumnDivider="Solid 1px Red" Anchors="Left,Right,Top,Bottom" Width="554px" Height="811px">
         </Frame>
         <Frame Flow="footer" Height="47px" Anchors="Left,Right,Bottom" Right="0px" Bottom="0px" X="0px" Y="884px" Width="554px" TextAlign="right" VerticalAlign="top">

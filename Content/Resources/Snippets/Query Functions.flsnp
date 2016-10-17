@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="8" MadCap:lastHeight="738.6666" MadCap:lastWidth="576">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="8" MadCap:lastHeight="528.6666" MadCap:lastWidth="1027">
     <head>
         <link href="../TableStyles/Standard.css" rel="stylesheet" MadCap:stylesheetType="table" />
     </head>
@@ -9,7 +9,7 @@
                 <MadCap:dropDownHotspot><MadCap:variable name="General.Product Name Insights&#160;(abbreviated)" /> Query Functions</MadCap:dropDownHotspot>
             </MadCap:dropDownHead>
             <MadCap:dropDownBody>
-                <table border="1" style="width: 100%;margin-left: 0;margin-right: auto;mc-table-style: url('../TableStyles/Standard.css');" class="TableStyle-Standard" cellspacing="0">
+                <table border="1" style="width: 100%;mc-table-style: url('../TableStyles/Standard.css');margin-left: 0;margin-right: auto;" class="TableStyle-Standard" cellspacing="0">
                     <col width="27%" class="TableStyle-Standard-Column-Column1" />
                     <col width="19%" class="TableStyle-Standard-Column-Column2" />
                     <col width="54%" class="TableStyle-Standard-Column-Column3" />
@@ -25,7 +25,7 @@
                     <tbody valign="top">
                         <tr class="TableStyle-Standard-Body-Row1">
                             <td class="TableStyle-Standard-BodyE-Column1-Row1">
-                                <p class="first"><a href="#id5"><MadCap:xref href="#abs">abs : absolute value</MadCap:xref></a>
+                                <p class="first"><a href="#id5"><MadCap:xref href="#abs">Output</MadCap:xref></a>
                                 </p>
                             </td>
                             <td class="TableStyle-Standard-BodyE-Column2-Row1">
@@ -120,7 +120,7 @@
                         <tr class="TableStyle-Standard-Body-Row1">
                             <td class="TableStyle-Standard-BodyE-Column1-Row1">
                                 <p>
-                                    <MadCap:xref href="#contains">contains</MadCap:xref>
+                                    <MadCap:xref href="#contains">Output</MadCap:xref>
                                 </p>
                             </td>
                             <td class="TableStyle-Standard-BodyE-Column2-Row1">boolean</td>
@@ -154,7 +154,7 @@
                         <tr class="TableStyle-Standard-Body-Row1">
                             <td class="TableStyle-Standard-BodyE-Column1-Row1">
                                 <p>
-                                    <MadCap:xref href="#counter">counter</MadCap:xref>
+                                    <MadCap:xref href="#counter">Output</MadCap:xref>
                                 </p>
                             </td>
                             <td class="TableStyle-Standard-BodyE-Column2-Row1">(value:string,count:double)</td>
@@ -235,7 +235,7 @@
                         <tr class="TableStyle-Standard-Body-Row1">
                             <td class="TableStyle-Standard-BodyE-Column1-Row1">
                                 <p>
-                                    <MadCap:xref href="#EMA">EMA</MadCap:xref>
+                                    <MadCap:xref href="#EMA">Output</MadCap:xref>
                                 </p>
                             </td>
                             <td class="TableStyle-Standard-BodyE-Column2-Row1">double</td>
@@ -269,7 +269,7 @@
                         <tr class="TableStyle-Standard-Body-Row1">
                             <td class="TableStyle-Standard-BodyE-Column1-Row1">
                                 <p>
-                                    <MadCap:xref href="#first">first</MadCap:xref>
+                                    <MadCap:xref href="#first">Output</MadCap:xref>
                                 </p>
                             </td>
                             <td class="TableStyle-Standard-BodyE-Column2-Row1">various</td>
@@ -288,7 +288,7 @@
                         <tr class="TableStyle-Standard-Body-Row1">
                             <td class="TableStyle-Standard-BodyE-Column1-Row1">
                                 <p>
-                                    <MadCap:xref href="#geoCircle">geoCircle</MadCap:xref>
+                                    <MadCap:xref href="#geoCircle">Output</MadCap:xref>
                                 </p>
                             </td>
                             <td class="TableStyle-Standard-BodyE-Column2-Row1">geoCircle</td>
@@ -297,7 +297,7 @@
                         <tr class="TableStyle-Standard-Body-Row1">
                             <td class="TableStyle-Standard-BodyE-Column1-Row1">
                                 <p>
-                                    <MadCap:xref href="#geoPoint">geoPoint</MadCap:xref>
+                                    <MadCap:xref href="#geoPoint">Output</MadCap:xref>
                                 </p>
                             </td>
                             <td class="TableStyle-Standard-BodyE-Column2-Row1">geoPoint</td>
@@ -306,7 +306,7 @@
                         <tr class="TableStyle-Standard-Body-Row1">
                             <td class="TableStyle-Standard-BodyE-Column1-Row1">
                                 <p>
-                                    <MadCap:xref href="#geoRectangle">geoRectangle</MadCap:xref>
+                                    <MadCap:xref href="#geoRectangle">Output</MadCap:xref>
                                 </p>
                             </td>
                             <td class="TableStyle-Standard-BodyE-Column2-Row1">geoRectangle</td>
@@ -620,7 +620,7 @@
                         </tr>
                         <tr class="TableStyle-Standard-Body-Row1">
                             <td class="TableStyle-Standard-BodyE-Column1-Row1">
-                                <p class="first"><a href="#id63"><MadCap:xref href="#Last">Last</MadCap:xref></a>
+                                <p class="first"><a href="#id63"><MadCap:xref href="#Last">Output</MadCap:xref></a>
                                 </p>
                             </td>
                             <td class="TableStyle-Standard-BodyE-Column2-Row1">-type-</td>
@@ -663,7 +663,7 @@
                         </tr>
                         <tr class="TableStyle-Standard-Body-Row1">
                             <td class="TableStyle-Standard-BodyE-Column1-Row1">
-                                <p class="first"><a href="#id65"><MadCap:xref href="#max">max</MadCap:xref></a>
+                                <p class="first"><a href="#id65"><MadCap:xref href="#max">Output</MadCap:xref></a>
                                 </p>
                             </td>
                             <td class="TableStyle-Standard-BodyE-Column2-Row1">integer</td>
@@ -671,7 +671,7 @@
                         </tr>
                         <tr class="TableStyle-Standard-Body-Row1">
                             <td class="TableStyle-Standard-BodyE-Column1-Row1">
-                                <p class="first"><a href="#id67"><MadCap:xref href="#Max">Max</MadCap:xref></a>
+                                <p class="first"><a href="#id67"><MadCap:xref href="#Max">Output</MadCap:xref></a>
                                 </p>
                             </td>
                             <td class="TableStyle-Standard-BodyE-Column2-Row1">-type-</td>
@@ -689,7 +689,7 @@
                         </tr>
                         <tr class="TableStyle-Standard-Body-Row1">
                             <td class="TableStyle-Standard-BodyE-Column1-Row1">
-                                <p class="first"><a href="#id69"><MadCap:xref href="#min">min</MadCap:xref></a>
+                                <p class="first"><a href="#id69"><MadCap:xref href="#min">Output</MadCap:xref></a>
                                 </p>
                             </td>
                             <td class="TableStyle-Standard-BodyE-Column2-Row1">integer</td>
@@ -697,7 +697,7 @@
                         </tr>
                         <tr class="TableStyle-Standard-Body-Row1">
                             <td class="TableStyle-Standard-BodyE-Column1-Row1">
-                                <p class="first"><a href="#id71"><MadCap:xref href="#Min">Min</MadCap:xref></a>
+                                <p class="first"><a href="#id71"><MadCap:xref href="#Min">Output</MadCap:xref></a>
                                 </p>
                             </td>
                             <td class="TableStyle-Standard-BodyE-Column2-Row1">-type-</td>
@@ -785,7 +785,7 @@
                         </tr>
                         <tr class="TableStyle-Standard-Body-Row1">
                             <td class="TableStyle-Standard-BodyE-Column1-Row1">
-                                <p class="first"><a href="#id73"><MadCap:xref href="#prefix">prefix</MadCap:xref></a>
+                                <p class="first"><a href="#id73"><MadCap:xref href="#prefix">Output</MadCap:xref></a>
                                 </p>
                             </td>
                             <td class="TableStyle-Standard-BodyE-Column2-Row1">boolean</td>
@@ -866,7 +866,7 @@
                         </tr>
                         <tr class="TableStyle-Standard-Body-Row1">
                             <td class="TableStyle-Standard-BodyE-Column1-Row1">
-                                <p class="first"><a href="#id77"><MadCap:xref href="#sum">sum</MadCap:xref></a>
+                                <p class="first"><a href="#id77"><MadCap:xref href="#sum">Output</MadCap:xref></a>
                                 </p>
                             </td>
                             <td class="TableStyle-Standard-BodyE-Column2-Row1">long</td>
