@@ -142,7 +142,7 @@ mcTableBodyStyle
 	id: 11;
 	name: Row1;
 	separator-style: double;
-	separator-width: 2pt;
+	separator-width: 1pt;
 	text-align: left;
 	vertical-align: top;
 	separator-color: #696969;
@@ -2132,7 +2132,7 @@ mcTableBodyStyle
 	padding-right: 5px;
 	padding-top: 5px;
 	padding-bottom: 5px;
-	border-bottom-width: 2pt;
+	border-bottom-width: 1pt;
 	border-bottom-color: #696969;
 	border-bottom-style: double;
 	text-align: left;
@@ -2153,7 +2153,7 @@ mcTableBodyStyle
 	padding-right: 5px;
 	padding-top: 5px;
 	padding-bottom: 5px;
-	border-bottom-width: 2pt;
+	border-bottom-width: 1pt;
 	border-bottom-color: #696969;
 	border-bottom-style: double;
 	text-align: left;
@@ -2189,7 +2189,7 @@ mcTableBodyStyle
 	padding-right: 5px;
 	padding-top: 5px;
 	padding-bottom: 5px;
-	border-bottom-width: 2pt;
+	border-bottom-width: 1pt;
 	border-bottom-color: #696969;
 	border-bottom-style: double;
 	text-align: left;
@@ -2285,7 +2285,7 @@ mcTableBodyStyle
 	padding-right: 5px;
 	padding-top: 5px;
 	padding-bottom: 5px;
-	border-bottom-width: 2pt;
+	border-bottom-width: 1pt;
 	border-bottom-color: #696969;
 	border-bottom-style: double;
 	text-align: left;
@@ -2306,7 +2306,7 @@ mcTableBodyStyle
 	padding-right: 5px;
 	padding-top: 5px;
 	padding-bottom: 5px;
-	border-bottom-width: 2pt;
+	border-bottom-width: 1pt;
 	border-bottom-color: #696969;
 	border-bottom-style: double;
 	text-align: left;
@@ -2342,7 +2342,7 @@ mcTableBodyStyle
 	padding-right: 5px;
 	padding-top: 5px;
 	padding-bottom: 5px;
-	border-bottom-width: 2pt;
+	border-bottom-width: 1pt;
 	border-bottom-color: #696969;
 	border-bottom-style: double;
 	text-align: left;
@@ -2438,7 +2438,7 @@ mcTableBodyStyle
 	padding-right: 5px;
 	padding-top: 5px;
 	padding-bottom: 5px;
-	border-bottom-width: 2pt;
+	border-bottom-width: 1pt;
 	border-bottom-color: #696969;
 	border-bottom-style: double;
 	text-align: left;
@@ -2459,7 +2459,7 @@ mcTableBodyStyle
 	padding-right: 5px;
 	padding-top: 5px;
 	padding-bottom: 5px;
-	border-bottom-width: 2pt;
+	border-bottom-width: 1pt;
 	border-bottom-color: #696969;
 	border-bottom-style: double;
 	text-align: left;
@@ -2495,7 +2495,7 @@ mcTableBodyStyle
 	padding-right: 5px;
 	padding-top: 5px;
 	padding-bottom: 5px;
-	border-bottom-width: 2pt;
+	border-bottom-width: 1pt;
 	border-bottom-color: #696969;
 	border-bottom-style: double;
 	text-align: left;

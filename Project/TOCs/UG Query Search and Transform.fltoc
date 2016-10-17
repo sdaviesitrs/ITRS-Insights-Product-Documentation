@@ -43,25 +43,21 @@
     <TocEntry
       Title="Query Clauses"
       Link="/Content/B_Technical Reference/Query Clauses, Functions &amp; Operators/Query Clauses.htm"
-      BreakType="pageLayout"
+      BreakType="chapter"
       StartSection="false"
-      PageLayout="/Content/Resources/PageLayouts/a4_pdf_layouts/ug_landscape.flpgl" />
-    <TocEntry
-      Title="Query Clauses Transformations"
-      Link="/Content/B_Technical Reference/Query Clauses, Functions &amp; Operators/Query Clauses Transformations.htm"
-      BreakType="pageLayout"
-      StartSection="false"
-      PageLayout="/Content/Resources/PageLayouts/a4_pdf_layouts/ug_landscape.flpgl" />
+      PageLayout="/Content/Resources/PageLayouts/a4_pdf_layouts/ug_landscape.flpgl"
+      PageType="right"
+      PageNumberReset="continue" />
     <TocEntry
       Title="Query Functions"
       Link="/Content/B_Technical Reference/Query Clauses, Functions &amp; Operators/Query Functions.htm"
-      BreakType="pageLayout"
+      BreakType="none"
       StartSection="false"
       PageLayout="/Content/Resources/PageLayouts/a4_pdf_layouts/ug_landscape.flpgl" />
     <TocEntry
       Title="Query Operators and Their Precedence"
       Link="/Content/B_Technical Reference/Query Clauses, Functions &amp; Operators/Query Operators.htm"
-      BreakType="pageLayout"
+      BreakType="none"
       StartSection="false"
       PageLayout="/Content/Resources/PageLayouts/a4_pdf_layouts/ug_landscape.flpgl" />
   </TocEntry>
