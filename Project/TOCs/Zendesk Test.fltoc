@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1">
+  <TocEntry
+    Title="[%=General.Product Name Insights (Full)%] Contributor &amp; Domain User Guide"
+    Link="/Content/C_User Guides/Domain &amp; Contributors User Guide.htm" />
+  <TocEntry
+    Title="[%=General.Product Name Insights (Full)%] Data Streams &amp; Schema User Guide"
+    Link="/Content/C_User Guides/Data Streams &amp; Schema User Guide.htm" />
+</CatapultToc>

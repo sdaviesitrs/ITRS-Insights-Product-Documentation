@@ -21,6 +21,6 @@
                 </xhtml:html>
             </Content>
         </Frame>
-        <Frame X="71px" Y="276px" Width="602px" Height="445px" Flow="decoration1" Right="-71px" Bottom="210px" BackgroundImage="../../Images/logo_ITRSInsightstrans.png" BackgroundRepeat="no-repeat" Anchors="" />
+        <Frame X="-4px" Y="311px" Width="602px" Height="445px" Flow="decoration1" Right="4px" Bottom="175px" BackgroundImage="../../Images/logo_ITRSInsightstrans.png" BackgroundRepeat="no-repeat" Anchors="" />
     </Page>
 </PageStyles>
