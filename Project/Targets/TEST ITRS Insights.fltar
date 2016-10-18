@@ -13,7 +13,9 @@
   Skin="/Project/Skins/HTML5 - Top Navigation.flskn"
   ConditionTagExpression="exclude[Output.Null or Output.Print or Product.Valo or &quot;Versions.Current Valo&quot;] "
   DefaultUrl="/Content/Home.htm"
-  MasterStylesheet="/Content/Resources/Stylesheets/MainStyles.css">
+  MasterStylesheet="/Content/Resources/Stylesheets/MainStyles.css"
+  MasterToc="/Project/TOCs/Web Help.fltoc"
+  OutputFolder="C:\Users\mddent\Downloads\online test">
   <PrintedOutput
     CollapseMargins="true"
     GenerateTOCProxy="true"

@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="15" MadCap:lastHeight="663" MadCap:lastWidth="576">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="15" MadCap:lastHeight="16679" MadCap:lastWidth="780">
     <head>
         <link href="../Resources/Stylesheets/styles.css" rel="stylesheet" type="text/css" />
     </head>
     <body>
         <body>
-            <h1 class="UserGuideBHeading"><MadCap:variable name="General.Product Name&#160;Insights (Full)" /> Overview</h1>
+            <h1 class="UserGuideBHeading"><MadCap:variable name="General.Product Name&#160;Insights (Full)" /> - Query, Search and Transform User Guide</h1>
             <p><MadCap:variable name="General.Product Name&#160;Insights (Full)" /> provides you with two powerful tools for analyzing and searching your data:</p>
             <p>
                 <MadCap:snippetText src="../Resources/Snippets/About Free Text Search.flsnp" />
@@ -14,6 +14,7 @@
             <p>This user guide will talk you through how <MadCap:variable name="General.Product Name Insights&#160;(abbreviated)" /> uses <strong class="green">queries </strong>and <strong class="green">free text searches</strong>, how to create basic and sophisticated queries, and how to run free text searches.</p>
             <p>If you're an advanced user and you're tempted to skip the introduction, please read our section on <MadCap:xref href="#TransformationalPipeline">The Transformational Pipeline</MadCap:xref>, as this will likely be different from your previous SQL experience.</p>
             <p>Once you've run your query, you'll almost certainly want to visualize the results. For this, check out our <MadCap:xref href="Visualizing Results User Guide.htm">[%=General.Product Name&#160;Insights (Full)%] Visualizing Results User Guide</MadCap:xref>.</p>
+            <MadCap:pageBreak />
             <MadCap:dropDown>
                 <MadCap:dropDownHead class="H2NoKeyline">
                     <MadCap:dropDownHotspot>Introduction</MadCap:dropDownHotspot>
@@ -80,6 +81,7 @@ anomaly detection and univariate analysis.</p>
                         <li class="numbered_list_print">...a data stream in an&#160;SSR or TSR</li>
                     </ol>
                     <p style="text-indent: 0.5in;">Ask your systems administrator if you need help with this bit. </p>
+                    <MadCap:pageBreak />
                 </MadCap:dropDownBody>
             </MadCap:dropDown>
             <MadCap:snippetBlock src="../Resources/Snippets/Interface Query &amp; FTS.flsnp" />
@@ -114,6 +116,7 @@ example:</p>
                             <MadCap:snippetText src="../Resources/Snippets/Query Syntax From Historical.flsnp" />
                         </p>
                     </blockquote>
+                    <MadCap:pageBreak />
                     <p>The most obvious difference from regular SQL is that in <MadCap:variable name="General.Product Name Insights&#160;(abbreviated)" /> queries, <code><MadCap:xref href="../B_Technical Reference/Query Clauses, Functions &amp; Operators/Query Clauses/select.htm">Select</MadCap:xref></code> comes after <code>from</code>. There is a good reason for this:&#160;<MadCap:xref href="#TransformationalPipeline">The Transformational Pipeline</MadCap:xref>.</p>
                     <h3>where</h3>
                     <MadCap:snippetBlock src="../Resources/Snippets/Query Definition Where.flsnp" />
@@ -122,7 +125,6 @@ example:</p>
                     <MadCap:snippetBlock src="../Resources/Snippets/Query Syntax Where.flsnp" />
                     <h3>select</h3>
                     <MadCap:snippetBlock src="../Resources/Snippets/Query Definition Select.flsnp" />
-                    <MadCap:pageBreak />
                     <p>
                         <MadCap:xref href="../B_Technical Reference/Query Clauses, Functions &amp; Operators/Query Clauses/select.htm">Select</MadCap:xref> is used to determine which fields you want the query to return. </p>
                     <MadCap:snippetBlock src="../Resources/Snippets/Query Syntax Select.flsnp" />
@@ -155,7 +157,7 @@ example:</p>
                             <img src="../Resources/Images/pipelineexample1.PNG" class="screenshotsmedium" />
                         </p>
                     </blockquote>
-                    <p class="caption" MadCap:autonum=" Figure 1.1: ">Basic Queries</p>
+                    <p class="caption">Basic Queries</p>
                     <p>Now we can modify the query and start performing some trans</p>
                     <p>formations. Lets add a <code>where </code>clause:</p>
                     <blockquote><pre xml:space="preserve">from historical /streams/demo/infrastructure/cpu
@@ -213,13 +215,12 @@ where kernel &gt; 50</pre>
                     <blockquote>
                         <MadCap:snippetBlock src="../Resources/Snippets/How To Create Query.flsnp" />
                     </blockquote>
-                    <MadCap:pageBreak />
                     <p>If you ran your query on a valid stream using valid syntax, you should now see your data streaming into the results window in a table format:</p>
                     <blockquote>
                         <p style="text-align: left;">
                             <img src="../Resources/Images/createquery4.PNG" class="screenshotsmedium" />
                         </p>
-                        <p class="caption" MadCap:autonum=" Figure 1.2: ">Results Window</p>
+                        <p class="caption">Results Window</p>
                     </blockquote>
                     <p>You can now group your results and sort them by clicking on the column headers in the same way that you would a commercial spreadsheet program. </p>
                     <p>You'll also notice that the visualization panel has appeared below the query you wrote. This allows you  to start visualizing your data, and even start putting it into <strong class="green">Dashboards</strong>. Check out our <MadCap:xref href="Visualizing Results User Guide.htm">[%=General.Product Name&#160;Insights (Full)%] Visualizing Results User Guide</MadCap:xref> and our <MadCap:xref href="Dashboard, Notebook &amp; Collection User Guide.htm">[%=General.Product Name&#160;Insights (Full)%] &#160;Notebook&#160;&amp; Dashboard User Guide</MadCap:xref>.</p>
@@ -255,8 +256,10 @@ where kernel &gt; 50</pre>
                         <li>What <strong class="green">format </strong>your data is in, and the <strong class="green">fields </strong>it contains (is the stream made up of dates, time, geocordinates, ISO numbers? Does it contain strings, Boolean values?) While this information is defined by the schema that accompanied the stream when it was imported into <MadCap:variable name="General.Product Name Insights&#160;(abbreviated)" />, you've got to be familiar with it if you want to query it</li>
                         <li>How to combine SQL-like <strong class="green">clauses</strong> (sometimes called <strong class="green">transformations</strong>), <strong class="green">functions </strong>and <strong class="green">operators </strong>together to interrogate your data</li>
                         <li>How you can use <MadCap:variable name="General.Product Name Insights&#160;(abbreviated)" />' concepts - <strong class="green">Domains </strong>and <strong class="green">Collections</strong>, for example - to enhance your ability to get the most from your data</li>
+                        <li>
+                            <MadCap:pageBreak />
+                        </li>
                     </ol>
-                    <p>&#160;</p>
                     <h3>Your Data Stream</h3>
                     <p>If you are familiar with your stream, move on to learning about the query syntax and constructions that you can use in <MadCap:variable name="General.Product Name Insights&#160;(abbreviated)" />. </p>
                     <p>If you don't know what data your stream contains, take a look at the <strong class="green">schema </strong>for the stream. </p>
@@ -287,7 +290,6 @@ where kernel &gt; 50</pre>
                     <p>Aggregate functions operate on a group of input values to compute a single result. Examples include count, <MadCap:xref href="../B_Technical Reference/Query Clauses, Functions &amp; Operators/Query Functions.htm#counter">counter</MadCap:xref>, <MadCap:xref href="../B_Technical Reference/Query Clauses, Functions &amp; Operators/Query Functions.htm#sum">sum</MadCap:xref>, avg, <MadCap:xref href="../B_Technical Reference/Query Clauses, Functions &amp; Operators/Query Functions.htm#min">min</MadCap:xref> and <MadCap:xref href="../B_Technical Reference/Query Clauses, Functions &amp; Operators/Query Functions.htm#max">max</MadCap:xref>.</p>
                     <p>You can use them on historical data using the <code>historical </code>clause, or you can use them on real-time streaming data.</p>
                     <p>In real time queries, in order to use aggregate functions, we firstly need to group by a time dimension (using a window), followed by an aggregation function. We can also group by further variables after the time window.</p>
-                    <p>&#160;</p>
                     <p>For example:</p>
                     <blockquote><pre>from /streams/environment/sensors/air
 where carbonm &gt; 15
