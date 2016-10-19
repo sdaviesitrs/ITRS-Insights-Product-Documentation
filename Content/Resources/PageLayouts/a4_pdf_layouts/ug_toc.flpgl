@@ -18,18 +18,6 @@
         </Frame>
     </Page>
     <Page Name="Left" Padding="20px" PageSize="A4" PageType="left" PaddingLeft="1.5in" PaddingRight="1in" PaddingTop="1in" PaddingBottom="1in" Orientation="portrait" BackgroundType="GradientNWSE" BackgroundColor="#b2c041" BleedBottom="0.25in" BleedTop="0.25in" BleedRight="0.25in" BleedLeft="0.25in">
-        <Frame Flow="footer" Height="47px" Anchors="Left,Right,Bottom" Right="-42px" Bottom="0px" X="-68px" Y="884px" Width="664px" TextAlign="left" VerticalAlign="top">
-            <Content>
-                <xhtml:html xmlns:xhtml="http://www.w3.org/1999/xhtml">
-                    <xhtml:head>
-                    </xhtml:head>
-                    <xhtml:body>
-                        <xhtml:p xhtml:class="FrameFooterText"><MadCap:variable xhtml:name="System.PageNumber" />
-                        </xhtml:p>
-                    </xhtml:body>
-                </xhtml:html>
-            </Content>
-        </Frame>
         <Frame Flow="body" Y="-20px" Bottom="72px" X="-67px" Right="-40px" ColumnCount="1" ColumnGap="30px" ColumnDivider="Solid 1px Red" Anchors="Left,Right,Top,Bottom" Width="661px" Height="879px">
         </Frame>
     </Page>
@@ -39,18 +27,6 @@
                 <xhtml:html xmlns:xhtml="http://www.w3.org/1999/xhtml">
                     <xhtml:body>
                         <xhtml:p xhtml:class="EmptyPageText" xhtml:style="text-align: center;">This page intentionally left blank to ensure new chapters start on right (odd number) pages.</xhtml:p>
-                    </xhtml:body>
-                </xhtml:html>
-            </Content>
-        </Frame>
-        <Frame Flow="footer" Height="47px" Anchors="Left,Right,Bottom" Right="-42px" Bottom="0px" X="-68px" Y="884px" Width="664px" TextAlign="left" VerticalAlign="top">
-            <Content>
-                <xhtml:html xmlns:xhtml="http://www.w3.org/1999/xhtml">
-                    <xhtml:head>
-                    </xhtml:head>
-                    <xhtml:body>
-                        <xhtml:p xhtml:class="FrameFooterText"><MadCap:variable xhtml:name="System.PageNumber" />
-                        </xhtml:p>
                     </xhtml:body>
                 </xhtml:html>
             </Content>

@@ -725,7 +725,7 @@ p.pagebreak
 
 	p
 	{
-		
+		mc-hyphenate: never;
 	}
 
 	li
@@ -806,6 +806,7 @@ p.pagebreak
 	blockquote
 	{
 		margin-bottom: -2pt;
+		mc-hyphenate: never;
 	}
 
 	h2
@@ -908,6 +909,73 @@ p.pagebreak
 	p.Index4
 	{
 		color: #808080;
+	}
+
+	p.print_image
+	{
+		padding-top: 5px;
+		margin-bottom: 0.5px;
+		margin-top: 0.5px;
+		margin-right: 0.5px;
+		margin-left: 0.5px;
+		text-align: center;
+	}
+
+	MadCap|glossaryTerm.Popup
+	{
+		color: #000000;
+	}
+
+	MadCap|glossaryTerm
+	{
+		color: #808080;
+	}
+
+	MadCap|indexProxy
+	{
+		color: #808080;
+		border-top-color: #808080;
+	}
+
+	div.GlossaryPageHeading
+	{
+		color: #808080;
+	}
+
+	div.GlossaryPageTerm
+	{
+		color: #808080;
+	}
+
+	div.GlossaryPageDefinition
+	{
+		color: #808080;
+	}
+
+	MadCap|conditionalText
+	{
+		font: inherit;
+		color: #dc143c;
+	}
+
+	MadCap|tocProxy
+	{
+		border-top-color: #808080;
+	}
+
+	MadCap|xref.IndexPageNumber
+	{
+		color: #808080;
+	}
+
+	MadCap|glossaryProxy
+	{
+		color: #808080;
+	}
+
+	MadCap|xref
+	{
+		color: #2d8dcc;
 	}
 }
 

@@ -6,10 +6,24 @@
   Destinations=""
   GlossaryTermConversion="marked"
   MasterToc="/Project/TOCs/Visualizing Results User Guide.fltoc"
-  MasterStylesheet="/Content/Resources/Stylesheets/styles.css">
+  MasterStylesheet="/Content/Resources/Stylesheets/styles.css"
+  ConditionTagExpression="exclude[Output.Null] ">
   <PrintedOutput
     CollapseMargins="true"
     GenerateTOCProxy="true"
     GenerateIndexProxy="true"
     GenerateGlossaryProxy="true" />
+  <DocumentProperties
+    Author="ITRS Group Ltd"
+    Title="Visualizing Results User Guide"
+    Subject="Results" />
+  <PDF
+    ShowUsedBookmarks="false"
+    InitialMagnification="75"
+    PageLayout="SinglePage"
+    TitleBar="DocumentTitle" />
+  <Variables>
+    <Variable
+      Name="General/DocumentTitle">Visualizing Results</Variable>
+  </Variables>
 </CatapultTarget>

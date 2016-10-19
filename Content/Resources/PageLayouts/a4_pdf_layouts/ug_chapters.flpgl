@@ -20,17 +20,33 @@
     <Page Name="Left" Padding="20px" PageType="left" PaddingLeft="1.5in" PaddingRight="1in" PaddingTop="1in" PaddingBottom="1in" BleedLeft="0.25in" Orientation="portrait" BleedBottom="0.25in" BleedTop="0.25in" BleedRight="0.25in" PageSize="A4">
         <Frame Flow="body" Y="-20px" Bottom="72px" X="-67px" Right="-40px" ColumnCount="1" ColumnGap="30px" ColumnDivider="Solid 1px Red" Anchors="Left,Right,Top,Bottom" Width="661px" Height="879px">
         </Frame>
-        <Frame X="-65px" Y="-18px" Width="661px" Height="37px" Flow="header" Right="-42px" Bottom="912px">
+        <Frame Flow="footer" Height="47px" Anchors="Left,Right,Bottom" Right="-43px" Bottom="-49px" X="-66px" Y="933px" Width="663px" TextAlign="right" VerticalAlign="top" BorderTopStyle="solid" BorderTopWidth="1px" BorderTopColor="#35b3ce">
             <Content>
                 <xhtml:html xmlns:xhtml="http://www.w3.org/1999/xhtml">
+                    <xhtml:head>
+                        <xhtml:link xhtml:href="../../TableStyles/footer_table.css" xhtml:rel="stylesheet" MadCap:stylesheetType="table" />
+                    </xhtml:head>
                     <xhtml:body>
-                        <xhtml:p><MadCap:variable xhtml:name="Heading.Level1" />
-                        </xhtml:p>
+                        <xhtml:table xhtml:style="width: 100%;margin-left: 0;margin-right: auto;mc-table-style: url('../../TableStyles/footer_table.css');" xhtml:class="TableStyle-footer_table" xhtml:cellspacing="0">
+                            <xhtml:col xhtml:class="TableStyle-footer_table-Column-Column1" />
+                            <xhtml:col xhtml:class="TableStyle-footer_table-Column-Column1" />
+                            <xhtml:tbody>
+                                <xhtml:tr xhtml:class="TableStyle-footer_table-Body-Body1">
+                                    <xhtml:td xhtml:style="font-size: 8pt;" xhtml:class="TableStyle-footer_table-BodyB-Column1-Body1">
+                                        <xhtml:p><MadCap:variable xhtml:name="Heading.Level2" />
+                                        </xhtml:p>
+                                    </xhtml:td>
+                                    <xhtml:td xhtml:style="font-size: 8pt;" xhtml:class="TableStyle-footer_table-BodyA-Column1-Body1">
+                                        <xhtml:p xhtml:class="FrameFooterText2" xhtml:style="text-align: right;">Page <MadCap:variable xhtml:name="System.PageNumber" /> of <MadCap:variable xhtml:name="System.PageCount" /></xhtml:p>
+                                    </xhtml:td>
+                                </xhtml:tr>
+                            </xhtml:tbody>
+                        </xhtml:table>
                     </xhtml:body>
                 </xhtml:html>
             </Content>
         </Frame>
-        <Frame Flow="footer" Height="47px" Anchors="Left,Right,Bottom" Right="-41px" Bottom="0px" X="-68px" Y="884px" Width="663px" TextAlign="right" VerticalAlign="top">
+        <Frame X="-65px" Y="-66px" Width="661px" Height="37px" Flow="header" Right="-42px" Bottom="960px" BorderBottomStyle="solid" BorderBottomWidth="1px" BorderBottomColor="#35b3ce" Anchors="">
             <Content>
                 <xhtml:html xmlns:xhtml="http://www.w3.org/1999/xhtml">
                     <xhtml:head>
@@ -43,14 +59,16 @@
                             <xhtml:tbody>
                                 <xhtml:tr xhtml:class="TableStyle-footer_table-Body-Body1">
                                     <xhtml:td xhtml:class="TableStyle-footer_table-BodyB-Column1-Body1" xhtml:style="font-size: 8pt;">
-                                        <xhtml:p><MadCap:variable xhtml:name="General.Product Name&#160;Insights (Full)" /> User Guide</xhtml:p>
+                                        <xhtml:p><MadCap:variable xhtml:name="Heading.Level2" />
+                                        </xhtml:p>
                                     </xhtml:td>
                                     <xhtml:td xhtml:class="TableStyle-footer_table-BodyA-Column1-Body1" xhtml:style="font-size: 8pt;">
-                                        <xhtml:p xhtml:class="FrameFooterText2" xhtml:style="text-align: right;">Page <MadCap:variable xhtml:name="System.PageNumber" /> of <MadCap:variable xhtml:name="System.PageCount" /></xhtml:p>
+                                        <xhtml:p xhtml:class="FrameFooterText2" xhtml:style="text-align: right;">&#160;</xhtml:p>
                                     </xhtml:td>
                                 </xhtml:tr>
                             </xhtml:tbody>
                         </xhtml:table>
+                        <xhtml:p xhtml:style="text-align: right;">&#160;</xhtml:p>
                     </xhtml:body>
                 </xhtml:html>
             </Content>
@@ -80,7 +98,9 @@
         </Frame>
     </Page>
     <Page Name="Right" Padding="20px" PageSize="A4" PageType="right" PaddingLeft="1.5in" PaddingRight="1in" PaddingTop="1in" PaddingBottom="1in" Orientation="portrait" BleedBottom="0.25in" BleedTop="0.25in" BleedRight="0.25in" BleedLeft="0.25in">
-        <Frame Flow="footer" Height="47px" Anchors="Left,Right,Bottom" Right="-41px" Bottom="0px" X="-68px" Y="884px" Width="663px" TextAlign="right" VerticalAlign="top">
+        <Frame Flow="body" Y="-20px" Bottom="72px" X="-67px" Right="-40px" ColumnCount="1" ColumnGap="30px" ColumnDivider="Solid 1px Red" Anchors="Left,Right,Top,Bottom" Width="661px" Height="879px">
+        </Frame>
+        <Frame X="-65px" Y="-66px" Width="661px" Height="37px" Flow="header" Right="-42px" Bottom="960px" BorderBottomStyle="solid" BorderBottomWidth="1px" BorderBottomColor="#35b3ce" Anchors="">
             <Content>
                 <xhtml:html xmlns:xhtml="http://www.w3.org/1999/xhtml">
                     <xhtml:head>
@@ -93,26 +113,42 @@
                             <xhtml:tbody>
                                 <xhtml:tr xhtml:class="TableStyle-footer_table-Body-Body1">
                                     <xhtml:td xhtml:class="TableStyle-footer_table-BodyB-Column1-Body1" xhtml:style="font-size: 8pt;">
-                                        <xhtml:p><MadCap:variable xhtml:name="General.Product Name&#160;Insights (Full)" /> User Guide</xhtml:p>
+                                        <xhtml:p><MadCap:variable xhtml:name="Heading.Level2" />
+                                        </xhtml:p>
                                     </xhtml:td>
                                     <xhtml:td xhtml:class="TableStyle-footer_table-BodyA-Column1-Body1" xhtml:style="font-size: 8pt;">
+                                        <xhtml:p xhtml:class="FrameFooterText2" xhtml:style="text-align: right;">&#160;</xhtml:p>
+                                    </xhtml:td>
+                                </xhtml:tr>
+                            </xhtml:tbody>
+                        </xhtml:table>
+                        <xhtml:p xhtml:style="text-align: right;">&#160;</xhtml:p>
+                    </xhtml:body>
+                </xhtml:html>
+            </Content>
+        </Frame>
+        <Frame Flow="footer" Height="47px" Anchors="Left,Right,Bottom" Right="-43px" Bottom="-49px" X="-66px" Y="933px" Width="663px" TextAlign="right" VerticalAlign="top" BorderTopStyle="solid" BorderTopWidth="1px" BorderTopColor="#35b3ce">
+            <Content>
+                <xhtml:html xmlns:xhtml="http://www.w3.org/1999/xhtml">
+                    <xhtml:head>
+                        <xhtml:link xhtml:href="../../TableStyles/footer_table.css" xhtml:rel="stylesheet" MadCap:stylesheetType="table" />
+                    </xhtml:head>
+                    <xhtml:body>
+                        <xhtml:table xhtml:style="width: 100%;margin-left: 0;margin-right: auto;mc-table-style: url('../../TableStyles/footer_table.css');" xhtml:class="TableStyle-footer_table" xhtml:cellspacing="0">
+                            <xhtml:col xhtml:class="TableStyle-footer_table-Column-Column1" />
+                            <xhtml:col xhtml:class="TableStyle-footer_table-Column-Column1" />
+                            <xhtml:tbody>
+                                <xhtml:tr xhtml:class="TableStyle-footer_table-Body-Body1">
+                                    <xhtml:td xhtml:style="font-size: 8pt;" xhtml:class="TableStyle-footer_table-BodyB-Column1-Body1">
+                                        <xhtml:p><MadCap:variable xhtml:name="Heading.Level2" />
+                                        </xhtml:p>
+                                    </xhtml:td>
+                                    <xhtml:td xhtml:style="font-size: 8pt;" xhtml:class="TableStyle-footer_table-BodyA-Column1-Body1">
                                         <xhtml:p xhtml:class="FrameFooterText2" xhtml:style="text-align: right;">Page <MadCap:variable xhtml:name="System.PageNumber" /> of <MadCap:variable xhtml:name="System.PageCount" /></xhtml:p>
                                     </xhtml:td>
                                 </xhtml:tr>
                             </xhtml:tbody>
                         </xhtml:table>
-                    </xhtml:body>
-                </xhtml:html>
-            </Content>
-        </Frame>
-        <Frame Flow="body" Y="-20px" Bottom="72px" X="-67px" Right="-40px" ColumnCount="1" ColumnGap="30px" ColumnDivider="Solid 1px Red" Anchors="Left,Right,Top,Bottom" Width="661px" Height="879px">
-        </Frame>
-        <Frame X="-65px" Y="-18px" Width="661px" Height="37px" Flow="header" Right="-42px" Bottom="912px">
-            <Content>
-                <xhtml:html xmlns:xhtml="http://www.w3.org/1999/xhtml">
-                    <xhtml:body>
-                        <xhtml:p xhtml:style="text-align: right;"><MadCap:variable xhtml:name="Heading.Level1" />
-                        </xhtml:p>
                     </xhtml:body>
                 </xhtml:html>
             </Content>
