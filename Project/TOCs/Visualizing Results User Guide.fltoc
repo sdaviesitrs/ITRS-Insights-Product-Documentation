@@ -3,11 +3,56 @@
   Version="1">
   <TocEntry
     Title="Title"
-    Link="/Content/Print Files/Front Matter Topics/Title.htm"></TocEntry>
+    Link="/Content/Print Files/Front Matter Topics/Title.htm"
+    BreakType="chapter"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/a4_pdf_layouts/ug_title.flpgl"></TocEntry>
   <TocEntry
     Title="Copyright"
-    Link="/Content/Print Files/Front Matter Topics/Copyright.htm" />
+    Link="/Content/Print Files/Front Matter Topics/Copyright.htm"
+    BreakType="chapter"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/a4_pdf_layouts/ug_copyright.flpgl"
+    SectionNumberReset="continue"
+    VolumeNumberReset="same"
+    ChapterNumberReset="reset"
+    ChapterNumber="1" />
   <TocEntry
     Title="TOC"
-    Link="/Content/Print Files/Front Matter Topics/TOC.htm" />
+    Link="/Content/Print Files/Front Matter Topics/TOC.htm"
+    BreakType="chapter"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/a4_pdf_layouts/ug_toc.flpgl"
+    PageType="firstright"
+    SectionNumberReset="continue"
+    VolumeNumberReset="same"
+    ChapterNumberReset="continue"></TocEntry>
+  <TocEntry
+    Title="[%=General.Product Name Insights (Full)%] Visualizing Results User Guide"
+    Link="/Content/C_User Guides/Visualizing Results User Guide.htm"
+    BreakType="chapter"
+    StartSection="false"
+    PageNumberReset="reset"
+    PageLayout="/Content/Resources/PageLayouts/a4_pdf_layouts/ug_chapters.flpgl"
+    SectionNumberReset="continue"
+    VolumeNumberReset="same"
+    ChapterNumberReset="continue"
+    PageNumber="1" />
+  <TocEntry
+    Title="GLOSSARY"
+    Link="/Content/Print Files/Back Matter Topics/Glossary.htm"
+    BreakType="chapter"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/a4_pdf_layouts/ug_glossary.flpgl" />
+  <TocEntry
+    Title="INDEX"
+    Link="/Content/Print Files/Back Matter Topics/Index.htm"
+    BreakType="chapter"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/a4_pdf_layouts/ug_index bad.flpgl" />
 </CatapultToc>

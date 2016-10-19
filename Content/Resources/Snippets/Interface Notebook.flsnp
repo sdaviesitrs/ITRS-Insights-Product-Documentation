@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="569" MadCap:lastWidth="1177">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="718" MadCap:lastWidth="576">
     <body>
         <MadCap:dropDown>
             <MadCap:dropDownHead class="H2NoKeyline">
@@ -7,7 +7,7 @@
             </MadCap:dropDownHead>
             <MadCap:dropDownBody>
                 <p>Specific information about the <strong class="green">query </strong>and<strong class="green"> free text search</strong> interface elements can be found here: <MadCap:xref href="../../C_User Guides/Query, Search &amp; Transform Data User Guide.htm#Query_Text_Interface">The Query and Free Text Search Interface</MadCap:xref>.</p>
-                <p>
+                <p style="text-align: left;">
                     <img src="../Images/interface_notebook.PNG" class="screenshotsmedium" />
                 </p>
                 <ol>

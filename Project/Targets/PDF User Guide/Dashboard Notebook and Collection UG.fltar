@@ -5,7 +5,7 @@
   Type="PDF"
   Destinations=""
   GlossaryTermConversion="marked"
-  MasterToc="/Project/TOCs/Domain and Contributors User Guide.fltoc"
+  MasterToc="/Project/TOCs/Dashboard Notebook and Collection User Guide.fltoc"
   MasterStylesheet="/Content/Resources/Stylesheets/styles.css"
   ConditionTagExpression="exclude[Output.Null] ">
   <PrintedOutput
@@ -15,16 +15,18 @@
     GenerateGlossaryProxy="true" />
   <Variables>
     <Variable
-      Name="General/DocumentTitle">Domain and Contributors</Variable>
+      Name="General/DocumentType">User Guide</Variable>
+    <Variable
+      Name="General/DocumentTitle">Dashboard Notebook and Collection</Variable>
   </Variables>
+  <DocumentProperties
+    Author="ITRS Group Ltd"
+    Title="Dashboard Notebook and Collection User Guide"
+    Subject="Dashboard Notebooks and Collections"
+    Keywords="Dashboard Notebooks and Collections" />
   <PDF
     ShowUsedBookmarks="false"
     InitialMagnification="75"
-    PageLayout="SinglePage"
-    TitleBar="DocumentTitle" />
-  <DocumentProperties
-    Title="Domain and Contributors User Guide"
-    Author="ITRS Group Ltd"
-    Subject="Domain and Contributors"
-    Keywords="Domain and Contributors" />
+    TitleBar="DocumentTitle"
+    PageLayout="SinglePage" />
 </CatapultTarget>

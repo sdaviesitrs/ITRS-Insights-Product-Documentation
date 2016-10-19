@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="955" MadCap:lastWidth="1177">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="686" MadCap:lastWidth="576">
     <body>
         <MadCap:dropDown>
             <MadCap:dropDownHead>
@@ -26,11 +26,9 @@
                     <li>(Optional) Click <MadCap:snippetText src="Icon_Preview_Swirl.flsnp" /> to preview the <strong>Contributors </strong>and associated <strong>payloads </strong>that this Domain will contain</li>
                     <li>Click <strong><MadCap:snippetText src="Icon Save.flsnp" /></strong></li>
                 </ol>
-                <blockquote>
-                    <p>
-                        <img src="../Images/interface_newdomain.PNG" class="screenshotsmedium" />
-                    </p>
-                </blockquote>
+                <p>
+                    <img src="../Images/interface_newdomain.PNG" class="screenshotsmedium" />
+                </p>
             </MadCap:dropDownBody>
         </MadCap:dropDown>
     </body>

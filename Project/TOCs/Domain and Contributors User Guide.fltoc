@@ -3,11 +3,48 @@
   Version="1">
   <TocEntry
     Title="Title"
-    Link="/Content/Print Files/Front Matter Topics/Title.htm" />
+    Link="/Content/Print Files/Front Matter Topics/Title.htm"
+    BreakType="chapter"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/a4_pdf_layouts/ug_title.flpgl" />
   <TocEntry
     Title="Copyright"
-    Link="/Content/Print Files/Front Matter Topics/Copyright.htm" />
+    Link="/Content/Print Files/Front Matter Topics/Copyright.htm"
+    BreakType="chapter"
+    PageType="left"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/a4_pdf_layouts/ug_toc.flpgl" />
   <TocEntry
     Title="TOC"
-    Link="/Content/Print Files/Front Matter Topics/TOC.htm" />
+    Link="/Content/Print Files/Front Matter Topics/TOC.htm"
+    BreakType="chapter"
+    PageType="firstright"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/a4_pdf_layouts/ug_toc.flpgl" />
+  <TocEntry
+    Title="[%=General.Product Name Insights (Full)%] Contributor &amp; Domain User Guide"
+    Link="/Content/C_User Guides/Domain &amp; Contributors User Guide.htm"
+    BreakType="chapter"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/a4_pdf_layouts/ug_chapters.flpgl" />
+  <TocEntry
+    Title="GLOSSARY"
+    Link="/Content/Print Files/Back Matter Topics/Glossary.htm"
+    BreakType="chapter"
+    PageType="firstright"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/a4_pdf_layouts/ug_glossary.flpgl" />
+  <TocEntry
+    Title="INDEX"
+    Link="/Content/Print Files/Back Matter Topics/Index.htm"
+    BreakType="chapter"
+    PageType="firstright"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/a4_pdf_layouts/ug_index.flpgl" />
 </CatapultToc>

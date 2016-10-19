@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="9" MadCap:lastHeight="5780" MadCap:lastWidth="1480">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="9" MadCap:lastHeight="568" MadCap:lastWidth="576">
     <head>
+        <link href="../Resources/Stylesheets/styles.css" rel="stylesheet" type="text/css" />
     </head>
     <body>
         <h1><MadCap:variable name="General.Product Name&#160;Insights (Full)" /> Visualizing Results User Guide</h1>
@@ -11,17 +12,16 @@ and the outcome of your <strong class="green">queries</strong>. See <MadCap:xref
 query, you can choose from a range of chart types to display the results. <MadCap:variable name="General.Product Name Insights&#160;(abbreviated)" /> saves your visualization and chart preferences for each query, resetting them only if your query is changed in such a way that your visualization choices are no longer possible.</p>
             <p>Finally, you can send any of your visualizations to one or more <strong class="green">Dashboards </strong> to develop an aggregated visual display of your key query results in real time. See <MadCap:xref href="Dashboard, Notebook &amp; Collection User Guide.htm">[%=General.Product Name&#160;Insights (Full)%] Dashboard &amp;&#160;Notebook&#160;User Guide</MadCap:xref> <![CDATA[ ]]></p>
             <h2 class="nokeyline"><a name="VisualizingInterface"></a>The Visualization Interface</h2>
-            <p>
+            <p style="text-align: left;">
                 <img src="../Resources/Images/chart_linechart.PNG" class="screenshotsmedium" />
             </p>
+            <p>The Visualization Interface</p>
             <ol>
                 <li>
                     <MadCap:snippetText src="../Resources/Snippets/UI Definition Active Tab.flsnp" />
                 </li>
                 <li><strong>Re-ordering bar </strong>- drag and drop to reorder your query or free text search</li>
             </ol>
-            <p>&#160;</p>
-            <p>&#160;</p>
             <h2>Chart Types</h2>
             <MadCap:dropDown>
                 <MadCap:dropDownHead>
@@ -33,12 +33,14 @@ table. Tables can be sorted by selecting the appropriate column. </p>
                     <MadCap:snippetBlock src="../Resources/Snippets/Visualization Configuration Options.flsnp" />
                     <MadCap:snippetBlock src="../Resources/Snippets/Visualization Definition Group By.flsnp" />
                     <blockquote>
-                        <p>
+                        <p>&#160;</p>
+                        <p style="text-align: left;">
                             <img src="../Resources/Images/chart_table.PNG" class="screenshotsmedium" />
                         </p>
                     </blockquote>
                 </MadCap:dropDownBody>
             </MadCap:dropDown>
+            <MadCap:pageBreak />
             <MadCap:dropDown>
                 <MadCap:dropDownHead>
                     <MadCap:dropDownHotspot>Line Chart <MadCap:snippetText src="../Resources/Snippets/Icon Chart Line.flsnp" /></MadCap:dropDownHotspot>
@@ -64,12 +66,13 @@ select left.SenderCompID, left.ClOrdID, millis(diff(left.TransactTime, right.Tra
 </pre>
                     </div>
                     <blockquote>
-                        <p>
+                        <p style="text-align: left;">
                             <img src="../Resources/Images/chart_linechart.PNG" class="screenshotsmedium" />
                         </p>
                     </blockquote>
                 </MadCap:dropDownBody>
             </MadCap:dropDown>
+            <MadCap:pageBreak />
             <div class="section" id="bubble-chart-image12">
                 <MadCap:dropDown>
                     <MadCap:dropDownHead>
@@ -90,18 +93,25 @@ from /streams/demo/infrastructure/cpu
 select process, host, sampleTime, kernel, user, kernel as kernel1, user as user1, kernel as kernel2, user as user2, kernel as kernel3, user as user3
 </pre>
                         </blockquote>
-                        <blockquote><pre class="literal-block" xml:space="preserve"><img src="../Resources/Images/chart_bubblechart.PNG" class="screenshotsmedium" /></pre>
+                        <blockquote><pre class="literal-block" xml:space="preserve" style="text-align: center;">&#160;</pre><pre class="literal-block" xml:space="preserve" style="text-align: left;"><img src="../Resources/Images/chart_bubblechart.PNG" class="screenshotsmedium" /></pre>
                         </blockquote>
                     </MadCap:dropDownBody>
                 </MadCap:dropDown>
             </div>
             <div class="section" id="spark-lines-image6">
-                <p>Bubble Map </p>
-                <p>A bubble map displays geographic location and size data points of a query as bubbles. It allows you to see the geographical dispersion of data points. </p>
-                <p>You can configure the following fields in order to customize your visualization:</p>
-                <MadCap:snippetBlock src="../Resources/Snippets/Visualization Definition Group By.flsnp" />
-                <MadCap:snippetBlock src="../Resources/Snippets/Visualization Definition Axes Configuration.flsnp" />
-                <MadCap:snippetBlock src="../Resources/Snippets/Visualization Definition Y Axis Scale.flsnp" />
+                <MadCap:pageBreak />
+                <MadCap:dropDown>
+                    <MadCap:dropDownHead>
+                        <MadCap:dropDownHotspot>Bubble Map </MadCap:dropDownHotspot>
+                    </MadCap:dropDownHead>
+                    <MadCap:dropDownBody>
+                        <p>A bubble map displays geographic location and size data points of a query as bubbles. It allows you to see the geographical dispersion of data points. </p>
+                        <p>You can configure the following fields in order to customize your visualization:</p>
+                        <MadCap:snippetBlock src="../Resources/Snippets/Visualization Definition Group By.flsnp" />
+                        <MadCap:snippetBlock src="../Resources/Snippets/Visualization Definition Axes Configuration.flsnp" />
+                        <MadCap:snippetBlock src="../Resources/Snippets/Visualization Definition Y Axis Scale.flsnp" />
+                    </MadCap:dropDownBody>
+                </MadCap:dropDown>
                 <MadCap:dropDown>
                     <MadCap:dropDownHead>
                         <MadCap:dropDownHotspot>Spark lines <MadCap:snippetText src="../Resources/Snippets/Icon Chart Sparklines.flsnp" /></MadCap:dropDownHotspot>
@@ -120,7 +130,7 @@ select UniqueCarrier, minutes(ArrDelay) as ArrivalDelay
                         <p MadCap:conditions="Output.Null">For example in our USA flight data we can see what the pattern of
 lateness looks like for each carrier.</p>
                         <blockquote>
-                            <p>
+                            <p style="text-align: center;">
                                 <img src="../Resources/Images/chart_sparkline.PNG" class="screenshotsmedium" />
                             </p>
                         </blockquote>
@@ -128,21 +138,23 @@ lateness looks like for each carrier.</p>
                 </MadCap:dropDown>
             </div>
             <div class="section" id="column-chart-image3">
+                <MadCap:pageBreak />
                 <p>Column Chart <img alt="image3" src="../Resources/Images/ColumnButton.png" class="icon" /></p>
                 <p>Selecting the column chart an axis selection that makes sense is automatically chosen, so from the example above selecting the Column button results in the following visualization:
 </p>
-                <p>
+                <p style="text-align: left;">
                     <img alt="image4" src="../Resources/Images/FlightData-SampleLateCol.png" class="screenshotsmedium" />
                 </p>
                 <div class="system-message"><pre class="literal-block" xml:space="preserve">
 from historical /streams/demo/fix/exchange where MsgType=="New Order Single" group by Symbol select Symbol, sum(OrderQty) as Volume
 </pre>
                 </div>
-                <p>
+                <p style="text-align: left;">
                     <img alt="image5" src="../Resources/Images/fix_volume.png" class="screenshotsmedium" />
                 </p>
                 <p>Depending on the contents of your query return you can change the axis
 configurations and also group by certain values.</p>
+                <MadCap:pageBreak />
             </div>
             <div class="section" id="anomaly-detection-image8">
                 <p>Anomaly Detection <img alt="image8" src="../Resources/Images/AnomalyButton.png" class="icon" /></p>
@@ -157,12 +169,11 @@ select contributor, anomaly(200, 40, 20) (value) as result
 emit every value
 </pre>
                 </div>
-                <p>
+                <p style="text-align: left;">
                     <img alt="image9" src="../Resources/Images/ECG-Anom-01.png" class="screenshotsmedium" />
                 </p>
-            </div>
+                <p>&#160;</p>Scatterplot Chart <img alt="image14" src="../Resources/Images/ScatterButton.png" class="icon" /></div>
             <div class="section" id="scatterplot-chart-image14">
-                <p>Scatterplot Chart <img alt="image14" src="../Resources/Images/ScatterButton.png" class="icon" /></p>
                 <p>A scatterplot is a useful summary of a set of bivariate data (two
 variables),it gives a good visual picture of the relationship between
 the two variables, and aids the interpretation of the correlation
@@ -179,7 +190,7 @@ where flightDate == "2005-06-01" &amp;&amp; DepTime &gt; "12:00" &amp;&amp; DepT
 select UniqueCarrier, Distance, minutes(AirTime) as AirMinutes
 </pre>
                 </div>
-                <p>
+                <p style="text-align: left;">
                     <img alt="image15" src="../Resources/Images/FlightData-DistVsTime-ScatGrp.png" class="screenshotsmedium" />
                 </p>
             </div>

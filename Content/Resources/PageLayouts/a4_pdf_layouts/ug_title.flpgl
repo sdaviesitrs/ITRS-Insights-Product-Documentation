@@ -12,7 +12,7 @@
         </Frame>
         <Frame Flow="body" Y="-20px" Bottom="-35px" X="-51px" Right="-56px" ColumnCount="1" ColumnGap="30px" ColumnDivider="Solid 1px Red" Anchors="Left,Right,Top,Bottom" Width="709px" Height="986px" BorderLeftStyle="solid" BorderLeftWidth="0px" BorderRightStyle="solid" BorderRightWidth="0px" BorderTopStyle="solid" BorderTopWidth="0px" BorderBottomStyle="solid" BorderBottomWidth="0px" DividerWidth="0" BackgroundColor="transparent">
         </Frame>
-        <Frame X="333px" Y="-9px" Width="321px" Height="61px" Flow="decoration0" BackgroundImage="../../Images/logo_ITRSInsights_Valogreen_grey.png" BackgroundRepeat="stretch" Right="-52px" Bottom="879px" Anchors="">
+        <Frame X="1px" Y="1px" Width="321px" Height="61px" Flow="decoration0" BackgroundImage="../../Images/logo_ITRSInsights_Valogreen_grey.png" BackgroundRepeat="stretch" Right="280px" Bottom="869px" Anchors="">
             <Content>
                 <xhtml:html xmlns:xhtml="http://www.w3.org/1999/xhtml">
                     <xhtml:body>
@@ -21,6 +21,6 @@
                 </xhtml:html>
             </Content>
         </Frame>
-        <Frame X="-4px" Y="311px" Width="602px" Height="445px" Flow="decoration1" Right="4px" Bottom="175px" BackgroundImage="../../Images/logo_ITRSInsightstrans.png" BackgroundRepeat="no-repeat" Anchors="" />
+        <Frame X="0px" Y="220px" Width="602px" Height="445px" Flow="decoration1" Right="0px" Bottom="266px" BackgroundImage="../../Images/insightsbluelogo.png" BackgroundRepeat="no-repeat" Anchors="" />
     </Page>
 </PageStyles>

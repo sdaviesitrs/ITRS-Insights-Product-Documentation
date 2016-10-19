@@ -26,6 +26,8 @@ mcTableColumnStyle
 	span: 1;
 	name: Column1;
 	id: 0;
+	text-align: left;
+	vertical-align: top;
 }
 
 mcTableBodyStyle
@@ -34,7 +36,6 @@ mcTableBodyStyle
 	name: Body1;
 	id: 1;
 	font-size: 9pt;
-	font-style: inherit;
 	text-align: left;
 }
 
@@ -66,7 +67,8 @@ mcTableBodyStyle
 
 .TableStyle-footer_table-HeadI-Column1-
 {
-	
+	text-align: left;
+	vertical-align: top;
 }
 
 .TableStyle-footer_table-HeadI-Column1- p
@@ -76,7 +78,8 @@ mcTableBodyStyle
 
 .TableStyle-footer_table-HeadE-Column1-
 {
-	
+	text-align: left;
+	vertical-align: top;
 }
 
 .TableStyle-footer_table-HeadE-Column1- p
@@ -86,7 +89,8 @@ mcTableBodyStyle
 
 .TableStyle-footer_table-HeadF-Column1-
 {
-	
+	text-align: left;
+	vertical-align: top;
 }
 
 .TableStyle-footer_table-HeadF-Column1- p
@@ -96,7 +100,8 @@ mcTableBodyStyle
 
 .TableStyle-footer_table-HeadH-Column1-
 {
-	
+	text-align: left;
+	vertical-align: top;
 }
 
 .TableStyle-footer_table-HeadH-Column1- p
@@ -106,7 +111,8 @@ mcTableBodyStyle
 
 .TableStyle-footer_table-HeadD-Column1-
 {
-	
+	text-align: left;
+	vertical-align: top;
 }
 
 .TableStyle-footer_table-HeadD-Column1- p
@@ -116,7 +122,8 @@ mcTableBodyStyle
 
 .TableStyle-footer_table-HeadC-Column1-
 {
-	
+	text-align: left;
+	vertical-align: top;
 }
 
 .TableStyle-footer_table-HeadC-Column1- p
@@ -126,7 +133,8 @@ mcTableBodyStyle
 
 .TableStyle-footer_table-HeadB-Column1-
 {
-	
+	text-align: left;
+	vertical-align: top;
 }
 
 .TableStyle-footer_table-HeadB-Column1- p
@@ -136,7 +144,8 @@ mcTableBodyStyle
 
 .TableStyle-footer_table-HeadA-Column1-
 {
-	
+	text-align: left;
+	vertical-align: top;
 }
 
 .TableStyle-footer_table-HeadA-Column1- p
@@ -146,7 +155,8 @@ mcTableBodyStyle
 
 .TableStyle-footer_table-HeadG-Column1-
 {
-	
+	text-align: left;
+	vertical-align: top;
 }
 
 .TableStyle-footer_table-HeadG-Column1- p
@@ -156,7 +166,8 @@ mcTableBodyStyle
 
 .TableStyle-footer_table-FootI-Column1-
 {
-	
+	text-align: left;
+	vertical-align: top;
 }
 
 .TableStyle-footer_table-FootI-Column1- p
@@ -166,7 +177,8 @@ mcTableBodyStyle
 
 .TableStyle-footer_table-FootE-Column1-
 {
-	
+	text-align: left;
+	vertical-align: top;
 }
 
 .TableStyle-footer_table-FootE-Column1- p
@@ -176,7 +188,8 @@ mcTableBodyStyle
 
 .TableStyle-footer_table-FootF-Column1-
 {
-	
+	text-align: left;
+	vertical-align: top;
 }
 
 .TableStyle-footer_table-FootF-Column1- p
@@ -186,7 +199,8 @@ mcTableBodyStyle
 
 .TableStyle-footer_table-FootH-Column1-
 {
-	
+	text-align: left;
+	vertical-align: top;
 }
 
 .TableStyle-footer_table-FootH-Column1- p
@@ -196,7 +210,8 @@ mcTableBodyStyle
 
 .TableStyle-footer_table-FootD-Column1-
 {
-	
+	text-align: left;
+	vertical-align: top;
 }
 
 .TableStyle-footer_table-FootD-Column1- p
@@ -206,7 +221,8 @@ mcTableBodyStyle
 
 .TableStyle-footer_table-FootC-Column1-
 {
-	
+	text-align: left;
+	vertical-align: top;
 }
 
 .TableStyle-footer_table-FootC-Column1- p
@@ -216,7 +232,8 @@ mcTableBodyStyle
 
 .TableStyle-footer_table-FootB-Column1-
 {
-	
+	text-align: left;
+	vertical-align: top;
 }
 
 .TableStyle-footer_table-FootB-Column1- p
@@ -226,7 +243,8 @@ mcTableBodyStyle
 
 .TableStyle-footer_table-FootA-Column1-
 {
-	
+	text-align: left;
+	vertical-align: top;
 }
 
 .TableStyle-footer_table-FootA-Column1- p
@@ -236,7 +254,8 @@ mcTableBodyStyle
 
 .TableStyle-footer_table-FootG-Column1-
 {
-	
+	text-align: left;
+	vertical-align: top;
 }
 
 .TableStyle-footer_table-FootG-Column1- p
@@ -252,118 +271,109 @@ mcTableBodyStyle
 .TableStyle-footer_table-BodyI-Column1-Body1
 {
 	font-size: 9pt;
-	font-style: inherit;
 	text-align: left;
+	vertical-align: top;
 }
 
 .TableStyle-footer_table-BodyI-Column1-Body1 p
 {
 	font-size: 9pt;
-	font-style: inherit;
 }
 
 .TableStyle-footer_table-BodyE-Column1-Body1
 {
 	font-size: 9pt;
-	font-style: inherit;
 	text-align: left;
+	vertical-align: top;
 }
 
 .TableStyle-footer_table-BodyE-Column1-Body1 p
 {
 	font-size: 9pt;
-	font-style: inherit;
 }
 
 .TableStyle-footer_table-BodyF-Column1-Body1
 {
 	font-size: 9pt;
-	font-style: inherit;
 	text-align: left;
+	vertical-align: top;
 }
 
 .TableStyle-footer_table-BodyF-Column1-Body1 p
 {
 	font-size: 9pt;
-	font-style: inherit;
 }
 
 .TableStyle-footer_table-BodyH-Column1-Body1
 {
 	font-size: 9pt;
-	font-style: inherit;
 	text-align: left;
+	vertical-align: top;
 }
 
 .TableStyle-footer_table-BodyH-Column1-Body1 p
 {
 	font-size: 9pt;
-	font-style: inherit;
 }
 
 .TableStyle-footer_table-BodyD-Column1-Body1
 {
 	font-size: 9pt;
-	font-style: inherit;
 	text-align: left;
+	vertical-align: top;
 }
 
 .TableStyle-footer_table-BodyD-Column1-Body1 p
 {
 	font-size: 9pt;
-	font-style: inherit;
 }
 
 .TableStyle-footer_table-BodyC-Column1-Body1
 {
 	font-size: 9pt;
-	font-style: inherit;
 	text-align: left;
+	vertical-align: top;
 }
 
 .TableStyle-footer_table-BodyC-Column1-Body1 p
 {
 	font-size: 9pt;
-	font-style: inherit;
 }
 
 .TableStyle-footer_table-BodyB-Column1-Body1
 {
 	font-size: 9pt;
-	font-style: inherit;
 	text-align: left;
+	vertical-align: top;
 }
 
 .TableStyle-footer_table-BodyB-Column1-Body1 p
 {
 	font-size: 9pt;
-	font-style: inherit;
 }
 
 .TableStyle-footer_table-BodyA-Column1-Body1
 {
 	font-size: 9pt;
-	font-style: inherit;
 	text-align: left;
+	vertical-align: top;
 }
 
 .TableStyle-footer_table-BodyA-Column1-Body1 p
 {
 	font-size: 9pt;
-	font-style: inherit;
 }
 
 .TableStyle-footer_table-BodyG-Column1-Body1
 {
 	font-size: 9pt;
-	font-style: inherit;
 	text-align: left;
+	vertical-align: top;
 }
 
 .TableStyle-footer_table-BodyG-Column1-Body1 p
 {
 	font-size: 9pt;
-	font-style: inherit;
 }
 
 
