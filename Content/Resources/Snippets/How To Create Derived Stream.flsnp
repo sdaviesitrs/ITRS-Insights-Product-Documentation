@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="8" MadCap:lastHeight="652" MadCap:lastWidth="1139">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="8" MadCap:lastHeight="625" MadCap:lastWidth="1151">
     <body>
-        <blockquote>
+   
             <MadCap:dropDown>
                 <MadCap:dropDownHead>
                     <MadCap:dropDownHotspot>How to Create a Derived Steam</MadCap:dropDownHotspot>
@@ -28,6 +28,6 @@
                     </div>
                 </MadCap:dropDownBody>
             </MadCap:dropDown>
-        </blockquote>
+       
     </body>
 </html>

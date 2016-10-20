@@ -1,29 +1,27 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="7" MadCap:lastHeight="218" MadCap:lastWidth="576">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="10" MadCap:lastHeight="433" MadCap:lastWidth="1125">
     <body>
-        <blockquote>
-            <MadCap:dropDown>
-                <MadCap:dropDownHead>
-                    <MadCap:dropDownHotspot>How to View a Schema</MadCap:dropDownHotspot>
-                </MadCap:dropDownHead>
-                <MadCap:dropDownBody>
-                    <ol>
-                        <li>Click <strong><MadCap:snippetText src="Icon Home.flsnp" /></strong></li>
-                        <li>In the <strong>Streams by&#160;Collection </strong>window, Click the <strong>stream </strong>that you want to inspect</li>
-                    </ol>
-                    <blockquote>
-                        <p>A new tab will open displaying the schema for that stream.</p>
-                    </blockquote>
-                    <blockquote>
-                        <p>
-                            <img src="../Images/homepage_Demo.PNG" class="screenshotsmall" />
-                        </p>
-                        <p>
-                            <img src="../Images/view_schema.PNG" class="screenshotsmall" />
-                        </p>
-                    </blockquote>
-                </MadCap:dropDownBody>
-            </MadCap:dropDown>
-        </blockquote>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>How to View a Schema</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <ol>
+                    <li>Click <strong><MadCap:snippetText src="Icon Home.flsnp" /></strong></li>
+                    <li>In the <strong>Streams by&#160;Collection </strong>window, Click the <strong>stream </strong>that you want to inspect</li>
+                </ol>
+                <blockquote>
+                    <p>A new tab will open displaying the schema for that stream.</p>
+                </blockquote>
+                <blockquote>
+                    <p>
+                        <img src="../Images/homepage_Demo.PNG" class="screenshotsmall" />
+                    </p>
+                    <p>
+                        <img src="../Images/view_schema.PNG" class="screenshotsmall" />
+                    </p>
+                </blockquote>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
     </body>
 </html>
