@@ -48,7 +48,7 @@
       Link="/Content/C_User Guides/Template User Guide.htm" />
   </TocEntry>
   <TocEntry
-    Title="TECHNICAL REFERENCE">
+    Title="TECH REFERENCE">
     <TocEntry
       Title="Algorithms">
       <TocEntry
@@ -171,9 +171,12 @@
     </TocEntry>
   </TocEntry>
   <TocEntry
-    Title="INTERFACE">
+    Title="HOW TO &amp; INTERFACE">
     <TocEntry
-      Title="ITRS Insights Interface"
+      Title="How To"
+      Link="/Content/E_How To/How To.htm" />
+    <TocEntry
+      Title="[%=General.Product Name Insights (Full)%] Interface"
       Link="/Content/F_INTERFACE/ITRS Insights Interface.htm" />
   </TocEntry>
   <TocEntry

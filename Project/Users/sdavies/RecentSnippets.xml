@@ -1,23 +1,23 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <UrlList>
-    <Url Source="Resources/Snippets/Example Schema.flsnp" />
-    <Url Source="Resources/Snippets/Icon Home.flsnp" />
-    <Url Source="Resources/Snippets/Icon Create Schema.flsnp" />
-    <Url Source="Resources/Snippets/Procedure Type in Collection Drop-Down.flsnp" />
-    <Url Source="Resources/Snippets/Icon Add New Data Stream.flsnp" />
-    <Url Source="Resources/Snippets/How To Create Domain.flsnp" />
+    <Url Source="Resources/Snippets/How To View Schema.flsnp" />
+    <Url Source="Resources/Snippets/How To Select Notebook.flsnp" />
+    <Url Source="Resources/Snippets/How To Populate Dashboard.flsnp" />
+    <Url Source="Resources/Snippets/How To Resize Visualization Panel.flsnp" />
+    <Url Source="Resources/Snippets/How to Move Visualization Panel.flsnp" />
+    <Url Source="Resources/Snippets/How To Launch Insights.flsnp" />
+    <Url Source="Resources/Snippets/How To Launch Valo.flsnp" />
+    <Url Source="Resources/Snippets/How to Import Query.flsnp" />
+    <Url Source="Resources/Snippets/How to Export Query.flsnp" />
+    <Url Source="Resources/Snippets/How to Edit Query.flsnp" />
+    <Url Source="Resources/Snippets/How to Delete Query.flsnp" />
+    <Url Source="Resources/Snippets/How To Create Text Search.flsnp" />
     <Url Source="Resources/Snippets/How To Create Schema.flsnp" />
-    <Url Source="Resources/Snippets/About Schema.flsnp" />
-    <Url Source="Resources/Snippets/About Domain.flsnp" />
-    <Url Source="Resources/Snippets/Interface Domain.flsnp" />
-    <Url Source="Resources/Snippets/Interface Query &amp; FTS.flsnp" />
-    <Url Source="Resources/Snippets/Interface Notebook.flsnp" />
-    <Url Source="Resources/Snippets/Interface Dashboard.flsnp" />
-    <Url Source="Resources/Snippets/About Contributor.flsnp" />
-    <Url Source="Resources/Snippets/Example Contributor.flsnp" />
-    <Url Source="Resources/Snippets/Definition Contributor.flsnp" />
-    <Url Source="Resources/Snippets/Icon Copy to Clipboard.flsnp" />
-    <Url Source="Resources/Snippets/Icon Enable Filter.flsnp" />
-    <Url Source="Resources/Snippets/Icon Notebook.flsnp" />
-    <Url Source="Resources/Snippets/Icon_Preview_Swirl.flsnp" />
+    <Url Source="Resources/Snippets/How To Create Notebook.flsnp" />
+    <Url Source="Resources/Snippets/How To Create Domain.flsnp" />
+    <Url Source="Resources/Snippets/How To Create Derived Stream.flsnp" />
+    <Url Source="Resources/Snippets/How To Create Dashboard.flsnp" />
+    <Url Source="Resources/Snippets/How to Create Collection from New.flsnp" />
+    <Url Source="Resources/Snippets/How To Choose A Repository.flsnp" />
+    <Url Source="Resources/Snippets/Icon Add New Data Stream.flsnp" />
 </UrlList>
