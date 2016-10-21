@@ -6,10 +6,25 @@
   Destinations=""
   GlossaryTermConversion="marked"
   MasterToc="/Project/TOCs/Data Streams and Schema User Guide.fltoc"
-  MasterStylesheet="/Content/Resources/Stylesheets/styles.css">
+  MasterStylesheet="/Content/Resources/Stylesheets/styles.css"
+  ConditionTagExpression="exclude[Output.Null] ">
   <PrintedOutput
     CollapseMargins="true"
     GenerateTOCProxy="true"
     GenerateIndexProxy="true"
     GenerateGlossaryProxy="true" />
+  <Variables>
+    <Variable
+      Name="General/DocumentTitle">Data Streams and Schema</Variable>
+  </Variables>
+  <DocumentProperties
+    Title="Data Stream and Scheme User Guides"
+    Subject="Data Stream and Scheme User Guides"
+    Keywords="Data Stream and Scheme User Guides"
+    Author="ITRS Group Ltd" />
+  <PDF
+    ShowUsedBookmarks="false"
+    InitialMagnification="75"
+    PageLayout="SinglePage"
+    TitleBar="DocumentTitle" />
 </CatapultTarget>

@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="10" MadCap:lastHeight="2169" MadCap:lastWidth="1125">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="10" MadCap:lastHeight="27" MadCap:lastWidth="576">
     <body>
         <MadCap:dropDown>
             <MadCap:dropDownHead>
@@ -7,7 +7,7 @@
             </MadCap:dropDownHead>
             <MadCap:dropDownBody>
                 <div class="section">
-                    <h3>
+                    <h3 style="text-align: center;">
                         <img src="../Images/Choose a Repository Flow Diagram.png" />
                     </h3>
                     <MadCap:dropDown>

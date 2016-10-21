@@ -1,19 +1,19 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="15" MadCap:lastHeight="16679" MadCap:lastWidth="780">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="15" MadCap:lastHeight="719" MadCap:lastWidth="576">
     <head>
         <link href="../Resources/Stylesheets/styles.css" rel="stylesheet" type="text/css" />
     </head>
     <body>
         <body>
-            <h1 class="UserGuideBHeading"><MadCap:variable name="General.Product Name&#160;Insights (Full)" /> - Query, Search and Transform User Guide</h1>
+            <h2 style="page-break-before: avoid;">Introduction</h2>
             <p><MadCap:variable name="General.Product Name&#160;Insights (Full)" /> provides you with two powerful tools for analyzing and searching your data:</p>
             <p>
                 <MadCap:snippetText src="../Resources/Snippets/About Free Text Search.flsnp" />
             </p>
             <MadCap:snippetBlock src="../Resources/Snippets/Definition Query.flsnp" />
-            <p>This user guide will talk you through how <MadCap:variable name="General.Product Name Insights&#160;(abbreviated)" /> uses <strong class="green">queries </strong>and <strong class="green">free text searches</strong>, how to create basic and sophisticated queries, and how to run free text searches.</p>
+            <p>This user guide talks you through how <MadCap:variable name="General.Product Name Insights&#160;(abbreviated)" /> uses <strong class="green">queries </strong>and <strong class="green">free text searches</strong>, how to create basic and sophisticated queries, and how to run free text searches.</p>
             <p>If you're an advanced user and you're tempted to skip the introduction, please read our section on <MadCap:xref href="#TransformationalPipeline">The Transformational Pipeline</MadCap:xref>, as this will likely be different from your previous SQL experience.</p>
-            <p>Once you've run your query, you'll almost certainly want to visualize the results. For this, check out our <MadCap:xref href="Visualizing Results User Guide.htm">[%=General.Product Name&#160;Insights (Full)%] Visualizing Results User Guide</MadCap:xref>.</p>
+            <p>Once you've run your query, you'll almost certainly want to visualize the results. For this, check out our <MadCap:conditionalText MadCap:conditions="Output.Digital"><MadCap:xref href="Visualizing Results User Guide.htm">[%=General.Product Name&#160;Insights (Full)%] Visualizing Results User Guide</MadCap:xref>.</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="Output.Print"><MadCap:xref href="Visualizing Results User Guide.htm">%=General.Product Name&#160;Insights (Full)%] Visualizing Results User Guide</MadCap:xref></MadCap:conditionalText></p>
             <MadCap:pageBreak />
             <MadCap:dropDown>
                 <MadCap:dropDownHead class="H2NoKeyline">
@@ -224,7 +224,6 @@ where kernel &gt; 50</pre>
                     </blockquote>
                     <p>You can now group your results and sort them by clicking on the column headers in the same way that you would a commercial spreadsheet program. </p>
                     <p>You'll also notice that the visualization panel has appeared below the query you wrote. This allows you  to start visualizing your data, and even start putting it into <strong class="green">Dashboards</strong>. Check out our <MadCap:xref href="Visualizing Results User Guide.htm">[%=General.Product Name&#160;Insights (Full)%] Visualizing Results User Guide</MadCap:xref> and our <MadCap:xref href="Dashboard, Notebook &amp; Collection User Guide.htm">[%=General.Product Name&#160;Insights (Full)%] &#160;Notebook&#160;&amp; Dashboard User Guide</MadCap:xref>.</p>
-                    <MadCap:pageBreak />
                     <p>The query you created will be saved automatically. You can edit it, duplicate it or delete it at any time.</p>
                     <blockquote>
                         <MadCap:snippetBlock src="../Resources/Snippets/How to Edit Query.flsnp" />
@@ -256,10 +255,8 @@ where kernel &gt; 50</pre>
                         <li>What <strong class="green">format </strong>your data is in, and the <strong class="green">fields </strong>it contains (is the stream made up of dates, time, geocordinates, ISO numbers? Does it contain strings, Boolean values?) While this information is defined by the schema that accompanied the stream when it was imported into <MadCap:variable name="General.Product Name Insights&#160;(abbreviated)" />, you've got to be familiar with it if you want to query it</li>
                         <li>How to combine SQL-like <strong class="green">clauses</strong> (sometimes called <strong class="green">transformations</strong>), <strong class="green">functions </strong>and <strong class="green">operators </strong>together to interrogate your data</li>
                         <li>How you can use <MadCap:variable name="General.Product Name Insights&#160;(abbreviated)" />' concepts - <strong class="green">Domains </strong>and <strong class="green">Collections</strong>, for example - to enhance your ability to get the most from your data</li>
-                        <li>
-                            <MadCap:pageBreak />
-                        </li>
                     </ol>
+                    <MadCap:pageBreak />
                     <h3>Your Data Stream</h3>
                     <p>If you are familiar with your stream, move on to learning about the query syntax and constructions that you can use in <MadCap:variable name="General.Product Name Insights&#160;(abbreviated)" />. </p>
                     <p>If you don't know what data your stream contains, take a look at the <strong class="green">schema </strong>for the stream. </p>

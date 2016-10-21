@@ -19,21 +19,35 @@
     Title="TOC"
     Link="/Content/Print Files/Front Matter Topics/TOC.htm"
     BreakType="chapter"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/a4_pdf_layouts/ug_toc.flpgl"
+    PageType="firstright" />
+  <TocEntry
+    Title="ChapterNumber"
+    Link="/Content/Print Files/Misc/ChapterNumber.htm"
+    BreakType="chapter"
     PageType="firstright"
     StartSection="false"
     PageNumberReset="continue"
-    PageLayout="/Content/Resources/PageLayouts/a4_pdf_layouts/ug_toc.flpgl" />
-  <TocEntry
-    Title="[%=General.Product Name Insights (Full)%] Collection, Notebook &amp; Dashboard User Guide"
-    Link="/Content/C_User Guides/Dashboard, Notebook &amp; Collection User Guide.htm"
-    BreakType="chapter"
+    PageLayout="/Content/Resources/PageLayouts/a4_pdf_layouts/ug_chapters.flpgl"
     ChapterNumberReset="reset"
     ChapterNumber="1"
-    StartSection="false"
-    PageNumberReset="continue"
-    PageLayout="/Content/Resources/PageLayouts/a4_pdf_layouts/ug_chapters.flpgl"
     SectionNumberReset="continue"
-    VolumeNumberReset="same" />
+    VolumeNumberReset="same">
+    <TocEntry
+      Title="[%=General.Product Name Insights (Full)%] Collection, Notebook &amp; Dashboard User Guide"
+      Link="/Content/C_User Guides/Dashboard, Notebook &amp; Collection User Guide.htm"
+      BreakType="none"
+      ChapterNumberReset="reset"
+      ChapterNumber="1"
+      StartSection="false"
+      PageNumberReset="continue"
+      PageLayout="/Content/Resources/PageLayouts/a4_pdf_layouts/ug_chapters.flpgl"
+      SectionNumberReset="continue"
+      VolumeNumberReset="same"
+      PageType="firstright" />
+  </TocEntry>
   <TocEntry
     Title="GLOSSARY"
     Link="/Content/Print Files/Back Matter Topics/Glossary.htm"
@@ -45,12 +59,4 @@
     SectionNumberReset="continue"
     VolumeNumberReset="same"
     ChapterNumberReset="continue" />
-  <TocEntry
-    Title="INDEX"
-    Link="/Content/Print Files/Back Matter Topics/Index.htm"
-    BreakType="chapter"
-    PageType="firstright"
-    StartSection="false"
-    PageNumberReset="continue"
-    PageLayout="/Content/Resources/PageLayouts/a4_pdf_layouts/ug_index bad.flpgl" />
 </CatapultToc>

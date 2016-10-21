@@ -8,16 +8,17 @@
   MasterToc="/Project/TOCs/UG Query Search and Transform.fltoc"
   ConditionTagExpression="exclude[Output.Digital or Output.Null or Product.Valo or &quot;Versions.Current Valo&quot;] "
   PatchHeadingLevels="false"
-  InjectEmptyPages="true"
-  MasterStylesheet="/Content/Resources/Stylesheets/styles.css"
-  MasterPageLayout="/Content/Resources/PageLayouts/a4_pdf_layouts/ug_chapters.flpgl">
+  InjectEmptyPages="false"
+  MasterStylesheet="/Content/Resources/Stylesheets/styles.css">
   <PrintedOutput
     CollapseMargins="true"
     ExpandingTextConversion="expand"
     PopupConversion="remove-body" />
   <DocumentProperties
-    Title="ITRS Insights Query, Search &amp; Transform User Guide"
-    Author="ITRS Group Ltd" />
+    Title="ITRS Insights Query, Search and Transform User Guide"
+    Author="ITRS Group Ltd"
+    Subject="ITRS Insights Query, Search &amp; Transform User Guide"
+    Keywords="ITRS Insights Query, Search &amp; Transform User Guide" />
   <PDF
     ShowUsedBookmarks="false"
     InitialMagnification="75"

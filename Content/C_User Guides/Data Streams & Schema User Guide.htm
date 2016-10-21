@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="14" MadCap:lastHeight="9521" MadCap:lastWidth="932">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="14" MadCap:lastHeight="9158.666" MadCap:lastWidth="1019">
     <head>
+        <link href="../Resources/TableStyles/Standard.css" rel="stylesheet" MadCap:stylesheetType="table" />
         <link href="" rel="stylesheet" type="text/css" />
     </head>
     <body>
@@ -14,7 +15,7 @@
         <p>Data <strong class="green">streams </strong>are the lifeblood of <MadCap:variable name="General.Product Name Insights&#160;(abbreviated)" /> - they channel the data you want to analyze into <MadCap:variable name="General.Product Name Insights&#160;(abbreviated)" />' mathematical brain, (<MadCap:variable name="General.ProductNameValo" />).</p>
         <p>All that you need to do before you can start running queries and searches is tell <MadCap:variable name="General.Product Name Insights&#160;(abbreviated)" /> what the data is and how it's structured. This is done through a simple <strong class="green">schema</strong>.</p>
         <MadCap:snippetBlock src="../Resources/Snippets/Definition Stream.flsnp" />
-        <p>Each stream has a <strong class="green">schema </strong>that defines what information is expected, and in what format.  Multiple streams can be organized into <strong class="green">Collections</strong><MadCap:conditionalText MadCap:conditions="Output.Digital"> (see: <MadCap:xref href="../A_Quick Start/Organizing Data in ITRS Insights.htm#Collections">Collections</MadCap:xref>)</MadCap:conditionalText>.</p>
+        <p>Each stream has a <strong class="green">schema </strong>that defines what information is expected, and in what format.  Multiple streams can be organized into <strong class="green">Collections</strong><MadCap:conditionalText MadCap:conditions="Output.Digital"> (see: <MadCap:xref href="../A_Quick Start/Organizing Data in ITRS Insights.htm#Collections">Collection</MadCap:xref>)</MadCap:conditionalText>.</p>
         <MadCap:snippetBlock src="../Resources/Snippets/Definition Schema.flsnp" />
         <p>As with everything in&#160;<MadCap:variable name="General.Product Name Insights&#160;(abbreviated)" />, we've designed the process of bringing data in to be as simple as possible, regardless of whether it's streaming or historical. To this end, there are really only three major inputs required from you:</p>
         <ol>
@@ -23,6 +24,7 @@
             <li>Import the data <strong class="green">stream </strong>to <MadCap:variable name="General.Product Name Insights&#160;(abbreviated)" /></li>
         </ol>
         <p>Once you've completed these steps, you can either bring in additional streams or just get to work analyzing.</p>
+        <MadCap:pageBreak />
         <p>This user guide will talk you through all three steps. </p>
         <MadCap:dropDown>
             <MadCap:dropDownHead class="H2">
@@ -33,10 +35,12 @@
                 <MadCap:snippetBlock src="../Resources/Snippets/Definition TSR.flsnp" />
                 <MadCap:snippetBlock src="../Resources/Snippets/About Repository Types.flsnp" />
                 <p>Which is best for you is a decision largely driven by what you want to do with your data. Historical analysis?&#160;Textual analysis? </p>
-                <p>Check out our tech reference here, <MadCap:xref href="../B_Technical Reference/Repositories/Repositories - TSR &amp; SSR.htm">Repositories - TSR &amp; SSR</MadCap:xref> to fully understand what the differences are, or skip the technical bit and go through our flowchart to help you decide:</p>
+                <p>Check out our tech reference here, <MadCap:xref href="../B_Technical Reference/Repositories/Repositories - TSR &amp; SSR.htm">Repositories - TSR &amp; SSR</MadCap:xref> to fully understand what the differences are, or skip the technical bit and go through our flowchart to help you decide.</p>
+                <MadCap:pageBreak />
                 <MadCap:snippetBlock src="../Resources/Snippets/How To Choose A Repository.flsnp" />
             </MadCap:dropDownBody>
         </MadCap:dropDown>
+        <MadCap:pageBreak />
         <MadCap:dropDown>
             <MadCap:dropDownHead class="H2NoKeyline">
                 <MadCap:dropDownHotspot><a name="Schema"></a>2. Prepare your DATA&#160;&amp;&#160;Create a SCHEMA</MadCap:dropDownHotspot>
@@ -59,6 +63,7 @@
  "topDef": {}
 }</code></pre>
                 </blockquote>
+                <MadCap:pageBreak />
                 <h3>topDef</h3>
                 <p>The topDef section can contain a simple or a complex type. </p>
                 <p>A simple type is defined as:</p>
@@ -74,142 +79,148 @@
 }</pre>
                 </blockquote>
                 <MadCap:snippetBlock src="../Resources/Snippets/Example Schema.flsnp" />
+                <MadCap:pageBreak />
                 <p class="note">Note: Valid field identifiers must:<br />1. Start with a character<br />2. Not contain spaces<br />3. Only contain alpha numeric characters and underscores</p>
                 <h3>Supported Schema Types &amp;&#160;Examples</h3>
-                <table style="width: 100%;">
-                    <col />
-                    <col />
-                    <col />
+                <table style="width: 100%;margin-left: 0;margin-right: auto;mc-table-style: url('../Resources/TableStyles/Standard.css');" class="TableStyle-Standard" cellspacing="0">
+                    <col class="TableStyle-Standard-Column-Column1" />
+                    <col class="TableStyle-Standard-Column-Column2" />
+                    <col class="TableStyle-Standard-Column-Column3" />
                     <tbody>
-                        <tr>
-                            <th>Type</th>
-                            <th>Description </th>
-                            <th>Example</th>
+                        <tr class="TableStyle-Standard-Body-Row1">
+                            <th class="TableStyle-Standard-BodyE-Column1-Row1">Type</th>
+                            <th class="TableStyle-Standard-BodyE-Column2-Row1">Description </th>
+                            <th class="TableStyle-Standard-BodyD-Column3-Row1">Example</th>
                         </tr>
-                        <tr>
-                            <td>byte</td>
-                            <td>8 bit integer</td>
-                            <td>200</td>
+                        <tr class="TableStyle-Standard-Body-Row1">
+                            <td class="TableStyle-Standard-BodyE-Column1-Row1">byte</td>
+                            <td class="TableStyle-Standard-BodyE-Column2-Row1">8 bit integer</td>
+                            <td class="TableStyle-Standard-BodyD-Column3-Row1">200</td>
                         </tr>
-                        <tr>
-                            <td>short</td>
-                            <td>16 bit integer</td>
-                            <td>1003</td>
+                        <tr class="TableStyle-Standard-Body-Row1">
+                            <td class="TableStyle-Standard-BodyE-Column1-Row1">short</td>
+                            <td class="TableStyle-Standard-BodyE-Column2-Row1">16 bit integer</td>
+                            <td class="TableStyle-Standard-BodyD-Column3-Row1">1003</td>
                         </tr>
-                        <tr>
-                            <td>int</td>
-                            <td>32 bit integer</td>
-                            <td>100345</td>
+                        <tr class="TableStyle-Standard-Body-Row1">
+                            <td class="TableStyle-Standard-BodyE-Column1-Row1">int</td>
+                            <td class="TableStyle-Standard-BodyE-Column2-Row1">32 bit integer</td>
+                            <td class="TableStyle-Standard-BodyD-Column3-Row1">100345</td>
                         </tr>
-                        <tr>
-                            <td>long</td>
-                            <td>64 bit integer</td>
-                            <td>100345000</td>
+                        <tr class="TableStyle-Standard-Body-Row1">
+                            <td class="TableStyle-Standard-BodyE-Column1-Row1">long</td>
+                            <td class="TableStyle-Standard-BodyE-Column2-Row1">64 bit integer</td>
+                            <td class="TableStyle-Standard-BodyD-Column3-Row1">100345000</td>
                         </tr>
-                        <tr>
-                            <td>double</td>
-                            <td>Double precision float</td>
-                            <td>23.5</td>
+                        <tr class="TableStyle-Standard-Body-Row1">
+                            <td class="TableStyle-Standard-BodyE-Column1-Row1">double</td>
+                            <td class="TableStyle-Standard-BodyE-Column2-Row1">Double precision float</td>
+                            <td class="TableStyle-Standard-BodyD-Column3-Row1">23.5</td>
                         </tr>
-                        <tr>
-                            <td>date</td>
-                            <td>A date field in ISO8601 Format	</td>
-                            <td>2015-01-24
+                        <tr class="TableStyle-Standard-Body-Row1">
+                            <td class="TableStyle-Standard-BodyE-Column1-Row1">date</td>
+                            <td class="TableStyle-Standard-BodyE-Column2-Row1">A date field in ISO8601 Format	</td>
+                            <td class="TableStyle-Standard-BodyD-Column3-Row1">2015-01-24
 </td>
                         </tr>
-                        <tr>
-                            <td>time</td>
-                            <td>A time field in ISO8601 Format	</td>
-                            <td>13:04:16
+                        <tr class="TableStyle-Standard-Body-Row1">
+                            <td class="TableStyle-Standard-BodyE-Column1-Row1">time</td>
+                            <td class="TableStyle-Standard-BodyE-Column2-Row1">A time field in ISO8601 Format	</td>
+                            <td class="TableStyle-Standard-BodyD-Column3-Row1">13:04:16
 </td>
                         </tr>
-                        <tr>
-                            <td>datetime</td>
-                            <td>A datetime field in ISO8601 Format	</td>
-                            <td>2015-01-24T13:04:16
+                        <tr class="TableStyle-Standard-Body-Row1">
+                            <td class="TableStyle-Standard-BodyE-Column1-Row1">datetime</td>
+                            <td class="TableStyle-Standard-BodyE-Column2-Row1">A datetime field in ISO8601 Format	</td>
+                            <td class="TableStyle-Standard-BodyD-Column3-Row1">2015-01-24T13:04:16
 </td>
                         </tr>
-                        <tr>
-                            <td>duration</td>
-                            <td>A duration field</td>
-                            <td>12 seconds</td>
+                        <tr class="TableStyle-Standard-Body-Row1">
+                            <td class="TableStyle-Standard-BodyE-Column1-Row1">duration</td>
+                            <td class="TableStyle-Standard-BodyE-Column2-Row1">A duration field</td>
+                            <td class="TableStyle-Standard-BodyD-Column3-Row1">12 seconds</td>
                         </tr>
-                        <tr>
-                            <td>string</td>
-                            <td>A string field</td>
-                            <td>This is a log message</td>
+                        <tr class="TableStyle-Standard-Body-Row1">
+                            <td class="TableStyle-Standard-BodyE-Column1-Row1">string</td>
+                            <td class="TableStyle-Standard-BodyE-Column2-Row1">A string field</td>
+                            <td class="TableStyle-Standard-BodyD-Column3-Row1">This is a log message</td>
                         </tr>
-                        <tr>
-                            <td>boolean</td>
-                            <td>A Boolean field</td>
-                            <td>true</td>
-                        </tr>
-                        <tr>
-                            <td>geoCircle</td>
-                            <td>A geographic circle field</td>
-                            <td>S33d 51m 23s E151d 12m 53s 0.0001
-</td>
-                        </tr>
-                        <tr>
-                            <td>geoPoint</td>
-                            <td>A geographic point field</td>
-                            <td>S33d 51m 23.943s E151d 12m 53.8812s
-</td>
-                        </tr>
-                        <tr>
-                            <td>geoRectangle</td>
-                            <td>A geographic rectangle field</td>
-                            <td>S33d 51m 24s E151d 12m 53s S33d 51m 23s E151d 12m 53.5s
-</td>
-                        </tr>
-                        <tr>
-                            <td>ip</td>
-                            <td>An IP4/IP6 field	</td>
-                            <td>192.10.0.120
-</td>
-                        </tr>
-                        <tr>
-                            <td>uuid	</td>
-                            <td>A uuid field</td>
-                            <td>4957aac1-c11d-44bf-9d79-ca23dd213cf6
-</td>
-                        </tr>
-                        <tr>
-                            <td>contributor</td>
-                            <td>A Contributor ID represented as a string&#160;(a Contributor takes the form: <code>&lt;server&gt;/contributors/&lt;tenant&gt;/&lt;contributorType&gt;/&lt;contributorId&gt;</code>)</td>
-                            <td>c4d29de9-d7a3-4040-91d2-e3683cbac05a
-</td>
-                        </tr>
-                        <tr>
-                            <td>email</td>
-                            <td>An email address field</td>
-                            <td>john.doe@domain.com
-</td>
-                        </tr>
-                        <tr>
-                            <td>uri</td>
-                            <td>A URI</td>
-                            <td>www.google.com</td>
-                        </tr>
-                        <tr>
-                            <td>tags</td>
-                            <td>A tags field</td>
-                            <td>&#160;</td>
-                        </tr>
-                        <tr>
-                            <td>record</td>
-                            <td>A record / object field (a record represents a complex type. Anything that has a document-like structure (think JSON) can be represented as a record.)</td>
-                            <td>
+                        <tr class="TableStyle-Standard-Body-Row1">
+                            <td class="TableStyle-Standard-BodyE-Column1-Row1">boolean</td>
+                            <td class="TableStyle-Standard-BodyE-Column2-Row1">A Boolean field</td>
+                            <td class="TableStyle-Standard-BodyD-Column3-Row1">
+                                <p>true</p>
+                                <p>&#160;</p>
                                 <p>&#160;</p>
                             </td>
                         </tr>
-                        <tr>
-                            <td>array</td>
-                            <td>An array field</td>
-                            <td>&#160;</td>
+                        <tr class="TableStyle-Standard-Body-Row1">
+                            <td class="TableStyle-Standard-BodyE-Column1-Row1">geoCircle</td>
+                            <td class="TableStyle-Standard-BodyE-Column2-Row1">A geographic circle field</td>
+                            <td class="TableStyle-Standard-BodyD-Column3-Row1">S33d 51m 23s E151d 12m 53s 0.0001
+</td>
+                        </tr>
+                        <tr class="TableStyle-Standard-Body-Row1">
+                            <td class="TableStyle-Standard-BodyE-Column1-Row1">geoPoint</td>
+                            <td class="TableStyle-Standard-BodyE-Column2-Row1">A geographic point field</td>
+                            <td class="TableStyle-Standard-BodyD-Column3-Row1">S33d 51m 23.943s E151d 12m 53.8812s
+</td>
+                        </tr>
+                        <tr class="TableStyle-Standard-Body-Row1">
+                            <td class="TableStyle-Standard-BodyE-Column1-Row1">geoRectangle</td>
+                            <td class="TableStyle-Standard-BodyE-Column2-Row1">A geographic rectangle field</td>
+                            <td class="TableStyle-Standard-BodyD-Column3-Row1">S33d 51m 24s E151d 12m 53s S33d 51m 23s E151d 12m 53.5s
+</td>
+                        </tr>
+                        <tr class="TableStyle-Standard-Body-Row1">
+                            <td class="TableStyle-Standard-BodyE-Column1-Row1">ip</td>
+                            <td class="TableStyle-Standard-BodyE-Column2-Row1">An IP4/IP6 field	</td>
+                            <td class="TableStyle-Standard-BodyD-Column3-Row1">192.10.0.120
+</td>
+                        </tr>
+                        <tr class="TableStyle-Standard-Body-Row1">
+                            <td class="TableStyle-Standard-BodyE-Column1-Row1">uuid	</td>
+                            <td class="TableStyle-Standard-BodyE-Column2-Row1">A uuid field</td>
+                            <td class="TableStyle-Standard-BodyD-Column3-Row1">4957aac1-c11d-44bf-9d79-ca23dd213cf6
+</td>
+                        </tr>
+                        <tr class="TableStyle-Standard-Body-Row1">
+                            <td class="TableStyle-Standard-BodyE-Column1-Row1">contributor</td>
+                            <td class="TableStyle-Standard-BodyE-Column2-Row1">A Contributor ID represented as a string&#160;(a Contributor takes the form: <code>&lt;server&gt;/contributors/&lt;tenant&gt;/&lt;contributorType&gt;/&lt;contributorId&gt;</code>)</td>
+                            <td class="TableStyle-Standard-BodyD-Column3-Row1">c4d29de9-d7a3-4040-91d2-e3683cbac05a
+</td>
+                        </tr>
+                        <tr class="TableStyle-Standard-Body-Row1">
+                            <td class="TableStyle-Standard-BodyE-Column1-Row1">email</td>
+                            <td class="TableStyle-Standard-BodyE-Column2-Row1">An email address field</td>
+                            <td class="TableStyle-Standard-BodyD-Column3-Row1">john.doe@domain.com
+</td>
+                        </tr>
+                        <tr class="TableStyle-Standard-Body-Row1">
+                            <td class="TableStyle-Standard-BodyE-Column1-Row1">uri</td>
+                            <td class="TableStyle-Standard-BodyE-Column2-Row1">A URI</td>
+                            <td class="TableStyle-Standard-BodyD-Column3-Row1">www.google.com</td>
+                        </tr>
+                        <tr class="TableStyle-Standard-Body-Row1">
+                            <td class="TableStyle-Standard-BodyE-Column1-Row1">tags</td>
+                            <td class="TableStyle-Standard-BodyE-Column2-Row1">A tags field</td>
+                            <td class="TableStyle-Standard-BodyD-Column3-Row1">&#160;</td>
+                        </tr>
+                        <tr class="TableStyle-Standard-Body-Row1">
+                            <td class="TableStyle-Standard-BodyE-Column1-Row1">record</td>
+                            <td class="TableStyle-Standard-BodyE-Column2-Row1">A record / object field (a record represents a complex type. Anything that has a document-like structure (think JSON) can be represented as a record.)</td>
+                            <td class="TableStyle-Standard-BodyD-Column3-Row1">
+                                <p>&#160;</p>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-Standard-Body-Row1">
+                            <td class="TableStyle-Standard-BodyB-Column1-Row1">array</td>
+                            <td class="TableStyle-Standard-BodyB-Column2-Row1">An array field</td>
+                            <td class="TableStyle-Standard-BodyA-Column3-Row1">&#160;</td>
                         </tr>
                     </tbody>
                 </table>
+                <MadCap:pageBreak />
                 <MadCap:dropDown>
                     <MadCap:dropDownHead>
                         <MadCap:dropDownHotspot>Example Schema</MadCap:dropDownHotspot>
@@ -236,6 +247,7 @@
     }
   }
 }</pre>
+                            <MadCap:pageBreak />
                         </blockquote>
                     </MadCap:dropDownBody>
                 </MadCap:dropDown>
@@ -289,6 +301,7 @@
                 </blockquote>
             </MadCap:dropDownBody>
         </MadCap:dropDown>
+        <MadCap:pageBreak />
         <MadCap:dropDown>
             <MadCap:dropDownHead class="H2NoKeyline">
                 <MadCap:dropDownHotspot><a name="Import"></a>3. Import Data Stream</MadCap:dropDownHotspot>
