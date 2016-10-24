@@ -2,13 +2,14 @@
 <CatapultDestination
   Version="1"
   Comment="This is my publish destination"
-  Host=""
+  Host="staging.resources.itrsgroup.com"
   User="MyAccountId"
   Password=""
-  Directory=""
+  Directory="/public_html/insights"
   Port="22"
   ViewUrl="http://staging.resources.itrsgroup.com/insights/ "
-  Type="ftp"
+  Type="sftp"
   AnonymousLogin="false"
-  SftpServerValidation="validation-none"
-  SftpAuthentication="authentication-password"></CatapultDestination>
+  SftpServerValidation="validation-hosts-file"
+  SftpAuthentication="authentication-password"
+  SftpHostFile="C:\Users\sdavies\Desktop\knownhosts.txt"></CatapultDestination>
