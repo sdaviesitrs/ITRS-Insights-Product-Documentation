@@ -728,7 +728,8 @@ p.pagebreak
 	p
 	{
 		mc-hyphenate: never;
-		font-size: 10pt;
+		font-family: 'Open Sans';
+		font-size: 12pt;
 	}
 
 	li

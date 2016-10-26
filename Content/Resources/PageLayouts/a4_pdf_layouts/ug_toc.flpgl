@@ -26,7 +26,7 @@
             <Content>
                 <xhtml:html xmlns:xhtml="http://www.w3.org/1999/xhtml">
                     <xhtml:body>
-                        <xhtml:p xhtml:class="EmptyPageText" xhtml:style="text-align: center;">This page intentionally left blank to ensure new chapters start on right (odd number) pages.</xhtml:p>
+                        <xhtml:p xhtml:class="EmptyPageText" xhtml:style="text-align: center;">This page intentionally left blank.</xhtml:p>
                     </xhtml:body>
                 </xhtml:html>
             </Content>

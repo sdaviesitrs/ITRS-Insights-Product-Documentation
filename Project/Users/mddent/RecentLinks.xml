@@ -2,7 +2,7 @@
 <RecentLinks>
     <Dialog Name="B3.XmlTextKit.InsertHyperlinkDialog" />
     <Dialog Name="B3.XmlMdiEditorKit.ImageGeneralDialogPage">
-        <Link Value="C:\Users\mddent\Documents\GitHub\ITRS-Insights-Product-Documentation\Content\Resources\Images\Choose a Repository Flow Diagram.png" />
+        <Link Value="C:\Users\mddent\Documents\GitHub\ITRS-Insights-Product-Documentation\Content\Resources\Images\icon_add.PNG" />
     </Dialog>
     <Dialog Name="B3.XmlTextKit.InsertCrossReferenceDialog">
         <Link Value="C:\Users\mddent\Documents\GitHub\ITRS-Insights-Product-Documentation\Content\A_Quick Start\Organizing Data in ITRS Insights.htm" />

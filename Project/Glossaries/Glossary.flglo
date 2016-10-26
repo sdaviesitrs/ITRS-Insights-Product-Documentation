@@ -58,7 +58,7 @@
       <Term>Dashboard</Term>
     </Terms>
     <Definition
-      Link=""></Definition>
+      Link="">Dashboards provide an aggregated view of data visualizations</Definition>
   </GlossaryEntry>
   <GlossaryEntry
     glossTerm="Glossary.Term22"
@@ -68,7 +68,7 @@
       <Term>Valo</Term>
     </Terms>
     <Definition
-      Link=""></Definition>
+      Link="">Real-time analytics on data streams</Definition>
   </GlossaryEntry>
   <GlossaryEntry
     glossTerm="Glossary.Term23"
