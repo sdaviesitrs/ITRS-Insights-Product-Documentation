@@ -45,12 +45,4 @@
     SectionNumberReset="continue"
     VolumeNumberReset="same"
     ChapterNumberReset="continue" />
-  <TocEntry
-    Title="INDEX"
-    Link="/Content/Print Files/Back Matter Topics/Index.htm"
-    BreakType="chapter"
-    PageType="firstright"
-    StartSection="false"
-    PageNumberReset="continue"
-    PageLayout="/Content/Resources/PageLayouts/a4_pdf_layouts/ug_index bad.flpgl" />
 </CatapultToc>

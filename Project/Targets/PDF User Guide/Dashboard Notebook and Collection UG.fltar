@@ -7,7 +7,9 @@
   GlossaryTermConversion="marked"
   MasterToc="/Project/TOCs/Dashboard Notebook and Collection User Guide.fltoc"
   MasterStylesheet="/Content/Resources/Stylesheets/styles.css"
-  ConditionTagExpression="exclude[Output.Null] ">
+  ConditionTagExpression="exclude[Output.Digital or Output.Null] "
+  OutputFolder="C:\Users\mddent\Downloads\test pdfs"
+  OutputFile="test output">
   <PrintedOutput
     CollapseMargins="true"
     GenerateTOCProxy="true"
@@ -21,7 +23,7 @@
   </Variables>
   <DocumentProperties
     Author="ITRS Group Ltd"
-    Title="Dashboard Notebook and Collection User Guide"
+    Title="Dashboard Notebook and Collection User Guide V1.0"
     Subject="Dashboard Notebooks and Collections"
     Keywords="Dashboard Notebooks and Collections" />
   <PDF

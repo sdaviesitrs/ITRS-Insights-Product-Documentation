@@ -1,0 +1,1073 @@
+/*<meta />*/
+
+p.MyStyle
+{
+	font-family: Arial;
+	font-size: 12pt;
+	margin: 0px;
+}
+
+img
+{
+	border: 0;
+	padding: 0;
+	mc-thumbnail: none;
+	mc-thumbnail-max-height: 140px;
+}
+
+a.Popup
+{
+	
+}
+
+p
+{
+	color: #2c2c2c;
+	margin-bottom: 8px;
+	margin-top: 8px;
+	font-family: 'Open Sans';
+}
+
+p.note
+{
+	color: #e8e8e8;
+	font-family: Exo;
+	background: #565656;
+	margin-left: 25px;
+	margin-right: 50px;
+	padding-left: 10px;
+	padding-right: 10px;
+	border-left: solid 10px #000000;
+	border-left-color: #a7da1c;
+	border-right: solid 10px #a7da1c;
+}
+
+div
+{
+	display: block;
+}
+
+div.sideContent
+{
+	float: right;
+	margin-bottom: 10px;
+	margin-left: 10px;
+	width: 33.33%;
+}
+
+div.TopicContent
+{
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 25px;
+}
+
+h1
+{
+	color: #a7da1c;
+	font-family: Exo;
+	font-size: 1.5em;
+	font-variant: inherit;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	text-align: center;
+	vertical-align: 20px;
+	margin-bottom: 8px;
+	margin-top: 30px;
+	padding-bottom: 10px;
+}
+
+h2
+{
+	color: #242528;
+	font-family: exo;
+	font-style: italic;
+	font-weight: bolder;
+	text-transform: uppercase;
+	border-top-color: #525252;
+	border-top: #525252;
+	border-top-style: solid;
+	border-top-width: 1px;
+	margin-bottom: 4px;
+	margin-top: 20px;
+	padding-top: 5px;
+	font-size: 1.2em;
+}
+
+h2.nokeyline
+{
+	border-top-width: 0px;
+}
+
+h3
+{
+	font-family: exo;
+	font-size: 1.1em;
+	font-style: italic;
+	font-weight: normal;
+	margin-bottom: 4px;
+	margin-top: 16px;
+}
+
+h4
+{
+	font-family: exo;
+}
+
+html.templateTopic
+{
+	
+}
+
+img.icon
+{
+	mc-thumbnail-max-height: 20px;
+	padding: 0px;
+	border: 0px;
+	mc-thumbnail: normal;
+}
+
+img.screenshotsmall
+{
+	padding: 0px;
+	mc-thumbnail: hover;
+	mc-thumbnail-max-width: 140px;
+}
+
+img.screenshotmedium
+{
+	padding: 0px;
+	mc-thumbnail: hover;
+	mc-thumbnail-max-height: 400;
+	mc-thumbnail-max-width: 600;
+}
+
+li
+{
+	font-family: 'open sans';
+	margin-bottom: 6px;
+	margin-top: 6px;
+}
+
+MadCap|breadcrumbsProxy
+{
+	font-family: exo;
+	font-size: .7em;
+	font-style: italic;
+	border-bottom: none;
+}
+
+MadCap|dropDownBody
+{
+	font-family: exo;
+}
+
+MadCap|dropDownHead
+{
+	color: #a7da1c;
+	font-family: exo;
+}
+
+MadCap|glossaryTerm
+{
+	color: #a7da1c;
+}
+
+MadCap|popupHead
+{
+	color: #2d8dcc;
+}
+
+MadCap|xref
+{
+	color: #2d8dcc;
+	font-family: exo;
+}
+
+p.technicalfielddefinition
+{
+	color: #000000;
+	font-family: exo;
+	border-left: solid 10px #000000;
+	border-left-color: #a7da1c;
+	border-right: solid 10px #a7da1c;
+	margin-left: 25px;
+	margin-right: 50px;
+	padding-left: 10px;
+	padding-right: 10px;
+	background-color: #f5f5f5;
+}
+
+strong
+{
+	font-family: 'open sans';
+}
+
+strong.green
+{
+	color: #a7da1c;
+	font-family: exo;
+	text-transform: uppercase;
+}
+
+strong.greenlowercase
+{
+	color: #a7da1c;
+	font-family: exo;
+}
+
+td
+{
+	font-family: 'open sans';
+}
+
+th
+{
+	font-family: 'open sans';
+}
+
+thead
+{
+	font-family: 'open sans';
+}
+
+a
+{
+	color: #2d8dcc;
+	font-family: 'Open Sans';
+}
+
+a.MCBreadcrumbsLink
+{
+	color: #a7da1c;
+	font-style: italic;
+	text-decoration: underline;
+	font-family: 'Open Sans';
+}
+
+a:link
+{
+	color: #2d8dcc;
+}
+
+a:visited
+{
+	font-family: exo;
+	color: #2d8dcc;
+	font-weight: bold;
+	mc-format: '{para}';
+}
+
+a:hover
+{
+	
+}
+
+a.MCBreadcrumbsLink:visited
+{
+	
+}
+
+a.MCBreadcrumbsLink:hover
+{
+	
+}
+
+MadCap|xref:hover
+{
+	font-style: italic;
+	font-weight: bold;
+}
+
+p#concept_definition
+{
+	color: #ffffff;
+	font-family: exo;
+	font-style: normal;
+	font-weight: normal;
+	background-color: #000000;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	border-radius: 5px;
+	padding-bottom: 5px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 5px;
+}
+
+p#Example
+{
+	color: #4e4e4e;
+	font-style: normal;
+	background: #ffffff;
+	vertical-align: 0px;
+	word-spacing: 0px;
+	border: solid 0px #000000;
+	border-bottom-length: 0px;
+	border-radius: 4px;
+	margin-left: 25px;
+	margin-right: 25px;
+	padding: 6px 10px 5px 25px;
+}
+
+p#valo_green
+{
+	
+}
+
+body
+{
+	color: #111111;
+	font-family: 'open sans';
+	line-height: 1.7em;
+}
+
+@media print
+{
+	a:link
+	{
+		font-weight: bold;
+	}
+
+	blockquote
+	{
+		margin-bottom: -2pt;
+		mc-hyphenate: never;
+	}
+
+	body
+	{
+		color: #404040;
+		margin: 8px;
+		margin-bottom: 8px;
+		font-family: Arial, Avenir, Myriad;
+		font-size: 8pt;
+		line-height: 13px;
+	}
+
+	a.MCBreadcrumbsLink
+	{
+		color: ;
+	}
+
+	div.copyright
+	{
+		max-height: 600px;
+		max-width: 600px;
+	}
+
+	div.example
+	{
+		color: #a7da1c;
+		font-family: exo;
+		background-color: #4c4c4c;
+		background-repeat: no-repeat;
+		border: solid 1px #a4ac67;
+		border-bottom-left-radius: 6px;
+		border-bottom-right-radius: 6px;
+		border-color: #a4ac67;
+		border-radius: 6px;
+		margin-bottom: 15px;
+		padding: 20px;
+	}
+
+	div.GlossaryPageDefinition
+	{
+		color: #808080;
+		font-family: exo;
+		font-size: 9pt;
+	}
+
+	div.GlossaryPageheading
+	{
+		color: #808080;
+		font-family: exo;
+		font-size: 11pt;
+		border-bottom-color: #bed230;
+	}
+
+	div.GlossaryPageTerm
+	{
+		color: #808080;
+		font-family: exo;
+		font-size: 10pt;
+		padding-bottom: 10px;
+		padding-top: 10px;
+	}
+
+	div.ImagesFloatLeft
+	{
+		clear: both;
+		float: left;
+		margin-right: 10px;
+		padding: 5px;
+	}
+
+	div.ImagesFloatRight
+	{
+		clear: both;
+		float: right;
+		margin-left: 10px;
+		padding: 5px;
+	}
+
+	div.note
+	{
+		color: #b3b3b3;
+		font-family: exo;
+		background-color: #47484a;
+		background-image: url('../Images/Choose a Repository Flow Diagram.png');
+		background-repeat: no-repeat;
+		border-bottom-left-radius: 6px;
+		border-bottom-right-radius: 6px;
+		border-bottom-width: 1px;
+		border-left-width: 1px;
+		border-radius: 6px;
+		border-right-width: 1px;
+		border-top-width: 1px;
+		border: solid 1px #404040;
+		margin-top: 10px;
+		padding-left: 40px;
+		padding-right: 10px;
+		padding-bottom: 10px;
+		padding-top: 10px;
+	}
+
+	div.quotation
+	{
+		font-family: exo;
+		font-size: 0.9em;
+		font-style: italic;
+		font-weight: normal;
+		line-height: 18px;
+		background-color: #e1e1e1;
+		background-image: url('../Images/Choose a Repository Flow Diagram.png');
+		background-position: top left;
+		background-repeat: no-repeat;
+		border-bottom-color: #b3b3b3;
+		border-bottom-left-radius: 6px;
+		border-bottom-right-radius: 6px;
+		border-bottom-style: solid;
+		border-bottom-width: 1px;
+		border-color: #b3b3b3;
+		border-left-style: solid;
+		border-left-width: 1px;
+		border-radius: 6px;
+		border-right-style: solid;
+		border-top-width: 1px;
+		border-width: 1px;
+		border-top-right-radius: 6px;
+		padding: 20px;
+		padding-left: 40px;
+		border-style: solid;
+	}
+
+	h1
+	{
+		color: #808080;
+		font-size: 20pt;
+		line-height: 24pt;
+		letter-spacing: 2px;
+		text-align: left;
+		vertical-align: 20;
+		word-spacing: 0px;
+		margin-bottom: 20px;
+		margin-top: .67em;
+		padding-bottom: 0px;
+		mc-heading-level: 2;
+		page-break-after: always;
+		page-break-before: avoid;
+	}
+
+	h1.AppendixTitle
+	{
+		color: #a7da1c;
+		font-weight: bolder;
+		padding-top: 0px;
+		page-break-before: auto;
+	}
+
+	h1.BackMatterHeadings
+	{
+		font-size: 65pt;
+		font-weight: normal;
+		line-height: 80pt;
+		letter-spacing: -1px;
+		text-align: center;
+		margin: 0;
+		mc-heading-level: 1;
+		page-break-before: always;
+		page-break-after: always;
+	}
+
+	h1.GlossaryHeading
+	{
+		
+	}
+
+	h1.UserGuideBHeading
+	{
+		color: #a7da1c;
+		font-size: 27pt;
+		font-weight: bolder;
+		text-align: center;
+	}
+
+	h2
+	{
+		color: ;
+		font-weight: normal;
+		font-size: 12pt;
+		line-height: 14pt;
+		border-top: solid 0px #000000;
+		margin-bottom: .75em;
+		margin-top: .75em;
+		padding-top: 0px;
+		mc-heading-level: 3;
+		page-break-before: avoid;
+	}
+
+	h3
+	{
+		font-size: 14pt;
+		line-height: 12pt;
+		font-style: normal;
+		margin-bottom: .83em;
+		margin-top: .83em;
+		mc-heading-level: 0;
+	}
+
+	h4
+	{
+		font-size: 9pt;
+		font-weight: normal;
+		line-height: 11pt;
+	}
+
+	img.AbsolutePosition
+	{
+		padding: 5px;
+		mc-thumbnail-max-height: 48px;
+	}
+
+	img.FiftyPercent
+	{
+		padding-left: 10px;
+		padding-right: 10px;
+		padding-top: 10px;
+		max-width: 50%;
+	}
+
+	img.OneHundredPercent
+	{
+		mc-thumbnail-max-height: 48px;
+		max-width: 25px;
+	}
+
+	img.ReduceButtonSize
+	{
+		
+	}
+
+	img.SeventyFivePercent
+	{
+		padding-left: 10px;
+		padding-right: 10px;
+		padding-top: 10px;
+		mc-thumbnail-max-height: 48px;
+		max-width: 75%;
+	}
+
+	img.icon
+	{
+		mc-thumbnail-max-height: 25px;
+	}
+
+	img.screenshotsmall
+	{
+		border: solid 1px #000000;
+	}
+
+	img.screenshotmedium
+	{
+		border: solid 1px #000000;
+	}
+
+	li
+	{
+		font-family: 'Open Sans';
+		font-size: 10;
+		line-height: 20pt;
+		orphans: 2;
+		widows: 2;
+	}
+
+	li.numbered_list_print
+	{
+		
+	}
+
+	MadCap|dropDownBody.H2
+	{
+		
+	}
+
+	MadCap|dropDownBody.H2NoKeyline
+	{
+		color: #000000;
+		font-family: 'Open Sans';
+		font-size: 14pt;
+		text-decoration: none;
+	}
+
+	MadCap|footnote
+	{
+		font-family: 'Open Sans';
+		font-size: 8pt;
+		mc-footnote-format: '{n}';
+	}
+
+	MadCap|glossaryProxy
+	{
+		color: #808080;
+		border-top-style: none;
+	}
+
+	MadCap|glossaryTerm
+	{
+		color: #808080;
+	}
+
+	MadCap|glossaryTerm.Popup
+	{
+		color: #000000;
+	}
+
+	MadCap|indexProxy
+	{
+		color: #808080;
+		border-top-color: #808080;
+		border-top: none;
+	}
+
+	MadCap|miniTocProxy
+	{
+		border-top: none;
+		margin-left: 0.25in;
+		margin-right: 0.25in;
+		padding-left: 0px;
+	}
+
+	MadCap|tocProxy
+	{
+		border-top-color: #808080;
+		margin-right: 0.25in;
+	}
+
+	MadCap|variable
+	{
+		color: #808080;
+		font-size: 8pt;
+		line-height: 3pt;
+	}
+
+	MadCap|xref
+	{
+		line-height: 12pt;
+		text-decoration: none;
+		font-weight: normal;
+	}
+
+	MadCap|xref.IndexPageNumber
+	{
+		color: #808080;
+	}
+
+	MadCap|xref.TableLink
+	{
+		font-family: 'Open Sans';
+		font-size: 8pt;
+	}
+
+	ol
+	{
+		list-style-image: none;
+	}
+
+	p
+	{
+		font-size: 10pt;
+		line-height: 20pt;
+		text-align: left;
+		mc-hyphenate: never;
+	}
+
+	p.caption
+	{
+		font-size: 9pt;
+		font-weight: bold;
+		text-align: center;
+		font-style: italic;
+		mc-auto-number-format: 'CF: Figure {chapnum}.{n+}: ';
+	}
+
+	p.ChapterNumber
+	{
+		color: #808080;
+		font-size: 90pt;
+		font-weight: normal;
+		line-height: 92pt;
+		letter-spacing: -1px;
+		text-align: center;
+		mc-heading-level: 1;
+	}
+
+	p.Copyright
+	{
+		color: #808080;
+		font-size: 8pt;
+		line-height: 12pt;
+		margin-bottom: 0px;
+		margin-top: 0px;
+	}
+
+	p.CopyrightAddress
+	{
+		color: #808080;
+		font-size: 8pt;
+		margin-bottom: 0px;
+		margin-top: 0px;
+	}
+
+	p.CopyrightHeading
+	{
+		font-size: 10pt;
+		margin-bottom: 0px;
+		margin-top: 0px;
+	}
+
+	p.CreatedUsingFlare
+	{
+		font-weight: bold;
+	}
+
+	p.EmptyPageText
+	{
+		font-weight: bold;
+	}
+
+	p.ExampleHeadText
+	{
+		font-weight: bold;
+	}
+
+	p.Figure
+	{
+		font-style: italic;
+		padding-bottom: 10px;
+		mc-auto-number-class: FigureNum;
+		mc-auto-number-format: 'CF:Figure {chapnum}-{n+}';
+	}
+
+	p.FirstPageOfChapter
+	{
+		color: #e1e1e1;
+	}
+
+	p.FrameFooterText
+	{
+		font-family: 'Century Gothic';
+		font-size: 24pt;
+	}
+
+	p.FrameFooterText2
+	{
+		color: #a7da1c;
+		font-family: 'Open Sans';
+		font-size: 9pt;
+		line-height: 20pt;
+		text-align: right;
+	}
+
+	p.front_cover_smaller_text
+	{
+		color: #35b3ce;
+		font-weight: bold;
+		text-align: right;
+		font-size: 25pt;
+	}
+
+	p.front_cover_text
+	{
+		
+	}
+
+	p.front_cover_title
+	{
+		
+	}
+
+	p.GlossHeading
+	{
+		color: #808080;
+	}
+
+	p.green
+	{
+		color: #a7da1c;
+	}
+
+	p.Index1
+	{
+		color: #808080;
+	}
+
+	p.Index2
+	{
+		color: #808080;
+	}
+
+	p.Index3
+	{
+		color: #808080;
+	}
+
+	p.Index4
+	{
+		color: #808080;
+	}
+
+	p.IndexHeading
+	{
+		font-size: 11pt;
+		text-align: left;
+		padding-top: 16px;
+	}
+
+	p.ManualTitle1
+	{
+		font-family: exo;
+	}
+
+	p.ManualTitle2
+	{
+		color: #a7da1c;
+		font-family: exo;
+		font-size: 34pt;
+		font-weight: normal;
+		text-transform: uppercase;
+		line-height: 34pt;
+	}
+
+	p.ManualVersionNumber
+	{
+		color: #b3b3b3;
+		font-family: exo;
+		font-size: 12pt;
+		margin-top: 12pt;
+		margin-left: 1in;
+	}
+
+	p.MiniTOC1
+	{
+		color: #e1e1e1;
+		font-size: 9pt;
+		font-weight: normal;
+	}
+
+	p.pagebreak
+	{
+		
+	}
+
+	p.print_image
+	{
+		
+	}
+
+	p.quotationname
+	{
+		text-align: right;
+	}
+
+	p.ReferenceTableHdr
+	{
+		color: #a7da1c;
+		font-size: 20pt;
+		font-weight: bold;
+		text-align: center;
+	}
+
+	p.TableCaption
+	{
+		color: #404040;
+		font-style: italic;
+		padding-top: 12px;
+		mc-auto-number-class: TableNum;
+		mc-auto-number-format: 'CT:Table {chapnum}-{n+1}';
+	}
+
+	p.TableTextCentreDark
+	{
+		color: #000000;
+		margin-bottom: 2px;
+		text-align: left;
+		margin-top: 8px;
+	}
+
+	p.TableTextDark
+	{
+		
+	}
+
+	p.TableTextDarkEmphasis
+	{
+		color: #000000;
+		font-weight: bold;
+		margin-bottom: 2px;
+	}
+
+	p.TableTextHeadDark
+	{
+		color: #000000;
+		font-weight: bold;
+		margin-bottom: 2px;
+	}
+
+	p.TableTextLightEmphasis
+	{
+		color: #ffffff;
+		font-weight: lighter;
+		margin-bottom: 2px;
+	}
+
+	p.TOC1
+	{
+		color: #808080;
+		font-size: 12pt;
+		margin-top: 12px;
+		font-weight: normal;
+		mc-leader-format: 'none';
+	}
+
+	p.TOC2
+	{
+		color: #808080;
+		font-weight: normal;
+		margin-bottom: 2px;
+		margin-top: 2px;
+		margin-left: 0.25in;
+	}
+
+	p.TOC3
+	{
+		color: #808080;
+		font-size: 8pt;
+		font-weight: normal;
+		margin-left: 0.35in;
+		margin-top: 2px;
+	}
+
+	p.TOC4
+	{
+		color: #808080;
+		font-size: 12pt;
+		font-weight: normal;
+		margin-bottom: 6px;
+		margin-top: 12px;
+		margin-left: 0;
+	}
+
+	p.TOCHeading
+	{
+		color: #808080;
+		font-size: 90pt;
+		font-weight: normal;
+		line-height: 92pt;
+		letter-spacing: -1px;
+		text-align: center;
+		margin: 0;
+	}
+
+	p#concept_definition
+	{
+		background-color: #27282a;
+		padding-bottom: 10px;
+		padding-left: 10px;
+		padding-right: 10px;
+		padding-top: 10px;
+	}
+
+	p#valo_green
+	{
+		color: ;
+	}
+
+	span
+	{
+		font-family: 'Open Sans';
+	}
+
+	span.Emphasis
+	{
+		font-weight: bold;
+	}
+
+	span.FigureNum
+	{
+		
+	}
+
+	span.SetIOffFirstLevel
+	{
+		color: #5e6914;
+		font-weight: bold;
+	}
+
+	span.SetOffSecondLevel
+	{
+		color: #445879;
+		font-weight: bold;
+	}
+
+	span.TableNum
+	{
+		color: #a7da1c;
+		font-style: normal;
+	}
+
+	td
+	{
+		font-family: 'Open Sans';
+		vertical-align: top;
+		margin: 8px;
+	}
+
+	th
+	{
+		color: #ffffff;
+		font-family: 'Open Sans';
+		margin-bottom: 8px;
+		margin-top: 8px;
+	}
+
+	tr
+	{
+		font-family: 'Open Sans';
+		font-size: 9pt;
+		page-break-inside: avoid;
+	}
+
+	ul.FirstLevelIndentation
+	{
+		margin-left: 30px;
+		list-style-image: url('../Images/Bullet1.png');
+	}
+
+	ul
+	{
+		list-style-image: url('../Images/Bullet1.png');
+	}
+}
+

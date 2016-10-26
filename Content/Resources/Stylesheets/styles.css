@@ -836,6 +836,7 @@ p.pagebreak
 		page-break-after: always;
 		line-height: 80pt;
 		font-size: 65pt;
+		mc-toc-depth: 1;
 	}
 
 	MadCap|footnote
@@ -976,6 +977,21 @@ p.pagebreak
 	MadCap|xref
 	{
 		color: #2d8dcc;
+	}
+
+	ul
+	{
+		list-style-image: url('../Images/Bullet1.png');
+	}
+
+	ul.FirstLevelLessIndentation
+	{
+		list-style-image: url('../Images/Bullet1.png');
+	}
+
+	p.TOCHeading
+	{
+		color: #808080;
 	}
 }
 
