@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultDestination
+  Version="1"
+  Comment="This is my publish destination"
+  Host="staging.resources.itrsgroup.com"
+  User="MyAccountId"
+  Password=""
+  Directory="home/webmaster/public_html/insights"
+  Port="22"
+  ViewUrl="http://staging.resources.itrsgroup.com/insights/"
+  Type="sftp"
+  SftpServerValidation="validation-none"
+  SftpAuthentication="authentication-password"
+  ConnectionMode="Active"></CatapultDestination>

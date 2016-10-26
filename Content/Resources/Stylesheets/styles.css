@@ -728,6 +728,7 @@ p.pagebreak
 	p
 	{
 		mc-hyphenate: never;
+		font-size: 10pt;
 	}
 
 	li
@@ -1012,6 +1013,11 @@ p.pagebreak
 	p.GlossHeading
 	{
 		color: #808080;
+	}
+
+	h4
+	{
+		mc-heading-level: 4;
 	}
 }
 

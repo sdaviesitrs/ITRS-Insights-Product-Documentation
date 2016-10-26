@@ -10,14 +10,15 @@
     PageNumberReset="reset"
     PageLayout="/Content/Resources/PageLayouts/a4_pdf_layouts/ug_title.flpgl"
     StartPageLayout="false"
-    BreakType="pageLayout"></TocEntry>
+    BreakType="chapter"></TocEntry>
   <TocEntry
     Title="Copyright"
     Link="/Content/Print Files/Front Matter Topics/Copyright.htm"
     StartPageLayout="true"
     StartSection="false"
-    BreakType="pageLayout"
-    PageLayout="/Content/Resources/PageLayouts/a4_pdf_layouts/ug_copyright.flpgl"></TocEntry>
+    BreakType="chapter"
+    PageLayout="/Content/Resources/PageLayouts/a4_pdf_layouts/ug_copyright.flpgl"
+    PageNumberReset="continue"></TocEntry>
   <TocEntry
     Title="TOC"
     Link="/Content/Print Files/Front Matter Topics/TOC.htm"
@@ -28,7 +29,10 @@
     PageLayout="/Content/Resources/PageLayouts/a4_pdf_layouts/ug_toc.flpgl"
     StartPageLayout="false"
     AutoEndOnLeftPage="enabled"
-    PageType="firstright"></TocEntry>
+    PageType="firstright"
+    SectionNumberReset="continue"
+    VolumeNumberReset="same"
+    ChapterNumberReset="continue"></TocEntry>
   <TocEntry
     Title="ChapterNumber"
     Link="/Content/Print Files/Misc/ChapterNumber.htm"
@@ -118,13 +122,14 @@
     <TocEntry
       Title="Query Functions"
       Link="/Content/B_Technical Reference/Query Clauses, Functions &amp; Operators/Query Functions.htm"
-      BreakType="none"
+      BreakType="pageLayout"
       StartSection="false"
-      PageLayout="/Content/Resources/PageLayouts/a4_pdf_layouts/ug_landscape.flpgl"></TocEntry>
+      PageLayout="/Content/Resources/PageLayouts/a4_pdf_layouts/ug_landscape.flpgl"
+      PageNumberReset="continue"></TocEntry>
     <TocEntry
       Title="Query Operators and Their Precedence"
       Link="/Content/B_Technical Reference/Query Clauses, Functions &amp; Operators/Query Operators.htm"
-      BreakType="none"
+      BreakType="pageLayout"
       StartSection="false"
       PageLayout="/Content/Resources/PageLayouts/a4_pdf_layouts/ug_landscape.flpgl" />
   </TocEntry>
