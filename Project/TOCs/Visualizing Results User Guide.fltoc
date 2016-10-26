@@ -29,30 +29,38 @@
     PageType="firstright"
     SectionNumberReset="continue"
     VolumeNumberReset="same"
-    ChapterNumberReset="continue"></TocEntry>
-  <TocEntry
-    Title="[%=General.Product Name Insights (Full)%] Visualizing Results User Guide"
-    Link="/Content/C_User Guides/Visualizing Results User Guide.htm"
-    BreakType="chapter"
-    StartSection="false"
-    PageNumberReset="reset"
-    PageLayout="/Content/Resources/PageLayouts/a4_pdf_layouts/ug_chapters.flpgl"
-    SectionNumberReset="continue"
-    VolumeNumberReset="same"
     ChapterNumberReset="continue"
-    PageNumber="1" />
+    ComputeToc="false"></TocEntry>
+  <TocEntry
+    Title="ChapterNumber"
+    Link="/Content/Print Files/Misc/ChapterNumber.htm"
+    BreakType="chapter"
+    PageType="firstright"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/a4_pdf_layouts/ug_chapters.flpgl"
+    ChapterNumberReset="reset"
+    ChapterNumber="1"
+    SectionNumberReset="continue"
+    VolumeNumberReset="same">
+    <TocEntry
+      Title="[%=General.Product Name Insights (Full)%] Visualizing Results User Guide"
+      Link="/Content/C_User Guides/Visualizing Results User Guide.htm"
+      BreakType="none"
+      StartSection="false"
+      PageNumberReset="reset"
+      PageLayout="/Content/Resources/PageLayouts/a4_pdf_layouts/ug_chapters.flpgl"
+      SectionNumberReset="continue"
+      VolumeNumberReset="same"
+      ChapterNumberReset="continue"
+      PageNumber="1" />
+  </TocEntry>
   <TocEntry
     Title="GLOSSARY"
     Link="/Content/Print Files/Back Matter Topics/Glossary.htm"
     BreakType="chapter"
     StartSection="false"
     PageNumberReset="continue"
-    PageLayout="/Content/Resources/PageLayouts/a4_pdf_layouts/ug_glossary.flpgl" />
-  <TocEntry
-    Title="INDEX"
-    Link="/Content/Print Files/Back Matter Topics/Index.htm"
-    BreakType="chapter"
-    StartSection="false"
-    PageNumberReset="continue"
-    PageLayout="/Content/Resources/PageLayouts/a4_pdf_layouts/ug_index bad.flpgl" />
+    PageLayout="/Content/Resources/PageLayouts/a4_pdf_layouts/ug_glossary.flpgl"
+    PageType="firstright" />
 </CatapultToc>

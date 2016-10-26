@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <PageStyles xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:conditions="Output.Print">
-    <Page Name="First Right" Padding="20px" PageType="firstright" PaddingLeft="1.5in" PaddingRight="1in" PaddingTop="1in" PaddingBottom="1in" BleedLeft="0.25in" Orientation="portrait" BleedBottom="0.25in" BleedTop="0.25in" BleedRight="0.25in" PageSize="A4" BackgroundType="Solid" BackgroundColor="#26282b">
+    <Page Name="First Right" Padding="20px" PageType="firstright" PaddingLeft="1.5in" PaddingRight="1in" PaddingTop="1in" PaddingBottom="1in" BleedLeft="0.25in" Orientation="portrait" BleedBottom="0.25in" BleedTop="0.25in" BleedRight="0.25in" PageSize="A4" BackgroundType="GradientNWSE" BackgroundColor="#b2c041">
         <Frame Flow="footer" Height="47px" Anchors="Left,Right,Bottom" Right="0px" Bottom="0px" X="85px" Y="884px" Width="469px" TextAlign="right" VerticalAlign="top">
             <Content>
                 <xhtml:html xmlns:xhtml="http://www.w3.org/1999/xhtml">
@@ -27,13 +27,13 @@
                         <xhtml:link xhtml:href="../../TableStyles/footer_table.css" xhtml:rel="stylesheet" MadCap:stylesheetType="table" />
                     </xhtml:head>
                     <xhtml:body>
-                        <xhtml:table xhtml:style="width: 100%;margin-left: 0;margin-right: auto;mc-table-style: url('../../TableStyles/footer_table.css');" xhtml:class="TableStyle-footer_table" xhtml:cellspacing="0">
+                        <xhtml:table xhtml:style="width: 100%;mc-table-style: url('../../TableStyles/footer_table.css');margin-left: 0;margin-right: auto;" xhtml:class="TableStyle-footer_table" xhtml:cellspacing="0">
                             <xhtml:col xhtml:class="TableStyle-footer_table-Column-Column1" />
                             <xhtml:col xhtml:class="TableStyle-footer_table-Column-Column1" />
                             <xhtml:tbody>
                                 <xhtml:tr xhtml:class="TableStyle-footer_table-Body-Body1">
                                     <xhtml:td xhtml:style="font-size: 8pt;" xhtml:class="TableStyle-footer_table-BodyB-Column1-Body1">
-                                        <xhtml:p><MadCap:variable xhtml:name="Heading.Level2" />
+                                        <xhtml:p><MadCap:variable xhtml:name="Heading.AnyLevel" />
                                         </xhtml:p>
                                     </xhtml:td>
                                     <xhtml:td xhtml:style="font-size: 8pt;" xhtml:class="TableStyle-footer_table-BodyA-Column1-Body1">
@@ -59,7 +59,7 @@
                             <xhtml:tbody>
                                 <xhtml:tr xhtml:class="TableStyle-footer_table-Body-Body1">
                                     <xhtml:td xhtml:class="TableStyle-footer_table-BodyB-Column1-Body1" xhtml:style="font-size: 8pt;">
-                                        <xhtml:p><MadCap:variable xhtml:name="Heading.Level2" />
+                                        <xhtml:p><MadCap:variable xhtml:name="Heading.Level1" />
                                         </xhtml:p>
                                     </xhtml:td>
                                     <xhtml:td xhtml:class="TableStyle-footer_table-BodyA-Column1-Body1" xhtml:style="font-size: 8pt;">
@@ -80,18 +80,6 @@
                 <xhtml:html xmlns:xhtml="http://www.w3.org/1999/xhtml">
                     <xhtml:body>
                         <xhtml:p xhtml:class="EmptyPageText" xhtml:style="text-align: center;">This page intentionally blank.</xhtml:p>
-                    </xhtml:body>
-                </xhtml:html>
-            </Content>
-        </Frame>
-        <Frame Flow="footer" Height="47px" Anchors="Left,Right,Bottom" Right="-42px" Bottom="0px" X="-66px" Y="884px" Width="662px" TextAlign="left" VerticalAlign="top">
-            <Content>
-                <xhtml:html xmlns:xhtml="http://www.w3.org/1999/xhtml">
-                    <xhtml:head>
-                    </xhtml:head>
-                    <xhtml:body>
-                        <xhtml:p xhtml:class="FrameFooterText"><MadCap:variable xhtml:name="System.PageNumber" />
-                        </xhtml:p>
                     </xhtml:body>
                 </xhtml:html>
             </Content>
@@ -134,13 +122,13 @@
                         <xhtml:link xhtml:href="../../TableStyles/footer_table.css" xhtml:rel="stylesheet" MadCap:stylesheetType="table" />
                     </xhtml:head>
                     <xhtml:body>
-                        <xhtml:table xhtml:style="width: 100%;margin-left: 0;margin-right: auto;mc-table-style: url('../../TableStyles/footer_table.css');" xhtml:class="TableStyle-footer_table" xhtml:cellspacing="0">
+                        <xhtml:table xhtml:style="width: 100%;mc-table-style: url('../../TableStyles/footer_table.css');border-left-style: solid;border-left-width: 0px;border-left-color: #000000;border-right-style: solid;border-right-width: 0px;border-right-color: #000000;border-top-style: solid;border-top-width: 0px;border-top-color: #000000;border-bottom-style: solid;border-bottom-width: 0px;border-bottom-color: #000000;margin-left: 0;margin-right: auto;" xhtml:class="TableStyle-footer_table" xhtml:cellspacing="0">
                             <xhtml:col xhtml:class="TableStyle-footer_table-Column-Column1" />
                             <xhtml:col xhtml:class="TableStyle-footer_table-Column-Column1" />
                             <xhtml:tbody>
                                 <xhtml:tr xhtml:class="TableStyle-footer_table-Body-Body1">
                                     <xhtml:td xhtml:style="font-size: 8pt;" xhtml:class="TableStyle-footer_table-BodyB-Column1-Body1">
-                                        <xhtml:p><MadCap:variable xhtml:name="Heading.Level2" />
+                                        <xhtml:p><MadCap:variable xhtml:name="Heading.AnyLevel" />
                                         </xhtml:p>
                                     </xhtml:td>
                                     <xhtml:td xhtml:style="font-size: 8pt;" xhtml:class="TableStyle-footer_table-BodyA-Column1-Body1">

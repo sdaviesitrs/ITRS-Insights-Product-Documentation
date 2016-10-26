@@ -12,10 +12,9 @@
     Title="Copyright"
     Link="/Content/Print Files/Front Matter Topics/Copyright.htm"
     BreakType="chapter"
-    PageType="left"
     StartSection="false"
     PageNumberReset="continue"
-    PageLayout="/Content/Resources/PageLayouts/a4_pdf_layouts/ug_toc.flpgl" />
+    PageLayout="/Content/Resources/PageLayouts/a4_pdf_layouts/ug_copyright.flpgl" />
   <TocEntry
     Title="TOC"
     Link="/Content/Print Files/Front Matter Topics/TOC.htm"
@@ -23,14 +22,27 @@
     PageType="firstright"
     StartSection="false"
     PageNumberReset="continue"
-    PageLayout="/Content/Resources/PageLayouts/a4_pdf_layouts/ug_toc.flpgl" />
+    PageLayout="/Content/Resources/PageLayouts/a4_pdf_layouts/ug_toc.flpgl"></TocEntry>
   <TocEntry
-    Title="[%=General.Product Name Insights (Full)%] Contributor &amp; Domain User Guide"
-    Link="/Content/C_User Guides/Domain &amp; Contributors User Guide.htm"
+    Title="ChapterNumber"
+    Link="/Content/Print Files/Misc/ChapterNumber.htm"
     BreakType="chapter"
+    PageType="firstright"
     StartSection="false"
     PageNumberReset="continue"
-    PageLayout="/Content/Resources/PageLayouts/a4_pdf_layouts/ug_chapters.flpgl" />
+    PageLayout="/Content/Resources/PageLayouts/a4_pdf_layouts/ug_chapters.flpgl"
+    ChapterNumberReset="reset"
+    ChapterNumber="1"
+    SectionNumberReset="continue"
+    VolumeNumberReset="same">
+    <TocEntry
+      Title="[%=General.Product Name Insights (Full)%] Contributor &amp; Domain User Guide"
+      Link="/Content/C_User Guides/Domain &amp; Contributors User Guide.htm"
+      BreakType="none"
+      StartSection="false"
+      PageNumberReset="continue"
+      PageLayout="/Content/Resources/PageLayouts/a4_pdf_layouts/ug_chapters.flpgl" />
+  </TocEntry>
   <TocEntry
     Title="GLOSSARY"
     Link="/Content/Print Files/Back Matter Topics/Glossary.htm"

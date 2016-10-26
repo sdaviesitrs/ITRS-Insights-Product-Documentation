@@ -3,20 +3,60 @@
   Version="1">
   <TocEntry
     Title="Title"
-    Link="/Content/Print Files/Front Matter Topics/Title.htm" />
+    Link="/Content/Print Files/Front Matter Topics/Title.htm"
+    BreakType="chapter"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/a4_pdf_layouts/ug_title.flpgl"
+    SectionNumberReset="continue"
+    VolumeNumberReset="same"
+    ChapterNumberReset="continue" />
   <TocEntry
     Title="Copyright"
-    Link="/Content/Print Files/Front Matter Topics/Copyright.htm"></TocEntry>
+    Link="/Content/Print Files/Front Matter Topics/Copyright.htm"
+    BreakType="chapter"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/a4_pdf_layouts/ug_copyright.flpgl"></TocEntry>
   <TocEntry
     Title="TOC"
-    Link="/Content/Print Files/Front Matter Topics/TOC.htm" />
+    Link="/Content/Print Files/Front Matter Topics/TOC.htm"
+    BreakType="chapter"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/a4_pdf_layouts/ug_toc.flpgl"
+    PageType="firstright"></TocEntry>
   <TocEntry
-    Title="[%=General.Product Name Insights (Full)%] Data Streams &amp; Schema User Guide"
-    Link="/Content/C_User Guides/Data Streams &amp; Schema User Guide.htm" />
+    Title="ChapterNumber"
+    Link="/Content/Print Files/Misc/ChapterNumber.htm"
+    BreakType="chapter"
+    PageType="firstright"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/a4_pdf_layouts/ug_chapters.flpgl"
+    ChapterNumberReset="reset"
+    ChapterNumber="1"
+    SectionNumberReset="continue"
+    VolumeNumberReset="same">
+    <TocEntry
+      Title="[%=General.Product Name Insights (Full)%] Data Streams &amp; Schema User Guide"
+      Link="/Content/C_User Guides/Data Streams &amp; Schema User Guide.htm"
+      StartSection="false" />
+  </TocEntry>
   <TocEntry
     Title="GLOSSARY"
-    Link="/Content/Print Files/Back Matter Topics/Glossary.htm" />
+    Link="/Content/Print Files/Back Matter Topics/Glossary.htm"
+    BreakType="chapter"
+    PageType="firstright"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/a4_pdf_layouts/ug_glossary.flpgl" />
   <TocEntry
     Title="INDEX"
-    Link="/Content/Print Files/Back Matter Topics/Index.htm" />
+    Link="/Content/Print Files/Back Matter Topics/Index.htm"
+    BreakType="chapter"
+    PageType="firstright"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/a4_pdf_layouts/ug_index.flpgl" />
 </CatapultToc>

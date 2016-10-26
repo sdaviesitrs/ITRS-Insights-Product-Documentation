@@ -5,11 +5,10 @@
   Host="staging.resources.itrsgroup.com"
   User="MyAccountId"
   Password=""
-  Directory="/public_html/insights"
+  Directory="home/webmaster/public_html/insights"
   Port="22"
-  ViewUrl="http://staging.resources.itrsgroup.com/insights/ "
+  ViewUrl="http://staging.resources.itrsgroup.com/insights/"
   Type="sftp"
-  AnonymousLogin="false"
-  SftpServerValidation="validation-hosts-file"
+  SftpServerValidation="validation-none"
   SftpAuthentication="authentication-password"
-  SftpHostFile="C:\Users\sdavies\Desktop\knownhosts.txt"></CatapultDestination>
+  ConnectionMode="Active"></CatapultDestination>

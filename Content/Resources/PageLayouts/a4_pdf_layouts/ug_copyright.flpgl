@@ -3,5 +3,6 @@
     <Page Name="All" Padding="20px" PageSize="A4" PageType="normal" PaddingLeft="1in" PaddingRight="1in" PaddingTop="1in" PaddingBottom="1in" Orientation="portrait" Height="9in" Width="7in" BleedLeft="0.25in" BleedRight="0.25in" BleedTop="0.25in" BleedBottom="0.25in" BackgroundColor="#b2c041" BackgroundType="GradientNWSE">
         <Frame Flow="body" Y="48px" Bottom="0px" X="0px" Right="0px" ColumnCount="1" ColumnGap="30px" ColumnDivider="Solid 1px Red" Anchors="Left,Right,Top,Bottom" Width="602px" Height="883px">
         </Frame>
+        <Frame X="8px" Y="593px" Width="587px" Height="328px" FlowIndex="1" Flow="body" Right="7px" Bottom="10px" />
     </Page>
 </PageStyles>

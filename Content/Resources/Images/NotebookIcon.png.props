@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<fileProperties>
+    <ImageOverlay>
+        <OriginalImage Type="Image" ShapeTimeSpan="10000" EnableGrayScaleFormat="false" ExportFormat="png" DPI="96" medium_print_ExportFormat="png" medium_tablet_ExportFormat="png" medium_mobile_ExportFormat="png" medium_print_EnableFormat="true" OutputScaleFactor="0.526" ComputedWidth="57" ComputedHeight="48" Format="png">iVBORw0KGgoAAAANSUhEUgAAADkAAAAwCAYAAACrF9JNAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFKSURBVGhD7dgxS8NAGMbxfiWRLlIEhU7uiqPg6OAiQhUciohUHIqln8FFJzvYQgcdBN1EBUs0iE62Y5uYQF57IU7eQV45off2Ofhtl9z9uV4LLRQXyyQdIqVApBSIlAKRUiBSCmuR3atr6nmeNfcPj7RZ2dWuxWUt8sX3yeYYDke0d3CoXYsLkRxTGRmGYbrRvILx/CRJsqcdiFQbPm40tfNMNra26bM/yN7gQKQ6Ee/Vp4vLdm43t3cUxXH2BtxJtn87yafnnvbETJw7yVEQUK1+op1n4tydVOMritKN5uXct6uNMfGR8fhutdqddJMm1doRvb1/ZE/8Hk5Enp6da+f9WF5bT39mTAMfVyZEciDyDwORTIjkUP/HqE3ZslPdp6WVVe1aXNYiJxkipUCkFIiUApFSIFIKREoxHZGz8wskXWFmrkSylegbfXnMPkwTIl8AAAAASUVORK5CYII=</OriginalImage>
+        <Variables />
+        <Shapes />
+        <Shapes IsResourceLayer="true" Name="Resources" />
+        <ConditionTagSet />
+    </ImageOverlay>
+</fileProperties>
