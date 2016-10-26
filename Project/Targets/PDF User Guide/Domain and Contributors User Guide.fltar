@@ -7,7 +7,7 @@
   GlossaryTermConversion="marked"
   MasterToc="/Project/TOCs/Domain and Contributors User Guide.fltoc"
   MasterStylesheet="/Content/Resources/Stylesheets/styles.css"
-  ConditionTagExpression="exclude[Output.Null] ">
+  ConditionTagExpression="exclude[Output.Digital or Output.Null] ">
   <PrintedOutput
     CollapseMargins="true"
     GenerateTOCProxy="true"

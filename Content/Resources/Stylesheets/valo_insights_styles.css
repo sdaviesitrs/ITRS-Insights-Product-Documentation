@@ -1003,5 +1003,60 @@ body
 	{
 		color: ;
 	}
+
+	span
+	{
+		font-family: 'Open Sans';
+	}
+
+	span.Emphasis
+	{
+		font-family: 'Open Sans';
+		font-weight: bold;
+	}
+
+	span.FigureNum
+	{
+		color: #a7da1c;
+		font-style: normal;
+	}
+
+	span.SetOffFirstLevel
+	{
+		color: #5e6914;
+		font-weight: bold;
+	}
+
+	span.SetOffSecondLevel
+	{
+		
+	}
+
+	span.TableNum
+	{
+		
+	}
+
+	td
+	{
+		font-family: 'Open Sans';
+		vertical-align: top;
+		margin: 8px;
+	}
+
+	th
+	{
+		color: #ffffff;
+		font-family: 'Open Sans';
+		margin-bottom: 8px;
+		margin-top: 8px;
+	}
+
+	tr
+	{
+		font-family: 'Open Sans';
+		font-size: 9pt;
+		page-break-inside: avoid;
+	}
 }
 
