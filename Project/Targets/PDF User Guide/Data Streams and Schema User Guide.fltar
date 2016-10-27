@@ -7,8 +7,7 @@
   GlossaryTermConversion="marked"
   MasterToc="/Project/TOCs/Data Streams and Schema User Guide.fltoc"
   MasterStylesheet="/Content/Resources/Stylesheets/styles.css"
-  ConditionTagExpression="exclude[Output.Digital or Output.Null] "
-  OutputFolder="C:\Users\mddent\Downloads\test pdfs">
+  ConditionTagExpression="exclude[Output.Digital or Output.Null] ">
   <PrintedOutput
     CollapseMargins="true"
     GenerateTOCProxy="true"

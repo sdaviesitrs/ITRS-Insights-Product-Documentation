@@ -12,12 +12,17 @@
         <p>We have dedicated user guides for both visualization and querying, so check those out here:</p>
         <blockquote>
             <p>
-                <MadCap:xref href="Query, Search &amp; Transform Data User Guide.htm">[%=General.Product Name&#160;Insights (Full)%] Query,&#160;Search&#160;and Transform Data User Guide</MadCap:xref>
+                <MadCap:xref href="Query, Search &amp; Transform Data User Guide.htm" MadCap:conditions="Output.Digital">[%=General.Product Name&#160;Insights (Full)%] Query,&#160;Search&#160;and Transform Data User Guide</MadCap:xref>
+                <MadCap:conditionalText MadCap:conditions="Output.Print"><span style="color: #000000;"><MadCap:variable name="General.Product Name&#160;Insights (Full)" /> Query, Search and Transform Data User Guide</span><![CDATA[
+                ]]></MadCap:conditionalText>
             </p>
         </blockquote>
         <blockquote>
             <p>
-                <MadCap:xref href="Visualizing Results User Guide.htm">[%=General.Product Name&#160;Insights (Full)%] Visualizing Results User Guide</MadCap:xref>
+                <MadCap:conditionalText MadCap:conditions="Output.Digital">
+                    <MadCap:xref href="Visualizing Results User Guide.htm">[%=General.Product Name&#160;Insights (Full)%] Visualizing Results User Guide </MadCap:xref>
+                </MadCap:conditionalText>
+                <MadCap:conditionalText MadCap:conditions="Output.Print"><MadCap:variable name="General.Product Name&#160;Insights (Full)" style="color: #000000;" /> <span style="color: #000000;">Visualizing Results User Guide</span></MadCap:conditionalText>
             </p>
         </blockquote>
         <p>In the meantime, this guide is intended to give you an introduction to Collections, Notebooks and Dashboards, and get you on your way to creating them and leveraging their utility to your advantage. </p>
@@ -33,11 +38,12 @@
         <blockquote>
             <MadCap:snippetBlock src="../Resources/Snippets/How to Create Collection from New.flsnp" />
         </blockquote>
+        <MadCap:pageBreak />
         <p MadCap:conditions="Output.Null">@mdd To Create a Collection by Editing an Existing Entity</p>
         <p MadCap:conditions="Output.Null">@mdd How to Assign an Entity to a Different Collection</p>
-        <MadCap:pageBreak />
         <h2><a name="Notebooks"></a>Notebook</h2>
         <MadCap:snippetBlock src="../Resources/Snippets/About Notebook.flsnp" />
+        <MadCap:pageBreak />
         <MadCap:snippetBlock src="../Resources/Snippets/Example Notebook.flsnp" />
         <p>As with a paper notebook, these investigations and discoveries can be
 saved and shared with other people and added to. They
@@ -53,6 +59,7 @@ can also be rerun at just the touch of a button.</p>
 data, with the ability to analyze your data, visualize the results, and
 then save the queries to run again, at any time, over the same, updated
 or different data.</p>
+            <MadCap:pageBreak />
             <MadCap:dropDownBody>
                 <blockquote>
                     <MadCap:snippetBlock src="../Resources/Snippets/How To Create Notebook.flsnp" />
@@ -62,7 +69,7 @@ or different data.</p>
         <MadCap:pageBreak />
         <h2><a name="Dashboard"></a>Dashboard</h2>
         <p><strong class="green">Dashboards </strong>provide an aggregated view of your visualizations to enable you to see the results of key in real-time. Once you've created one or more <strong class="green">queries </strong>or <strong class="green">free text searches</strong> in a <strong class="green">notebook</strong>, important results and visualizations can be sent to a Dashboard where changes can be seen in real-time.</p>
-        <p>For more about visualizing your results, see <MadCap:xref href="Visualizing Results User Guide.htm">[%=General.Product Name&#160;Insights (Full)%] Visualizing Results User Guide</MadCap:xref>.</p>
+        <p>For more about visualizing your results, see <MadCap:xref href="Visualizing Results User Guide.htm"><MadCap:conditionalText MadCap:conditions="Output.Digital"><MadCap:xref href="Visualizing Results User Guide.htm">[%=General.Product Name&#160;Insights (Full)%] Visualizing Results User Guide </MadCap:xref></MadCap:conditionalText><MadCap:xref href="Visualizing Results User Guide.htm" MadCap:conditions="Output.Print"><MadCap:variable name="General.Product Name&#160;Insights (Full)" /> Visualizing Results User Guide </MadCap:xref></MadCap:xref>.</p>
         <p>You can drag and drop the visualizations in a Dashboard, allowing you to order the space as you wish.&#160;You can also resize each of the visualizations to increase or decrease their prominence - when you do so, the other visualizations in the Dashboard will resize automatically. </p>
         <p>Your panel selections, positions and sizes are saved automatically when you exit <MadCap:variable name="General.Product Name Insights&#160;(abbreviated)" />. </p>
         <p>Each time you open a Dashboard, the queries and free text searches that feed the visualizations will automatically run.</p>
@@ -80,16 +87,19 @@ or different data.</p>
                 </blockquote>
             </MadCap:dropDownBody>
         </MadCap:dropDown>
-        <p>&#160;</p>
+        <MadCap:pageBreak />
         <MadCap:dropDown>
             <MadCap:dropDownHead class="H2NoKeyline">
                 <MadCap:dropDownHotspot>Populate A Dashboard</MadCap:dropDownHotspot>
             </MadCap:dropDownHead>
             <MadCap:dropDownBody>
                 <p>Once you have created a <strong class="green">Dashboard</strong>, you can start to add visualizations to it. </p>
-                <p>These visualizations come from the <strong class="green">queries </strong>and <strong class="green">free text searches</strong> you have created in your <strong class="green">Notebooks</strong>. So, before you can populate your Dashboard, you have to have run some queries or free text searches (see <MadCap:xref href="Query, Search &amp; Transform Data User Guide.htm">[%=General.Product Name&#160;Insights (Full)%] Query,&#160;Search&#160;and Transform Data User Guide</MadCap:xref>).</p>
+                <p>These visualizations come from the <strong class="green">queries </strong>and <strong class="green">free text searches</strong> you have created in your <strong class="green">Notebooks</strong>. So, before you can populate your Dashboard, you have to have run some queries or free text searches (see <MadCap:xref href="Query, Search &amp; Transform Data User Guide.htm" MadCap:conditions="Output.Digital">[%=General.Product Name&#160;Insights (Full)%] Query,&#160;Search&#160;and Transform Data User Guide</MadCap:xref><MadCap:conditionalText MadCap:conditions="Output.Print"><![CDATA[
+                    ]]><span style="color: #000000;"><MadCap:variable name="General.Product Name&#160;Insights (Full)"></MadCap:variable>Query, Search and Transform Data User Guide</span><![CDATA[
+                ]]></MadCap:conditionalText>).</p>
                 <MadCap:pageBreak />
                 <p>When you have run a query in a notebook and have either a table or selected a Visualization you can send that Visualization to a Dashboard.</p>
+                <p>&#160;</p>
                 <blockquote>
                     <MadCap:snippetBlock src="../Resources/Snippets/How To Populate Dashboard.flsnp" />
                 </blockquote>
@@ -103,9 +113,11 @@ or different data.</p>
             <MadCap:dropDownBody>
                 <p>Once you've added a few visualization panels to a Dashboard, you may want to start reorganizing it. <MadCap:variable name="General.Product Name Insights&#160;(abbreviated)" /> makes this easy through it's intelligent drag, drop and resize interface. </p>
                 <p>You can move panels to reorder them, and you can resize them to make them more or less prominent. Your configurations are automatically saved. </p>
+                <p>&#160;</p>
                 <blockquote>
                     <MadCap:snippetBlock src="../Resources/Snippets/How to Move Visualization Panel.flsnp" />
                 </blockquote>
+                <p>&#160;</p>
                 <blockquote>
                     <MadCap:snippetBlock src="../Resources/Snippets/How To Resize Visualization Panel.flsnp" />
                 </blockquote>

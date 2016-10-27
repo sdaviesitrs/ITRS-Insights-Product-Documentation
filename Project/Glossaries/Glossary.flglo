@@ -38,7 +38,7 @@
       <Term>Domain</Term>
     </Terms>
     <Definition
-      Link="">two or more contributors grouped together by a common attribute. Domains help to organise and group different data sources in intuitive ways.</Definition>
+      Link="">Two or more Contributors grouped together by a common attribute. Domains help to organise and group different data sources in intuitive ways.</Definition>
   </GlossaryEntry>
   <GlossaryEntry
     glossTerm="Glossary.Term20"
@@ -58,7 +58,7 @@
       <Term>Dashboard</Term>
     </Terms>
     <Definition
-      Link="">Dashboards provide an aggregated view of data visualizations</Definition>
+      Link="">Dashboards provide an aggregated view of Data Visualizations</Definition>
   </GlossaryEntry>
   <GlossaryEntry
     glossTerm="Glossary.Term22"
@@ -98,7 +98,7 @@
       <Term>Gateway</Term>
     </Terms>
     <Definition
-      Link=""></Definition>
+      Link="">A network node that provides access to another network that uses different protocols and enables transmitted data to use its routing paths.</Definition>
   </GlossaryEntry>
   <GlossaryEntry
     glossTerm="Glossary.Term26"
@@ -108,7 +108,7 @@
       <Term>Collector</Term>
     </Terms>
     <Definition
-      Link=""></Definition>
+      Link="">New term for a lightweight monitoring agent, which is deployed on every managed Node. See Netprobe.</Definition>
   </GlossaryEntry>
   <GlossaryEntry
     glossTerm="Glossary.Term27"
@@ -118,7 +118,7 @@
       <Term>Netprobe</Term>
     </Terms>
     <Definition
-      Link=""></Definition>
+      Link="">Lightweight monitoring agent, which is deployed on every managed Node</Definition>
   </GlossaryEntry>
   <GlossaryEntry
     glossTerm="Glossary.Term0"
@@ -128,7 +128,7 @@
       <Term>Schema</Term>
     </Terms>
     <Definition
-      Link="">a document of understanding that defines what data a stream contains - its structure and shape - and in what format.</Definition>
+      Link="">Document of understanding that defines what data a stream contains - its structure and shape - and in what format.</Definition>
   </GlossaryEntry>
   <GlossaryEntry
     glossTerm="Glossary.Term1"
@@ -158,6 +158,6 @@
       <Term>Transformational Pipeline</Term>
     </Terms>
     <Definition
-      Link="">Eeach query instruction takes an input and produces an output via some form of transformation.</Definition>
+      Link="">Each query instruction takes an input and produces an output via some form of transformation.</Definition>
   </GlossaryEntry>
 </CatapultGlossary>

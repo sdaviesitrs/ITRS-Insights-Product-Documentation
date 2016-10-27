@@ -9,8 +9,7 @@
   ConditionTagExpression="exclude[Output.Digital or Output.Null or Product.Valo or &quot;Versions.Current Valo&quot;] "
   PatchHeadingLevels="false"
   InjectEmptyPages="false"
-  MasterStylesheet="/Content/Resources/Stylesheets/styles.css"
-  OutputFolder="C:\Users\mddent\Downloads\test pdfs">
+  MasterStylesheet="/Content/Resources/Stylesheets/styles.css">
   <PrintedOutput
     CollapseMargins="true"
     ExpandingTextConversion="expand"
@@ -22,7 +21,7 @@
     Keywords="ITRS Insights Query, Search &amp; Transform User Guide" />
   <PDF
     ShowUsedBookmarks="false"
-    InitialMagnification="100"
+    InitialMagnification="75"
     TitleBar="DocumentTitle"
     CollapsedBookmarks="false"
     CropAndRegistrationMarks="false"

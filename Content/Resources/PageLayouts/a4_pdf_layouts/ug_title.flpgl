@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <PageStyles xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:conditions="Output.Print">
-    <Page Name="All" Width="7in" Height="9in" Padding="20px" PageSize="A4" PageType="normal" PaddingLeft="1in" PaddingRight="1in" PaddingTop="1in" PaddingBottom="1in" Orientation="portrait" BackgroundRepeat="no-repeat" BackgroundImage="../../../../../../../Desktop/ITRS Insights PDF User Guides/Content/Resources/Images/TitlePageBackground.eps" BackgroundPositionX="10px" BackgroundPositionY="-100px" BleedLeft="0.25in" BleedRight="0.25in" BleedTop="0.25in" BleedBottom="0.25in" BackgroundColor="#b2c041" BackgroundType="GradientNWSE">
+    <Page Name="All" Width="7in" Height="9in" Padding="20px" PageSize="A4" PageType="normal" PaddingLeft="1in" PaddingRight="1in" PaddingTop="1in" PaddingBottom="1in" Orientation="portrait" BackgroundRepeat="no-repeat" BackgroundImage="../../../../../../../Desktop/ITRS Insights PDF User Guides/Content/Resources/Images/TitlePageBackground.eps" BackgroundPositionX="10px" BackgroundPositionY="-100px" BleedLeft="0.25in" BleedRight="0.25in" BleedTop="0.25in" BleedBottom="0.25in" BackgroundColor="#ffffff" BackgroundType="Solid" BackgroundColorAlt="#ffffff">
         <Frame X="0px" Y="884px" Width="602px" Height="47px" Flow="footer" Right="0px" Bottom="0px" TextAlign="right" VerticalAlign="top" Anchors="Left,Right,Bottom">
             <Content>
                 <xhtml:html xmlns:xhtml="http://www.w3.org/1999/xhtml">
@@ -10,17 +10,8 @@
                 </xhtml:html>
             </Content>
         </Frame>
-        <Frame Flow="body" Y="-20px" Bottom="-35px" X="-51px" Right="-56px" ColumnCount="1" ColumnGap="30px" ColumnDivider="Solid 1px Red" Anchors="Left,Right,Top,Bottom" Width="709px" Height="986px" BorderLeftStyle="solid" BorderLeftWidth="0px" BorderRightStyle="solid" BorderRightWidth="0px" BorderTopStyle="solid" BorderTopWidth="0px" BorderBottomStyle="solid" BorderBottomWidth="0px" DividerWidth="0" BackgroundColor="transparent">
+        <Frame Flow="body" Y="32px" Bottom="-87px" X="-63px" Right="-44px" ColumnCount="1" ColumnGap="30px" ColumnDivider="Solid 1px Red" Anchors="Left,Right,Top,Bottom" Width="709px" Height="986px" BorderLeftStyle="solid" BorderLeftWidth="0px" BorderRightStyle="solid" BorderRightWidth="0px" BorderTopStyle="solid" BorderTopWidth="0px" BorderBottomStyle="solid" BorderBottomWidth="0px" DividerWidth="0" BackgroundColor="transparent">
         </Frame>
-        <Frame X="1px" Y="1px" Width="321px" Height="61px" Flow="decoration0" BackgroundImage="../../Images/logo_ITRSInsights_Valogreen_grey.png" BackgroundRepeat="stretch" Right="280px" Bottom="869px" Anchors="">
-            <Content>
-                <xhtml:html xmlns:xhtml="http://www.w3.org/1999/xhtml">
-                    <xhtml:body>
-                        <xhtml:p>&#160;</xhtml:p>
-                    </xhtml:body>
-                </xhtml:html>
-            </Content>
-        </Frame>
-        <Frame X="0px" Y="220px" Width="602px" Height="445px" Flow="decoration1" Right="0px" Bottom="266px" BackgroundImage="../../Images/insightsbluelogo.png" BackgroundRepeat="no-repeat" Anchors="" />
+        <Frame X="1px" Y="-2px" Width="644px" Height="121px" Flow="decoration2" Right="-43px" Bottom="812px" BackgroundImage="../../Images/InsightsLogo.png" BackgroundRepeat="stretch" />
     </Page>
 </PageStyles>
