@@ -17,7 +17,7 @@
     <Variable
       Name="General/DocumentType">User Guide</Variable>
     <Variable
-      Name="General/DocumentTitle">Dashboard Notebook and Collection</Variable>
+      Name="General/DocumentTitle">Dashboard, Notebook and Collection</Variable>
   </Variables>
   <DocumentProperties
     Author="ITRS Group Ltd"

@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <PageStyles xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:conditions="Output.Print">
-    <Page Name="First Right" Padding="20px" PageType="firstright" PaddingLeft="1.5in" PaddingRight="1in" PaddingTop="1in" PaddingBottom="1in" BleedLeft="0.25in" Orientation="portrait" BleedBottom="0.25in" BleedTop="0.25in" BleedRight="0.25in" PageSize="Letter" BackgroundType="Solid" BackgroundColor="#26282b">
+    <Page Name="First Right" Padding="20px" PageType="firstright" PaddingLeft="1.5in" PaddingRight="1in" PaddingTop="1in" PaddingBottom="1in" BleedLeft="0.25in" Orientation="portrait" BleedBottom="0.25in" BleedTop="0.25in" BleedRight="0.25in" PageSize="Letter" BackgroundType="Solid">
         <Frame Flow="footer" Height="47px" Anchors="Left,Right,Bottom" Right="0px" Bottom="0px" X="85px" Y="817px" Width="491px" TextAlign="right" VerticalAlign="top">
             <Content>
                 <xhtml:html xmlns:xhtml="http://www.w3.org/1999/xhtml">
