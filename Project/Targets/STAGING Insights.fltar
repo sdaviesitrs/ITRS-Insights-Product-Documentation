@@ -12,7 +12,7 @@
   ResultsPerPage="10"
   Skin="/Project/Skins/HTML5 - Top Navigation.flskn"
   ConditionTagExpression="exclude[Output.Null or Output.Print or Product.Valo or &quot;Versions.Current Valo&quot;] "
-  DefaultUrl="/Content/Home.htm"
+  DefaultUrl="/Content/index.htm"
   MasterStylesheet="/Content/Resources/Stylesheets/MainStyles.css"
   MasterToc="/Project/TOCs/Web Help.fltoc">
   <PrintedOutput
