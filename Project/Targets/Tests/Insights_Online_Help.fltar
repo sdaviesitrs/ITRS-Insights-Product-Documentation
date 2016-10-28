@@ -5,7 +5,7 @@
   Type="WebHelp"
   Destinations=""
   GlossaryTermConversion="marked"
-  DefaultUrl="/Content/Home.htm"
+  DefaultUrl="/Content/index.html"
   MasterToc="/Project/TOCs/Web Help.fltoc"
   MasterStylesheet="/Content/Resources/Stylesheets/MainStyles.css"
   Skin="/Project/Skins/Default.flskn">

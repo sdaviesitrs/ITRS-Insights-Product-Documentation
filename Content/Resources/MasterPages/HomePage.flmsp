@@ -11,7 +11,7 @@
             <MadCap:bodyProxy />
             <div class="footer center">
                 <div class="HomeMasterPageFooter outer-row">
-                    <div><a href="../../Home.htm"><img src="../Images/ITRSwhitelogo.png" alttext="" style="width: 178px;height: 71px;" /></a>
+                    <div><a href="../../index.html"><img src="../Images/ITRSwhitelogo.png" alttext="" style="width: 178px;height: 71px;" /></a>
                     </div>
                     <div>
                         <p class="Copyright">Copyright © <MadCap:variable name="General.Year" /> <MadCap:variable name="General.ITRS Company&#160;Name" /></p>
