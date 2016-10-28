@@ -15,8 +15,5 @@
     GenerateTOCProxy="true"
     GenerateIndexProxy="true"
     GenerateGlossaryProxy="true" />
-  <Destinations>
-    <Destination
-      Link="/Project/Destinations/Insights Staging Site.fldes" />
-  </Destinations>
+  <Destinations></Destinations>
 </CatapultTarget>
