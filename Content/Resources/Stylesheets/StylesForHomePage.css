@@ -1,4 +1,4 @@
-/*<meta />*/
+﻿/*<meta />*/
 
 /* Home Page General Styles*/
 
@@ -225,9 +225,9 @@ div.topichero h2
 
 div.footer
 {
-	background-color: #292928;
 	padding-top: 40px;
 	padding-bottom: 40px;
+	background-color: #292928;
 }
 
 div.footer a
@@ -759,4 +759,3 @@ a
 		width: 100%;
 	}
 }
-

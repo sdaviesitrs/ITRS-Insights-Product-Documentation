@@ -1,19 +1,19 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="217" MadCap:lastWidth="1049">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="258" MadCap:lastWidth="885">
     <head>
         <meta charset="utf-8" />
         <meta name="description" content="" />
         <meta name="author" content="" /><title></title>
-        <link href="../Stylesheets/StylesForHomePage.css" rel="stylesheet" type="text/css" />
     </head>
     <body>
-        <div id="contentBody" class="off-canvas-main">
+        <div id="contentBody">
             <MadCap:bodyProxy />
             <div class="footer center">
                 <div class="HomeMasterPageFooter outer-row">
                     <div><a href="../../Home.htm"><img src="../Images/ITRSwhitelogo.png" alttext="" style="width: 178px;height: 71px;" /></a>
                     </div>
                     <div>
+                        <p class="Copyright">&#160;</p>
                         <p class="Copyright">Copyright © <MadCap:variable name="General.Year" /> <MadCap:variable name="General.ITRS Company&#160;Name" /></p>
                     </div>
                 </div>
