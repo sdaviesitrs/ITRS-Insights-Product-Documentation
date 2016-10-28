@@ -7,7 +7,9 @@
   GlossaryTermConversion="marked"
   MasterToc="/Project/TOCs/Dashboard Notebook and Collection User Guide.fltoc"
   MasterStylesheet="/Content/Resources/Stylesheets/styles.css"
-  ConditionTagExpression="exclude[Output.Digital or Output.Null] ">
+  ConditionTagExpression="exclude[Output.Digital or Output.Null] "
+  OutputFile="ITRS Insights - Dashboard Notebook and Collection User Guide v1 0"
+  OutputFolder="C:\Users\mddent\Downloads\test pdfs">
   <PrintedOutput
     CollapseMargins="true"
     GenerateTOCProxy="true"
@@ -18,10 +20,12 @@
       Name="General/DocumentType">User Guide</Variable>
     <Variable
       Name="General/DocumentTitle">Dashboard, Notebook and Collection</Variable>
+    <Variable
+      Name="General/DocumentVersionNo">v1.0</Variable>
   </Variables>
   <DocumentProperties
     Author="ITRS Group Ltd"
-    Title="Dashboard Notebook and Collection User Guide"
+    Title="ITRS Insights - Dashboard Notebook and Collection User Guide v1.0"
     Subject="Dashboard Notebooks and Collections"
     Keywords="Dashboard Notebooks and Collections" />
   <PDF
