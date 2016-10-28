@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html MadCap:lastBlockDepth="5" MadCap:lastHeight="5759" MadCap:lastWidth="9220" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+<html MadCap:lastBlockDepth="4" MadCap:lastHeight="6272" MadCap:lastWidth="9220" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
     <head><title>Integrate With ITRS Geneos</title>
         <style type="text/css">
 /*
@@ -477,7 +477,7 @@ ul.auto-toc
         </p>
         <h2>Quick Start</h2>
         <p>In this section we will configure a Valo node to stream a single Geneos Dataview.
-This assumes that you already have a version of the Geneos Gateway running (See <a href="#id1"><span class="problematic" id="id2">:doc:`requirements`</span></a>) with a CPU plugin running on a Linux system</p>
+This assumes that you already have a version of the Geneos Gateway running <MadCap:conditionalText MadCap:conditions="Output.Null">(See <a href="#id1"><span class="problematic" id="id2">:doc:`requirements`</span></a>)</MadCap:conditionalText> with a CPU plugin running on a Linux system</p>
         <h2>Configure the Gateway</h2>
         <p>Firstly select 'Show pilot features' using the View menu.
 This will show the Publishing section in the Navigation window.</p>
@@ -488,7 +488,7 @@ This will show the Publishing section in the Navigation window.</p>
         <img alt="images/gse_pub_nav.png" src="../Resources/Images/gse_pub_nav.png" />
         <p>Now make sure that publishing is enabled and select nanomsg from the Adapter dropdown:</p>
         <img alt="images/gse_pub_nanomsg_config.png" src="../Resources/Images/gse_pub_nanomsg_config.png" />
-        <p>Nanomsg Publishing requires 2 ports (See <a href="#id3"><span class="problematic" id="id4">:ref:`gateway_ports`</span></a>). By default it uses <cite>7070</cite> for publishing and <cite>7071</cite> for requests. If required, change the ports and make a note of them.</p>
+        <p>Nanomsg Publishing requires 2 ports <MadCap:conditionalText MadCap:conditions="Output.Null">(See <a href="#id3"><span class="problematic" id="id4">:ref:`gateway_ports`</span></a>)</MadCap:conditionalText>. By default it uses <cite>7070</cite> for publishing and <cite>7071</cite> for requests. If required, change the ports and make a note of them.</p>
         <p>To publish to kafka, select kakfa from the Adapter dropdown, and enter topic-prefix and comma-seperated brokers list:</p>
         <img alt="images/gse_pub_kafka_config.png" src="../Resources/Images/gse_pub_kafka_config.png" />
         <div class="section" id="configure-a-valo-node">
@@ -503,10 +503,9 @@ valo.transport {
   transports.geneos = com.itrsgroup.transport.geneos.GeneosTransportFactory
   ...
 </pre>
-            <p>Now add the gateway you configured earlier into the <cite>valo.transport.geneos.gateways</cite> section, select the client and set revelant settings. (See <a href="#id5"><span class="problematic" id="id6">:doc:`gateways`</span></a>):</p>
+            <p>Now add the gateway you configured earlier into the <cite>valo.transport.geneos.gateways</cite> section, select the client and set revelant settings <MadCap:conditionalText MadCap:conditions="Output.Null">(See <a href="#id5"><span class="problematic" id="id6">:doc:`gateways`</span></a>)</MadCap:conditionalText>.</p>
             <div class="note">
-                <p class="first admonition-title">Note</p>
-                <p class="last">For nanomsg, if you used the default ports (<cite>7070</cite> and <cite>7071</cite>) you can omit them here. <cite>host</cite> is required though!</p>
+                <p class="note">Note: For nanomsg, if you used the default ports (<cite>7070</cite> and <cite>7071</cite>) you can omit them here. <cite>host</cite> is required though!</p>
             </div><pre class="literal-block" xml:space="preserve">
 valo.transport {
     ...
@@ -523,12 +522,10 @@ valo.transport {
 </pre>
             <p>Finally we need to specify a stream with the a CPU dataview as its source:</p>
             <div class="note">
-                <p class="first admonition-title">Note</p>
-                <p class="last">The topic specified must match the dataview name, and is case sensitive! Adjust the line below to match one of you cpu dataviews accordingly. e.g. <cite>raw.table.Cpu</cite>, <cite>raw.table.cpu</cite>, <cite>raw.table.CPU</cite>.</p>
+                <p class="note">Note: The topic specified must match the dataview name, and is case sensitive! Adjust the line below to match one of you cpu dataviews accordingly. e.g. <cite>raw.table.Cpu</cite>, <cite>raw.table.cpu</cite>, <cite>raw.table.CPU</cite>.</p>
             </div>
             <div class="note">
-                <p class="first admonition-title">Note</p>
-                <p class="last"><cite>auto-config.schema-path</cite> is used to create a schema for a the stream that matches the Linux version of the CPU plugin.</p>
+                <p class="note">Note: <cite>auto-config.schema-path</cite> is used to create a schema for a the stream that matches the Linux version of the CPU plugin.</p>
             </div><pre class="literal-block" xml:space="preserve">
 valo.transport {
     ...
@@ -548,7 +545,7 @@ valo.transport {
         </div>
         <div class="section" id="start-valo-and-query-the-stream">
             <h1>Start Valo and Query the Stream</h1>
-            <p>Now start the node (See see <a href="#id7"><span class="problematic" id="id8">:ref:`starting_valo`</span></a>):</p>
+            <p>Now start the node <MadCap:conditionalText MadCap:conditions="Output.Null">(See see <a href="#id7"><span class="problematic" id="id8">:ref:`starting_valo`</span></a>)</MadCap:conditionalText>:</p>
             <div class="system-message"><pre class="literal-block" xml:space="preserve">./bin/valo-cluster-app
 </pre>
             </div>
@@ -556,7 +553,7 @@ valo.transport {
             <div class="system-message"><pre class="literal-block" xml:space="preserve">13:44:34.730 INFO  [GatewayBridge] -  Connecting to gateway @ localhost:7070/7071
 </pre>
             </div>
-            <p>Now we can execute a query (See <a href="#id9"><span class="problematic" id="id10">:ref:`query_a_stream`</span></a>):</p>
+            <p>Now we can execute a query <MadCap:conditionalText MadCap:conditions="Output.Null">(See <a href="#id9"><span class="problematic" id="id10">:ref:`query_a_stream`</span></a>)</MadCap:conditionalText>:</p>
             <div class="system-message"><pre class="literal-block" xml:space="preserve">
     from /streams/demo/geneos/cpu
 </pre>
