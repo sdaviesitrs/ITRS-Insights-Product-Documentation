@@ -60,4 +60,8 @@
     Name="DocumentTitle"
     Comment=""
     EvaluatedDefinition="Document title">Document title</Variable>
+  <Variable
+    Name="DocumentVersionNo"
+    Comment=""
+    EvaluatedDefinition="v0.1">v0.1</Variable>
 </CatapultVariableSet>

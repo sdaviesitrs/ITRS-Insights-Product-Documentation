@@ -8,7 +8,7 @@
   MasterToc="/Project/TOCs/Visualizing Results User Guide.fltoc"
   MasterStylesheet="/Content/Resources/Stylesheets/styles.css"
   ConditionTagExpression="exclude[Output.Null] "
-  OutputFile="testt">
+  OutputFile="ITRS Insights - Visualizing Results User Guide v1 0">
   <PrintedOutput
     CollapseMargins="true"
     GenerateTOCProxy="true"
@@ -16,7 +16,7 @@
     GenerateGlossaryProxy="true" />
   <DocumentProperties
     Author="ITRS Group Ltd"
-    Title="Visualizing Results User Guide"
+    Title="ITRS Insights - Visualizing Results User Guide v1.0"
     Subject="Results" />
   <PDF
     ShowUsedBookmarks="false"
@@ -26,5 +26,7 @@
   <Variables>
     <Variable
       Name="General/DocumentTitle">Visualizing Results</Variable>
+    <Variable
+      Name="General/DocumentVersionNo">v1.0</Variable>
   </Variables>
 </CatapultTarget>

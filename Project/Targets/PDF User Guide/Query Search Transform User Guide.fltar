@@ -15,10 +15,10 @@
     ExpandingTextConversion="expand"
     PopupConversion="remove-body" />
   <DocumentProperties
-    Title="ITRS Insights Query, Search and Transform User Guide"
+    Title="ITRS Insights - Query, Search and Transform User Guide v1.0"
     Author="ITRS Group Ltd"
-    Subject="ITRS Insights Query, Search &amp; Transform User Guide"
-    Keywords="ITRS Insights Query, Search &amp; Transform User Guide" />
+    Subject="ITRS Insights -  Query, Search &amp; Transform User Guide"
+    Keywords="ITRS Insights - Query, Search &amp; Transform User Guide" />
   <PDF
     ShowUsedBookmarks="false"
     InitialMagnification="75"

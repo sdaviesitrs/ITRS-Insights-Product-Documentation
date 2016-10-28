@@ -2,7 +2,7 @@
 <RecentLinks>
     <Dialog Name="B3.XmlTextKit.InsertHyperlinkDialog" />
     <Dialog Name="B3.XmlMdiEditorKit.ImageGeneralDialogPage">
-        <Link Value="C:\Users\mddent\Documents\GitHub\ITRS-Insights-Product-Documentation\Content\Resources\Images\InsightsLogo.png" />
+        <Link Value="C:\Users\mddent\AppData\Local\Temp\MadCap Software\Flare\SkinEditor\_64B85B5A\logo_ITRSInsights_Valogreen_grey.png" />
     </Dialog>
     <Dialog Name="B3.XmlTextKit.InsertCrossReferenceDialog">
         <Link Value="C:\Users\mddent\Documents\GitHub\ITRS-Insights-Product-Documentation\Content\A_Quick Start\Organizing Data in ITRS Insights.htm" />
