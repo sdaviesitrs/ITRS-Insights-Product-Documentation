@@ -5,7 +5,7 @@
   Host="staging.resources.itrsgroup.com"
   User="MyAccountId"
   Password=""
-  Directory="home/webmaster/public_html/insights"
+  Directory="/home/webmaster/public_html/insights"
   Port="22"
   ViewUrl="http://staging.resources.itrsgroup.com/insights/"
   Type="sftp"
