@@ -50,9 +50,9 @@
           <Property
             Name="Height">122px</Property>
           <Property
-            Name="BackgroundColor">#ffffff</Property>
+            Name="BackgroundColor">#16b1b2</Property>
           <Property
-            Name="BackgroundGradient">vertical #000000 #0771b5</Property>
+            Name="BackgroundGradient">vertical #16b1b2 #16b1b2</Property>
         </Properties>
       </Style>
       <Style
@@ -91,6 +91,8 @@
             Name="BackgroundColor">#ffffff</Property>
           <Property
             Name="FontFamily">Open Sans</Property>
+          <Property
+            Name="Color">#4f5f64</Property>
         </Properties>
       </Style>
       <Style
