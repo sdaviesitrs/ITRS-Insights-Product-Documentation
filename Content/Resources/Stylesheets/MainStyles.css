@@ -190,7 +190,7 @@ strong.green
 {
 	text-transform: uppercase;
 	font-family: 'Open Sans';
-	color: #00bfff;
+	color: #16b1b2;
 }
 
 h2.nokeyline
@@ -298,23 +298,23 @@ th
 
 MadCap|dropDownHead.H2
 {
-	font-family: exo;
 	font-size: 1.2em;
 	text-transform: uppercase;
 	border-top: solid 1px #000000;
-	color: #242528;
-	font-style: italic;
-	font-weight: bolder;
+	font-family: 'Open Sans';
+	font-weight: bold;
+	font-style: normal;
+	color: #4f5f64;
 }
 
 MadCap|dropDownHead.H2NoKeyline
 {
-	font-family: exo;
 	font-size: 1.2em;
 	text-transform: uppercase;
-	color: #242528;
-	font-style: italic;
-	font-weight: bolder;
+	font-family: 'Open Sans';
+	font-weight: bold;
+	font-style: normal;
+	color: #4f5f64;
 }
 
 MadCap|glossaryTerm
