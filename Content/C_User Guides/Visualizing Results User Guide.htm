@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="9" MadCap:lastHeight="538" MadCap:lastWidth="576">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="9" MadCap:lastHeight="6193" MadCap:lastWidth="1480">
     <head>
         <link href="../Resources/Stylesheets/styles.css" rel="stylesheet" type="text/css" />
     </head>
@@ -94,7 +94,7 @@ from /streams/demo/infrastructure/cpu
 select process, host, sampleTime, kernel, user, kernel as kernel1, user as user1, kernel as kernel2, user as user2, kernel as kernel3, user as user3
 </pre>
                         </blockquote>
-                        <blockquote><pre class="literal-block" xml:space="preserve" style="text-align: center;">&#160;</pre><pre class="literal-block" xml:space="preserve" style="text-align: left;"><img src="../Resources/Images/chart_bubblechart.PNG" class="screenshotsmedium" /></pre>
+                        <blockquote><pre class="literal-block" xml:space="preserve" style="text-align: left;"><img src="../Resources/Images/chart_bubblechart.PNG" class="screenshotsmedium" /></pre>
                         </blockquote>
                     </MadCap:dropDownBody>
                 </MadCap:dropDown>
@@ -144,7 +144,7 @@ lateness looks like for each carrier.</p>
                 <p>Selecting the column chart an axis selection that makes sense is automatically chosen, so from the example above selecting the Column button results in the following visualization:
 </p>
                 <p style="text-align: left;">
-                    <img alt="image4" src="../Resources/Images/FlightData-SampleLateCol.png" class="screenshotsmedium" />
+                    <img alt="image4" src="../Resources/Images/chart_barchart.PNG" class="screenshotsmedium" />
                 </p>
                 <div class="system-message"><pre class="literal-block" xml:space="preserve">
 from historical /streams/demo/fix/exchange where MsgType=="New Order Single" group by Symbol select Symbol, sum(OrderQty) as Volume
@@ -192,7 +192,7 @@ select UniqueCarrier, Distance, minutes(AirTime) as AirMinutes
 </pre>
                 </div>
                 <p style="text-align: left;">
-                    <img alt="image15" src="../Resources/Images/FlightData-DistVsTime-ScatGrp.png" class="screenshotsmedium" />
+                    <img alt="image15" src="../Resources/Images/chart_scatterplot.PNG" class="screenshotsmedium" />
                 </p>
             </div>
             <div class="section" id="dashboards">
