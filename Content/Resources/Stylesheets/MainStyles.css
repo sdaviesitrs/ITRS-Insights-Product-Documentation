@@ -128,10 +128,16 @@ html.templateTopic div.sideContent
 
 img
 {
-	padding: 0px;
 	mc-thumbnail-max-height: 140px;
 	mc-thumbnail: none;
-	border: 0;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	border-left-width: 0;
+	border-right-width: 0;
+	border-top-width: 0;
+	border-bottom-width: 0;
 }
 
 p#Example
@@ -198,10 +204,10 @@ h2.nokeyline
 	margin-bottom: 4px;
 	margin-top: 20px;
 	border-top-width: 0px;
-	text-transform: uppercase;
 	font-size: 24px;
-	font-weight: bold;
 	color: #4f5f64;
+	font-weight: bold;
+	font-style: italic;
 }
 
 strong
@@ -214,7 +220,7 @@ img.icon
 	padding: 0px;
 	border: 0;
 	mc-thumbnail-max-height: 25px;
-	mc-thumbnail: normal;
+	mc-thumbnail: none;
 }
 
 a:link
@@ -265,19 +271,19 @@ p.note
 img.screenshotsmall
 {
 	padding: 0px;
-	mc-thumbnail: hover;
-	mc-thumbnail-max-height: 140;
-	mc-thumbnail-max-width: 140;
 	border: 0;
+	mc-thumbnail: link;
+	mc-thumbnail-max-height: 140px;
+	mc-thumbnail-max-width: 140px;
 }
 
 img.screenshotsmedium
 {
 	padding: 0px;
-	mc-thumbnail: hover;
-	mc-thumbnail-max-height: 400;
-	mc-thumbnail-max-width: 600;
 	border: 0;
+	mc-thumbnail: link;
+	mc-thumbnail-max-height: 400px;
+	mc-thumbnail-max-width: 600px;
 }
 
 td
