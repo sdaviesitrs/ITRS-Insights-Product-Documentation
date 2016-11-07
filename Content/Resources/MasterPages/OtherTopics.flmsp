@@ -3,11 +3,14 @@
     <head>
         <meta charset="utf-8" />
         <meta name="description" content="" />
-        <meta name="author" content="" /><title></title>
+        <meta name="author" content="" />
+        <script src="../Resources/Scripts/tokenizer.js" ></script>
+        <script src="../Resources/Scripts/myrules.js" ></script>
+        <title></title>
     </head>
     <body>
         <div class="content">
-            <div id="contentBody">
+            <div id="contentBody" class="row outer-row">
                 <div class="row collapse">
                     <div class="sideContent">
                         <div class="clearfix">
@@ -16,6 +19,18 @@
                     </div>
                     <MadCap:breadcrumbsProxy />
                     <MadCap:bodyProxy />
+                </div>
+            </div>
+        </div>
+        <div class="footer center">
+            <div class="HomeMasterPageFooter outer-row">
+                <div>
+                    <a href="../../index.html">
+                        <img src="../Images/itrs-gray-logo.png" alttext="" style="width: 78px;height: 32px;" />
+                    </a>
+                </div>
+                <div>
+                    <p class="Copyright">Copyright © <MadCap:variable name="General.Year" /> <MadCap:variable name="General.ITRS Company&#160;Name" /></p>
                 </div>
             </div>
         </div>

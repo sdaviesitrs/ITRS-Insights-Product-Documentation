@@ -1,850 +1,665 @@
 /*<meta />*/
-
-@import url('http://fonts.googleapis.com/css?family=Open+Sans');
-
-body
-{
-	line-height: 1.7em;
-	font-family: 'open sans';
-	color: #4f5f64;
-}
-
-a.MCBreadcrumbsLink
-{
-	font-style: italic;
-	text-decoration: underline;
-	color: #16b1b2;
-}
-
-a.MCBreadcrumbsLink:visited
-{
-	color: #000000;
-}
-
-a.MCBreadcrumbsLink:hover
-{
-	color: #16b1b2;
-}
-
-div.TopicContent
-{
-	padding-left: 15px;
-	padding-right: 15px;
-	padding-top: 25px;
-}
-
-h1
-{
-	margin-bottom: 8px;
-	padding-bottom: 10px;
-	margin-top: 30px;
-	vertical-align: 20px;
-	font-size: 28px;
-	font-family: 'Open Sans';
-	font-weight: bold;
-	color: #4f5f64;
-}
-
-h2
-{
-	margin-bottom: 4px;
-	margin-top: 20px;
-	border-top: solid 1px #525252;
-	font-weight: bolder;
-	padding-top: 5px;
-	font-family: 'Open Sans';
-	font-size: 24px;
-	color: #4f5f64;
-}
-
-h3
-{
-	font-weight: normal;
-	margin-bottom: 4px;
-	margin-top: 16px;
-	font-style: italic;
-	font-family: 'Open Sans';
-	font-size: 22px;
-}
-
-h4
-{
-	font-family: 'Open Sans';
-	font-size: 20px;
-}
-
-li
-{
-	margin-bottom: 6px;
-	margin-top: 6px;
-	font-family: 'Open Sans';
-}
-
-MadCap|breadcrumbsProxy
-{
-	border-bottom: none;
-	font-size: .7em;
-	font-style: italic;
-	mc-breadcrumbs-prefix: 'You are here: ';
-	font-family: 'Open Sans';
-}
-
-MadCap|xref
-{
-	font-weight: bold;
-	mc-format: '{para}';
-	text-decoration: underline;
-	font-style: italic;
-	color: #2d8dcc;
-	font-family: 'Open Sans';
-}
-
-MadCap|xref:hover
-{
-	color: #2D8DCC;
-	font-family: 'Open Sans';
-}
-
-p
-{
-	margin-bottom: 8px;
-	margin-top: 8px;
-	font-family: 'Open Sans';
-	color: #4f5f64;
-}
-
-div.sideContent
-{
-	float: right;
-	margin-left: 10px;
-	margin-bottom: 10px;
-	width: 33.33%;
-}
-
-html.templateTopic div.sideContent
-{
-	display: none;
-}
-
-img
-{
-	mc-thumbnail-max-height: 140px;
-	mc-thumbnail: none;
-	padding-left: 0px;
-	padding-right: 0px;
-	padding-top: 0px;
-	padding-bottom: 0px;
-	border-left-width: 0;
-	border-right-width: 0;
-	border-top-width: 0;
-	border-bottom-width: 0;
-}
-
-p#Example
-{
-	margin-bottom: 8px;
-	margin-top: 8px;
-	border-bottom-length: 0px;
-	border-bottom-right-radius: 4px 0px;
-	border-radius: 4px;
-	word-spacing: 0px;
-	vertical-align: 0px;
-	color: #4e4e4e;
-	background-color: #ffffff;
-	margin-left: 25px;
-	margin-right: 25px;
-	border: solid 0px #000000;
-	font-style: normal;
-	padding: 6px 10px 5px 25px;
-	font-family: 'Open Sans';
-}
-
-MadCap|dropDownHead
-{
-	color: #0771b5;
-	font-family: 'Open Sans';
-}
-
-MadCap|dropDownBody
-{
-	font-family: 'Open Sans';
-}
-
-p#concept_definition
-{
-	margin-bottom: 8px;
-	margin-top: 8px;
-	color: #ffffff;
-	border-radius: 5px;
-	padding-left: 20px;
-	font-weight: normal;
-	padding-right: 20px;
-	font-style: normal;
-	padding-top: 5px;
-	padding-bottom: 5px;
-	font-family: 'Open Sans';
-	background-color: #4f5f64;
-}
-
-p#valo_green
-{
-	margin-bottom: 8px;
-	margin-top: 8px;
-}
-
-strong.green
-{
-	text-transform: uppercase;
-	font-family: 'Open Sans';
-	color: #16b1b2;
-}
-
-h2.nokeyline
-{
-	margin-bottom: 4px;
-	margin-top: 20px;
-	border-top-width: 0px;
-	font-size: 24px;
-	color: #4f5f64;
-	font-weight: bold;
-	font-style: italic;
-}
-
-strong
-{
-	font-family: 'open sans';
-}
-
-img.icon
-{
-	padding: 0px;
-	border: 0;
-	mc-thumbnail-max-height: 25px;
-	mc-thumbnail: none;
-}
-
-a:link
-{
-	color: #2d8dcc;
-}
-
-a:visited
-{
-	font-weight: bold;
-	mc-format: '{para}';
-	text-decoration: underline;
-	font-family: exo;
-	color: #2d8dcc;
-}
-
-a:hover
-{
-	color: #2d8dcc;
-}
-
-a:active
-{
-	color: #2d8dcc;
-}
-
-p.note
-{
-	margin-top: 8px;
-	margin-bottom: 8px;
-	margin-left: 25px;
-	margin-right: 50px;
-	font-family: 'Open Sans';
-	border-right: solid 10px #0771b5;
-	border-left: solid 10px #0771b5;
-	background-color: #f5f5f5;
-	color: #4f5f64;
-	border-left-style: solid;
-	border-left-width: 10px;
-	border-left-color: #16b1b2;
-	border-right-style: solid;
-	border-right-width: 10px;
-	border-right-color: #16b1b2;
-	padding-left: 10px;
-	padding-right: 10px;
-}
-
-img.screenshotsmall
-{
-	padding: 0px;
-	border: 0;
-	mc-thumbnail: link;
-	mc-thumbnail-max-height: 140px;
-	mc-thumbnail-max-width: 140px;
-}
-
-img.screenshotsmedium
-{
-	padding: 0px;
-	border: 0;
-	mc-thumbnail: link;
-	mc-thumbnail-max-height: 400px;
-	mc-thumbnail-max-width: 600px;
-}
-
-td
-{
-	font-family: 'open sans';
-}
-
-thead
-{
-	font-size: ;
-	font-family: 'open sans';
-}
-
-th
-{
-	font-family: 'open sans';
-}
-
-MadCap|dropDownHead.H2
-{
-	font-size: 1.2em;
-	text-transform: uppercase;
-	border-top: solid 1px #000000;
-	font-family: 'Open Sans';
-	font-weight: bold;
-	font-style: normal;
-	color: #4f5f64;
-}
-
-MadCap|dropDownHead.H2NoKeyline
-{
-	font-size: 1.2em;
-	text-transform: uppercase;
-	font-family: 'Open Sans';
-	font-weight: bold;
-	font-style: normal;
-	color: #4f5f64;
-}
-
-MadCap|glossaryTerm
-{
-	color: #000000;
-	font-family: 'Open Sans';
-}
-
-a
-{
-	font-family: 'open sans';
-	color: #2d8dcc;
-}
-
-MadCap|popupHead
-{
-	color: #2d8dcc;
-	font-family: 'Open Sans';
-}
-
-a.Popup
-{
-	color: #2d8dcc;
-}
-
-strong.greenlowercase
-{
-	color: #000000;
-	font-family: 'Open Sans';
-}
-
-p.technicalfielddefinition
-{
-	margin-top: 8px;
-	font-family: exo;
-	margin-bottom: 8px;
-	border-left: solid 10px #000000;
-	border-left-color: #a7da1c;
-	margin-left: 25px;
-	padding-left: 10px;
-	border-right: solid 10px #a7da1c;
-	padding-right: 10px;
-	margin-right: 50px;
-	background-color: #f5f5f5;
-	color: #4f5f64;
-}
-
-MadCap|searchBarProxy
-{
-	display: block;
-	float: none;
-	margin-bottom: 0;
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: 0;
-	width: 50%;
-}
-
-MadCap|topicToolbarProxy
-{
-	float: none;
-}
-
-p.TOC1
-{
-	color: #4f5f64;
-}
-
-@media print
-{
-	MadCap|dropDownHead
-	{
-		font-size: 12pt;
-		font-family: 'Open Sans';
-	}
-}
-
-div.footer
-{
-	padding-bottom: 40px;
-	padding-top: 40px;
-	background-color: #4f5f64;
-}
-
-div.button-group
-{
-	
-}
-
-div.HomeHeroSection
-{
-	
-}
-
-div.HomeHeroSection::after
-{
-	clear: both;
-	display: table;
-}
-
-div.HomeHeroSection::before
-{
-	display: table;
-}
-
-h2.SubCenter
-{
-	text-align: center;
-	margin-bottom: 1.2em;
-	font-size: 1.6785em;
-	border-top: solid 0px #000000;
-	margin-top: .75em;
-	padding-top: 0px;
-}
-
-html.HomePage
-{
-	font-family: 'Open Sans';
-}
-
-img.Hyperlinked
-{
-	border-bottom-style: none;
-}
-
-li#content-section.mc-blurb
-{
-	color: #5a5a5a;
-	list-style-image: url('../Images/Bullet1.png');
-	font-size: 14px;
-	margin-top: 8px;
-	line-height: 1.6em;
-}
-
-MadCap|searchBarProxy.homeSearchBar
-{
-	
-}
-
-p.Copyright
-{
-	font-size: 0.9em;
-	line-height: 1.6em;
-	text-align: left;
-	margin: 0 0 10px 0;
-}
-
-p#content-section.mc-blurb
-{
-	margin-top: 0;
-	margin-bottom: 5px;
-}
-
-MadCap|menuProxy.menu1
-{
-	mc-toc-depth: 1;
-	mc-context-sensitive: True;
-}
-
-MadCap|menuProxy.menu2
-{
-	mc-toc-depth: 1;
-	mc-context-sensitive: True;
-}
-
-.black:hover
-{
-	color: #0771b5;
-	background-color: #ccc;
-	border: solid 2px #000000;
-}
-
-.button:hover
-{
-	color: #000000;
-	font-weight: bold;
-	background-color: #ccc;
-	border: solid 2px #000000;
-	width: 200px;
-	height: 35px;
-	cursor: pointer;
-}
-
-:first-of-type
-{
-	
-}
-
-#contentBody
-{
-	
-}
-
-#content-section
-{
-	margin-top: -50px;
-	padding-bottom: 60px;
-	padding-top: 60px;
-	background-color: #ffffff;
-}
-
+@import "http://fonts.googleapis.com/css?family=Open+Sans";
 /* Home Page Topic Hero section*/
-
-div.topichero
-{
-	background-image: url('../Images/BackgroundImage.png');
-	background-size: cover;
-	background-repeat: no-repeat;
-	padding-top: 20px;
-	height: auto;
-	padding-bottom: 150px;
-}
-
-div.topichero h1
-{
-	font-size: 3.6em;
-	margin-top: 1.11em;
-	margin-bottom: 0.5em;
-	line-height: 100%;
-}
-
-div.topichero h2
-{
-	font-size: 1.8em;
-	margin-bottom: 80px;
-	line-height: 100%;
-}
-
 /* Home Page Button Styles */
-
-.button
-{
-	cursor: pointer;
-	background-color: transparent;
-	width: 200px;
-	height: 35px;
-	font-weight: bold;
-	-webkit-transition: all 200ms;
-	-moz-transition: all 200ms;
-	-ms-transition: all 200ms;
-	-o-transition: all 200ms;
-	transition: all 200ms;
+body {
+  line-height: 1.7em;
+  font-family: 'Open Sans';
+  color: #4f5f64;
 }
-
-.button.black
-{
-	border: solid 2px black;
-	color: black;
+a {
+  font-family: 'Open Sans';
+  color: #2d8dcc;
+  color: #a7da1c;
 }
-
-.button.black:hover
-{
-	background-color: #ccc;
+a:link {
+  color: #2d8dcc;
 }
-
-.button a
-{
-	display: block;
-	position: relative;
-	top: 50%;
-	transform: translateY(-50%);
-	-webkit-transform: translateY(-50%);
-	-ms-transform: translateY(-50%);
+a:visited {
+  font-weight: bold;
+  mc-format: '{para}';
+  text-decoration: underline;
+  font-family: 'exo';
+  color: #2d8dcc;
 }
-
-div.HomeHeroSection	/*This is a custom responsive layout row style (div class) in your stylesheet. To provide your own description for this style: (1) Open the stylesheet; (2) Find and select the div class with this name; and (3) In the Comment field, replace this text with your own. For more information on adding comments to styles, see the online Help.*/
-{
-	mc-grid-row: true;
-	margin-left: auto;
-	margin-right: auto;
+a:hover {
+  color: #2d8dcc;
 }
-
-div.HomeHeroSection::before
-{
-	content: ' ';
-	display: table;
+a:active {
+  color: #2d8dcc;
 }
-
-div.HomeHeroSection::after
-{
-	content: ' ';
-	display: table;
-	clear: both;
+a.MCBreadcrumbsLink {
+  font-style: italic;
+  text-decoration: underline;
+  color: #16b1b2;
 }
-
-div.HomeHeroSection > div
-{
-	float: left;
-	-moz-box-sizing: border-box;
-	box-sizing: border-box;
+a.MCBreadcrumbsLink:visited {
+  color: #000000;
 }
-
-div.HomeHeroSection > div:nth-child(1)
-{
-	width: 100%;
-	margin-left: 0%;
+a.MCBreadcrumbsLink:hover {
+  color: #16b1b2;
 }
-
-div.HomeWelcomePDFSection	/*This is a custom responsive layout row style (div class) in your stylesheet. To provide your own description for this style: (1) Open the stylesheet; (2) Find and select the div class with this name; and (3) In the Comment field, replace this text with your own. For more information on adding comments to styles, see the online Help.*/
-{
-	mc-grid-row: true;
-	margin-left: auto;
-	margin-right: auto;
+a.Popup {
+  color: #2d8dcc;
 }
-
-div.HomeWelcomePDFSection::before
-{
-	content: ' ';
-	display: table;
+div.TopicContent {
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 25px;
 }
-
-div.HomeWelcomePDFSection::after
-{
-	content: ' ';
-	display: table;
-	clear: both;
+h1 {
+  margin-bottom: 8px;
+  padding-bottom: 10px;
+  margin-top: 30px;
+  vertical-align: 20px;
+  font-size: 28px;
+  font-family: 'Open Sans';
+  font-weight: bold;
+  color: #4f5f64;
 }
-
-div.HomeWelcomePDFSection > div
-{
-	float: left;
-	-moz-box-sizing: border-box;
-	box-sizing: border-box;
+h2 {
+  margin-bottom: 4px;
+  margin-top: 20px;
+  border-top: solid 1px #525252;
+  font-weight: bolder;
+  padding-top: 5px;
+  font-family: 'Open Sans';
+  font-size: 24px;
+  color: #4f5f64;
 }
-
-div.HomeWelcomePDFSection > div:nth-child(1)
-{
-	width: 58.333%;
-	margin-left: 0%;
+h3 {
+  font-weight: normal;
+  margin-bottom: 4px;
+  margin-top: 16px;
+  font-style: italic;
+  font-family: 'Open Sans';
+  font-size: 22px;
 }
-
-div.HomeWelcomePDFSection > div:nth-child(2)
-{
-	width: 41.667%;
-	margin-left: 0%;
+h4 {
+  font-family: 'Open Sans';
+  font-size: 20px;
 }
-
-div.HomeWelcomeButtons	/*This is a custom responsive layout row style (div class) in your stylesheet. To provide your own description for this style: (1) Open the stylesheet; (2) Find and select the div class with this name; and (3) In the Comment field, replace this text with your own. For more information on adding comments to styles, see the online Help.*/
-{
-	mc-grid-row: true;
-	margin-left: auto;
-	margin-right: auto;
+li {
+  margin-bottom: 6px;
+  margin-top: 6px;
+  font-family: 'Open Sans';
 }
-
-div.HomeWelcomeButtons::before
-{
-	content: ' ';
-	display: table;
+MadCap|breadcrumbsProxy {
+  border-bottom: none;
+  font-size: .7em;
+  font-style: italic;
+  mc-breadcrumbs-prefix: 'You are here: ';
+  font-family: 'Open Sans';
 }
-
-div.HomeWelcomeButtons::after
-{
-	content: ' ';
-	display: table;
-	clear: both;
+MadCap|xref {
+  font-weight: bold;
+  mc-format: '{para}';
+  text-decoration: underline;
+  font-style: italic;
+  color: #2d8dcc;
+  font-family: 'Open Sans';
 }
-
-div.HomeWelcomeButtons > div
-{
-	float: left;
-	-moz-box-sizing: border-box;
-	box-sizing: border-box;
+MadCap|xref:hover {
+  color: #2D8DCC;
+  font-family: 'Open Sans';
 }
-
-div.HomeWelcomeButtons > div:nth-child(1)
-{
-	width: 33.333%;
-	margin-left: 8.3333%;
+p {
+  margin-bottom: 8px;
+  margin-top: 8px;
+  font-family: 'Open Sans';
+  color: #4f5f64;
 }
-
-div.HomeWelcomeButtons > div:nth-child(2)
-{
-	width: 33.333%;
-	margin-left: 8.3333%;
+div.sideContent {
+  float: right;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  width: 33.33%;
 }
-
-div.HomePDFSection	/*This is a custom responsive layout row style (div class) in your stylesheet. To provide your own description for this style: (1) Open the stylesheet; (2) Find and select the div class with this name; and (3) In the Comment field, replace this text with your own. For more information on adding comments to styles, see the online Help.*/
-{
-	mc-grid-row: true;
-	margin-left: auto;
-	margin-right: auto;
+html.templateTopic div.sideContent {
+  display: none;
 }
-
-div.HomePDFSection::before
-{
-	content: ' ';
-	display: table;
+img {
+  mc-thumbnail-max-height: 140px;
+  mc-thumbnail: none;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  border-left-width: 0;
+  border-right-width: 0;
+  border-top-width: 0;
+  border-bottom-width: 0;
 }
-
-div.HomePDFSection::after
-{
-	content: ' ';
-	display: table;
-	clear: both;
+p#Example {
+  margin-bottom: 8px;
+  margin-top: 8px;
+  border-bottom-length: 0px;
+  border-bottom-right-radius: 4px 0px;
+  border-radius: 4px;
+  word-spacing: 0px;
+  vertical-align: 0px;
+  color: #4e4e4e;
+  background-color: #ffffff;
+  margin-left: 25px;
+  margin-right: 25px;
+  border: solid 0px #000000;
+  font-style: normal;
+  padding: 6px 10px 5px 25px;
+  font-family: 'Open Sans';
 }
-
-div.HomePDFSection > div
-{
-	float: left;
-	-moz-box-sizing: border-box;
-	box-sizing: border-box;
-	padding-left: 30px;
-	padding-right: 30px;
+MadCap|dropDownHead {
+  color: #0771b5;
+  font-family: 'Open Sans';
 }
-
-div.HomePDFSection > div:nth-child(1)
-{
-	width: 33.33333%;
+MadCap|dropDownBody {
+  font-family: 'Open Sans';
 }
-
-div.HomePDFSection > div:nth-child(2)
-{
-	width: 33.33333%;
+p#concept_definition {
+  margin-bottom: 8px;
+  margin-top: 8px;
+  color: #ffffff;
+  border-radius: 5px;
+  padding-left: 20px;
+  font-weight: normal;
+  padding-right: 20px;
+  font-style: normal;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-family: 'Open Sans';
+  background-color: #4f5f64;
 }
-
-div.HomePDFSection > div:nth-child(3)
-{
-	width: 33.33333%;
+p#valo_green {
+  margin-bottom: 8px;
+  margin-top: 8px;
 }
-
-div.HomePDFButton	/*This is a custom responsive layout row style (div class) in your stylesheet. To provide your own description for this style: (1) Open the stylesheet; (2) Find and select the div class with this name; and (3) In the Comment field, replace this text with your own. For more information on adding comments to styles, see the online Help.*/
-{
-	mc-grid-row: true;
-	margin-left: auto;
-	margin-right: auto;
+strong.green {
+  text-transform: uppercase;
+  font-family: 'Open Sans';
+  color: #16b1b2;
 }
-
-div.HomePDFButton::before
-{
-	content: ' ';
-	display: table;
+h2.nokeyline {
+  margin-bottom: 4px;
+  margin-top: 20px;
+  border-top-width: 0px;
+  font-size: 24px;
+  color: #4f5f64;
+  font-weight: bold;
+  font-style: italic;
 }
-
-div.HomePDFButton::after
-{
-	content: ' ';
-	display: table;
-	clear: both;
+strong {
+  font-family: 'Open Sans';
 }
-
-div.HomePDFButton > div
-{
-	float: left;
-	-moz-box-sizing: border-box;
-	box-sizing: border-box;
+img.icon {
+  padding: 0px;
+  border: 0;
+  mc-thumbnail-max-height: 25px;
+  mc-thumbnail: none;
 }
-
-div.HomePDFButton > div:nth-child(1)
-{
-	width: 50%;
-	float: none;
-	margin-left: auto;
-	margin-right: auto;
+p.note {
+  margin-top: 8px;
+  margin-bottom: 8px;
+  margin-left: 25px;
+  margin-right: 50px;
+  font-family: 'Open Sans';
+  border-right: solid 10px #0771b5;
+  border-left: solid 10px #0771b5;
+  background-color: #f5f5f5;
+  color: #4f5f64;
+  border-left-style: solid;
+  border-left-width: 10px;
+  border-left-color: #16b1b2;
+  border-right-style: solid;
+  border-right-width: 10px;
+  border-right-color: #16b1b2;
+  padding-left: 10px;
+  padding-right: 10px;
 }
-
-div.HomeMasterPageFooter	/*This is a custom responsive layout row style (div class) in your stylesheet. To provide your own description for this style: (1) Open the stylesheet; (2) Find and select the div class with this name; and (3) In the Comment field, replace this text with your own. For more information on adding comments to styles, see the online Help.*/
-{
-	mc-grid-row: true;
-	margin-left: auto;
-	margin-right: auto;
+img.screenshotsmall {
+  padding: 0px;
+  border: 0;
+  mc-thumbnail: link;
+  mc-thumbnail-max-height: 140px;
+  mc-thumbnail-max-width: 140px;
 }
-
-div.HomeMasterPageFooter::before
-{
-	content: ' ';
-	display: table;
+img.screenshotsmedium {
+  padding: 0px;
+  border: 0;
+  mc-thumbnail: link;
+  mc-thumbnail-max-height: 400px;
+  mc-thumbnail-max-width: 600px;
 }
-
-div.HomeMasterPageFooter::after
-{
-	content: ' ';
-	display: table;
-	clear: both;
+td {
+  font-family: 'Open Sans';
 }
-
-div.HomeMasterPageFooter > div
-{
-	float: left;
-	-moz-box-sizing: border-box;
-	box-sizing: border-box;
+thead {
+  font-size: ;
+  font-family: 'Open Sans';
 }
-
-div.HomeMasterPageFooter > div:nth-child(1)
-{
-	width: 25%;
-	margin-left: 0%;
+th {
+  font-family: 'Open Sans';
 }
-
-div.HomeMasterPageFooter > div:nth-child(2)
-{
-	width: 50%;
-	margin-left: 0%;
+MadCap|dropDownHead.H2 {
+  font-size: 1.2em;
+  text-transform: uppercase;
+  border-top: solid 1px #000000;
+  font-family: 'Open Sans';
+  font-weight: bold;
+  font-style: normal;
+  color: #4f5f64;
 }
-
-div.HomeMasterPageFooter > div:nth-child(3)
-{
-	width: 25%;
-	margin-left: 0%;
+MadCap|dropDownHead.H2NoKeyline {
+  font-size: 1.2em;
+  text-transform: uppercase;
+  font-family: 'Open Sans';
+  font-weight: bold;
+  font-style: normal;
+  color: #4f5f64;
 }
-
-li
-{
-	font: exo;
+MadCap|glossaryTerm {
+  color: #000000;
+  font-family: 'Open Sans';
 }
-
-html
-{
-	font-family: 'open sans';
+MadCap|popupHead {
+  color: #2d8dcc;
+  font-family: 'Open Sans';
 }
-
-a
-{
-	color: #a7da1c;
+strong.greenlowercase {
+  color: #000000;
+  font-family: 'Open Sans';
 }
-
-h1.HomePage
-{
-	font-family: 'Open Sans';
-	color: #ffffff;
+p.technicalfielddefinition {
+  margin-top: 8px;
+  font-family: 'exo';
+  margin-bottom: 8px;
+  border-left: solid 10px #000000;
+  border-left-color: #a7da1c;
+  margin-left: 25px;
+  padding-left: 10px;
+  border-right: solid 10px #a7da1c;
+  padding-right: 10px;
+  margin-right: 50px;
+  background-color: #f5f5f5;
+  color: #4f5f64;
 }
-
-h2.HomePage
-{
-	font-family: 'Open Sans';
-	color: #4f5f64;
+MadCap|searchBarProxy {
+  display: block;
+  float: none;
+  margin-bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  width: 50%;
 }
-
+MadCap|topicToolbarProxy {
+  float: none;
+}
+p.TOC1 {
+  color: #4f5f64;
+}
+div.HomeHeroSection {
+  mc-grid-row: true;
+  margin-left: auto;
+  margin-right: auto;
+}
+div.HomeHeroSection::after {
+  content: ' ';
+  display: table;
+  clear: both;
+}
+div.HomeHeroSection::before {
+  content: ' ';
+  display: table;
+}
+div.HomeHeroSection > div {
+  float: left;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+div.HomeHeroSection > div:nth-child(1) {
+  width: 100%;
+  margin-left: 0%;
+}
+h2.SubCenter {
+  text-align: center;
+  margin-bottom: 1.2em;
+  font-size: 1.6785em;
+  border-top: solid 0px #000000;
+  margin-top: .75em;
+  padding-top: 0px;
+}
+html.HomePage {
+  font-family: 'Open Sans';
+}
+img.Hyperlinked {
+  border-bottom-style: none;
+}
+li#content-section.mc-blurb {
+  color: #5a5a5a;
+  list-style-image: url('../Images/Bullet1.png');
+  font-size: 14px;
+  margin-top: 8px;
+  line-height: 1.6em;
+}
+p.Copyright {
+  font-size: 0.9em;
+  line-height: 1.6em;
+  text-align: left;
+  margin: 0 0 10px 0;
+}
+p#content-section.mc-blurb {
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+MadCap|menuProxy.menu1 {
+  mc-toc-depth: 1;
+  mc-context-sensitive: True;
+}
+MadCap|menuProxy.menu2 {
+  mc-toc-depth: 1;
+  mc-context-sensitive: True;
+}
+.black:hover {
+  color: #0771b5;
+  background-color: #ccc;
+  border: solid 2px #000000;
+}
+.button {
+  cursor: pointer;
+  background-color: transparent;
+  width: 200px;
+  height: 35px;
+  font-weight: bold;
+}
+.button:hover {
+  color: #000000;
+  font-weight: bold;
+  background-color: #ccc;
+  border: solid 2px #000000;
+  width: 200px;
+  height: 35px;
+  cursor: pointer;
+}
+.button .transition('all 200ms') a {
+  display: block;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+}
+#content-section {
+  margin-top: -50px;
+  padding-bottom: 60px;
+  padding-top: 60px;
+  background-color: #ffffff;
+}
+div.topichero {
+  background-image: url('../Images/BackgroundImage.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 20px;
+  height: auto;
+  padding-bottom: 150px;
+}
+div.topichero h1 {
+  font-size: 3.6em;
+  margin-top: 1.11em;
+  margin-bottom: 0.5em;
+  line-height: 100%;
+}
+div.topichero h2 {
+  font-size: 1.8em;
+  margin-bottom: 80px;
+  line-height: 100%;
+}
+.button.black {
+  border: solid 2px black;
+  color: black;
+}
+.button.black:hover {
+  background-color: #ccc;
+}
+div.HomeWelcomePDFSection {
+  mc-grid-row: true;
+  margin-left: auto;
+  margin-right: auto;
+}
+div.HomeWelcomePDFSection::before {
+  content: ' ';
+  display: table;
+}
+div.HomeWelcomePDFSection::after {
+  content: ' ';
+  display: table;
+  clear: both;
+}
+div.HomeWelcomePDFSection > div {
+  float: left;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+div.HomeWelcomePDFSection > div:nth-child(1) {
+  width: 58.333%;
+  margin-left: 0%;
+}
+div.HomeWelcomePDFSection > div:nth-child(2) {
+  width: 41.667%;
+  margin-left: 0%;
+}
+div.HomeWelcomeButtons {
+  mc-grid-row: true;
+  margin-left: auto;
+  margin-right: auto;
+}
+div.HomeWelcomeButtons::before {
+  content: ' ';
+  display: table;
+}
+div.HomeWelcomeButtons::after {
+  content: ' ';
+  display: table;
+  clear: both;
+}
+div.HomeWelcomeButtons > div {
+  float: left;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+div.HomeWelcomeButtons > div:nth-child(1) {
+  width: 33.333%;
+  margin-left: 8.3333%;
+}
+div.HomeWelcomeButtons > div:nth-child(2) {
+  width: 33.333%;
+  margin-left: 8.3333%;
+}
+div.HomePDFSection {
+  mc-grid-row: true;
+  margin-left: auto;
+  margin-right: auto;
+}
+div.HomePDFSection::before {
+  content: ' ';
+  display: table;
+}
+div.HomePDFSection::after {
+  content: ' ';
+  display: table;
+  clear: both;
+}
+div.HomePDFSection > div {
+  float: left;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+div.HomePDFSection > div:nth-child(1) {
+  width: 33.33333%;
+}
+div.HomePDFSection > div:nth-child(2) {
+  width: 33.33333%;
+}
+div.HomePDFSection > div:nth-child(3) {
+  width: 33.33333%;
+}
+div.HomePDFButton {
+  mc-grid-row: true;
+  margin-left: auto;
+  margin-right: auto;
+}
+div.HomePDFButton::before {
+  content: ' ';
+  display: table;
+}
+div.HomePDFButton::after {
+  content: ' ';
+  display: table;
+  clear: both;
+}
+div.HomePDFButton > div {
+  float: left;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+div.HomePDFButton > div:nth-child(1) {
+  width: 50%;
+  float: none;
+  margin-left: auto;
+  margin-right: auto;
+}
+div.HomeMasterPageFooter {
+  mc-grid-row: true;
+  margin-left: auto;
+  margin-right: auto;
+}
+div.HomeMasterPageFooter::before {
+  content: ' ';
+  display: table;
+}
+div.HomeMasterPageFooter::after {
+  content: ' ';
+  display: table;
+  clear: both;
+}
+div.HomeMasterPageFooter > div {
+  float: left;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+div.HomeMasterPageFooter > div:nth-child(1) {
+  width: 25%;
+  margin-left: 0%;
+}
+div.HomeMasterPageFooter > div:nth-child(2) {
+  width: 50%;
+  margin-left: 0%;
+}
+div.HomeMasterPageFooter > div:nth-child(3) {
+  width: 25%;
+  margin-left: 0%;
+}
+html {
+  font-family: 'Open Sans';
+}
+h1.HomePage {
+  font-family: 'Open Sans';
+  color: #ffffff;
+}
+h2.HomePage {
+  font-family: 'Open Sans';
+  color: #4f5f64;
+}
+@media print {
+  MadCap|dropDownHead {
+    font-size: 12pt;
+    font-family: 'Open Sans';
+  }
+}
+/* Header */
+nav.tab-bar {
+  padding-bottom: 0;
+}
+nav.tab-bar .nav-search {
+  max-width: inherit;
+  background: #cecece;
+}
+nav.tab-bar .nav-search form.search .search-bar {
+  padding: 10px 0;
+  margin: 0 auto;
+  padding-left: 1em;
+  padding-right: 1em;
+  max-width: 62.5em;
+}
+nav.tab-bar .nav-search form.search .search-bar .search-field {
+  background: transparent;
+}
+nav.tab-bar .nav-search form.search .search-bar .search-submit-wrapper {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  font-size: 1em;
+  margin: auto;
+}
+nav.tab-bar .nav-search form.search .search-bar .search-submit-wrapper .search-submit {
+  height: 100%;
+  background-color: transparent !important;
+}
+/* Main section */
+.main-section > .outer-row {
+  padding: 0;
+  max-width: inherit;
+}
+.main-section > .outer-row .topichero {
+  background-image: url(../Images/BackgroundImage.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 600px;
+}
+/* General content section */
+.content {
+  padding: 40px 0;
+}
+/* Content section Home*/
+#contentBody #content-section {
+  margin-top: 0;
+}
+#contentBody #content-section .left-section {
+  padding: 0 15px;
+}
+#contentBody #content-section .left-section .SubCenter {
+  text-align: left;
+  border-bottom: 1px solid #354245;
+  padding-bottom: 20px;
+}
+#contentBody #content-section .right-section {
+  padding: 0 15px;
+}
+#contentBody #content-section .right-section .SubCenter {
+  text-align: left;
+  color: #00b1b1;
+}
+#contentBody #content-section .right-section .HomePDFSection > div {
+  padding: 0;
+}
+/* Footer */
+.footer {
+  padding-bottom: 40px;
+  padding-top: 40px;
+  background-color: #1d1f1f;
+}
+.footer .HomeMasterPageFooter > div {
+  width: auto !important;
+  float: left;
+}
+.footer .HomeMasterPageFooter > div:last-child {
+  padding-left: 20px;
+}
+.footer .Copyright {
+  color: #747272;
+  margin: 0;
+  line-height: 30px;
+}
+/*# sourceMappingURL=../MainStyles.css.map */

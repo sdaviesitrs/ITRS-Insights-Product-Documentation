@@ -6,16 +6,26 @@
         <meta name="author" content="" /><title></title>
     </head>
     <body>
-        <div id="contentBody">
-            <MadCap:bodyProxy />
-            <div class="footer center">
-                <div class="HomeMasterPageFooter outer-row">
-                    <div><a href="../../index.html"><img src="../Images/ITRSwhitelogo.png" alttext="" style="width: 178px;height: 71px;" /></a>
+        <div class="topichero">
+            <div class="title-text">
+                <div class="HomeHeroSection">
+                    <div class="centered-text">
+                        <p>&#160;</p>
                     </div>
-                    <div>
-                        <p class="Copyright">&#160;</p>
-                        <p class="Copyright">Copyright © <MadCap:variable name="General.Year" /> <MadCap:variable name="General.ITRS Company&#160;Name" /></p>
-                    </div>
+                </div>
+            </div>
+        </div>
+        <div>
+            <div id="contentBody" class="row outer-row">
+                <MadCap:bodyProxy />
+            </div>
+        </div>
+        <div class="footer center">
+            <div class="HomeMasterPageFooter outer-row">
+                <div><a href="../../index.html"><img src="../Images/itrs-gray-logo.png" alttext="" style="width: 78px;height: 32px;" /></a>
+                </div>
+                <div>
+                    <p class="Copyright">Copyright © <MadCap:variable name="General.Year" /> <MadCap:variable name="General.ITRS Company&#160;Name" /></p>
                 </div>
             </div>
         </div>
