@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="9" MadCap:lastHeight="6193" MadCap:lastWidth="1480">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="9" MadCap:lastHeight="6431" MadCap:lastWidth="1480">
     <head>
         <link href="../Resources/Stylesheets/styles.css" rel="stylesheet" type="text/css" />
     </head>
@@ -113,6 +113,7 @@ select process, host, sampleTime, kernel, user, kernel as kernel1, user as user1
                         <MadCap:snippetBlock src="../Resources/Snippets/Visualization Definition Y Axis Scale.flsnp" />
                     </MadCap:dropDownBody>
                 </MadCap:dropDown>
+                <MadCap:pageBreak />
                 <MadCap:dropDown>
                     <MadCap:dropDownHead>
                         <MadCap:dropDownHotspot>Spark lines <MadCap:snippetText src="../Resources/Snippets/Icon Chart Sparklines.flsnp" /></MadCap:dropDownHotspot>
@@ -144,7 +145,7 @@ lateness looks like for each carrier.</p>
                 <p>Selecting the column chart an axis selection that makes sense is automatically chosen, so from the example above selecting the Column button results in the following visualization:
 </p>
                 <p style="text-align: left;">
-                    <img alt="image4" src="../Resources/Images/chart_barchart.PNG" class="screenshotsmedium" />
+                    <img alt="image4" src="../Resources/Images/chart_barchart.PNG" class="screenshotsmedium" style="width: 575px;height: 451px;" />
                 </p>
                 <div class="system-message"><pre class="literal-block" xml:space="preserve">
 from historical /streams/demo/fix/exchange where MsgType=="New Order Single" group by Symbol select Symbol, sum(OrderQty) as Volume
@@ -192,7 +193,7 @@ select UniqueCarrier, Distance, minutes(AirTime) as AirMinutes
 </pre>
                 </div>
                 <p style="text-align: left;">
-                    <img alt="image15" src="../Resources/Images/chart_scatterplot.PNG" class="screenshotsmedium" />
+                    <img alt="image15" src="../Resources/Images/chart_scatterplot.PNG" class="screenshotsmedium" style="width: 581px;height: 453px;" />
                 </p>
             </div>
             <div class="section" id="dashboards">
