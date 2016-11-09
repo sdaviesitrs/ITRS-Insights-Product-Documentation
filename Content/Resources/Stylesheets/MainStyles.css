@@ -583,6 +583,10 @@ h2.HomePage {
     font-family: 'Open Sans';
   }
 }
+/* General */
+pre {
+  overflow: auto;
+}
 /* Top header back button */
 .back-to-resources {
   background: #0771B5;

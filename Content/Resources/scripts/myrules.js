@@ -73,4 +73,6 @@ var ValoHighlightRules = function() {
     // this.normalizeRules();
 };
 
-highlight.it(ValoHighlightRules())({auto:'pre'});
+$(window).load(function(){
+    highlight.it(ValoHighlightRules())({auto:'pre'});    
+});
