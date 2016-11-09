@@ -16,15 +16,15 @@
                     <li>In the <strong>Destination Dashboard text field</strong>, begin typing the name of the Dashboard you want to select. If you don't know the name, press SPACE BAR and a drop-down list of all available Dashboards will appear</li>
                     <li>Select the <strong>Dashboard </strong>you want, then click <strong><MadCap:snippetText src="Icon Configure.flsnp" /></strong></li>
                     <li>Enter a <strong>name </strong>for the Visualization, and select whether or not to apply a <strong>domain filter</strong>, then click <MadCap:snippetText src="Icon Preview.flsnp" /></li>
-                    <li>If you are happy with the Visualization, click <strong>Send </strong><img src="../Images/icon_send.PNG" class="icon" /> - an on-screen confirmation will appear. Alternatively, click <strong>Configure </strong>to return to the previous screen, or <strong><MadCap:snippetText src="Icon Cancel X.flsnp" /></strong> to return to the Dashboard view </li>
+                    <li>If you are happy with the Visualization, click <strong>Send </strong><img src="../Images/icon_send.png" class="icon" /> - an on-screen confirmation will appear. Alternatively, click <strong>Configure </strong>to return to the previous screen, or <strong><MadCap:snippetText src="Icon Cancel X.flsnp" /></strong> to return to the Dashboard view </li>
                     <li>Select the <strong>Dashboard </strong>from the <strong>Dashboard Menu Tree</strong> to view your Visualization(s) in place</li>
                 </ol>
                 <blockquote>
                     <p>
-                        <img src="../Images/NotebookTree.PNG" class="screenshotsmall" />
+                        <img src="../Images/NotebookTree.png" class="screenshotsmall" />
                     </p>
                     <p>
-                        <img src="../Images/populatedashboard1.PNG" class="screenshotsmall" />
+                        <img src="../Images/populatedashboard1.png" class="screenshotsmall" />
                     </p>
                     <p>
                         <img src="../Images/SendToDash01.png" class="screenshotsmall" />

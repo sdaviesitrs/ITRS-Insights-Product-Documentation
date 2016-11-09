@@ -27,7 +27,7 @@
                     <li>Click <strong><MadCap:snippetText src="Icon Save.flsnp" /></strong></li>
                 </ol>
                 <p>
-                    <img src="../Images/interface_newdomain.PNG" class="screenshotsmedium" />
+                    <img src="../Images/interface_newdomain.png" class="screenshotsmedium" />
                 </p>
             </MadCap:dropDownBody>
         </MadCap:dropDown>

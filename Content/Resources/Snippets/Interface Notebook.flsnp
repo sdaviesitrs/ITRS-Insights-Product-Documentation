@@ -8,7 +8,7 @@
             <MadCap:dropDownBody>
                 <p>Specific information about the <strong class="green">query </strong>and<strong class="green"> free text search</strong> interface elements can be found here: <MadCap:conditionalText MadCap:conditions="Output.Digital"><MadCap:xref href="../../C_User Guides/Query, Search &amp; Transform Data User Guide.htm#Query_Text_Interface">The Query and Free Text Search Interface</MadCap:xref>.</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="Output.Print" style="color: #000000;">The Query and Free Text Search Interface</MadCap:conditionalText></p>
                 <p style="text-align: left;">
-                    <img src="../Images/interface_notebook.PNG" class="screenshotsmedium" />
+                    <img src="../Images/interface_notebook.png" class="screenshotsmedium" />
                 </p>
                 <ol>
                     <li>
