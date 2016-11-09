@@ -387,7 +387,7 @@ MadCap|menuProxy.menu2 {
 	width: 200px;
 	height: 35px;
 	font-weight: bold;
-    .transition('all 200ms')
+    .transition('all 200ms');
 
 	a {
 		display: block;
@@ -585,6 +585,31 @@ h2.HomePage {
 	MadCap|dropDownHead {
 		font-size: 12pt;
 		font-family: @font-family_3;
+	}
+}
+
+/* Top header back button */
+.back-to-resources{
+	background: #0771B5;
+	padding: 15px 0;
+	margin: auto;
+	&>section{
+		padding-left: 1em;
+		padding-right: 1em;
+		display: table;
+		margin: auto;
+		a{
+			text-decoration: none;
+			img{
+				height: 40px;
+			}
+			span{
+				padding-left: 15px;
+				display: table-cell;
+			    color: #13235b;
+			    vertical-align: middle;
+			}
+		}
 	}
 }
 

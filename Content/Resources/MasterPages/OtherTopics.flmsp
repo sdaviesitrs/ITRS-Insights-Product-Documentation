@@ -4,10 +4,21 @@
         <meta charset="utf-8" />
         <meta name="description" content="" />
         <meta name="author" content="" />
-        <script src="../Resources/Scripts/tokenizer.js" ></script>
-        <script src="../Resources/Scripts/myrules.js" ></script>
+        <!-- <script type="text/javascript" src="../scripts/tokenizer.js" ></script>
+        <script type="text/javascript" src="../scripts/myrules.js" ></script> -->
+        <script type="text/javascript" src="../scripts/google-code-prettify/prettify.js" ></script>
+        <script type="text/javascript" src="../scripts/default.js" ></script>
+        <link href="../scripts/google-code-prettify/prettify.css" rel="stylesheet" type="text/css" />
         <title></title>
     </head>
+    <div class="back-to-resources">
+        <section class="row outer-row">
+            <a href='http://staging.resources.itrsgroup.com' >
+                <img src="../Images/itrs-logo.png" />
+                <span>Documentation &amp; Downloads</span>
+            </a>
+        </section>
+    </div>
     <body>
         <div class="content">
             <div id="contentBody" class="row outer-row">
