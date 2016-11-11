@@ -14,7 +14,7 @@
     <div class="back-to-resources">
         <section class="row outer-row">
             <a href='http://staging.resources.itrsgroup.com' >
-                <img src="../Images/itrs-logo.png" />
+                <img src="../Images/ITRSwhitelogo.png" />
                 <span>Documentation &amp; Downloads</span>
             </a>
         </section>
@@ -24,7 +24,7 @@
             <div class="title-text">
                 <div class="HomeHeroSection">
                     <div class="centered-text">
-                        <p>&#160;</p>
+                        <img src="../Images/insights-banner.png" />
                     </div>
                 </div>
             </div>
@@ -34,6 +34,8 @@
                 <MadCap:bodyProxy />
             </div>
         </div>
+        
+        <div class="footer-push"></div>
         <div class="footer center">
             <div class="HomeMasterPageFooter outer-row">
                 <div>

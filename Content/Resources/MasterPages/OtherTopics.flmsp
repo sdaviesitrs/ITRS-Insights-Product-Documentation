@@ -14,7 +14,7 @@
     <div class="back-to-resources">
         <section class="row outer-row">
             <a href='http://staging.resources.itrsgroup.com' >
-                <img src="../Images/itrs-logo.png" />
+                <img src="../Images/ITRSwhitelogo.png" />
                 <span>Documentation &amp; Downloads</span>
             </a>
         </section>
@@ -33,6 +33,8 @@
                 </div>
             </div>
         </div>
+        
+        <div class="footer-push"></div>
         <div class="footer center">
             <div class="HomeMasterPageFooter outer-row">
                 <div>

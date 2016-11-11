@@ -400,25 +400,6 @@ MadCap|menuProxy.menu2 {
   padding-top: 60px;
   background-color: #ffffff;
 }
-div.topichero {
-  background-image: url('../Images/BackgroundImage.png');
-  background-size: cover;
-  background-repeat: no-repeat;
-  padding-top: 20px;
-  height: auto;
-  padding-bottom: 150px;
-}
-div.topichero h1 {
-  font-size: 3.6em;
-  margin-top: 1.11em;
-  margin-bottom: 0.5em;
-  line-height: 100%;
-}
-div.topichero h2 {
-  font-size: 1.8em;
-  margin-bottom: 80px;
-  line-height: 100%;
-}
 .button.black {
   border: solid 2px black;
   color: black;
@@ -587,11 +568,18 @@ h2.HomePage {
 pre {
   overflow: auto;
 }
+.inner-wrap {
+  padding-top: 78px;
+}
 /* Top header back button */
 .back-to-resources {
   background: #0771B5;
   padding: 15px 0;
   margin: auto;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 1;
 }
 .back-to-resources > section {
   padding-left: 1em;
@@ -603,12 +591,13 @@ pre {
   text-decoration: none;
 }
 .back-to-resources > section a img {
+  width: 99px;
   height: 40px;
 }
 .back-to-resources > section a span {
   padding-left: 15px;
   display: table-cell;
-  color: #13235b;
+  color: #fff;
   vertical-align: middle;
 }
 /* Header */
@@ -647,11 +636,18 @@ nav.tab-bar .nav-search form.search .search-bar .search-submit-wrapper .search-s
   max-width: inherit;
 }
 .main-section > .outer-row .topichero {
-  background-image: url(../Images/BackgroundImage.png);
+  display: table;
+  width: 100%;
+  background-image: url(../Images/BackgroundImage.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  height: 600px;
+  height: 300px;
+}
+.main-section > .outer-row .topichero .title-text {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
 }
 /* General content section */
 .content {
@@ -680,7 +676,13 @@ nav.tab-bar .nav-search form.search .search-bar .search-submit-wrapper .search-s
   padding: 0;
 }
 /* Footer */
+.footer-push {
+  height: 120px;
+}
 .footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
   padding-bottom: 40px;
   padding-top: 40px;
   background-color: #1d1f1f;
