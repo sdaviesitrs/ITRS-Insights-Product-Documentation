@@ -567,6 +567,19 @@ h2.HomePage {
 /* General */
 pre {
   overflow: auto;
+  margin-bottom: 15px;
+  padding: 30px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  background: #303336;
+  color: #fff;
+}
+pre span.keyword {
+  color: #66d9ef;
 }
 .inner-wrap {
   padding-top: 78px;
