@@ -1,11 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="15" MadCap:lastHeight="156" MadCap:lastWidth="576">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="15" MadCap:lastHeight="15816" MadCap:lastWidth="878">
     <head>
         <link href="../Resources/Stylesheets/styles.css" rel="stylesheet" type="text/css" />
     </head>
     <body>
         <body>
-            <p>&#160;</p>
             <h1>Query, Search and Transform Introduction</h1>
             <p><MadCap:variable name="General.Product Name&#160;Insights (Full)" /> provides you with two powerful tools for analyzing and searching your data:</p>
             <p>
@@ -158,7 +157,7 @@ example:</p>
                             <img src="../Resources/Images/pipelineexample1.PNG" class="screenshotsmedium" />
                         </p>
                     </blockquote>
-                    <p class="caption" MadCap:autonum=" Figure 1.1: ">Basic Queries</p>
+                    <p class="caption">Basic Queries</p>
                     <p>Now we can modify the query and start performing some trans</p>
                     <p>formations. Lets add a <code>where </code>clause:</p>
                     <blockquote><pre xml:space="preserve">from historical /streams/demo/infrastructure/cpu
@@ -221,7 +220,7 @@ where kernel &gt; 50</pre>
                         <p style="text-align: left;">
                             <img src="../Resources/Images/createquery4.PNG" class="screenshotsmedium" />
                         </p>
-                        <p class="caption" MadCap:autonum=" Figure 1.2: ">Results Window</p>
+                        <p class="caption">Results Window</p>
                     </blockquote>
                     <p>You can now group your results and sort them by clicking on the column headers in the same way that you would a commercial spreadsheet program. </p>
                     <p>You'll also notice that the visualization panel has appeared below the query you wrote. This allows you  to start visualizing your data, and even start putting it into <strong class="green">Dashboards</strong>. Check out our <MadCap:xref href="Visualizing Results User Guide.htm">[%=General.Product Name&#160;Insights (Full)%] Visualizing Results User Guide</MadCap:xref> and our <MadCap:xref href="Dashboard, Notebook &amp; Collection User Guide.htm">[%=General.Product Name&#160;Insights (Full)%] &#160;Notebook&#160;&amp; Dashboard User Guide</MadCap:xref>.</p>
@@ -356,8 +355,8 @@ fuzzy "gif*"
             </MadCap:dropDown>
             <h2><a name="Transform"></a>Transform Data</h2>
             <p><MadCap:variable name="General.Product Name Insights&#160;(abbreviated)" /> stores stream data immutably - the data from
-the original stream cannot be changed. </p>
-            <p>However, you can easily create a derived stream, even if the original data is live and not being stored as a stream. When you create a derived stream, a schema for it is created implicitly. </p>
+the original stream cannot be changed.</p>
+            <p>However, you can easily create a derived stream, even if the original data is live and not being stored as a stream. When you create a derived stream, a schema for it is created implicitly.</p>
             <p class="note">Note: a derived stream will exist only in the Notebook you created it in and will not appear in your Streams listing on the <MadCap:variable name="General.Product Name Insights&#160;(abbreviated)" /> Home screen. A derived stream will be lost when you exit  <MadCap:variable name="General.Product Name Insights&#160;(abbreviated)" /> session.</p>
             <MadCap:snippetBlock src="../Resources/Snippets/How To Create Derived Stream.flsnp" />
             <p>Once you've created a derived stream, you can query it in the same way that you would any streaming or historical stream:</p>

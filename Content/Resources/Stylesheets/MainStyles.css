@@ -220,7 +220,7 @@ img.icon
 	padding: 0px;
 	border: 0;
 	mc-thumbnail-max-height: 25px;
-	mc-thumbnail: none;
+	mc-thumbnail: hover;
 }
 
 a:link
