@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="9" MadCap:lastHeight="6431" MadCap:lastWidth="1480">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="9" MadCap:lastHeight="7782" MadCap:lastWidth="1480">
     <head>
         <link href="../Resources/Stylesheets/styles.css" rel="stylesheet" type="text/css" />
     </head>
@@ -9,7 +9,7 @@
             <p><MadCap:variable name="General.Product Name&#160;Insights (Full)" /> provides a number of different ways to visualize your data
 and the outcome of your <strong class="green">queries</strong>. See <MadCap:xref href="Query, Search &amp; Transform Data User Guide.htm">[%=General.Product Name&#160;Insights (Full)%] Query,&#160;Search&#160;and Transform Data User Guide</MadCap:xref>.</p>
             <p>Once you have run the
-query, you can choose from a range of chart types to display the results. <MadCap:variable name="General.Product Name Insights&#160;(abbreviated)" /> saves your visualization and chart preferences for each query, resetting them only if your query is changed in such a way that your visualization choices are no longer possible.</p>
+query, you can choose from a range of chart types to display the results, and you can apply a filter on how many results are displayed if you want to pare down your charts to something visually more manageable. <MadCap:variable name="General.Product Name Insights&#160;(abbreviated)" /> saves your visualization and chart preferences for each query, resetting them only if your query is changed in such a way that your visualization choices are no longer possible.</p>
             <p>Finally, you can send any of your visualizations to one or more <strong class="green">Dashboards </strong> to develop an aggregated visual display of your key query results in real time. See <MadCap:xref href="Dashboard, Notebook &amp; Collection User Guide.htm">[%=General.Product Name&#160;Insights (Full)%] Dashboard &amp;&#160;Notebook&#160;User Guide</MadCap:xref> <![CDATA[ ]]></p>
             <MadCap:pageBreak />
             <h2 class="nokeyline"><a name="VisualizingInterface"></a>The Visualization Interface</h2>
@@ -23,6 +23,21 @@ query, you can choose from a range of chart types to display the results. <MadCa
                 </li>
                 <li><strong>Re-ordering bar </strong>- drag and drop to reorder your query or free text search</li>
             </ol>
+            <MadCap:pageBreak />
+            <h2><a name="ResultsParameters"></a>Results and Duration Parameters</h2>
+            <p>
+                <img src="../Resources/Images/interface_defineparameters_small.bmp" alt="" title="" class="screenshotsmedium" />
+            </p>
+            <p>It's possible that your queries will return vast amounts of data, and that may make your charts difficult to understand and interpret. To help you declutter your visualizations, <MadCap:variable name="General.Product Name Insights&#160;(abbreviated)" /> allows you to define an additional parameter to filter your results by - either Duration or number of Results.</p>
+            <p>For real-time searches, you can define either a duration over which to display results (anything from the last 1 minute to the last 24 hours), or a limit on the number of results that are displayed (from as few as the most recent 10 to as many as the most recent 10,000).</p>
+            <p>For historical queries, you can specify a limit on the number of Results it displays,  but not a Duration.</p>
+            <p class="note">Regardless of the Results and&#160;Duration parameters you specify, and regardless of whether the query is real-time or historical, the hard limit for the maximum number of results is 10,000 rows of data.</p>
+            <p>The drop-down menus for the Results and Duration settings are located on the visualization interface. They contain pre-configured settings that, once selected, are instantly applied.</p>
+            <p class="technicalfielddefinition">Results (10, 100, 500, 5,000, 10,000(default)) limits the number of rows of results displayed</p>
+            <p class="technicalfielddefinition">Duration (no limit (default), 1 minute, 15 minutes, 30 minutes, 1 hour, 6 hours, 12 hours, 24 hours) only available in real-time queries, this limits the number of results displayed to the number selected, based on when it was received in <MadCap:variable name="General.Product Name Insights&#160;(abbreviated)" />.</p>
+            <p>Duration and Results parameters that you define are carried through to any dashboards or notebooks that you use to store the chart or query.</p>
+            <MadCap:snippetBlock src="../Resources/Snippets/How To Define Results or Duration Limit.flsnp" />
+            <p class="note">If you've set a duration limit on your real-time query results, you can reset the Duration to default (no  limit) by selecting 10,000 from the Results drop-down.</p>
             <MadCap:pageBreak />
             <h2>Chart Types</h2>
             <MadCap:dropDown>
@@ -141,60 +156,80 @@ lateness looks like for each carrier.</p>
             </div>
             <div class="section" id="column-chart-image3">
                 <MadCap:pageBreak />
-                <p>Column Chart <img alt="image3" src="../Resources/Images/ColumnButton.png" class="icon" /></p>
-                <p>Selecting the column chart an axis selection that makes sense is automatically chosen, so from the example above selecting the Column button results in the following visualization:
+                <MadCap:dropDown>
+                    <MadCap:dropDownHead>
+                        <MadCap:dropDownHotspot>Column Chart <img alt="image3" src="../Resources/Images/ColumnButton.png" class="icon" /></MadCap:dropDownHotspot>
+                    </MadCap:dropDownHead>
+                    <MadCap:dropDownBody>
+                        <p>Selecting the column chart an axis selection that makes sense is automatically chosen, so from the example above selecting the Column button results in the following visualization:
 </p>
-                <p style="text-align: left;">
-                    <img alt="image4" src="../Resources/Images/chart_barchart.PNG" class="screenshotsmedium" style="width: 575px;height: 451px;" />
-                </p>
-                <div class="system-message"><pre class="literal-block" xml:space="preserve">
+                        <p style="text-align: left;">
+                            <img alt="image4" src="../Resources/Images/chart_barchart.PNG" class="screenshotsmedium" />
+                        </p>
+                        <div class="system-message"><pre class="literal-block" xml:space="preserve">
 from historical /streams/demo/fix/exchange where MsgType=="New Order Single" group by Symbol select Symbol, sum(OrderQty) as Volume
 </pre>
-                </div>
-                <p style="text-align: left;">
-                    <img alt="image5" src="../Resources/Images/fix_volume.png" class="screenshotsmedium" />
-                </p>
-                <p>Depending on the contents of your query return you can change the axis
+                        </div>
+                        <p style="text-align: left;">
+                            <img alt="image5" src="../Resources/Images/fix_volume.png" class="screenshotsmedium" />
+                        </p>
+                        <p>Depending on the contents of your query return you can change the axis
 configurations and also group by certain values.</p>
+                    </MadCap:dropDownBody>
+                </MadCap:dropDown>
                 <MadCap:pageBreak />
             </div>
             <div class="section" id="anomaly-detection-image8">
-                <p>Anomaly Detection <img alt="image8" src="../Resources/Images/AnomalyButton.png" class="icon" /></p>
-                <p>This chart option will appear when using <a href="#id1"><MadCap:xref href="../B_Technical Reference/Algorithms/Anomaly.htm">Anomaly</MadCap:xref></a> and highlights where anomalies are
+                <MadCap:dropDown>
+                    <MadCap:dropDownHead>
+                        <MadCap:dropDownHotspot>Anomaly Detection <img alt="image8" src="../Resources/Images/AnomalyButton.png" class="icon" /></MadCap:dropDownHotspot>
+                    </MadCap:dropDownHead>
+                    <MadCap:dropDownBody>
+                        <p>This chart option will appear when using <a href="#id1"><MadCap:xref href="../B_Technical Reference/Algorithms/Anomaly.htm">Anomaly</MadCap:xref></a> and highlights where anomalies are
 found. So for instance if we take an ECG stream then we can run a query
 to emit and chart the following. With the anomaly displayed underneath
 and any area where this is breached highlighted on the main chart.</p>
-                <div class="system-message"><pre class="literal-block" xml:space="preserve">
+                        <div class="system-message"><pre class="literal-block" xml:space="preserve">
 from /streams/demo/infrastructure/ecg
 group by contributor
 select contributor, anomaly(200, 40, 20) (value) as result
 emit every value
 </pre>
-                </div>
-                <p style="text-align: left;">
-                    <img alt="image9" src="../Resources/Images/ECG-Anom-01.png" class="screenshotsmedium" />
-                </p>
-               Scatterplot Chart <img alt="image14" src="../Resources/Images/ScatterButton.png" class="icon" /></div>
+                        </div>
+                        <p style="text-align: left;">
+                            <img alt="image9" src="../Resources/Images/ECG-Anom-01.png" class="screenshotsmedium" />
+                        </p>
+                    </MadCap:dropDownBody>
+                </MadCap:dropDown>
+            </div>
             <div class="section" id="scatterplot-chart-image14">
-                <p>A scatterplot is a useful summary of a set of bivariate data (two
+                <MadCap:dropDown>
+                    <MadCap:dropDownHead>
+                        <MadCap:dropDownHotspot>
+               Scatterplot Chart <img alt="image14" src="../Resources/Images/ScatterButton.png" class="icon" /></MadCap:dropDownHotspot>
+                    </MadCap:dropDownHead>
+                    <MadCap:dropDownBody>
+                        <p>A scatterplot is a useful summary of a set of bivariate data (two
 variables),it gives a good visual picture of the relationship between
 the two variables, and aids the interpretation of the correlation
 coefficient or regression model.</p>
-                <p>For example from the following query on USA flight data we can compare
+                        <p>For example from the following query on USA flight data we can compare
 the distance travelled vs flight time for flights departing on a given
 hour. As you would expect there is a strong correlation, but you can
 also see some of the outliers where those carriers seemed to take longer
 to fly a given journey.... if your aim is to get home as soon as
 possible make be you would chose one of the others.</p>
-                <div class="system-message"><pre class="literal-block" xml:space="preserve">
+                        <div class="system-message"><pre class="literal-block" xml:space="preserve">
 from historical /streams/demo/usa/flightdata
 where flightDate == "2005-06-01" &amp;&amp; DepTime &gt; "12:00" &amp;&amp; DepTime &lt; "13:00"
 select UniqueCarrier, Distance, minutes(AirTime) as AirMinutes
 </pre>
-                </div>
-                <p style="text-align: left;">
-                    <img alt="image15" src="../Resources/Images/chart_scatterplot.png" class="screenshotsmedium" style="width: 581px;height: 453px;" />
-                </p>
+                        </div>
+                        <p style="text-align: left;">
+                            <img alt="image15" src="../Resources/Images/chart_scatterplot.PNG" class="screenshotsmedium" />
+                        </p>
+                    </MadCap:dropDownBody>
+                </MadCap:dropDown>
             </div>
             <div class="section" id="dashboards">
                 <h2>Dashboards</h2>

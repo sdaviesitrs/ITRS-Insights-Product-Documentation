@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="629" MadCap:lastWidth="995">
+    <body>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>How To Define a Results or Duration Limit for a set of Query Results</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <ol>
+                    <li>Run <MadCap:variable name="General.Product Name&#160;Insights (Full)" style="font-weight: bold;" /></li>
+                    <li>Create and run a <strong>query</strong></li>
+                    <li>Click <MadCap:snippetText src="Icon Showing Last Results.flsnp" /></li>
+                    <li>Select one of the <strong>pre-set entries</strong> for <strong>either </strong>Duration <strong>or </strong>Results (only one can be applied). The new parameter will be applied to the results in the window below</li>
+                </ol>
+                <p>
+                    <img src="../Images/interface_defineparameters.png" alt="" title="" class="screenshotsmedium" />
+                </p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+    </body>
+</html>
