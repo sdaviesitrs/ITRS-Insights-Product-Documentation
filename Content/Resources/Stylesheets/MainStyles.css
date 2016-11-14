@@ -93,11 +93,12 @@ h2
 	margin-bottom: 4px;
 	margin-top: 20px;
 	border-top: solid 1px #525252;
-	font-weight: bolder;
 	padding-top: 5px;
 	font-family: 'Open Sans';
 	font-size: 24px;
 	color: #4f5f64;
+	font-weight: bold;
+	font-style: italic;
 }
 
 h3

@@ -16,4 +16,7 @@
     <PinnedItem Name="pre" />
     <PinnedItem Name="strong.greenlowercase" />
     <PinnedItem Name="p.technicalfielddefinition" />
+    <PinnedItem Name="img.screenshotsmall" />
+    <PinnedItem Name="img.icon" />
+    <PinnedItem Name="img.screenshotsmedium" />
 </PinnedItems>

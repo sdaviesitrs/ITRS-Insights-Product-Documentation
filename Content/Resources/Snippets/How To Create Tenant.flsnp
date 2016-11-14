@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="902" MadCap:lastWidth="1618">
+    <body>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>How To Create a Tenant</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <ol>
+                    <li>Run <MadCap:variable name="General.Product Name&#160;Insights (Full)" style="font-weight: bold;" /></li>
+                    <li>Enter the <strong>http+sse:// address</strong></li>
+                    <li>Type the <strong>name </strong>of the new tenant</li>
+                    <li>Click <strong>Log In</strong></li>
+                    <li>Click <strong>Create Tenant </strong></li>
+                </ol>
+                <p>The tenant will be created and Valo will open. A message will appear in the top-right corner to confirm that the tenant has been created.</p>
+                <p>
+                    <img src="../Images/create_tenant1.PNG" class="screenshotsmedium" />
+                </p>
+                <p>
+                    <img src="../Images/Create_tenant2.PNG" class="screenshotsmedium" />
+                </p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+    </body>
+</html>
