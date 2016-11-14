@@ -64,4 +64,8 @@
     Name="DocumentVersionNo"
     Comment=""
     EvaluatedDefinition="v0.1">v0.1</Variable>
+  <Variable
+    Name="ResourcesWebsite"
+    Comment=""
+    EvaluatedDefinition="http://staging.resources.itrsgroup.com">http://staging.resources.itrsgroup.com</Variable>
 </CatapultVariableSet>

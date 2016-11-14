@@ -3,19 +3,48 @@
     <head>
         <meta charset="utf-8" />
         <meta name="description" content="" />
-        <meta name="author" content="" /><title></title>
+        <meta name="author" content="" />
+        <script type="text/javascript" src="../scripts/tokenizer.js" ></script>
+        <script type="text/javascript" src="../scripts/myrules.js" ></script>
+        <!-- <script type="text/javascript" src="../scripts/google-code-prettify/prettify.js" ></script>
+        <script type="text/javascript" src="../scripts/default.js" ></script> -->
+        <link href="../scripts/google-code-prettify/prettify.css" rel="stylesheet" type="text/css" />
+        <title></title>
     </head>
+    <div class="back-to-resources">
+        <section class="row outer-row">
+            <a href='http://staging.resources.itrsgroup.com' >
+                <img src="../Images/ITRSwhitelogo.png" />
+                <span>Documentation &amp; Downloads</span>
+            </a>
+        </section>
+    </div>
     <body>
-        <div id="contentBody">
-            <MadCap:bodyProxy />
-            <div class="footer center">
-                <div class="HomeMasterPageFooter outer-row">
-                    <div><a href="../../index.html"><img src="../Images/ITRSwhitelogo.png" alttext="" style="width: 178px;height: 71px;" /></a>
+        <div class="topichero">
+            <div class="title-text">
+                <div class="HomeHeroSection">
+                    <div class="centered-text">
+                        <img src="../Images/insights-banner.png" />
                     </div>
-                    <div>
-                        <p class="Copyright">&#160;</p>
-                        <p class="Copyright">Copyright © <MadCap:variable name="General.Year" /> <MadCap:variable name="General.ITRS Company&#160;Name" /></p>
-                    </div>
+                </div>
+            </div>
+        </div>
+        <div>
+            <div id="contentBody" class="row outer-row">
+                <MadCap:bodyProxy />
+            </div>
+        </div>
+        
+        <div class="footer-push"></div>
+        <div class="footer center">
+            <div class="HomeMasterPageFooter outer-row">
+                <div>
+                    <a href="../../index.html">
+                        <img src="../Images/itrs-gray-logo.png" alttext="" style="width: 78px;height: 32px;" />
+                    </a>
+                </div>
+                <div>
+                    <p class="Copyright">Copyright © <MadCap:variable name="General.Year" /> <MadCap:variable name="General.ITRS Company&#160;Name" /></p>
                 </div>
             </div>
         </div>
