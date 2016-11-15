@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html MadCap:lastBlockDepth="7" MadCap:lastHeight="1345" MadCap:lastWidth="1511" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+<html MadCap:lastBlockDepth="7" MadCap:lastHeight="1595" MadCap:lastWidth="1511" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
     <head><title>Getting Started with Insights</title>
         <style type="text/css">
 /*
@@ -468,23 +468,34 @@ ul.auto-toc
 </style>
     </head>
     <body>
-        <h1>What's&#160;New in <MadCap:variable name="General.Product Name&#160;Insights (Full)" /> <MadCap:variable name="Version.CurrentInsights" /></h1>
-        <p>A new version of Insights has been released with dramatic improvements to performance particularly when visualization large volumes of data.  </p><strong class="green">User Interface</strong>
-        <p>The visual style has been improved to look more vibrant and a new visualization has been added.</p>
-        <p><strong class="green">Dashboard layout customizing</strong>
+        <h1><MadCap:variable name="General.Product Name&#160;Insights (Full)" /> <MadCap:variable name="Version.CurrentInsights" /> Release Notes</h1>
+        <p>Welcome!</p>
+        <h2>Improvements</h2>
+        <h3>User Interface</h3>
+        <p><strong class="green">Color&#160;Scheme</strong>
         </p>
-        <p>The layout for dashboards are now fully customizable.  </p>
-        <p>Simply click and drag a visualization panel header to move it, and click and drag the edge to resize it. <MadCap:conditionalText MadCap:conditions="Output.Digital">See:<MadCap:xref href="../C_User Guides/Dashboard, Notebook &amp; Collection User Guide.htm#Organize">Organize a Dashboard</MadCap:xref>.</MadCap:conditionalText></p>
-        <p>Many more features are planned for dashboards, but in the meantime flexible layout will allow dramatically more options when creating and customizing dashboards. </p><strong class="green">Bubble Map Chart</strong>
-        <p>We've added a Bubble Map chart that you can use with any query returning Geopoint data.&#160;For example:</p>
-        <blockquote><pre class="prettyprint" xml:space="preserve">from /streams/demo/equities/exchanges
-select name, latency, geopoint(lat, lon)</pre>
+        <p>The color scheme for Insights has been improved adding more colours to the palette for notebooks and query visualisations.  Chart parameters have been consolidated into one section and a unified style applied</p>
+        <h3>User Experience</h3>
+        <p><strong class="green">Vitalization settings </strong>
+        </p>
+        <p>Vitalization settings for queries are now preserved between sessions, so that a preferred chart, groupings and axes bindings are now retained.  No more setting the same parameters every time you return to a query or notebook.</p>
+        <h3>Performance</h3>
+        <p><strong class="green">Visualization&#160;</strong>
+        </p>
+        <p>Performance has been dramatically improved when processing and visualizing large sources of data.  Graphs that previously caused performance to degrade are now displayed without a problem.  Some features have been removed while we re-engineer components for higher performance.</p>
+        <h2>Known Behaviors</h2>
+        <h3>Performance</h3>
+        <p><strong class="green">Nested <strong class="green">data </strong>in tables </strong>
+        </p>
+        <p>The previous table plug-in had performance issues displaying nested data; this functionality has been removed while we work on an alternative solution.  Nested data will be displayed as a preview, in order to process flattened data.</p>
+        <p> The workaround is for queries to be adjusted as follows:</p>
+        <p>This query will retrieve nested data:</p>
+        <blockquote><pre class="prettyprint">from /streams/demo/geneos/cpu</pre>
         </blockquote>
-        <p>Bubble maps should be used when showing density of information or events with a geographical context. <MadCap:conditionalText MadCap:conditions="Output.Digital">See :<MadCap:xref href="../C_User Guides/Visualizing Results User Guide.htm#BubbleMap">Bubble Map</MadCap:xref>.</MadCap:conditionalText></p><strong class="green">KPI Chart</strong>
-        <p>A new KPI&#160;chart lets you rapidly create visualizations of your key metrics for placement on a Dashboard.</p>
-        <p>View the data as a <i>number</i>, <i>column</i> or <i>sparkline</i>, or select the <i>status</i> setting to display a color-coded arrow indicator that allows super-fast understanding of whether the KPI&#160;trend is good or bad. <MadCap:conditionalText MadCap:conditions="Output.Digital">See:&#160;<MadCap:xref href="../C_User Guides/Visualizing Results User Guide.htm#KPI">KPI</MadCap:xref>.</MadCap:conditionalText></p>
-        <p>
-            <img src="../Resources/Images/chart_kpi.PNG" class="screenshotsmedium" />
-        </p>
+        <p>This query uses the <code>select </code>clause and will retrieve flattened data:</p>
+        <blockquote><pre class="prettyprint" xml:space="preserve">from /streams/demo/geneos/cpu
+select host.name host.id data.row.cpuutilisation</pre>
+        </blockquote>
+        <p>A solution to display nested data without incurring performance issues is planned.</p>
     </body>
 </html>
