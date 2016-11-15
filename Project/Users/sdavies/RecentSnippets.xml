@@ -1,5 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <UrlList>
+    <Url Source="Resources/Snippets/Visualization KPI Options.flsnp" />
+    <Url Source="Resources/Snippets/Visualization Definition Axes Configuration.flsnp" />
+    <Url Source="Resources/Snippets/icon_chart_KPI.flsnp" />
+    <Url Source="Resources/Snippets/How To Create Tenant.flsnp" />
     <Url Source="Resources/Snippets/Icon Showing Last Results.flsnp" />
     <Url Source="Resources/Snippets/How To Define Results or Duration Limit.flsnp" />
     <Url Source="Resources/Snippets/How to Create Collection from New.flsnp" />
@@ -16,8 +20,4 @@
     <Url Source="Resources/Snippets/How to Export Query.flsnp" />
     <Url Source="Resources/Snippets/How to Edit Query.flsnp" />
     <Url Source="Resources/Snippets/How to Delete Query.flsnp" />
-    <Url Source="Resources/Snippets/How To Create Text Search.flsnp" />
-    <Url Source="Resources/Snippets/How To Create Notebook.flsnp" />
-    <Url Source="Resources/Snippets/How To Create Domain.flsnp" />
-    <Url Source="Resources/Snippets/How To Create Derived Stream.flsnp" />
 </UrlList>
