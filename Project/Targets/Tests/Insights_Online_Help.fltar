@@ -6,7 +6,7 @@
   Destinations=""
   GlossaryTermConversion="marked"
   DefaultUrl="/Content/index.html"
-  MasterToc="/Project/TOCs/Web Help.fltoc"
+  MasterToc="/Project/TOCs/Insights.fltoc"
   MasterStylesheet="/Content/Resources/Stylesheets/MainStyles.css"
   Skin="/Project/Skins/Default.flskn">
   <PrintedOutput

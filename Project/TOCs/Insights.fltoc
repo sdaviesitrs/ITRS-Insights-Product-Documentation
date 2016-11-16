@@ -4,9 +4,6 @@
   <TocEntry
     Title="QUICK START">
     <TocEntry
-      Title="What's New in [%=General.Product Name Insights (Full)%] [%=Version.CurrentInsights%]"
-      Link="/Content/A_Quick Start/Whats New in ITRS Insights.htm" />
-    <TocEntry
       Title="Getting Started with [%=General.Product Name Insights (Full)%]"
       Link="/Content/A_Quick Start/Getting Started with ITRS Insights.htm"
       StartSection="false"
@@ -16,6 +13,12 @@
     <TocEntry
       Title="Organizing Data in  [%=General.Product Name Insights (Full)%]"
       Link="/Content/A_Quick Start/Organizing Data in ITRS Insights.htm" />
+    <TocEntry
+      Title="What's New in [%=General.Product Name Insights (Full)%] [%=Version.CurrentInsights%]"
+      Link="/Content/A_Quick Start/Whats New in ITRS Insights.htm" />
+    <TocEntry
+      Title="[%=General.Product Name Insights (Full)%] [%=Version.CurrentInsights%] Release Notes"
+      Link="/Content/A_Quick Start/ITRS Insights Release Notes.htm" />
   </TocEntry>
   <TocEntry
     Title="USER GUIDES">

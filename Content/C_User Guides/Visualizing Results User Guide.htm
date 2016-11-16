@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="9" MadCap:lastHeight="10781" MadCap:lastWidth="2072">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="9" MadCap:lastHeight="9272" MadCap:lastWidth="1480">
     <head>
         <link href="../Resources/Stylesheets/styles.css" rel="stylesheet" type="text/css" />
     </head>
@@ -24,11 +24,11 @@ query, you can choose from a range of chart types to display the results, and yo
                 <li><strong>Re-ordering bar </strong>- drag and drop to reorder your query or free text search</li>
             </ol>
             <MadCap:pageBreak />
-            <h2><a name="ResultsParameters"></a>Results and Duration Parameters</h2>
+            <h2><a name="ResultsParameters"></a>Define Results and Duration Visualization Parameters</h2>
             <p>
                 <img src="../Resources/Images/interface_defineparameters_small.bmp" alt="" title="" class="screenshotsmedium" />
             </p>
-            <p>It's possible that your queries will return vast amounts of data, and that may make your charts difficult to understand and interpret. To help you declutter your visualizations, <MadCap:variable name="General.Product Name Insights&#160;(abbreviated)" /> allows you to define an additional parameter to filter your results by - either Duration or number of Results.</p>
+            <p>Some queries will return vast amounts of data, and that may make your charts difficult to understand and interpret. To help you declutter your visualizations, <MadCap:variable name="General.Product Name Insights&#160;(abbreviated)" /> allows you to define an additional parameter to filter your results by - either Duration or number of Results.</p>
             <p>For real-time searches, you can define either a duration over which to display results (anything from the last 1 minute to the last 24 hours), or a limit on the number of results that are displayed (from as few as the most recent 10 to as many as the most recent 10,000).</p>
             <p>For historical queries, you can specify a limit on the number of Results it displays,  but not a Duration.</p>
             <p class="note">Regardless of the Results and&#160;Duration parameters you specify, and regardless of whether the query is real-time or historical, the hard limit for the maximum number of results is 10,000 rows of data.</p>
@@ -42,10 +42,11 @@ query, you can choose from a range of chart types to display the results, and yo
             <h2>Chart Types</h2>
             <MadCap:dropDown>
                 <MadCap:dropDownHead>
-                    <MadCap:dropDownHotspot>KPI <MadCap:snippetText src="../Resources/Snippets/icon_chart_KPI.flsnp" /></MadCap:dropDownHotspot>
+                    <MadCap:dropDownHotspot><a name="KPI"></a>KPI <MadCap:snippetText src="../Resources/Snippets/icon_chart_KPI.flsnp" /></MadCap:dropDownHotspot>
                 </MadCap:dropDownHead>
                 <MadCap:dropDownBody>
                     <p>The Key&#160;Performance Indicator chart is designed to be placed on a dashboard or other UI control to provide rapid interpretation of a query result.</p>
+                    <p>You can view the data as a <i>number</i>, <i>column</i> or <i>sparkline</i>, or select the <i>status</i> setting to display a color-coded arrow indicator that allows super-fast understanding of whether the KPI&#160;trend is good or bad.</p>
                     <MadCap:snippetBlock src="../Resources/Snippets/Visualization Configuration Options.flsnp" />
                     <MadCap:snippetBlock src="../Resources/Snippets/Visualization Definition Group By.flsnp" />
                     <MadCap:snippetBlock src="../Resources/Snippets/Visualization Definition Axes Configuration.flsnp" />
@@ -64,7 +65,7 @@ query, you can choose from a range of chart types to display the results, and yo
                 </MadCap:dropDownHead>
                 <MadCap:dropDownBody>
                     <p>The most simple, and default, manner of displaying query results is a
-table. Tables can be sorted by selecting the appropriate column. </p>
+table. Tables can be sorted by selecting the appropriate column.</p>
                     <MadCap:snippetBlock src="../Resources/Snippets/Visualization Configuration Options.flsnp" />
                     <MadCap:snippetBlock src="../Resources/Snippets/Visualization Definition Group By.flsnp" />
                     <blockquote>
@@ -127,7 +128,10 @@ from /streams/demo/infrastructure/cpu
 select process, host, sampleTime, kernel, user, kernel as kernel1, user as user1, kernel as kernel2, user as user2, kernel as kernel3, user as user3
 </pre>
                         </blockquote>
-                        <blockquote><pre class="literal-block" xml:space="preserve" style="text-align: left;"><img src="../Resources/Images/chart_bubblechart.PNG" class="screenshotsmedium" /></pre>
+                        <blockquote>
+                            <p xml:space="preserve">
+                                <img src="../Resources/Images/chart_bubblechart.PNG" class="screenshotsmedium" />
+                            </p>
                         </blockquote>
                     </MadCap:dropDownBody>
                 </MadCap:dropDown>
@@ -136,14 +140,16 @@ select process, host, sampleTime, kernel, user, kernel as kernel1, user as user1
                 <MadCap:pageBreak />
                 <MadCap:dropDown>
                     <MadCap:dropDownHead>
-                        <MadCap:dropDownHotspot>Bubble Map </MadCap:dropDownHotspot>
+                        <MadCap:dropDownHotspot><a name="BubbleMap"></a>Bubble Map </MadCap:dropDownHotspot>
                     </MadCap:dropDownHead>
                     <MadCap:dropDownBody>
-                        <p>A bubble map displays geographic location and size data points of a query as bubbles. It allows you to see the geographical dispersion of data points. </p>
+                        <p>A bubble map displays geographic location and size data points of a query as bubbles.</p>
+                        <p>It allows you to see the geographical dispersion of data points. Bubble maps should be used when showing density of information or events with a geographical context.</p>
                         <p>You can configure the following fields in order to customize your visualization:</p>
                         <MadCap:snippetBlock src="../Resources/Snippets/Visualization Definition Group By.flsnp" />
                         <MadCap:snippetBlock src="../Resources/Snippets/Visualization Definition Axes Configuration.flsnp" />
                         <MadCap:snippetBlock src="../Resources/Snippets/Visualization Definition Y Axis Scale.flsnp" />
+                        <p>&#160;</p>
                     </MadCap:dropDownBody>
                 </MadCap:dropDown>
                 <MadCap:pageBreak />

@@ -11,10 +11,10 @@
   MasterPage="/Content/Resources/MasterPages/OtherTopics.flmsp"
   ResultsPerPage="10"
   Skin="/Project/Skins/HTML5 - Top Navigation.flskn"
-  ConditionTagExpression="exclude[Output.Null or Output.Print or Product.Valo or &quot;Versions.Current Valo&quot;] "
+  ConditionTagExpression="exclude[Output.Null or Output.Print or &quot;Output.Staging Only&quot; or Product.Valo or &quot;Versions.Current Valo&quot;] "
   DefaultUrl="/Content/index.html"
   MasterStylesheet="/Content/Resources/Stylesheets/MainStyles.css"
-  MasterToc="/Project/TOCs/Web Help.fltoc"
+  MasterToc="/Project/TOCs/Insights.fltoc"
   EquationsOutputType="PNG">
   <PrintedOutput
     CollapseMargins="true"
