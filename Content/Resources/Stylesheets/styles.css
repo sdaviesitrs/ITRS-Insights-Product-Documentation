@@ -740,14 +740,21 @@ p.pagebreak
 
 	MadCap|dropDownHead.H2NoKeyline
 	{
-		font-size: 14pt;
 		color: #3e3e3e;
 		font-family: 'Open Sans';
+		font-size: 16pt;
+		font-weight: bold;
+		padding-bottom: 10px;
+		padding-top: 5px;
 	}
 
 	MadCap|dropDownHead.H2
 	{
 		font-family: 'Open Sans';
+		font-weight: bold;
+		font-size: 15pt;
+		padding-bottom: 10px;
+		padding-top: 5px;
 	}
 
 	h1
@@ -1046,7 +1053,7 @@ p.pagebreak
 	{
 		font-family: 'Open Sans';
 		font-size: 12pt;
-		color: #3e3e3e;
+		color: #16b1b2;
 	}
 
 	p.CopyrightHeading
@@ -1073,6 +1080,7 @@ p.pagebreak
 	{
 		font-family: 'Open Sans';
 		color: #3e3e3e;
+		font-style: italic;
 	}
 }
 
