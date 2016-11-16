@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="8" MadCap:lastHeight="347" MadCap:lastWidth="576">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="8" MadCap:lastHeight="297" MadCap:lastWidth="576">
     <body>
         <MadCap:dropDown>
             <MadCap:dropDownHead>
@@ -13,7 +13,7 @@
                 </ol>
                 <blockquote>
                     <p>
-                        <img src="../Images/delete_query2.png" class="screenshotsmedium" />
+                        <img src="../Images/delete_query2.png" class="screenshotsmedium" style="width: 353px;height: 100px;" />
                     </p>
                 </blockquote>
             </MadCap:dropDownBody>
