@@ -565,6 +565,9 @@ h2.HomePage {
   }
 }
 /* General */
+.inner-wrap {
+  padding-top: 0;
+}
 pre {
   overflow: auto;
   margin-bottom: 15px;
@@ -581,45 +584,50 @@ pre {
 pre span.keyword {
   color: #66d9ef;
 }
-.inner-wrap {
-  padding-top: 78px;
-}
 /* Top header back button */
 .back-to-resources {
-  background: #0771B5;
-  padding: 15px 0;
-  margin: auto;
-  position: absolute;
-  top: 0;
-  width: 100%;
+  text-align: right;
+  height: 0;
+  position: relative;
+  top: -140px;
   z-index: 1;
 }
-.back-to-resources > section {
-  padding-left: 1em;
-  padding-right: 1em;
-  display: table;
-  margin: auto;
+@media only screen and (min-width: 768px) and (max-width: 1279px) {
+  .back-to-resources {
+    top: -125px;
+  }
 }
-.back-to-resources > section a {
+@media only screen and (max-width: 767px) {
+  .back-to-resources {
+    top: -125px;
+  }
+}
+.back-to-resources a {
+  color: #000;
   text-decoration: none;
-}
-.back-to-resources > section a img {
-  width: 99px;
-  height: 40px;
-}
-.back-to-resources > section a span {
-  padding-left: 15px;
-  display: table-cell;
-  color: #fff;
-  vertical-align: middle;
+  font-weight: bold;
 }
 /* Header */
 nav.tab-bar {
   padding-bottom: 0;
+  padding-top: 30px;
+}
+nav.tab-bar a.logo {
+  background-image: url(../Images/logo_header.png);
+  background-size: contain;
+}
+nav.tab-bar ul.navigation {
+  padding-left: 0;
+  padding-right: 0;
+}
+nav.tab-bar ul.navigation > li > a {
+  padding-right: 0;
+  padding-left: 30px;
 }
 nav.tab-bar .nav-search {
   max-width: inherit;
   background: #cecece;
+  text-align: right;
 }
 nav.tab-bar .nav-search form.search .search-bar {
   padding: 10px 0;
@@ -630,6 +638,10 @@ nav.tab-bar .nav-search form.search .search-bar {
 }
 nav.tab-bar .nav-search form.search .search-bar .search-field {
   background: transparent;
+  text-align: right;
+  padding-right: 35px;
+  text-transform: uppercase;
+  font-weight: bold;
 }
 nav.tab-bar .nav-search form.search .search-bar .search-submit-wrapper {
   position: absolute;
@@ -642,6 +654,7 @@ nav.tab-bar .nav-search form.search .search-bar .search-submit-wrapper {
 nav.tab-bar .nav-search form.search .search-bar .search-submit-wrapper .search-submit {
   height: 100%;
   background-color: transparent !important;
+  background-image: url(../Images/search.png);
 }
 /* Main section */
 .main-section > .outer-row {
@@ -662,6 +675,14 @@ nav.tab-bar .nav-search form.search .search-bar .search-submit-wrapper .search-s
   vertical-align: middle;
   text-align: center;
 }
+.main-section > .outer-row .topichero .title-text .centered-text span {
+  display: block;
+  color: #fff;
+  font-size: 22px;
+}
+.main-section > .outer-row .topichero .title-text .centered-text img {
+  max-width: 100%;
+}
 /* General content section */
 .content {
   padding: 40px 0;
@@ -670,23 +691,38 @@ nav.tab-bar .nav-search form.search .search-bar .search-submit-wrapper .search-s
 #contentBody #content-section {
   margin-top: 0;
 }
-#contentBody #content-section .left-section {
-  padding: 0 15px;
+#contentBody #content-section .SubCenter {
+  font-size: 22px;
 }
-#contentBody #content-section .left-section .SubCenter {
+#contentBody #content-section .HomeWelcomePDFSection {
+  padding: 0;
+}
+#contentBody #content-section .HomeWelcomePDFSection .left-section {
+  padding: 0 15px 0 0;
+}
+#contentBody #content-section .HomeWelcomePDFSection .left-section .SubCenter {
   text-align: left;
   border-bottom: 1px solid #354245;
   padding-bottom: 20px;
 }
-#contentBody #content-section .right-section {
-  padding: 0 15px;
+#contentBody #content-section .HomeWelcomePDFSection .right-section {
+  padding: 0 0 0 15px;
 }
-#contentBody #content-section .right-section .SubCenter {
+#contentBody #content-section .HomeWelcomePDFSection .right-section .SubCenter {
   text-align: left;
   color: #00b1b1;
 }
-#contentBody #content-section .right-section .HomePDFSection > div {
+#contentBody #content-section .HomeWelcomePDFSection .right-section .HomePDFSection > div {
   padding: 0;
+}
+#contentBody #content-section .HomeWelcomePDFSection .right-section .HomePDFSection > div:nth-child(1) {
+  text-align: left;
+}
+#contentBody #content-section .HomeWelcomePDFSection .right-section .HomePDFSection > div:nth-child(2) {
+  text-align: center;
+}
+#contentBody #content-section .HomeWelcomePDFSection .right-section .HomePDFSection > div:nth-child(3) {
+  text-align: right;
 }
 /* Footer */
 .footer-push {
