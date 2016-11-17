@@ -639,8 +639,16 @@ nav{
 						background: transparent;
 						text-align: right;
 						padding-right: 35px;
-						text-transform: uppercase;
     					font-weight: bold;
+						&::-webkit-input-placeholder {
+						  text-transform: uppercase;
+						}
+						&::-moz-placeholder {
+						  text-transform: uppercase;
+						}
+						&:-ms-input-placeholder {
+						  text-transform: uppercase;
+						}
 					}
 					.search-submit-wrapper{
 						position: absolute;

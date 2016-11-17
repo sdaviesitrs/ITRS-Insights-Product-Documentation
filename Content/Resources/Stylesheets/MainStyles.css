@@ -640,8 +640,16 @@ nav.tab-bar .nav-search form.search .search-bar .search-field {
   background: transparent;
   text-align: right;
   padding-right: 35px;
-  text-transform: uppercase;
   font-weight: bold;
+}
+nav.tab-bar .nav-search form.search .search-bar .search-field::-webkit-input-placeholder {
+  text-transform: uppercase;
+}
+nav.tab-bar .nav-search form.search .search-bar .search-field::-moz-placeholder {
+  text-transform: uppercase;
+}
+nav.tab-bar .nav-search form.search .search-bar .search-field:-ms-input-placeholder {
+  text-transform: uppercase;
 }
 nav.tab-bar .nav-search form.search .search-bar .search-submit-wrapper {
   position: absolute;
