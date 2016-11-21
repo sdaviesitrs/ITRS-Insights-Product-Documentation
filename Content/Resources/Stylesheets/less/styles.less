@@ -570,6 +570,9 @@ h2.HomePage {
 	}
 }
 /* General */
+.inner-wrap{
+	padding-top: 0;
+}
 pre{
 	overflow: auto;
 	margin-bottom: 15px;
@@ -582,38 +585,23 @@ pre{
 	}
 }
 
-
-.inner-wrap{
-    padding-top: 78px;
-}
-
 /* Top header back button */
 .back-to-resources{
-	background: #0771B5;
-	padding: 15px 0;
-	margin: auto;
-	position: absolute;
-	top: 0;
-	width: 100%;
+	text-align: right;
+	height: 0;
+	position: relative;
+	top: -140px;
 	z-index: 1;
-	&>section{
-		padding-left: 1em;
-		padding-right: 1em;
-		display: table;
-		margin: auto;
-		a{
-			text-decoration: none;
-			img{
-				width: 99px;
-				height: 40px;
-			}
-			span{
-				padding-left: 15px;
-				display: table-cell;
-			    color: #fff;
-			    vertical-align: middle;
-			}
-		}
+	@media @tablet{
+		top: -125px;
+	}
+	@media @phone{
+		top: -125px;
+	}
+	a{
+		color: #000;
+	    text-decoration: none;
+	    font-weight: bold;
 	}
 }
 
@@ -621,9 +609,25 @@ pre{
 nav{
 	&.tab-bar{
 		padding-bottom: 0;
+	    padding-top: 30px;
+		a.logo{
+			background-image: url(../Images/logo_header.png);
+    		background-size: contain;
+		}
+		ul.navigation{
+			padding-left: 0;
+			padding-right: 0;
+			&>li{
+				&>a{
+					padding-right: 0;
+					padding-left: 30px;
+				}
+			}
+		}
 		.nav-search{
 			max-width: inherit;
 			background: #cecece;
+			text-align: right;
 			form.search{
 				.search-bar{
 					padding: 10px 0;
@@ -633,6 +637,18 @@ nav{
 				    max-width: 62.5em;
 					.search-field{
 						background: transparent;
+						text-align: right;
+						padding-right: 35px;
+    					font-weight: bold;
+						&::-webkit-input-placeholder {
+						  text-transform: uppercase;
+						}
+						&::-moz-placeholder {
+						  text-transform: uppercase;
+						}
+						&:-ms-input-placeholder {
+						  text-transform: uppercase;
+						}
 					}
 					.search-submit-wrapper{
 						position: absolute;
@@ -644,6 +660,7 @@ nav{
 						.search-submit{
 							height: 100%;
 							background-color: transparent !important;
+							background-image: url(../Images/search.png);
 						}
 					}
 				}
@@ -669,6 +686,16 @@ nav{
 				display: table-cell;
 			    vertical-align: middle;
 			    text-align: center;
+				.centered-text{
+					span{
+						display: block;
+						color: #fff;
+						font-size: 22px;
+					}
+					img{
+						max-width: 100%;
+					}
+				}
 			}
 		}
 	}
@@ -686,23 +713,38 @@ nav{
 #contentBody{
 	#content-section{
 		margin-top: 0;
-		.left-section{
-			padding: 0 15px;
-			.SubCenter{
-				text-align: left;
-			    border-bottom: 1px solid #354245;
-			    padding-bottom: 20px;
-			}
+		.SubCenter{
+			font-size: 22px;
 		}
-		.right-section{
-			padding: 0 15px;
-			.SubCenter{
-				text-align: left;
-				color: #00b1b1;
+		.HomeWelcomePDFSection{
+			padding: 0;
+			.left-section{
+				padding: 0 15px 0 0;
+				.SubCenter{
+					text-align: left;
+				    border-bottom: 1px solid #354245;
+				    padding-bottom: 20px;
+				}
 			}
-			.HomePDFSection{
-				&>div{
-					padding: 0;
+			.right-section{
+				padding: 0 0 0 15px;
+				.SubCenter{
+					text-align: left;
+					color: #00b1b1;
+				}
+				.HomePDFSection{
+					&>div{
+						padding: 0;
+						&:nth-child(1){
+							text-align: left;
+						}
+						&:nth-child(2){
+							text-align: center;
+						}
+						&:nth-child(3){
+							text-align: right;
+						}
+					}
 				}
 			}
 		}

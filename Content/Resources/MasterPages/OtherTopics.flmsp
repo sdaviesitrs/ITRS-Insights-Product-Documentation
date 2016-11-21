@@ -11,15 +11,14 @@
         <link href="../scripts/google-code-prettify/prettify.css" rel="stylesheet" type="text/css" />
         <title></title>
     </head>
-    <div class="back-to-resources">
-        <section class="row outer-row">
-            <a href='http://staging.resources.itrsgroup.com' >
-                <img src="../Images/ITRSwhitelogo.png" />
-                <span>Documentation &amp; Downloads</span>
-            </a>
-        </section>
-    </div>
     <body>
+        <div class="back-to-resources">
+            <section class="row outer-row">
+                <a href='http://resources.itrsgroup.com' >
+                    <span>RESOURCES HOME</span>
+                </a>
+            </section>
+        </div>
         <div class="content">
             <div id="contentBody" class="row outer-row">
                 <div class="row collapse">
@@ -33,7 +32,7 @@
                 </div>
             </div>
         </div>
-        
+
         <div class="footer-push"></div>
         <div class="footer center">
             <div class="HomeMasterPageFooter outer-row">
