@@ -1,5 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <UrlList>
+    <Url Source="Resources/Snippets/Procedure Type in Collection Drop-Down.flsnp" />
+    <Url Source="Resources/Snippets/About Free Text Search.flsnp" />
     <Url Source="Resources/Snippets/Visualization KPI Options.flsnp" />
     <Url Source="Resources/Snippets/Visualization Definition Axes Configuration.flsnp" />
     <Url Source="Resources/Snippets/icon_chart_KPI.flsnp" />
@@ -18,6 +20,4 @@
     <Url Source="Resources/Snippets/How To Launch Valo.flsnp" />
     <Url Source="Resources/Snippets/How to Import Query.flsnp" />
     <Url Source="Resources/Snippets/How to Export Query.flsnp" />
-    <Url Source="Resources/Snippets/How to Edit Query.flsnp" />
-    <Url Source="Resources/Snippets/How to Delete Query.flsnp" />
 </UrlList>

@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="8" MadCap:lastHeight="625" MadCap:lastWidth="1151">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="8" MadCap:lastHeight="699" MadCap:lastWidth="576">
     <body>
         <MadCap:dropDown>
             <MadCap:dropDownHead>
@@ -15,14 +15,16 @@
                     <li>Use additional <MadCap:xref href="../../B_Technical Reference/Query Clauses, Functions &amp; Operators/Query Clauses.htm">Query Clauses</MadCap:xref> and <MadCap:xref href="../../B_Technical Reference/Query Clauses, Functions &amp; Operators/Query Functions.htm">Query&#160;Functions</MadCap:xref> to specify which data to transform into the derived stream</li>
                     <li>Complete the query with <code>into</code>, followed by the <strong>name</strong> you want to give the derived stream. For example: </li>
                     <div class="system-message">
-                        <blockquote><pre class="literal-block" xml:space="preserve">from /streams/demo/infrastructure/cpu</pre><pre class="literal-block" xml:space="preserve">where contributor == "DEMOSVR38"</pre><pre class="literal-block" xml:space="preserve">into myNewStream</pre>
+                        <blockquote><pre class="literal-block" xml:space="preserve">from /streams/demo/infrastructure/cpu
+where contributor == "DEMOSVR38"
+into myNewStream</pre>
                         </blockquote>
                     </div>
                     <li>Click <strong><MadCap:snippetText src="Icon Run.flsnp" /></strong>.&#160;A panel will appear at the bottom of your query to confirm that the derived stream has been created  </li>
                 </ol>
                 <div class="system-message">
                     <blockquote>
-                        <img src="../Images/create_derivedstream.png" class="screenshotsmall" />
+                        <img src="../Images/create_derivedstream.png" class="screenshotsmall" style="width: 321px;height: 154px;" />
                     </blockquote>
                 </div>
             </MadCap:dropDownBody>

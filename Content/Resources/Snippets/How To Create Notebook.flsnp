@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="561" MadCap:lastWidth="576">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="573" MadCap:lastWidth="576">
     <body>
         <MadCap:dropDown>
             <MadCap:dropDownHead>
@@ -13,14 +13,15 @@
                     <li>
                         <MadCap:snippetText src="Procedure Type in Collection Drop-Down.flsnp" />
                     </li>
-                MadCap:continue="true"&gt;
-                    <li>Enter a <strong>name </strong>and <strong>description </strong>for the new Notebook</li><li>Click <strong><MadCap:snippetText src="Icon Save.flsnp" /></strong></li></ol>
+                    <li>Enter a <strong>name </strong>and <strong>description </strong>for the new Notebook</li>
+                    <li>Click <strong><MadCap:snippetText src="Icon Save.flsnp" /></strong></li>
+                </ol>
                 <blockquote>
                     <p>
-                        <img src="../Images/CreateNotebook.png" alt="" title="" class="screenshotsmall" />
+                        <img src="../Images/CreateNotebook.png" alt="" title="" class="screenshotsmall" style="width: 172px;height: 85px;" />
                     </p>
                     <p>
-                        <img src="../Images/addnewnotebook.PNG" class="screenshotsmall" />
+                        <img src="../Images/addnewnotebook.PNG" class="screenshotsmall" style="width: 310px;height: 147px;" />
                     </p>
                 </blockquote>
             </MadCap:dropDownBody>

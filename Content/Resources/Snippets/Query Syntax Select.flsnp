@@ -1,12 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="3" MadCap:lastHeight="168" MadCap:lastWidth="976">
     <body>
-        <blockquote>
-            <pre class="literal-block" xml:space="preserve">
-from historical &lt;stream_name&gt;</pre>
-            <pre class="literal-block" xml:space="preserve">where value &gt; 50
-</pre>
-            <pre class="literal-block" xml:space="preserve">select field1, field2, field3</pre>
+        <blockquote><pre class="literal-block" xml:space="preserve">
+from historical &lt;stream_name&gt;
+where value &gt; 50
+select field1, field2, field3</pre>
         </blockquote>
     </body>
 </html>
