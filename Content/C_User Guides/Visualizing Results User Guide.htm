@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="9" MadCap:lastHeight="9505" MadCap:lastWidth="1480">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="9" MadCap:lastHeight="9525" MadCap:lastWidth="1480">
     <head>
         <link href="../Resources/Stylesheets/styles.css" rel="stylesheet" type="text/css" />
     </head>
@@ -170,9 +170,11 @@ select UniqueCarrier, minutes(ArrDelay) as ArrivalDelay
 </pre>
                         <p MadCap:conditions="Output.Null">For example in our USA flight data we can see what the pattern of
 lateness looks like for each carrier.</p>
-                        <p style="text-align: left;">
-                            <img src="../Resources/Images/chart_sparkline.PNG" class="screenshotsmedium" />
-                        </p>
+                        <blockquote>
+                            <p style="text-align: left;">
+                                <img src="../Resources/Images/chart_sparkline.PNG" class="screenshotsmedium" />
+                            </p>
+                        </blockquote>
                     </MadCap:dropDownBody>
                 </MadCap:dropDown>
             </div>
@@ -185,9 +187,11 @@ lateness looks like for each carrier.</p>
                     <MadCap:dropDownBody>
                         <p>Selecting the column chart an axis selection that makes sense is automatically chosen.
 </p>
-                        <p style="text-align: left;">
-                            <img alt="image4" src="../Resources/Images/chart_barchart.PNG" class="screenshotsmedium" />
-                        </p>
+                        <blockquote>
+                            <p style="text-align: left;">
+                                <img alt="image4" src="../Resources/Images/chart_barchart.PNG" class="screenshotsmedium" />
+                            </p>
+                        </blockquote>
                         <div class="system-message"><pre class="literal-block" xml:space="preserve">
 from historical /streams/demo/fix/exchange where MsgType=="New Order Single" group by Symbol select Symbol, sum(OrderQty) as Volume
 </pre>
@@ -216,13 +220,15 @@ select contributor, anomaly(200, 40, 20) (value) as result
 emit every value
 </pre>
                         </div>
-                        <p style="text-align: left;">
-                            <img alt="image9" src="../Resources/Images/ECG-Anom-01.png" class="screenshotsmedium" />
-                        </p>
+                        <blockquote>
+                            <p style="text-align: left;">
+                                <img alt="image9" src="../Resources/Images/chart_anomalydetection.png" class="screenshotsmedium" />
+                            </p>
+                        </blockquote>
                     </MadCap:dropDownBody>
                 </MadCap:dropDown>
             </div>
-            <div class="section" id="scatterplot-chart-image14">
+            <div class="section" id="scatterplot-chart-image14" MadCap:conditions="Output.Null">
                 <MadCap:dropDown>
                     <MadCap:dropDownHead>
                         <MadCap:dropDownHotspot>
@@ -230,11 +236,11 @@ emit every value
                     </MadCap:dropDownHead>
                     <MadCap:dropDownBody>
                         <p>A scatterplot is a useful summary of a set of bivariate data (two
-variables),it gives a good visual picture of the relationship between
+variables), It gives a good visual picture of the relationship between
 the two variables, and aids the interpretation of the correlation
 coefficient or regression model.</p>
                         <p>For example from the following query on USA flight data we can compare
-the distance travelled vs flight time for flights departing on a given
+the distance traveled vs flight time for flights departing on a given
 hour. As you would expect there is a strong correlation, but you can
 also see some of the outliers where those carriers seemed to take longer
 to fly a given journey.... if your aim is to get home as soon as
