@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="15" MadCap:lastHeight="21131" MadCap:lastWidth="1351">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="15" MadCap:lastHeight="17944" MadCap:lastWidth="820">
     <head>
         <link href="../Resources/Stylesheets/styles.css" rel="stylesheet" type="text/css" />
     </head>
@@ -103,8 +103,7 @@ anomaly detection and univariate analysis.</p>
 entity that you are querying:</p>
                     <blockquote>
                         <div class="system-message">
-                            <MadCap:snippetText src="../Resources/Snippets/Query Syntax From.flsnp" /> </div>
-                        <div class="system-message"><![CDATA[                ]]></div>
+                            <MadCap:snippetText src="../Resources/Snippets/Query Syntax From.flsnp" /><![CDATA[               ]]></div>
                     </blockquote>
                     <p>If you are querying historical data (in a TSR), then you
 also have to use the operator <code>historical</code> in front of the stream name. For
@@ -195,6 +194,26 @@ where kernel &gt; 50</pre>
                     </blockquote>
                 </MadCap:dropDownBody>
             </MadCap:dropDown>
+            <MadCap:dropDown>
+                <MadCap:dropDownHead class="H2NoKeyline">
+                    <MadCap:dropDownHotspot><a name="ExposedParameters"></a>Exposed Parameters</MadCap:dropDownHotspot>
+                </MadCap:dropDownHead>
+                <MadCap:dropDownBody>
+                    <p>To better support front-end users who may use queries but not actually write them, one or more parameters in a query can be exposed.</p>
+                    <p>Exposing a parameter in a query is achieved by using <code>@</code>, followed by the parameter name. </p>
+                    <p>In the following example, parameter windows for <code>process </code>and <code>host </code>will appear beneath the query (this happens in real-time, as the parameters are exposed):</p>
+                    <blockquote><pre xml:space="preserve">from historical /streams/demo/infrastructure/mem
+where process == @process &amp;&amp;&#160;host = @host
+select sampleTime, workingSet - 1 as w1, workingSet as w2, workingSet = 1 as w3</pre>
+                    </blockquote>
+                    <blockquote>
+                        <p>
+                            <img src="../Resources/Images/exposed_parameter.png" alt="" title="" class="screenshotsmedium" />
+                        </p>
+                    </blockquote>
+                    <p>Once the query has been written, end-users can enter strings into the parameter windows without having to make any changes to the SQL-like code.</p>
+                </MadCap:dropDownBody>
+            </MadCap:dropDown>
             <MadCap:pageBreak />
             <MadCap:dropDown>
                 <MadCap:dropDownHead class="H2NoKeyline">
@@ -227,7 +246,6 @@ where kernel &gt; 50</pre>
                     <blockquote>
                         <MadCap:snippetBlock src="../Resources/Snippets/How to Delete Query.flsnp" />
                     </blockquote>
-                    <p>&#160;</p>
                     <p MadCap:conditions="Output.Null">If you want to share your queries, then that's easy, too:</p>
                     <blockquote MadCap:conditions="Output.Null">
                         <MadCap:snippetBlock src="../Resources/Snippets/How to Export Query.flsnp" />
@@ -235,7 +253,6 @@ where kernel &gt; 50</pre>
                     <blockquote MadCap:conditions="Output.Null">
                         <MadCap:snippetBlock src="../Resources/Snippets/How to Import Query.flsnp" />
                     </blockquote>
-                    <p>&#160;</p>
                 </MadCap:dropDownBody>
             </MadCap:dropDown>
             <MadCap:pageBreak />
