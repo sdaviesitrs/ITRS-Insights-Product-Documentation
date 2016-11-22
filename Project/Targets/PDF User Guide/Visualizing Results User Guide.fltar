@@ -1,14 +1,14 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <CatapultTarget
   Version="2"
   Comment="New Target"
   Type="PDF"
   Destinations=""
   GlossaryTermConversion="marked"
-  MasterToc="/Project/TOCs/Visualizing Results User Guide.fltoc"
+  MasterToc="/Project/TOCs/visualising Results User Guide.fltoc"
   MasterStylesheet="/Content/Resources/Stylesheets/styles.css"
   ConditionTagExpression="exclude[Output.Digital or Output.Null or &quot;Output.Staging Only&quot;] "
-  OutputFile="ITRS Insights - Visualizing Results User Guide v1 0">
+  OutputFile="ITRS Insights - visualising Results User Guide v1 0">
   <PrintedOutput
     CollapseMargins="true"
     GenerateTOCProxy="true"
@@ -16,7 +16,7 @@
     GenerateGlossaryProxy="true" />
   <DocumentProperties
     Author="ITRS Group Ltd"
-    Title="ITRS Insights - Visualizing Results User Guide v1.0"
+    Title="ITRS Insights - visualising Results User Guide v1.0"
     Subject="Results" />
   <PDF
     ShowUsedBookmarks="false"
@@ -25,7 +25,7 @@
     TitleBar="DocumentTitle" />
   <Variables>
     <Variable
-      Name="General/DocumentTitle">Visualizing Results</Variable>
+      Name="General/DocumentTitle">visualising Results</Variable>
     <Variable
       Name="General/DocumentVersionNo">v1.0</Variable>
   </Variables>

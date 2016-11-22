@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="197" MadCap:lastWidth="1177">
     <body>
         <MadCap:dropDown>
@@ -6,7 +6,7 @@
                 <MadCap:dropDownHotspot>Example Notebook</MadCap:dropDownHotspot>
             </MadCap:dropDownHead>
             <MadCap:dropDownBody>
-                <p id="Example"> In our smart street example (see <MadCap:xref href="../../A_Quick Start/Organizing Data in ITRS Insights.htm">Organizing Data in  [%=General.Product Name&#160;Insights (Full)%]</MadCap:xref> for all the examples),&#160;if I want to analyze the energy usage in
+                <p id="Example"> In our smart street example (see <MadCap:xref href="../../A_Quick Start/Organizing Data in ITRS Insights.htm">Organizing Data in  [%=General.Product Name&#160;Insights (Full)%]</MadCap:xref> for all the examples),&#160;if I want to analyse the energy usage in
 house number 4 then I open a notebook and select <code>House04</code>, I am then able
 to perform searches and queries against that domain, from a simplistic
 search that requests how many times ‘kettle’ appears in that stream
