@@ -1,14 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <UrlList>
-    <Url Source="Resources/Images/chart_scatterplot.PNG" />
     <Url Source="Resources/Images/chart_barchart.PNG" />
     <Url Source="Resources/Images/PDF Cover.png" />
     <Url Source="Resources/Images/createquery3.PNG" />
     <Url Source="Resources/Images/NotebookTree.PNG" />
     <Url Source="Resources/Images/Valo Binary Icon.PNG" />
     <Url Source="Resources/Images/ITRS-Insights Logo.PNG" />
-    <Url Source="Resources/Images/02_thecontributors.gif" />
-    <Url Source="Resources/Images/logo_ITRSInsights_Valogreen_grey.png" />
     <Url Source="Resources/Images/ITRSwhitelogo.png" />
-    <Url Source="Resources/Images/CompanyLogo.png" />
 </UrlList>
