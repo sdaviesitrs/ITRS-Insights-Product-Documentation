@@ -23,6 +23,6 @@
     GenerateGlossaryProxy="true" />
   <Destinations>
     <Destination
-      Link="/Project/Destinations/Insights Staging Site.fldes" />
+      Link="/Project/Destinations/Insights Production Site.fldes" />
   </Destinations>
 </CatapultTarget>
