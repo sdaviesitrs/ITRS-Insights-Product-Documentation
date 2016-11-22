@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <CatapultToc
   Version="1">
   <TocEntry
@@ -44,8 +44,8 @@
     SectionNumberReset="continue"
     VolumeNumberReset="same">
     <TocEntry
-      Title="[%=General.Product Name Insights (Full)%] Visualizing Results User Guide"
-      Link="/Content/C_User Guides/Visualizing Results User Guide.htm"
+      Title="[%=General.Product Name Insights (Full)%] visualising Results User Guide"
+      Link="/Content/C_User Guides/visualising Results User Guide.htm"
       BreakType="none"
       StartSection="false"
       PageNumberReset="reset"

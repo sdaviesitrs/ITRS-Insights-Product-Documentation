@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="980" MadCap:lastWidth="1531">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="936" MadCap:lastWidth="937">
     <body>
         <MadCap:dropDown>
             <MadCap:dropDownHead class="H2NoKeyline">
@@ -13,13 +13,15 @@
                     <li>
                         <MadCap:snippetText src="UI Definition Active Tab.flsnp" />
                     </li>
-                    <li><strong>Re-ordering bar </strong>- drag and drop to reorder your query or free text search</li>
+                    <li>
+                        <MadCap:snippetText src="UI Definition Reordering Bar.flsnp" />
+                    </li>
                     <li>
                         <MadCap:snippetText src="UI Definition Breadcrumbs.flsnp" />
                     </li>
                     <li><strong>Query Panel</strong> - a text box in which you enter your query. <MadCap:variable name="General.Product Name Insights&#160;(abbreviated)" /> features a live syntax highlighter to enable you to rapidly see any errors in your query syntax</li>
                     <li><strong>Free Text&#160;Panel </strong>- a text box in which you enter your text string </li>
-                    <li><strong>Run </strong>- runs all of the queries and free text searches in the active Notebook</li>
+                    <li><strong>Run</strong> - runs all of the queries and free text searches in the active Notebook</li>
                     <li>
                         <MadCap:snippetText src="UI Definition Edit.flsnp" />
                     </li>
@@ -27,9 +29,10 @@
                         <MadCap:snippetText src="UI Definition Export.flsnp" />
                     </li>
                     <li><strong>Run Query</strong> - runs the query</li>
+                    <li><strong>Exposed Parameter</strong> - entry fields for parameters exposed in the Query Panel (see: <MadCap:xref href="../../C_User Guides/Query, Search &amp; Transform Data User Guide.htm#ExposedParameters">Exposed Parameters</MadCap:xref>.)</li>
                     <li><strong>Time Boundary&#160;Selection</strong> - visible only in free text searches, these controls allow you to specify a time and date range for returned results</li>
-                    <li><strong>Search </strong>- runs the free text search</li>
                     <li><strong>Additional Options </strong>- opens a dialog displaying additional options (duplicate and delete)</li>
+                    <li><strong>Search </strong>- runs the free text search</li>
                     <li>
                         <MadCap:snippetText src="UI Definition Add.flsnp" />
                     </li>

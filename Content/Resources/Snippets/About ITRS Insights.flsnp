@@ -1,11 +1,11 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="5" MadCap:lastHeight="246" MadCap:lastWidth="1193">
     <body>
         <p><MadCap:variable name="General.Product Name Insights&#160;(abbreviated)" /> is a streaming big data analytics platform that simplifies the analysis of vast amounts of data at speed. It combines big data storage with a real-time computation engine and in-built machine learning and algorithms.</p>
         <p><MadCap:variable name="General.Product Name Insights&#160;(abbreviated)" /> allows you to easily run powerful search and queries against
 your data in real-time or historically. Using an SQL-like language you
 can perform transformations, queries and analysis on your streams of
-data. Then, using the built-in charts and tables provided, you can visualize the results.</p>
+data. Then, using the built-in charts and tables provided, you can visualise the results.</p>
         <p><MadCap:variable name="General.Product Name Insights&#160;(abbreviated)"></MadCap:variable> is comprised of two components</p>
         <blockquote>
             <ul class="simple">

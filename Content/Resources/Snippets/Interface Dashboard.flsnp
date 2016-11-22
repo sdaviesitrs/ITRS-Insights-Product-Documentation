@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="702" MadCap:lastWidth="576">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="684" MadCap:lastWidth="937">
     <body>
         <MadCap:dropDown>
             <MadCap:dropDownHead class="H2NoKeyline">
@@ -23,7 +23,7 @@
                     <li>
                         <MadCap:snippetText src="UI Definition Delete.flsnp" />
                     </li>
-                    <li><strong>Resize Handle</strong> - grab and drag the <MadCap:snippetText src="Icon Resize Handle.flsnp" /> to rescale the visualization</li>
+                    <li><strong>Resize Handle</strong> - (hover mouse over the chart to reveal) grab and drag the <MadCap:snippetText src="Icon Resize Handle.flsnp" /> to rescale the visualization</li>
                 </ol>
             </MadCap:dropDownBody>
         </MadCap:dropDown>

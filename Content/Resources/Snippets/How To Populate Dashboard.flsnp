@@ -1,5 +1,5 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="8" MadCap:lastHeight="710" MadCap:lastWidth="576">
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="8" MadCap:lastHeight="1070" MadCap:lastWidth="911">
     <body>
         <MadCap:dropDown>
             <MadCap:dropDownHead>
@@ -10,7 +10,7 @@
                     <li>Run <MadCap:variable name="General.Product Name&#160;Insights (Full)" style="font-weight: bold;" /></li>
                     <li>Click <MadCap:snippetText src="Icon Notebook.flsnp" /> on the main navigation panel </li>
                     <li>Select the <strong>Collection </strong>the Notebook is saved in, then select the <strong>Notebook </strong>from the tree</li>
-                    <li>Run the <strong>Query </strong>or <strong>Free Text Search</strong> that you want to visualize in your Dashboard, or simply click <MadCap:snippetText src="Icon Run All.flsnp" /> to run all the queries and searches in the active Notepad</li>
+                    <li>Run the <strong>Query </strong>or <strong>Free Text Search</strong> that you want to visualise in your Dashboard, or simply click <MadCap:snippetText src="Icon Run All.flsnp" /> to run all the queries and searches in the active Notepad</li>
                     <li> Choose and configure a <strong>Visualization </strong>from the <strong>Visualization&#160;Panel </strong> in each of the results that you want to send to the Dashboard</li>
                     <li>Click <strong><MadCap:snippetText src="Icon Send to Dashboard.flsnp" /></strong> for the first Visualization (repeat steps 6 to 10 for each additional Visualization you want to add to the Dashboard). A Send Visualization to Dashboard dialog will open</li>
                     <li>In the <strong>Destination Dashboard text field</strong>, begin typing the name of the Dashboard you want to select. If you don't know the name, press SPACE BAR and a drop-down list of all available Dashboards will appear</li>
@@ -31,9 +31,6 @@
                     </p>
                     <p>
                         <img src="../Images/SendToDash02.png" class="screenshotsmall" />
-                    </p>
-                    <p>
-                        <img src="../Images/SendToDash03.png" class="screenshotsmall" />
                     </p>
                 </blockquote>
             </MadCap:dropDownBody>

@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="750" MadCap:lastWidth="1531">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="728" MadCap:lastWidth="937">
     <body>
         <MadCap:dropDown>
             <MadCap:dropDownHead class="H2NoKeyline">
                 <MadCap:dropDownHotspot>The Notebook Interface</MadCap:dropDownHotspot>
             </MadCap:dropDownHead>
             <MadCap:dropDownBody>
-                <p>Specific information about the <strong class="green">query </strong>and<strong class="green"> free text search</strong> interface elements can be found here: <MadCap:conditionalText MadCap:conditions="Output.Digital"><MadCap:xref href="../../C_User Guides/Query, Search &amp; Transform Data User Guide.htm#Viewing">Viewing the Results</MadCap:xref>.</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="Output.Print" style="color: #000000;">The Query and Free Text Search Interface</MadCap:conditionalText></p>
+                <p MadCap:conditions="Output.Digital">Specific information about the <strong class="green">query </strong>and<strong class="green"> free text search</strong> interface elements can be found here: <MadCap:xref href="../../C_User Guides/Query, Search &amp; Transform Data User Guide.htm#Viewing">Viewing the Results</MadCap:xref>.</p>
                 <p style="text-align: left;">
                     <img src="../Images/interface_notebook.png" class="screenshotsmedium" />
                 </p>

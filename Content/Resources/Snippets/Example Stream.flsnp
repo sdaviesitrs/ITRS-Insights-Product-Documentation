@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="7" MadCap:lastHeight="1007" MadCap:lastWidth="1164">
     <body>
         <MadCap:dropDown>
@@ -21,12 +21,12 @@ up of all the data coming from the individual fibre optic cables, thus
 <strong>the <strong class="green">stream </strong>of data is made up of the data from all the individual
 <strong class="green">contributor </strong>devices</strong>: the toaster at house Number 2, the refrigerator at
 Number 6, the coffee machine at Number 13, and so on.<br /><br /><MadCap:snippetText src="About Schema.flsnp" /><br /><br />Because the schema ensures that the data flowing in is in a common format, we can
-then meaningfully compare and analyze it based on those common
-attribute values. We can analyze which refrigerator
+then meaningfully compare and analyse it based on those common
+attribute values. We can analyse which refrigerator
 consumes the most energy and because our schema clearly detailed to
 format that the time would come in. We can compare all the appliances
 that are on at 8am in each house without fear that some
-payloads included with a time stamp of 8 would in fact be for 8pm. We can analyze pretty much anything we want, in fact. </p>
+payloads included with a time stamp of 8 would in fact be for 8pm. We can analyse pretty much anything we want, in fact. </p>
                 <p id="Example">Now for the vaguely technical bit: <br /></p>
                 <p id="Example">Each stream has a unique name (a Unique Resource Identifier - URI) that allows us to easily categorize and identify it<MadCap:conditionalText MadCap:conditions="Product.Valo"> via Valo's RESTful API</MadCap:conditionalText>. In <MadCap:variable name="General.Product Name Insights&#160;(abbreviated)" />, therefore, our smart house stream
 might be called something like <code>/streams/hce/electricity/usage</code></p>

@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <CatapultToc
   Version="1">
   <TocEntry
@@ -38,8 +38,8 @@
       Title="[%=General.Product Name Insights (Full)%] Query, Search and Transform Data User Guide"
       Link="/Content/C_User Guides/Query, Search &amp; Transform Data User Guide.htm" />
     <TocEntry
-      Title="[%=General.Product Name Insights (Full)%] Visualizing Results User Guide"
-      Link="/Content/C_User Guides/Visualizing Results User Guide.htm" />
+      Title="[%=General.Product Name Insights (Full)%] visualising Results User Guide"
+      Link="/Content/C_User Guides/visualising Results User Guide.htm" />
     <TocEntry
       Title="[%=General.Product Name Insights (Full)%] Domain &amp; Contributors User Guide"
       Link="/Content/C_User Guides/Domain &amp; Contributors User Guide.htm" />

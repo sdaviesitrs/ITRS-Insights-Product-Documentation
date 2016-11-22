@@ -1,27 +1,28 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="9" MadCap:lastHeight="10777" MadCap:lastWidth="2072">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="9" MadCap:lastHeight="9525" MadCap:lastWidth="1480">
     <head>
         <link href="../Resources/Stylesheets/styles.css" rel="stylesheet" type="text/css" />
     </head>
     <body>
-        <h1><MadCap:variable name="General.Product Name&#160;Insights (Full)" /> Visualizing Results User Guide</h1>
+        <h1><MadCap:variable name="General.Product Name&#160;Insights (Full)" /> visualising Results User Guide</h1>
         <div class="document" id="visualising-data">
-            <p><MadCap:variable name="General.Product Name&#160;Insights (Full)" /> provides a number of different ways to visualize your data
+            <p><MadCap:variable name="General.Product Name&#160;Insights (Full)" /> provides a number of different ways to visualise your data
 and the outcome of your <strong class="green">queries</strong>. See <MadCap:xref href="Query, Search &amp; Transform Data User Guide.htm">[%=General.Product Name&#160;Insights (Full)%] Query,&#160;Search&#160;and Transform Data User Guide</MadCap:xref>.</p>
             <p>Once you have run the
 query, you can choose from a range of chart types to display the results, and you can apply a filter on how many results are displayed if you want to pare down your charts to something visually more manageable. <MadCap:variable name="General.Product Name Insights&#160;(abbreviated)" /> saves your visualization and chart preferences for each query, resetting them only if your query is changed in such a way that your visualization choices are no longer possible.</p>
-            <p>Finally, you can send any of your visualizations to one or more <strong class="green">Dashboards </strong> to develop an aggregated visual display of your key query results in real time. See <MadCap:xref href="Dashboard, Notebook &amp; Collection User Guide.htm">[%=General.Product Name&#160;Insights (Full)%] Dashboard &amp;&#160;Notebook&#160;User Guide</MadCap:xref> <![CDATA[ ]]></p>
+            <p>Finally, you can send any of your visualizations to one or more <strong class="green">Dashboards </strong> to develop an aggregated visual display of your key query results in real time. See <MadCap:xref href="Dashboard, Notebook &amp; Collection User Guide.htm">[%=General.Product Name&#160;Insights (Full)%] Dashboard &amp;&#160;Notebook&#160;User Guide</MadCap:xref>. </p>
+            <p class="note">The visualisation options displayed to you are dependent on the content of the query that you run. For example, you will not be able to see the Anomaly Detection chart option unless your query includes a valid <code>select anomaly</code> clause.</p>
             <MadCap:pageBreak />
-            <h2 class="nokeyline"><a name="VisualizingInterface"></a>The Visualization Interface</h2>
+            <h2 class="nokeyline"><a name="visualisingInterface"></a>The Visualization Interface</h2>
             <p style="text-align: left;">
-                <img src="../Resources/Images/chart_linechart.PNG" class="screenshotsmedium" />
+                <img src="../Resources/Images/chart_barchart.PNG" alt="" title="" class="screenshotsmedium" />
             </p>
             <p>The Visualization Interface</p>
             <ol>
                 <li>
                     <MadCap:snippetText src="../Resources/Snippets/UI Definition Active Tab.flsnp" />
                 </li>
-                <li><strong>Re-ordering bar </strong>- drag and drop to reorder your query or free text search</li>
+                <li><strong>Re-ordering bar </strong>- drag and drop to reorder your query or free text search (when multiple queries or searches exist)</li>
             </ol>
             <MadCap:pageBreak />
             <h2><a name="ResultsParameters"></a>Define Results and Duration Visualization Parameters</h2>
@@ -86,7 +87,7 @@ as a series of data points called 'markers' connected by straight line
 segments. The measurement points are ordered (typically by their x-axis
 value) and joined with straight line segments. </p>
                     <p>A line chart is often
-used to visualize a trend in data over intervals of time – a time series
+used to visualise a trend in data over intervals of time – a time series
 – thus the line is often drawn chronologically.</p>
                     <MadCap:snippetBlock src="../Resources/Snippets/Visualization Configuration Options.flsnp" />
                     <MadCap:snippetBlock src="../Resources/Snippets/Visualization Definition Group By.flsnp" />
@@ -149,7 +150,6 @@ select process, host, sampleTime, kernel, user, kernel as kernel1, user as user1
                         <MadCap:snippetBlock src="../Resources/Snippets/Visualization Definition Group By.flsnp" />
                         <MadCap:snippetBlock src="../Resources/Snippets/Visualization Definition Axes Configuration.flsnp" />
                         <MadCap:snippetBlock src="../Resources/Snippets/Visualization Definition Y Axis Scale.flsnp" />
-                        <p>&#160;</p>
                     </MadCap:dropDownBody>
                 </MadCap:dropDown>
                 <MadCap:pageBreak />
@@ -171,7 +171,7 @@ select UniqueCarrier, minutes(ArrDelay) as ArrivalDelay
                         <p MadCap:conditions="Output.Null">For example in our USA flight data we can see what the pattern of
 lateness looks like for each carrier.</p>
                         <blockquote>
-                            <p style="text-align: center;">
+                            <p style="text-align: left;">
                                 <img src="../Resources/Images/chart_sparkline.PNG" class="screenshotsmedium" />
                             </p>
                         </blockquote>
@@ -185,18 +185,17 @@ lateness looks like for each carrier.</p>
                         <MadCap:dropDownHotspot>Column Chart <img alt="image3" src="../Resources/Images/ColumnButton.png" class="icon" /></MadCap:dropDownHotspot>
                     </MadCap:dropDownHead>
                     <MadCap:dropDownBody>
-                        <p>Selecting the column chart an axis selection that makes sense is automatically chosen, so from the example above selecting the Column button results in the following visualization:
+                        <p>Selecting the column chart an axis selection that makes sense is automatically chosen.
 </p>
-                        <p style="text-align: left;">
-                            <img alt="image4" src="../Resources/Images/chart_barchart.PNG" class="screenshotsmedium" />
-                        </p>
+                        <blockquote>
+                            <p style="text-align: left;">
+                                <img alt="image4" src="../Resources/Images/chart_barchart.PNG" class="screenshotsmedium" />
+                            </p>
+                        </blockquote>
                         <div class="system-message"><pre class="literal-block" xml:space="preserve">
 from historical /streams/demo/fix/exchange where MsgType=="New Order Single" group by Symbol select Symbol, sum(OrderQty) as Volume
 </pre>
                         </div>
-                        <p style="text-align: left;">
-                            <img alt="image5" src="../Resources/Images/fix_volume.png" class="screenshotsmedium" />
-                        </p>
                         <p>Depending on the contents of your query return you can change the axis
 configurations and also group by certain values.</p>
                     </MadCap:dropDownBody>
@@ -211,7 +210,8 @@ configurations and also group by certain values.</p>
                     <MadCap:dropDownBody>
                         <p>This chart option will appear when using <MadCap:xref href="../B_Technical Reference/Algorithms/Anomaly.htm">Anomaly</MadCap:xref> and highlights where anomalies are
 found. So for instance if we take an ECG stream then we can run a query
-to emit and chart the following. With the anomaly displayed underneath
+to emit and chart the following. </p>
+                        <p>With the anomaly displayed underneath
 and any area where this is breached highlighted on the main chart.</p>
                         <div class="system-message"><pre class="literal-block" xml:space="preserve">
 from /streams/demo/infrastructure/ecg
@@ -220,13 +220,15 @@ select contributor, anomaly(200, 40, 20) (value) as result
 emit every value
 </pre>
                         </div>
-                        <p style="text-align: left;">
-                            <img alt="image9" src="../Resources/Images/ECG-Anom-01.png" class="screenshotsmedium" />
-                        </p>
+                        <blockquote>
+                            <p style="text-align: left;">
+                                <img alt="image9" src="../Resources/Images/chart_anomalydetection.png" class="screenshotsmedium" />
+                            </p>
+                        </blockquote>
                     </MadCap:dropDownBody>
                 </MadCap:dropDown>
             </div>
-            <div class="section" id="scatterplot-chart-image14">
+            <div class="section" id="scatterplot-chart-image14" MadCap:conditions="Output.Null">
                 <MadCap:dropDown>
                     <MadCap:dropDownHead>
                         <MadCap:dropDownHotspot>
@@ -234,11 +236,11 @@ emit every value
                     </MadCap:dropDownHead>
                     <MadCap:dropDownBody>
                         <p>A scatterplot is a useful summary of a set of bivariate data (two
-variables),it gives a good visual picture of the relationship between
+variables), It gives a good visual picture of the relationship between
 the two variables, and aids the interpretation of the correlation
 coefficient or regression model.</p>
                         <p>For example from the following query on USA flight data we can compare
-the distance travelled vs flight time for flights departing on a given
+the distance traveled vs flight time for flights departing on a given
 hour. As you would expect there is a strong correlation, but you can
 also see some of the outliers where those carriers seemed to take longer
 to fly a given journey.... if your aim is to get home as soon as
@@ -249,9 +251,6 @@ where flightDate == "2005-06-01" &amp;&amp; DepTime &gt; "12:00" &amp;&amp; DepT
 select UniqueCarrier, Distance, minutes(AirTime) as AirMinutes
 </pre>
                         </div>
-                        <p style="text-align: left;">
-                            <img alt="image15" src="../Resources/Images/chart_scatterplot.PNG" class="screenshotsmedium" />
-                        </p>
                     </MadCap:dropDownBody>
                 </MadCap:dropDown>
             </div>
