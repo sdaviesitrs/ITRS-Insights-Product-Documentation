@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="686" MadCap:lastWidth="576">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="8" MadCap:lastHeight="1106" MadCap:lastWidth="675">
     <body>
         <MadCap:dropDown>
             <MadCap:dropDownHead>
@@ -21,7 +21,7 @@
                 <ol MadCap:continue="true">
                     <li>(Optional) Enter a query to further refine the Contributors added to the Domain</li>
                 </ol>
-                <p class="note">a query of <code>os.name == 'windows' </code>will limit the Contributors to those whose payloads contain the 'windows' operating system value</p>
+                <p id="Example">A query of <code>os.name == 'windows' </code>will limit the Contributors to those whose payloads contain the 'windows' operating system value, for example</p>
                 <ol MadCap:continue="true">
                     <li>(Optional) Click <MadCap:snippetText src="Icon_Preview_Swirl.flsnp" /> to preview the <strong>Contributors </strong>and associated <strong>payloads </strong>that this Domain will contain</li>
                     <li>Click <strong><MadCap:snippetText src="Icon Save.flsnp" /></strong></li>
