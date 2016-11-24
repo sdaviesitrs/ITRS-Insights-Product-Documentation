@@ -728,8 +728,9 @@ p.pagebreak
 	p
 	{
 		mc-hyphenate: never;
-		font-family: 'Open Sans';
 		font-size: 12pt;
+		font-family: Arial;
+		color: #595959;
 	}
 
 	li
@@ -761,8 +762,9 @@ p.pagebreak
 	{
 		page-break-after: always;
 		mc-heading-level: 2;
+		font-family: Arial;
+		color: #595959;
 		font-size: 20pt;
-		color: #3e3e3e;
 	}
 
 	p.front_cover_title
@@ -1081,6 +1083,17 @@ p.pagebreak
 		font-family: 'Open Sans';
 		color: #3e3e3e;
 		font-style: italic;
+	}
+
+	a
+	{
+		font-family: Arial;
+	}
+
+	strong
+	{
+		font-family: Arial;
+		color: #595959;
 	}
 }
 
