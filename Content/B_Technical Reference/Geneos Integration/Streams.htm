@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html MadCap:lastBlockDepth="8" MadCap:lastHeight="11949" MadCap:lastWidth="1730" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+<html MadCap:lastBlockDepth="8" MadCap:lastHeight="12533" MadCap:lastWidth="1730" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
     <head><title>Streams and Dataviews</title>
         <style type="text/css">
 /*
@@ -507,10 +507,7 @@ ul.auto-toc
                 </tbody>
             </table>
             <p>The following creates a stream publishing all updates from dataviews called <cite>CPU</cite> to the stream <cite>/streams/demo/geneos/cpu</cite>.</p>
-            <div class="note">
-                <p class="first admonition-title">Note</p>
-                <p class="last">As there is no <cite>auto-config.schema-path</cite> specified, It is up to you to ensure that you define a schema for the stream. If no schema is defined, no data will be published!</p>
-            </div>
+            <p class="note">Note: As there is no <cite>auto-config.schema-path</cite> specified, It is up to you to ensure that you define a schema for the stream. If no schema is defined, no data will be published!</p>
             <div class="system-message"><pre class="literal-block" xml:space="preserve">
 valo.transport.geneos.streams : [
         {
@@ -555,17 +552,16 @@ valo.transport.geneos.streams : [
             </div>
             <div class="section" id="topics">
                 <h2>Topics</h2>
-                <p>There are 2 types of topic published by the Gateway, Dataviews and Metadata</p>
+                <p>There are two types of topic published by the Gateway, Dataviews and Metadata</p>
                 <div class="section" id="dataview-topics">
                     <h3>Dataview Topics</h3>
-                    <p>Dataview topics are composed of the Geneos path names in reverse. If we have a path to a dataview:</p><pre class="code text literal-block" xml:space="preserve">
+                    <p>Dataview topics are composed of the Geneos path names in reverse. If we have a path to a dataview:</p>
+                    <p><pre class="code text literal-block" xml:space="preserve">
 /geneos/gateway[(@name="mygateway")]/directory/probe[(@name="mynetprobe")]/managedEntity[(@name="myentity")]/sampler[(@name="mysampler")][(@type="")]/dataview[(@name="CPU")]
 </pre>
+                    </p>
                     <p>We can subscribe to this dataview row data using the topic <cite>raw.table.CPU</cite>. The prefix <cite>raw.table</cite> indicates we want the raw row data (See below for other prefix's), and <cite>CPU</cite> is the name of the dataview.</p>
-                    <div class="note">
-                        <p class="first admonition-title">Note</p>
-                        <p class="last">This will match ALL dataviews with this name, across ALL connected Gateways</p>
-                    </div>
+                    <p class="note">Note: This will match ALL dataviews with this name, across ALL connected Gateways</p>
                     <p>We can narrow the topic by adding the names. So we could choose any dataview called 'CPU', with sampler 'mysampler' : <cite>raw.table.CPU.mysampler</cite></p>
                     <p>Or the full topic: <cite>raw.table.CPU.mysampler..myentity.mynetprobe.mygateway</cite></p>
                     <p>The full topic specification is:</p><pre class="code text literal-block" xml:space="preserve">

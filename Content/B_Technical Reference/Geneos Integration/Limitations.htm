@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html MadCap:lastBlockDepth="7" MadCap:lastHeight="4439" MadCap:lastWidth="2180" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+<html MadCap:lastBlockDepth="7" MadCap:lastHeight="4592" MadCap:lastWidth="2180" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
     <head><title>Limitations and Workarounds</title>
         <style type="text/css">
 /*
@@ -472,8 +472,8 @@ ul.auto-toc
             <h1>Limitations and Workarounds</h1>
             <div class="section" id="geneos-flexibility-vs-well-defined-valo-data">
                 <h2>Geneos Flexibility vs Well defined Valo Data</h2>
-                <p><MadCap:variable name="General.ProductNameValo" /> has a well typed system, every stream defines a schema that the data must conform to. Geneos defines tables of data which loosly conform to types, but are largely published as Strings.</p>
-                <p>These differences can make it difficult to map Geneos Data to Valo streams, and in some cases it is not possible without falling back to string based types, which is very limiting in terms of Analysis. Most of the power of Valo is the ability to perform analysis over numerical/time based data.</p>
+                <p><MadCap:variable name="General.ProductNameValo" /> has a well typed system, every stream defines a schema that the data must conform to. Geneos defines tables of data which loosely conform to types, but are largely published as Strings.</p>
+                <p>These differences can sometimes make it difficult to map Geneos Data to Valo streams, and in some cases it is not possible without falling back to string based types, which is very limiting in terms of Analysis. Most of the power of Valo is the ability to perform analysis over numerical/time based data.</p>
                 <p>Some cells in Geneos appear to numerical <strong>most</strong> of the time. Consider the following Dataview:</p>
                 <table border="1" class="docutils">
                     <colgroup>
@@ -560,7 +560,7 @@ ul.auto-toc
                     </tbody>
                 </table>
                 <p><cite>row1.a</cite> is an empty string. <cite>row2.b</cite> is the string 'N/A'. Neither of these conform to the schema which specifies them as an <cite>int</cite> and a <cite>double</cite> respectively.</p>
-                <p>When the Geneos Transport attempts to publish these rows into Valo, they will be rejected as the data cannot be reasonablly converted to those types.</p>
+                <p>When the Geneos Transport attempts to publish these rows into Valo, they will be rejected as the data cannot be reasonably converted to those types.</p>
                 <p>In this case, you have 2 choices: Accept that some of the data will be rejected, or change the schema to conform to the Geneos data types, in most cases that will be strings. <MadCap:xref href="Monitoring.htm">Geneos Monitoring</MadCap:xref> and Stream <i>/api_reference/monitoring_api</i> can help you diagnose this type of problems.</p>
             </div>
             <div class="section" id="row-based-updates">
@@ -692,7 +692,7 @@ ul.auto-toc
                         </tr>
                     </tbody>
                 </table>
-                <p>Fortunately this can acheived using Gateway computed dataviews. First we create a dataview with no plugin defined. We set the the <cite>createOnGateway</cite> section enabled, and then we define <cite>var-columns</cite> for each row in the source dataview, and a single <cite>var-rows</cite> for the row.</p>
+                <p>Fortunately this can achieved using Gateway computed dataviews. First we create a dataview with no plugin defined. We set the  <cite>createOnGateway</cite> section enabled, and then we define <cite>var-columns</cite> for each row in the source dataview, and a single <cite>var-rows</cite> for the row.</p>
                 <div class="system-message"><pre class="literal-block" xml:space="preserve">
 .. sourcecode:: xml
         &lt;sampler name="PIVOTED-DATAVIEW"&gt;

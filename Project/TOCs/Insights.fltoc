@@ -23,25 +23,25 @@
   <TocEntry
     Title="USER GUIDES">
     <TocEntry
-      Title="Installation &amp; Licensing User Guide"
+      Title="Installation &amp; Licensing"
       Link="/Content/C_User Guides/Installation &amp; Licensing User Guide.htm" />
     <TocEntry
       Title="Integrate With ITRS Geneos"
       Link="/Content/C_User Guides/Geneos Integration User Guide.htm" />
     <TocEntry
-      Title="Data Streams &amp; Schema User Guide"
+      Title="Data Streams &amp; Schema"
       Link="/Content/C_User Guides/Data Streams &amp; Schema User Guide.htm" />
     <TocEntry
-      Title="Notebook, Collection &amp; Dashboard User Guide"
+      Title="Notebook, Collection &amp; Dashboard"
       Link="/Content/C_User Guides/Dashboard, Notebook &amp; Collection User Guide.htm" />
     <TocEntry
-      Title="Query, Search and Transform Data User Guide"
+      Title="Query, Search and Transform Data"
       Link="/Content/C_User Guides/Query, Search &amp; Transform Data User Guide.htm" />
     <TocEntry
-      Title="Visualising Results User Guide"
+      Title="Visualising Results"
       Link="/Content/C_User Guides/Visualizing Results User Guide.htm" />
     <TocEntry
-      Title="Domain &amp; Contributors User Guide"
+      Title="Domain &amp; Contributors"
       Link="/Content/C_User Guides/Domain &amp; Contributors User Guide.htm" />
     <TocEntry
       Title="Logstash walkthough"
