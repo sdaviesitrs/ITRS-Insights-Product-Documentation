@@ -761,6 +761,14 @@ nav.tab-bar .nav-search form.search .search-bar .search-submit-wrapper .search-s
   padding-top: 40px;
   background-color: #1d1f1f;
 }
+.footer #back-to-top {
+  cursor: pointer;
+  height: 25px;
+  padding: 0;
+  width: 25px !important;
+  background-image: url(../Images/up.png);
+  background-size: cover;
+}
 .footer .HomeMasterPageFooter > div {
   width: auto !important;
   float: left;
@@ -772,5 +780,6 @@ nav.tab-bar .nav-search form.search .search-bar .search-submit-wrapper .search-s
   color: #747272;
   margin: 0;
   line-height: 30px;
+  padding-left: 20px;
 }
 /*# sourceMappingURL=../MainStyles.css.map */

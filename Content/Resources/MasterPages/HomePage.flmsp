@@ -6,6 +6,7 @@
         <meta name="author" content="" />
         <script type="text/javascript" src="../scripts/tokenizer.js" ></script>
         <script type="text/javascript" src="../scripts/myrules.js" ></script>
+        <script type="text/javascript" src="../scripts/default.js" ></script>
         <!-- <script type="text/javascript" src="../scripts/google-code-prettify/prettify.js" ></script>
         <script type="text/javascript" src="../scripts/default.js" ></script> -->
         <link href="../scripts/google-code-prettify/prettify.css" rel="stylesheet" type="text/css" />
@@ -45,6 +46,8 @@
                 </div>
                 <div>
                     <p class="Copyright">Copyright © <MadCap:variable name="General.Year" /> <MadCap:variable name="General.ITRS Company&#160;Name" /></p>
+                </div>
+                <div id="back-to-top" class="pull-right">
                 </div>
             </div>
         </div>
