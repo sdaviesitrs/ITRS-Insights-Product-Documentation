@@ -294,7 +294,7 @@ img.screenshotsmall
 	border: 0;
 	mc-thumbnail-max-height: 140px;
 	mc-thumbnail-max-width: 140px;
-	mc-thumbnail: hover;
+	mc-thumbnail: normal;
 }
 
 img.screenshotsmedium
@@ -303,7 +303,7 @@ img.screenshotsmedium
 	border: 0;
 	mc-thumbnail-max-height: 400px;
 	mc-thumbnail-max-width: 600px;
-	mc-thumbnail: hover;
+	mc-thumbnail: normal;
 }
 
 td
