@@ -91,14 +91,6 @@
     PageLayout="/Content/Resources/PageLayouts/a4_pdf_layouts/ug_glossary.flpgl"
     PageType="firstright"></TocEntry>
   <TocEntry
-    Title="INDEX"
-    Link="/Content/Print Files/Back Matter Topics/Index.htm"
-    BreakType="chapter"
-    StartSection="false"
-    PageNumberReset="continue"
-    PageLayout="/Content/Resources/PageLayouts/a4_pdf_layouts/ug_index.flpgl"
-    PageType="firstright" />
-  <TocEntry
     Title="APPENDIX"
     Link="/Content/Print Files/Back Matter Topics/Appendix.htm"
     BreakType="chapter"

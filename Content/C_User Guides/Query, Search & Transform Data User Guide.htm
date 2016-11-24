@@ -1,12 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="15" MadCap:lastHeight="17993" MadCap:lastWidth="820">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="15" MadCap:lastHeight="720" MadCap:lastWidth="576">
     <head>
         <link href="../Resources/Stylesheets/styles.css" rel="stylesheet" type="text/css" />
     </head>
     <body>
         <body>
-            <h1>
-                <MadCap:conditionalText MadCap:conditions="Output.Print"><MadCap:variable name="General.Product Name&#160;Insights (Full)" /> </MadCap:conditionalText>Query, Search and Transform Introduction</h1>
+            <h1><MadCap:variable name="General.Product Name&#160;Insights (Full)" /> Query, Search and Transform Introduction</h1>
             <p><MadCap:variable name="General.Product Name&#160;Insights (Full)" /> provides you with two powerful tools for analysing and searching your data:</p>
             <MadCap:snippetBlock src="../Resources/Snippets/About Free Text Search.flsnp" />
             <MadCap:snippetBlock src="../Resources/Snippets/Definition Query.flsnp" />
@@ -41,15 +40,15 @@ anomaly detection and univariate analysis.</p>
                     <p>If your streams are live, you can skip this section. If you're storing your data, then read on.</p>
                     <p>The type of search you can run is determined by the type of <strong class="green">repository </strong>your data is stored in. In short, you can only run free text searches on <strong class="green">semi-structured repositories</strong>. </p>
                     <MadCap:snippetBlock src="../Resources/Snippets/About TSR Simple.flsnp" />
-                    <p>If you have yet to import a data stream into <MadCap:variable name="General.Product Name Insights&#160;(abbreviated)" />, or if you need help figuring out which repository type is best for you, check out our <MadCap:xref href="Data Streams &amp; Schema User Guide.htm">[%=General.Product Name&#160;Insights (Full)%] Importing Data Streams &amp;&#160;Schema User Guide</MadCap:xref>. </p>
-                    <p>For a technical overview of the different repositories, see <MadCap:xref href="../B_Technical Reference/Repositories/Repositories - TSR &amp; SSR.htm">Repositories - TSR &amp; SSR</MadCap:xref>.</p>
+                    <p>If you have yet to import a data stream into <MadCap:variable name="General.Product Name Insights&#160;(abbreviated)" />, or if you need help figuring out which repository type is best for you, check out our <MadCap:xref href="Data Streams &amp; Schema User Guide.htm" MadCap:conditions="Output.Digital">[%=General.Product Name&#160;Insights (Full)%] Importing Data Streams &amp;&#160;Schema User Guide</MadCap:xref><MadCap:conditionalText MadCap:conditions="Output.Print">Importing Data Streams &amp;&#160;Schema User Guide</MadCap:conditionalText>. </p>
+                    <p MadCap:conditions="Output.Digital">For a technical overview of the different repositories, see <MadCap:xref href="../B_Technical Reference/Repositories/Repositories - TSR &amp; SSR.htm">Repositories - TSR &amp; SSR</MadCap:xref>.</p>
                     <h3>Notebooks</h3>
                     <p>Your searches and queries are saved in <strong class="green">Notebooks</strong>, and these in turn can be categorized by the  <strong class="green">collections</strong> they belong to. This means that you can use Collections for high-level organizational teams or functional requirements, then create subsets of Notepads for the different analytics that you want to run. </p>
                     <p>What's more, you can import and export your Notebooks, so you can share them with your colleagues or transfer them between <MadCap:variable name="General.Product Name Insights&#160;(abbreviated)" /> installations. </p>
-                    <p>For more on <strong class="green">notebooks </strong>and <strong class="green">collections</strong>, head over to our <MadCap:xref href="Dashboard, Notebook &amp; Collection User Guide.htm">[%=General.Product Name&#160;Insights (Full)%] Dashboard &amp;&#160;Notebook&#160;User Guide</MadCap:xref>.</p>
+                    <p>For more on <strong class="green">notebooks </strong>and <strong class="green">collections</strong>, see our <MadCap:xref href="Dashboard, Notebook &amp; Collection User Guide.htm" MadCap:conditions="Output.Digital">[%=General.Product Name&#160;Insights (Full)%] Dashboard &amp;&#160;Notebook&#160;User Guide</MadCap:xref><MadCap:conditionalText MadCap:conditions="Output.Print">Dashboard &amp;&#160;Notebook User Guide</MadCap:conditionalText>.</p>
                     <h3><a name="Viewing"></a>Viewing the Results</h3>
-                    <p>Once you've run your searches or queries, your results are displayed on a <strong class="green">dashboard</strong>. </p>
-                    <p>If you haven't configured any charts, the results are tabulated numerically, but you can easily select one or more of our pre-built charts to visualise the results. See: <MadCap:xref href="Visualizing Results User Guide.htm">[%=General.Product Name&#160;Insights (Full)%] visualising Results User Guide</MadCap:xref>.</p>
+                    <p>Once you've run your searches or queries, your results are displayed on a <strong class="green">dashboard</strong>.</p>
+                    <p>If you haven't configured any charts, the results are tabulated numerically, but you can easily select one or more of our pre-built charts to visualise the results. See: <MadCap:xref href="Visualizing Results User Guide.htm" MadCap:conditions="Output.Digital">[%=General.Product Name&#160;Insights (Full)%] Visualising Results User Guide</MadCap:xref><MadCap:conditionalText MadCap:conditions="Output.Print">Visualising Results User Guide</MadCap:conditionalText>.</p>
                     <MadCap:pageBreak />
                 </MadCap:dropDownBody>
             </MadCap:dropDown>
@@ -88,7 +87,6 @@ anomaly detection and univariate analysis.</p>
             <h2><MadCap:variable name="General.Product Name Insights&#160;(abbreviated)" /> Query</h2>
             <p><MadCap:variable name="General.Product Name&#160;Insights (Full)" /> provides you with a simple SQL-like query language that enables you to get the most from your data streams.&#160;</p>
             <p>This guide will talk you through the principles that underpin querying in <MadCap:variable name="General.Product Name Insights&#160;(abbreviated)" />, explain how to create a simple query from scratch, and provide reference material for more experienced users to use to build sophisticated queries. </p>
-            <MadCap:pageBreak />
             <MadCap:dropDown>
                 <MadCap:dropDownHead class="H2NoKeyline">
                     <MadCap:dropDownHotspot><a name="QueryBasics"></a>Query Basics</MadCap:dropDownHotspot>
@@ -127,7 +125,6 @@ example:</p>
                     <MadCap:snippetBlock src="../Resources/Snippets/Query Syntax Select.flsnp" />
                 </MadCap:dropDownBody>
             </MadCap:dropDown>
-            <MadCap:pageBreak />
             <MadCap:dropDown>
                 <MadCap:dropDownHead class="H2NoKeyline">
                     <MadCap:dropDownHotspot><a name="TransformationalPipeline"></a>The Transformational Pipeline</MadCap:dropDownHotspot>
@@ -209,13 +206,12 @@ select sampleTime, workingSet - 1 as w1, workingSet as w2, workingSet = 1 as w3<
                     </blockquote>
                     <blockquote>
                         <p>
-                            <img src="../Resources/Images/exposed_parameter.png" alt="" title="" class="screenshotsmedium" />
+                            <img src="../Resources/Images/exposed_parameter.png" alt="" title="" class="screenshotsmedium" style="width: 496px;height: 97px;" />
                         </p>
                     </blockquote>
                     <p>Once the query has been written, end-users can enter strings into the parameter windows without having to make any changes to the SQL-like code.</p>
                 </MadCap:dropDownBody>
             </MadCap:dropDown>
-            <MadCap:pageBreak />
             <MadCap:dropDown>
                 <MadCap:dropDownHead class="H2NoKeyline">
                     <MadCap:dropDownHotspot><a name="Query"></a>Run a Query</MadCap:dropDownHotspot>
@@ -236,11 +232,11 @@ select sampleTime, workingSet - 1 as w1, workingSet as w2, workingSet = 1 as w3<
                         <p style="text-align: left;">
                             <img src="../Resources/Images/createquery4.png" class="screenshotsmedium" style="width: 367px;height: 512px;" />
                         </p>
-                        <p class="caption">Results Window</p>
                     </blockquote>
                     <p>You can now group your results and sort them by clicking on the column headers in the same way that you would a commercial spreadsheet program.</p>
                     <p>You'll also notice that the visualization panel has appeared below the query you wrote. This allows you  to start visualising your data, and even start putting it into <strong class="green">Dashboards</strong>.<MadCap:conditionalText MadCap:conditions="Output.Digital"> Check out our <MadCap:xref href="Visualizing Results User Guide.htm">[%=General.Product Name&#160;Insights (Full)%] visualising Results User Guide</MadCap:xref> and our <MadCap:xref href="Dashboard, Notebook &amp; Collection User Guide.htm">[%=General.Product Name&#160;Insights (Full)%] &#160;Notebook&#160;&amp; Dashboard User Guide</MadCap:xref>.</MadCap:conditionalText></p>
                     <p>The query you created will be saved automatically. You can edit it, duplicate it or delete it at any time.</p>
+                    <MadCap:pageBreak />
                     <blockquote>
                         <MadCap:snippetBlock src="../Resources/Snippets/How to Edit Query.flsnp" />
                     </blockquote>
@@ -256,7 +252,6 @@ select sampleTime, workingSet - 1 as w1, workingSet as w2, workingSet = 1 as w3<
                     </blockquote>
                 </MadCap:dropDownBody>
             </MadCap:dropDown>
-            <MadCap:pageBreak />
             <MadCap:dropDown>
                 <MadCap:dropDownHead class="H2NoKeyline">
                     <MadCap:dropDownHotspot><a name="AdvancedQuery"></a>Run an Advanced Query</MadCap:dropDownHotspot>
@@ -275,11 +270,11 @@ select sampleTime, workingSet - 1 as w1, workingSet as w2, workingSet = 1 as w3<
                     <p>If you don't know what data your stream contains, take a look at the <strong class="green">schema </strong>for the stream. </p>
                     <MadCap:snippetBlock src="../Resources/Snippets/Definition Schema.flsnp" />
                     <MadCap:snippetBlock src="../Resources/Snippets/How To View Schema.flsnp" />
-                    <p>If you need to know more, check out our <MadCap:xref href="Data Streams &amp; Schema User Guide.htm">[%=General.Product Name&#160;Insights (Full)%] Data Streams &amp;&#160;Schema User Guide</MadCap:xref>.</p>
+                    <p MadCap:conditions="Output.Digital">If you need to know more, check out our <MadCap:xref href="Data Streams &amp; Schema User Guide.htm">[%=General.Product Name&#160;Insights (Full)%] Data Streams &amp;&#160;Schema User Guide</MadCap:xref>.</p>
                     <h3><MadCap:variable name="General.Product Name Insights&#160;(abbreviated)" />' Query&#160;Syntax &amp;&#160;Constructions</h3>
                     <p>Query clauses are the foundation of <MadCap:variable name="General.Product Name Insights&#160;(abbreviated)" />' transformational query capability. </p>
                     <p>There are a limited number of them, and if you have any SQL experience you should be familiar with them. If not, we'd recommend taking a free online SQL course as a quick primer (you can try <a href="https://www.codecademy.com/learn/learn-sql">Code Academy</a>, for <MadCap:annotation MadCap:createDate="2016-10-11T16:38:36.6893974+01:00" MadCap:creator="mddent" MadCap:initials="MD" MadCap:comment="Moved the Insights Query Clauses (Transformations) snippet to a new topic called Query Clause Transfomations" MadCap:editor="mddent" MadCap:editDate="2016-10-11T16:40:09.0861143+01:00">example</MadCap:annotation>). </p>
-                    <p>See <MadCap:xref href="../B_Technical Reference/Query Clauses, Functions &amp; Operators/Query Clauses Transformations.htm">"" on page&#160;1 for information about Query Clauses Transformations.</MadCap:xref></p>
+                    <p MadCap:conditions="Output.Digital">See <MadCap:xref href="../B_Technical Reference/Query Clauses, Functions &amp; Operators/Query Clauses Transformations.htm">"" on page&#160;1 for information about Query Clauses Transformations.</MadCap:xref></p>
                     <p>Combine the transformational clauses with <MadCap:xref href="../B_Technical Reference/Query Clauses, Functions &amp; Operators/Query Functions.htm">Query&#160;Functions</MadCap:xref> and <MadCap:xref href="../B_Technical Reference/Query Clauses, Functions &amp; Operators/Query Operators.htm">Query Operators</MadCap:xref> to deliver sophisticated query capabilities. </p>
                     <p>There are a huge range of functions to work with in <MadCap:variable name="General.Product Name Insights&#160;(abbreviated)" />. These can be divided into two groups: scalar and aggregate.</p>
                     <h3>Scalar</h3>
@@ -327,7 +322,6 @@ select sampleTime, area, count(carbonm) as criticalCarbonMCount</pre>
                     </blockquote>
                 </MadCap:dropDownBody>
             </MadCap:dropDown>
-            <MadCap:pageBreak />
             <MadCap:dropDown>
                 <MadCap:dropDownHead class="H2NoKeyline">
                     <MadCap:dropDownHotspot>Explore FREE&#160;TEXT&#160;Search&#160;Results </MadCap:dropDownHotspot>

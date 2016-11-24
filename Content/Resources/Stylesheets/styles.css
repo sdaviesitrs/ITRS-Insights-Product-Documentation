@@ -729,14 +729,16 @@ p.pagebreak
 	{
 		mc-hyphenate: never;
 		font-size: 12pt;
-		font-family: Arial;
 		color: #595959;
+		font-family: 'Open Sans';
 	}
 
 	li
 	{
 		font-size: 10;
 		line-height: 20pt;
+		color: #595959;
+		font-family: 'Open Sans';
 	}
 
 	MadCap|dropDownHead.H2NoKeyline
@@ -762,18 +764,20 @@ p.pagebreak
 	{
 		page-break-after: always;
 		mc-heading-level: 2;
-		font-family: Arial;
-		color: #595959;
-		font-size: 20pt;
+		font-size: 17pt;
+		color: #072e40;
+		font-family: 'Open Sans';
+		padding-top: 20px;
 	}
 
 	p.front_cover_title
 	{
 		font: inherit;
 		font-size: 25pt;
-		color: #3e3e3e;
 		font-family: 'Open Sans';
-		text-align: center;
+		color: #16b1b2;
+		font-weight: bold;
+		text-align: right;
 	}
 
 	p.front_cover_text
@@ -828,8 +832,11 @@ p.pagebreak
 	h2
 	{
 		page-break-before: avoid;
-		color: #3e3e3e;
+		color: #595959;
 		font-family: 'Open Sans';
+		margin-top: 0;
+		padding-top: 20px;
+		padding-bottom: 20px;
 	}
 
 	h1.AppendixTitle
@@ -866,8 +873,8 @@ p.pagebreak
 	MadCap|footnote
 	{
 		mc-footnote-format: '{n}';
-		font-family: 'Open Sans';
 		font-size: 8pt;
+		font-family: Arial;
 	}
 
 	div.copyright
@@ -955,15 +962,16 @@ p.pagebreak
 
 	MadCap|glossaryTerm
 	{
-		color: #3e3e3e;
-		font-family: 'Open Sans';
 		font-size: 10pt;
+		color: #595959;
+		font-family: 'Open Sans';
 	}
 
 	MadCap|indexProxy
 	{
 		border-top-color: #808080;
-		color: #3e3e3e;
+		color: #595959;
+		font-family: 'Open Sans';
 	}
 
 	div.GlossaryPageHeading
@@ -996,7 +1004,7 @@ p.pagebreak
 	MadCap|tocProxy
 	{
 		border-top-color: #808080;
-		color: #3e3e3e;
+		color: #595959;
 		font-family: 'Open Sans';
 	}
 
@@ -1007,22 +1015,26 @@ p.pagebreak
 
 	MadCap|glossaryProxy
 	{
-		color: #3e3e3e;
-		font-family: 'Open Sans';
 		font-size: 10pt;
+		color: #595959;
+		font-family: 'Open Sans';
 	}
 
 	MadCap|xref
 	{
 		line-height: 12pt;
-		color: #404040;
-		font-family: 'Open Sans';
 		font-size: 10pt;
+		font-family: 'Open Sans';
+		color: #072e40;
 	}
 
 	p.TOCHeading
 	{
 		color: #3e3e3e;
+		font-size: 35pt;
+		line-height: 50pt;
+		font-weight: bold;
+		text-align: left;
 	}
 
 	MadCap|variable
@@ -1030,12 +1042,17 @@ p.pagebreak
 		font: inherit;
 		line-height: 3pt;
 		font-size: 8pt;
-		color: #3e3e3e;
+		color: #595959;
+		font-family: 'Open Sans';
 	}
 
 	p.ChapterNumber
 	{
 		color: #3e3e3e;
+		text-align: right;
+		line-height: 50pt;
+		font-size: 35pt;
+		font-weight: bold;
 	}
 
 	p.GlossHeading
@@ -1047,15 +1064,17 @@ p.pagebreak
 	h4
 	{
 		mc-heading-level: 4;
-		color: #3e3e3e;
+		color: #595959;
 		font-family: 'Open Sans';
+		padding-top: 7px;
 	}
 
 	MadCap|dropDownHead
 	{
-		font-family: 'Open Sans';
 		font-size: 12pt;
-		color: #16b1b2;
+		font-family: 'Open Sans';
+		color: #072e40;
+		padding-top: 10px;
 	}
 
 	p.CopyrightHeading
@@ -1075,25 +1094,73 @@ p.pagebreak
 
 	strong.green
 	{
-		color: #35b3ce;
+		color: #072e40;
 	}
 
 	h3
 	{
-		font-family: 'Open Sans';
-		color: #3e3e3e;
 		font-style: italic;
+		color: #595959;
+		font-family: 'Open Sans';
+		padding: 0;
+		margin-top: 0;
+		padding-top: 10px;
 	}
 
 	a
 	{
-		font-family: Arial;
+		font-family: 'Open Sans';
+		color: #4f5f64;
 	}
 
 	strong
 	{
-		font-family: Arial;
+		font-size: 12pt;
 		color: #595959;
+		font-family: 'Open Sans';
+	}
+
+	p#Example
+	{
+		font-size: 12pt;
+	}
+
+	p.ChapHeadingBlue
+	{
+		color: #16b1b2;
+		font-size: 48pt;
+		text-align: right;
+	}
+
+	MadCap|variable.ProductName
+	{
+		color: #16b1b2;
+		font-size: 18pt;
+		line-height: 24pt;
+		font-family: Arial;
+		text-align: right;
+	}
+
+	body
+	{
+		color: #595959;
+		font-family: Arial;
+	}
+
+	span
+	{
+		font-family: 'Open Sans';
+	}
+
+	p#concept_definition
+	{
+		font-family: 'Open Sans';
+		background-color: #b4b5b6;
+	}
+
+	pre
+	{
+		font-size: 12pt;
 	}
 }
 

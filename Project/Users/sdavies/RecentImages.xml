@@ -1,5 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <UrlList>
+    <Url Source="Resources/Images/big_blue_logo.png" />
     <Url Source="Resources/Images/chart_barchart.PNG" />
     <Url Source="Resources/Images/PDF Cover.png" />
     <Url Source="Resources/Images/createquery3.PNG" />

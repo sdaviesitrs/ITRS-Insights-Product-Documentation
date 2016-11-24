@@ -30,7 +30,7 @@ payloads included with a time stamp of 8 would in fact be for 8pm. We can analys
                 <p id="Example">Now for the vaguely technical bit: <br /></p>
                 <p id="Example">Each stream has a unique name (a Unique Resource Identifier - URI) that allows us to easily categorize and identify it<MadCap:conditionalText MadCap:conditions="Product.Valo"> via Valo's RESTful API</MadCap:conditionalText>. In <MadCap:variable name="General.Product Name Insights&#160;(abbreviated)" />, therefore, our smart house stream
 might be called something like <code>/streams/hce/electricity/usage</code></p>
-                <p id="Example">This <MadCap:keyword term="URI" />URI has the form:</p>
+                <p id="Example">This URI has the form:</p>
                 <blockquote>
                     <p xml:space="preserve" id="Example"><code>
 /streams/&lt;tenant&gt;/&lt;collection&gt;/&lt;streamName&gt;

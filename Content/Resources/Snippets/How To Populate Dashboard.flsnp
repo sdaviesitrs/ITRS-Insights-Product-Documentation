@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="8" MadCap:lastHeight="1070" MadCap:lastWidth="911">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="8" MadCap:lastHeight="675" MadCap:lastWidth="576">
     <body>
         <MadCap:dropDown>
             <MadCap:dropDownHead>
@@ -21,16 +21,16 @@
                 </ol>
                 <blockquote>
                     <p>
-                        <img src="../Images/NotebookTree.png" class="screenshotsmall" />
+                        <img src="../Images/NotebookTree.png" class="screenshotsmall" style="width: 223px;height: 115px;" />
                     </p>
                     <p>
                         <img src="../Images/populatedashboard1.png" class="screenshotsmall" />
                     </p>
                     <p>
-                        <img src="../Images/SendToDash01.png" class="screenshotsmall" />
+                        <img src="../Images/SendToDash01.png" class="screenshotsmall" style="width: 411px;height: 180px;" />
                     </p>
                     <p>
-                        <img src="../Images/SendToDash02.png" class="screenshotsmall" />
+                        <img src="../Images/SendToDash02.png" class="screenshotsmall" style="width: 410px;height: 211px;" />
                     </p>
                 </blockquote>
             </MadCap:dropDownBody>

@@ -4,28 +4,26 @@
         <meta charset="utf-8" />
         <meta name="description" content="" />
         <meta name="author" content="" />
-        <script type="text/javascript" src="../scripts/tokenizer.js" ></script>
-        <script type="text/javascript" src="../scripts/myrules.js" ></script>
-        <script type="text/javascript" src="../scripts/default.js" ></script>
+        <script type="text/javascript" src="../Scripts/tokenizer.js">
+        </script>
+        <script type="text/javascript" src="../Scripts/myrules.js">
+        </script>
+        <script type="text/javascript" src="../Scripts/default.js">
+        </script>
         <!-- <script type="text/javascript" src="../scripts/google-code-prettify/prettify.js" ></script>
         <script type="text/javascript" src="../scripts/default.js" ></script> -->
-        <link href="../scripts/google-code-prettify/prettify.css" rel="stylesheet" type="text/css" />
-        <title></title>
+        <link href="../Scripts/google-code-prettify/prettify.css" rel="stylesheet" type="text/css" /><title></title>
     </head>
     <body>
         <div class="back-to-resources">
-            <section class="row outer-row">
-                <a href='http://resources.itrsgroup.com' >
-                    <span>RESOURCES HOME</span>
-                </a>
+            <section class="row outer-row"><a href="http://resources.itrsgroup.com"><span>RESOURCES HOME</span></a>
             </section>
         </div>
         <div class="topichero">
             <div class="title-text">
                 <div class="HomeHeroSection">
                     <div class="centered-text">
-                        <img src="../Images/insights-banner.png" />
-                        <span>User Guides, Technical Reference, FAQs and more...</span>
+                        <img src="../Images/insights-banner.png" /><span>User Guides, Technical Reference, FAQs and more...</span>
                     </div>
                 </div>
             </div>
@@ -35,14 +33,11 @@
                 <MadCap:bodyProxy />
             </div>
         </div>
-
-        <div class="footer-push"></div>
+        <div class="footer-push">
+        </div>
         <div class="footer center">
             <div class="HomeMasterPageFooter outer-row">
-                <div>
-                    <a href="../../index.html">
-                        <img src="../Images/itrs-gray-logo.png" alttext="" style="width: 78px;height: 32px;" />
-                    </a>
+                <div><a href="../../index.html"><img src="../Images/itrs-gray-logo.png" alttext="" style="width: 78px;height: 32px;" /></a>
                 </div>
                 <div>
                     <p class="Copyright">Copyright © <MadCap:variable name="General.Year" /> <MadCap:variable name="General.ITRS Company&#160;Name" /></p>

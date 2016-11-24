@@ -13,8 +13,7 @@
                 </xhtml:html>
             </Content>
         </Frame>
-        <Frame X="-366px" Y="391px" Width="723px" Height="147px" FlowIndex="6" Flow="body" Right="197px" Bottom="393px" Rotate="-90" Anchors="Left,Top,Bottom" />
-        <Frame Flow="body" Y="284px" Bottom="72px" X="85px" Right="0px" ColumnCount="1" ColumnGap="30px" ColumnDivider="Solid 1px Red" Anchors="Left,Right,Bottom" Width="469px" Height="575px" FlowIndex="7">
+        <Frame Flow="body" Y="12px" Bottom="72px" X="8px" Right="0px" ColumnCount="1" ColumnGap="30px" ColumnDivider="Solid 1px Red" Anchors="Left,Right,Bottom" Width="546px" Height="847px" FlowIndex="7">
         </Frame>
     </Page>
     <Page Name="Left" Padding="20px" PageType="left" PaddingLeft="1.5in" PaddingRight="1in" PaddingTop="1in" PaddingBottom="1in" BleedLeft="0.25in" Orientation="portrait" BleedBottom="0.25in" BleedTop="0.25in" BleedRight="0.25in" PageSize="A4">

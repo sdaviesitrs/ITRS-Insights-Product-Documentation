@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <RecentLinks>
     <Dialog Name="B3.XmlMdiEditorKit.ImageGeneralDialogPage">
-        <Link Value="C:\Users\sdavies\Documents\GitHub\ITRS-Insights-Product-Documentation\Content\Resources\Images\PDF Cover.png" />
+        <Link Value="C:\Users\sdavies\Documents\GitHub\ITRS-Insights-Product-Documentation\Content\Resources\Images\big_blue_logo.png" />
     </Dialog>
     <Dialog Name="B3.XmlTextKit.InsertHyperlinkDialog">
         <Link Value="C:\Users\sdavies\Documents\GitHub\ITRS-Insights-Product-Documentation\Content\C_User Guides\ITRS Insights - Dashboard Notebook and Collection User Guide v1.0.pdf" />
@@ -10,6 +10,6 @@
         <Link Value="C:\Users\sdavies\Documents\GitHub\ITRS-Insights-Product-Documentation\Content\Resources\Snippets\About Free Text Search.flsnp" />
     </Dialog>
     <Dialog Name="B3.XmlTextKit.InsertCrossReferenceDialog">
-        <Link Value="C:\Users\sdavies\Documents\GitHub\ITRS-Insights-Product-Documentation\Content\A_Quick Start\Organizing Data.htm" />
+        <Link Value="C:\Users\sdavies\Documents\GitHub\ITRS-Insights-Product-Documentation\Content\C_User Guides\Visualizing Results User Guide.htm" />
     </Dialog>
 </RecentLinks>

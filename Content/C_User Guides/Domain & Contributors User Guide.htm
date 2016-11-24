@@ -1,19 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="12" MadCap:lastHeight="6873" MadCap:lastWidth="859">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="12" MadCap:lastHeight="6042" MadCap:lastWidth="1158">
     <head>
         <link href="" rel="stylesheet" type="text/css" />
     </head>
     <body>
-        <h1>
-            <MadCap:conditionalText MadCap:conditions="Output.Print"><MadCap:variable name="General.Product Name&#160;Insights (Full)" /> </MadCap:conditionalText>Contributor &amp; Domain User Guide</h1>
-        <h2 class="nokeyline">
-            <MadCap:annotation MadCap:createDate="2016-10-18T15:36:53.7312056+01:00" MadCap:creator="mddent" MadCap:initials="MDD" MadCap:comment="Added to Zendesk Test output" MadCap:editor="mddent" MadCap:editDate="2016-10-18T15:36:54.8915783+01:00">Introduction</MadCap:annotation>
-        </h2>
-        <p>
-            <MadCap:concept term="Streams" />
-        </p>
+        <h1><MadCap:variable name="General.Product Name&#160;Insights (Full)" /> Contributor &amp; Domain User Guide</h1>
+        <h2 class="nokeyline">Introduction</h2>
         <p><strong class="green">Contributors</strong> and <strong class="green">Domains </strong> form the lifeblood of <MadCap:variable name="General.Product Name Insights&#160;(abbreviated)" /> - Contributors contain <strong class="green">Streams </strong>that feed it data, while Domains provide a granular level of organization by allowing you to clump together two or more Contributors.</p>
-        <p>Contributors are used to assign metadata to each data stream. Domains are dynamic entities that can be used to filter the results of a <strong class="green">query </strong>(see <MadCap:xref href="Query, Search &amp; Transform Data User Guide.htm">[%=General.Product Name&#160;Insights (Full)%] Query,&#160;Search&#160;and Transform Data User Guide</MadCap:xref>). You can use Domains to contextualize and re-use a particular query across different sources
+        <p>Contributors are used to assign metadata to each data stream. Domains are dynamic entities that can be used to filter the results of a <strong class="green">query </strong><MadCap:conditionalText MadCap:conditions="Output.Digital">(see <MadCap:xref href="Query, Search &amp; Transform Data User Guide.htm">[%=General.Product Name&#160;Insights (Full)%] Query,&#160;Search&#160;and Transform Data User Guide</MadCap:xref>)</MadCap:conditionalText>. You can use Domains to contextualize and re-use a particular query across different sources
 without having to modify it.</p>
         <MadCap:pageBreak />
         <h2>Contributor</h2>
@@ -58,9 +52,8 @@ without having to modify it.</p>
         <h2> Domain</h2>
         <MadCap:snippetBlock src="../Resources/Snippets/Definition Domain.flsnp" />
         <MadCap:snippetBlock src="../Resources/Snippets/About Domain.flsnp" />
-        <p>For more about querying in <MadCap:variable name="General.Product Name Insights&#160;(abbreviated)" />, see <MadCap:xref href="Query, Search &amp; Transform Data User Guide.htm">[%=General.Product Name&#160;Insights (Full)%] Query,&#160;Search&#160;and Transform Data User Guide</MadCap:xref>.</p>
+        <p>For more about querying in <MadCap:variable name="General.Product Name Insights&#160;(abbreviated)" /><MadCap:conditionalText MadCap:conditions="Output.Digital">, see <MadCap:xref href="Query, Search &amp; Transform Data User Guide.htm">[%=General.Product Name&#160;Insights (Full)%] Query,&#160;Search&#160;and Transform Data User Guide</MadCap:xref></MadCap:conditionalText>.</p>
         <MadCap:snippetBlock src="../Resources/Snippets/Example Domain.flsnp" />
-        <MadCap:pageBreak />
         <MadCap:dropDown>
             <MadCap:dropDownHead class="H2NoKeyline">
                 <MadCap:dropDownHotspot>What are the benefits of domains?</MadCap:dropDownHotspot>
@@ -76,13 +69,12 @@ without having to modify it.</p>
         </MadCap:dropDown>
         <MadCap:pageBreak />
         <MadCap:snippetBlock src="../Resources/Snippets/Interface Domain.flsnp" />
-        <MadCap:pageBreak />
         <MadCap:dropDown>
             <MadCap:dropDownHead class="H2NoKeyline">
                 <MadCap:dropDownHotspot>Create a Domain</MadCap:dropDownHotspot>
             </MadCap:dropDownHead>
             <MadCap:dropDownBody>
-                <p>Once you've created the Domain, the active interface tab will become the new Domain's home page. From here, you can <MadCap:xref href="Dashboard, Notebook &amp; Collection User Guide.htm#CreateNewNotebook">Create A&#160;Notebook </MadCap:xref> and <MadCap:xref href="Dashboard, Notebook &amp; Collection User Guide.htm#CreateNewDashboard.">Create a Dashboard</MadCap:xref>.</p>
+                <p>Once you've created the Domain, the active interface tab will become the new Domain's home page. From here, you can <MadCap:xref href="Dashboard, Notebook &amp; Collection User Guide.htm#CreateNewNotebook" MadCap:conditions="Output.Digital">Create A&#160;Notebook</MadCap:xref><MadCap:conditionalText MadCap:conditions="Output.Print">create a Notebook </MadCap:conditionalText>and <MadCap:xref href="Dashboard, Notebook &amp; Collection User Guide.htm#CreateNewDashboard." MadCap:conditions="Output.Digital">Create a Dashboard</MadCap:xref><MadCap:conditionalText MadCap:conditions="Output.Print">create a Dashboard</MadCap:conditionalText>.</p>
                 <MadCap:snippetBlock src="../Resources/Snippets/How To Create Domain.flsnp" />
             </MadCap:dropDownBody>
         </MadCap:dropDown>
@@ -103,8 +95,5 @@ operations.</p>
                 </MadCap:dropDownBody>
             </MadCap:dropDown>
         </div>
-        <p>
-            <MadCap:conceptLink term="Streams" />
-        </p>
     </body>
 </html>

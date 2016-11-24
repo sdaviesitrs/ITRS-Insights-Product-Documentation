@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="936" MadCap:lastWidth="937">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="908" MadCap:lastWidth="1236">
     <body>
         <MadCap:dropDown>
             <MadCap:dropDownHead class="H2NoKeyline">
@@ -29,7 +29,7 @@
                         <MadCap:snippetText src="UI Definition Export.flsnp" />
                     </li>
                     <li><strong>Run Query</strong> - runs the query</li>
-                    <li><strong>Exposed Parameter</strong> - entry fields for parameters exposed in the Query Panel (see: <MadCap:xref href="../../C_User Guides/Query, Search &amp; Transform Data User Guide.htm#ExposedParameters">Exposed Parameters</MadCap:xref>.)</li>
+                    <li><strong>Exposed Parameter</strong> - entry fields for parameters exposed in the Query Panel <MadCap:conditionalText MadCap:conditions="Output.Digital">(see: <MadCap:xref href="../../C_User Guides/Query, Search &amp; Transform Data User Guide.htm#ExposedParameters">Exposed Parameters</MadCap:xref>.)</MadCap:conditionalText></li>
                     <li><strong>Time Boundary&#160;Selection</strong> - visible only in free text searches, these controls allow you to specify a time and date range for returned results</li>
                     <li><strong>Additional Options </strong>- opens a dialog displaying additional options (duplicate and delete)</li>
                     <li><strong>Search </strong>- runs the free text search</li>

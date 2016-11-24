@@ -37,7 +37,7 @@ be considered somewhat invasive.</p>
 entries for contributors and tags defined by the domain. The filter is
 dynamic, so a contributor which no longer matches the query will be
 automatically removed from the domain.</p>
-                <p id="Example">A domain definition is identified by a unique <MadCap:keyword term="URI" />URI in the following format</p>
+                <p id="Example">A domain definition is identified by a unique URI in the following format</p>
                 <blockquote>
                     <p id="Example"><tt class="docutils literal">/domain/tenant/collection/name</tt>
                     </p>

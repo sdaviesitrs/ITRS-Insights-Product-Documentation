@@ -1,22 +1,21 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="9" MadCap:lastHeight="9525" MadCap:lastWidth="1480">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="9" MadCap:lastHeight="727" MadCap:lastWidth="576">
     <head>
         <link href="../Resources/Stylesheets/styles.css" rel="stylesheet" type="text/css" />
     </head>
     <body>
-        <h1>
-            <MadCap:conditionalText MadCap:conditions="Output.Print"><MadCap:variable name="General.Product Name&#160;Insights (Full)" /> </MadCap:conditionalText>Visualising Results User Guide</h1>
+        <h1><MadCap:variable name="General.Product Name&#160;Insights (Full)" /> Visualising Results User Guide</h1>
         <div class="document" id="visualising-data">
             <p><MadCap:variable name="General.Product Name&#160;Insights (Full)" /> provides a number of different ways to visualise your data
-and the outcome of your <strong class="green">queries</strong>. See <MadCap:xref href="Query, Search &amp; Transform Data User Guide.htm">[%=General.Product Name&#160;Insights (Full)%] Query,&#160;Search&#160;and Transform Data User Guide</MadCap:xref>.</p>
+and the outcome of your <strong class="green">queries</strong>.<MadCap:conditionalText MadCap:conditions="Output.Digital"> See <MadCap:xref href="Query, Search &amp; Transform Data User Guide.htm">[%=General.Product Name&#160;Insights (Full)%] Query,&#160;Search&#160;and Transform Data User Guide</MadCap:xref>.</MadCap:conditionalText></p>
             <p>Once you have run the
 query, you can choose from a range of chart types to display the results, and you can apply a filter on how many results are displayed if you want to pare down your charts to something visually more manageable. <MadCap:variable name="General.Product Name Insights&#160;(abbreviated)" /> saves your visualization and chart preferences for each query, resetting them only if your query is changed in such a way that your visualization choices are no longer possible.</p>
-            <p>Finally, you can send any of your visualizations to one or more <strong class="green">Dashboards </strong> to develop an aggregated visual display of your key query results in real time. See <MadCap:xref href="Dashboard, Notebook &amp; Collection User Guide.htm">[%=General.Product Name&#160;Insights (Full)%] Dashboard &amp;&#160;Notebook&#160;User Guide</MadCap:xref>. </p>
+            <p>Finally, you can send any of your visualizations to one or more <strong class="green">Dashboards </strong> to develop an aggregated visual display of your key query results in real time. <MadCap:conditionalText MadCap:conditions="Output.Digital">See <MadCap:xref href="Dashboard, Notebook &amp; Collection User Guide.htm">[%=General.Product Name&#160;Insights (Full)%] Dashboard &amp;&#160;Notebook&#160;User Guide</MadCap:xref>. </MadCap:conditionalText></p>
             <p class="note">The visualisation options displayed to you are dependent on the content of the query that you run. For example, you will not be able to see the Anomaly Detection chart option unless your query includes a valid <code>select anomaly</code> clause.</p>
             <MadCap:pageBreak />
             <h2 class="nokeyline"><a name="visualisingInterface"></a>The Visualization Interface</h2>
             <p style="text-align: left;">
-                <img src="../Resources/Images/chart_barchart.PNG" alt="" title="" class="screenshotsmedium" />
+                <img src="../Resources/Images/chart_barchart.PNG" alt="" title="" class="screenshotsmedium" style="width: 435px;height: 483px;" />
             </p>
             <p>The Visualization Interface</p>
             <ol>
@@ -28,7 +27,7 @@ query, you can choose from a range of chart types to display the results, and yo
             <MadCap:pageBreak />
             <h2><a name="ResultsParameters"></a>Define Results and Duration Visualization Parameters</h2>
             <p>
-                <img src="../Resources/Images/interface_defineparameters_small.bmp" alt="" title="" class="screenshotsmedium" />
+                <img src="../Resources/Images/interface_defineparameters_small.bmp" alt="" title="" class="screenshotsmedium" style="width: 498px;height: 193px;" />
             </p>
             <p>Some queries will return vast amounts of data, and that may make your charts difficult to understand and interpret. To help you declutter your visualizations, <MadCap:variable name="General.Product Name Insights&#160;(abbreviated)" /> allows you to define an additional parameter to filter your results by - either Duration or number of Results.</p>
             <p>For real-time searches, you can define either a duration over which to display results (anything from the last 1 minute to the last 24 hours), or a limit on the number of results that are displayed (from as few as the most recent 10 to as many as the most recent 10,000).</p>
@@ -56,7 +55,7 @@ query, you can choose from a range of chart types to display the results, and yo
                     <p>When you select <i>sparkline</i> or <i>column</i> as your <i>Decoration</i>, only the ten most recent results are displayed.</p>
                     <blockquote>
                         <p style="text-align: left;">
-                            <img src="../Resources/Images/chart_kpi.PNG" class="screenshotsmedium" />
+                            <img src="../Resources/Images/chart_kpi.PNG" class="screenshotsmedium" style="width: 273px;height: 236px;" />
                         </p>
                     </blockquote>
                 </MadCap:dropDownBody>
@@ -77,7 +76,6 @@ table. Tables can be sorted by selecting the appropriate column.</p>
                     </blockquote>
                 </MadCap:dropDownBody>
             </MadCap:dropDown>
-            <MadCap:pageBreak />
             <MadCap:dropDown>
                 <MadCap:dropDownHead>
                     <MadCap:dropDownHotspot>Line Chart <MadCap:snippetText src="../Resources/Snippets/Icon Chart Line.flsnp" /></MadCap:dropDownHotspot>
@@ -109,7 +107,6 @@ select left.SenderCompID, left.ClOrdID, millis(diff(left.TransactTime, right.Tra
                     </blockquote>
                 </MadCap:dropDownBody>
             </MadCap:dropDown>
-            <MadCap:pageBreak />
             <div class="section" id="bubble-chart-image12">
                 <MadCap:dropDown>
                     <MadCap:dropDownHead>
@@ -139,7 +136,7 @@ select process, host, sampleTime, kernel, user, kernel as kernel1, user as user1
                 </MadCap:dropDown>
             </div>
             <div class="section" id="spark-lines-image6">
-                <MadCap:pageBreak />
+                <p>&#160;</p>
                 <MadCap:dropDown>
                     <MadCap:dropDownHead>
                         <MadCap:dropDownHotspot><a name="BubbleMap"></a>Bubble Map </MadCap:dropDownHotspot>
@@ -153,7 +150,6 @@ select process, host, sampleTime, kernel, user, kernel as kernel1, user as user1
                         <MadCap:snippetBlock src="../Resources/Snippets/Visualization Definition Y Axis Scale.flsnp" />
                     </MadCap:dropDownBody>
                 </MadCap:dropDown>
-                <MadCap:pageBreak />
                 <MadCap:dropDown>
                     <MadCap:dropDownHead>
                         <MadCap:dropDownHotspot>Spark lines <MadCap:snippetText src="../Resources/Snippets/Icon Chart Sparklines.flsnp" /></MadCap:dropDownHotspot>
@@ -180,7 +176,6 @@ lateness looks like for each carrier.</p>
                 </MadCap:dropDown>
             </div>
             <div class="section" id="column-chart-image3">
-                <MadCap:pageBreak />
                 <MadCap:dropDown>
                     <MadCap:dropDownHead>
                         <MadCap:dropDownHotspot>Column Chart <img alt="image3" src="../Resources/Images/ColumnButton.png" class="icon" /></MadCap:dropDownHotspot>
@@ -190,7 +185,7 @@ lateness looks like for each carrier.</p>
 </p>
                         <blockquote>
                             <p style="text-align: left;">
-                                <img alt="image4" src="../Resources/Images/chart_barchart.PNG" class="screenshotsmedium" />
+                                <img alt="image4" src="../Resources/Images/chart_barchart.PNG" class="screenshotsmedium" style="width: 423px;height: 472px;" />
                             </p>
                         </blockquote>
                         <div class="system-message"><pre class="literal-block" xml:space="preserve">
@@ -257,7 +252,7 @@ select UniqueCarrier, Distance, minutes(AirTime) as AirMinutes
             </div>
             <div class="section" id="dashboards">
                 <h2>Dashboards</h2>
-                <p>You can also use a <MadCap:xref href="Dashboard, Notebook &amp; Collection User Guide.htm#Dashboard">Dashboard</MadCap:xref> to share the visualization of query results without the viewer needing to have direct access to the query and/or data.</p>
+                <p>You can also use a <MadCap:xref href="Dashboard, Notebook &amp; Collection User Guide.htm#Dashboard" MadCap:conditions="Output.Digital">Dashboard</MadCap:xref><MadCap:conditionalText MadCap:conditions="Output.Print">Dashboard</MadCap:conditionalText> to share the visualization of query results without the viewer needing to have direct access to the query and/or data.</p>
             </div>
         </div>
     </body>

@@ -63,7 +63,7 @@
   <Variable
     Name="DocumentVersionNo"
     Comment=""
-    EvaluatedDefinition="v0.1">v0.1</Variable>
+    EvaluatedDefinition="v1.0">v1.0</Variable>
   <Variable
     Name="ResourcesWebsite"
     Comment=""

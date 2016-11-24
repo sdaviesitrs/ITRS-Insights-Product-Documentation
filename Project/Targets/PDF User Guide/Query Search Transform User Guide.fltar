@@ -9,7 +9,9 @@
   ConditionTagExpression="exclude[Output.Digital or Output.Null or &quot;Output.Staging Only&quot; or Product.Valo or &quot;Versions.Current Valo&quot;] "
   PatchHeadingLevels="false"
   InjectEmptyPages="false"
-  MasterStylesheet="/Content/Resources/Stylesheets/styles.css">
+  MasterStylesheet="/Content/Resources/Stylesheets/styles.css"
+  OutputFolder="C:\Users\sdavies\Desktop"
+  OutputFile="ITRS Insights - Query, Search &amp; Transform User Guide v1 0">
   <PrintedOutput
     CollapseMargins="true"
     ExpandingTextConversion="expand"

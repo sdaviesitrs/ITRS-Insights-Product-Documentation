@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="365" MadCap:lastWidth="963">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="476" MadCap:lastWidth="727">
     <body>
         <MadCap:snippetBlock src="Definition Notebook.flsnp" />
         <p>An <MadCap:variable name="General.Product Name Insights&#160;(abbreviated)" /> <strong class="green">Notebook </strong>is very similar to the paper notebook on your
 desk: it is a place where you can record your findings, try hypotheses,
 jot down notes and build up an understanding of what your data looks like. It's also the place where you define how you want to visualise the results of your queries. </p>
         <p>You can run <strong class="green">Free Text Searches</strong> and <strong class="green">Queries
-</strong>from your Notebook (see <MadCap:xref href="../../C_User Guides/Query, Search &amp; Transform Data User Guide.htm">[<MadCap:xref href="../../C_User Guides/Query, Search &amp; Transform Data User Guide.htm" MadCap:conditions="Output.Digital">[%=General.Product Name&#160;Insights (Full)%] Query, Search and Transform Introduction</MadCap:xref><MadCap:conditionalText MadCap:conditions="Output.Print"><![CDATA[
+</strong> from your Notebook (see <MadCap:xref href="../../C_User Guides/Query, Search &amp; Transform Data User Guide.htm">[<MadCap:xref href="../../C_User Guides/Query, Search &amp; Transform Data User Guide.htm" MadCap:conditions="Output.Digital">[%=General.Product Name&#160;Insights (Full)%] Query, Search and Transform Introduction</MadCap:xref><MadCap:conditionalText MadCap:conditions="Output.Print"><![CDATA[
                     ]]><span style="color: #000000;"> <MadCap:variable name="General.Product Name&#160;Insights (Full)" />Query, Search and Transform Data User Guide</span><![CDATA[
                 ]]></MadCap:conditionalText></MadCap:xref>), and review results in a number of different graphing
 options (see <MadCap:conditionalText MadCap:conditions="Output.Digital"><MadCap:xref href="../../C_User Guides/Visualizing Results User Guide.htm">[%=General.Product Name&#160;Insights (Full)%] Visualising Results User Guide</MadCap:xref></MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="Output.Print"><MadCap:variable name="General.Product Name&#160;Insights (Full)" style="color: #000000;" /> <span style="color: #000000;">visualising Results User Guide</span></MadCap:conditionalText>).</p>

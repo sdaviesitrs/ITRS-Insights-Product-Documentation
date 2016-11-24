@@ -12,6 +12,5 @@
         </Frame>
         <Frame Flow="body" Y="32px" Bottom="-87px" X="-63px" Right="-44px" ColumnCount="1" ColumnGap="30px" ColumnDivider="Solid 1px Red" Anchors="Left,Right,Top,Bottom" Width="709px" Height="986px" BorderLeftStyle="solid" BorderLeftWidth="0px" BorderRightStyle="solid" BorderRightWidth="0px" BorderTopStyle="solid" BorderTopWidth="0px" BorderBottomStyle="solid" BorderBottomWidth="0px" DividerWidth="0" BackgroundColor="transparent">
         </Frame>
-        <Frame X="-18px" Y="2px" Width="645px" Height="132px" Flow="decoration2" Right="-25px" Bottom="797px" BackgroundImage="../../Images/InsightsLogo.png" BackgroundRepeat="stretch" />
     </Page>
 </PageStyles>
