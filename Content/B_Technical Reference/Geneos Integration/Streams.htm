@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html MadCap:lastBlockDepth="8" MadCap:lastHeight="12533" MadCap:lastWidth="1730" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+<html MadCap:lastBlockDepth="8" MadCap:lastHeight="12526" MadCap:lastWidth="1730" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
     <head><title>Streams and Dataviews</title>
         <style type="text/css">
 /*
@@ -507,8 +507,7 @@ ul.auto-toc
                 </tbody>
             </table>
             <p>The following creates a stream publishing all updates from dataviews called <cite>CPU</cite> to the stream <cite>/streams/demo/geneos/cpu</cite>.</p>
-            <p class="note">Note: As there is no <cite>auto-config.schema-path</cite> specified, It is up to you to ensure that you define a schema for the stream. If no schema is defined, no data will be published!</p>
-            <div class="system-message"><pre class="literal-block" xml:space="preserve">
+            <p class="note">Note: As there is no <cite>auto-config.schema-path</cite> specified, It is up to you to ensure that you define a schema for the stream. If no schema is defined, no data will be published!</p><pre class="literal-block" xml:space="preserve">
 valo.transport.geneos.streams : [
         {
           stream: "/streams/demo/geneos/cpu",
@@ -516,13 +515,8 @@ valo.transport.geneos.streams : [
         }
     ]
 </pre>
-            </div>
             <p>Alternatively, you can specify a schema/taxonomy from a file containing the corresponding json document. The following defines a stream using a schema and taxonomy file, and configures the stream to be stored in the semi structured repository.</p>
-            <div class="note">
-                <p class="first admonition-title">Note</p>
-                <p class="last">There are some example schemas shipped with the Valo node, in <cite>resources/geneos</cite>. ${valo.home} is the installation directory of the node.</p>
-            </div>
-            <div class="system-message"><pre class="literal-block" xml:space="preserve">
+            <p class="note">Note: There are some example schemas shipped with the Valo node, in <cite>resources/geneos</cite>. ${valo.home} is the installation directory of the node.</p><pre class="literal-block" xml:space="preserve">
 valo.transport.geneos.streams : [
         {
           stream: "/streams/demo/geneos/cpu",
@@ -535,9 +529,7 @@ valo.transport.geneos.streams : [
         }
     ]
 </pre>
-            </div>
-            <p>As topics is a list, you can specify multiple entries. It is important that all of these have the same data shape!</p>
-            <div class="system-message"><pre class="literal-block" xml:space="preserve">
+            <p>As topics is a list, you can specify multiple entries. It is important that all of these have the same data shape!</p><pre class="literal-block" xml:space="preserve">
 valo.transport.geneos.streams : [
         {
           stream: "/streams/demo/geneos/cpu",
@@ -549,14 +541,13 @@ valo.transport.geneos.streams : [
         }
     ]
 </pre>
-            </div>
             <div class="section" id="topics">
                 <h2>Topics</h2>
                 <p>There are two types of topic published by the Gateway, Dataviews and Metadata</p>
                 <div class="section" id="dataview-topics">
                     <h3>Dataview Topics</h3>
                     <p>Dataview topics are composed of the Geneos path names in reverse. If we have a path to a dataview:</p>
-                    <p><pre class="code text literal-block" xml:space="preserve">
+                    <p><pre class="system-message" xml:space="preserve">
 /geneos/gateway[(@name="mygateway")]/directory/probe[(@name="mynetprobe")]/managedEntity[(@name="myentity")]/sampler[(@name="mysampler")][(@type="")]/dataview[(@name="CPU")]
 </pre>
                     </p>
@@ -564,7 +555,7 @@ valo.transport.geneos.streams : [
                     <p class="note">Note: This will match ALL dataviews with this name, across ALL connected Gateways</p>
                     <p>We can narrow the topic by adding the names. So we could choose any dataview called 'CPU', with sampler 'mysampler' : <cite>raw.table.CPU.mysampler</cite></p>
                     <p>Or the full topic: <cite>raw.table.CPU.mysampler..myentity.mynetprobe.mygateway</cite></p>
-                    <p>The full topic specification is:</p><pre class="code text literal-block" xml:space="preserve">
+                    <p>The full topic specification is:</p><pre class="system-message" xml:space="preserve">
 &lt;prefix&gt;.&lt;dataview_name&gt;.&lt;sampler_name&gt;.&lt;sampler_type&gt;.&lt;entity_name&gt;.&lt;probe_name&gt;.&lt;gateway_name&gt;
 </pre>
                     <p>The prefixes:</p>
@@ -600,8 +591,7 @@ valo.transport.geneos.streams : [
                     </table>
                     <p>Enriched dataviews include any gateway computed values. Enriched dataviews <strong>always</strong> have the gateway sample time, as appose the the raw dataviews which contain the netprobe sampler time.
 Note: The shape of the data is the same.</p>
-                    <p>Example of the row data: (<cite>raw.table.</cite> and <cite>enriched.table.</cite>).</p>
-                    <div class="system-message"><pre class="literal-block" xml:space="preserve"><MadCap:conditionalText MadCap:conditions="Output.Null">
+                    <p>Example of the row data: (<cite>raw.table.</cite> and <cite>enriched.table.</cite>).</p><pre class="literal-block" xml:space="preserve"><MadCap:conditionalText MadCap:conditions="Output.Null">
 .. sourcecode:: json</MadCap:conditionalText>
         {
           "data": {
@@ -621,9 +611,7 @@ Note: The shape of the data is the same.</p>
           "operation": "create"
         }
 </pre>
-                    </div>
-                    <p>Example of the headline data: (<cite>raw.headlines.</cite> and <cite>enriched.headlines.</cite>)</p>
-                    <div class="system-message"><pre class="literal-block" xml:space="preserve"><MadCap:conditionalText MadCap:conditions="Output.Null">
+                    <p>Example of the headline data: (<cite>raw.headlines.</cite> and <cite>enriched.headlines.</cite>)</p><pre class="literal-block" xml:space="preserve"><MadCap:conditionalText MadCap:conditions="Output.Null">
 .. sourcecode:: json</MadCap:conditionalText>
         {
           "data": {
@@ -640,39 +628,36 @@ Note: The shape of the data is the same.</p>
           "operation": "update"
         }
 </pre>
-                    </div>
                 </div>
-                <div class="section" id="metadata-topics">
-                    <h3>Metadata Topics</h3>
-                    <p>There are 3 meta data topics that you can subscribe to:</p>
-                    <table border="1" class="docutils">
-                        <colgroup>
-                            <col width="26%" />
-                            <col width="74%" />
-                        </colgroup>
-                        <thead valign="bottom">
-                            <tr>
-                                <th class="head">Topic</th>
-                                <th class="head">Description</th>
-                            </tr>
-                        </thead>
-                        <tbody valign="top">
-                            <tr>
-                                <td>metadata.severity</td>
-                                <td>Severity state for all directory components, cells and headlines</td>
-                            </tr>
-                            <tr>
-                                <td>metadata.snooze</td>
-                                <td>Snooze state for all directory components, cells and headlines</td>
-                            </tr>
-                            <tr>
-                                <td>metadata.userAssignment</td>
-                                <td>User Assignment state for all directory components, cells and headlines</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                    <p>Example <cite>metadata.severity</cite>:</p>
-                    <div class="system-message"><pre class="literal-block" xml:space="preserve"><MadCap:conditionalText MadCap:conditions="Output.Null">
+                <h3>Metadata Topics</h3>
+                <p>There are 3 meta data topics that you can subscribe to:</p>
+                <table border="1" class="docutils">
+                    <colgroup>
+                        <col width="26%" />
+                        <col width="74%" />
+                    </colgroup>
+                    <thead valign="bottom">
+                        <tr>
+                            <th class="head">Topic</th>
+                            <th class="head">Description</th>
+                        </tr>
+                    </thead>
+                    <tbody valign="top">
+                        <tr>
+                            <td>metadata.severity</td>
+                            <td>Severity state for all directory components, cells and headlines</td>
+                        </tr>
+                        <tr>
+                            <td>metadata.snooze</td>
+                            <td>Snooze state for all directory components, cells and headlines</td>
+                        </tr>
+                        <tr>
+                            <td>metadata.userAssignment</td>
+                            <td>User Assignment state for all directory components, cells and headlines</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <p>Example <cite>metadata.severity</cite>:</p><pre class="literal-block" xml:space="preserve"><MadCap:conditionalText MadCap:conditions="Output.Null">
 .. sourcecode:: json</MadCap:conditionalText>
         {
           "data": {
@@ -693,9 +678,7 @@ Note: The shape of the data is the same.</p>
           "operation": "create"
         }
 </pre>
-                    </div>
-                    <p>Example <cite>metadata.snooze</cite>:</p>
-                    <div class="system-message"><pre class="literal-block" xml:space="preserve">
+                <p>Example <cite>metadata.snooze</cite>:</p><pre class="literal-block" xml:space="preserve">
 <MadCap:conditionalText MadCap:conditions="Output.Null">.. sourcecode:: json</MadCap:conditionalText>
         {
           "data": {
@@ -722,9 +705,7 @@ Note: The shape of the data is the same.</p>
           "operation": "update"
         }
 </pre>
-                    </div>
-                    <p>Example <cite>metadata.userAssignment</cite>:</p>
-                    <div class="system-message"><pre class="literal-block" xml:space="preserve"><MadCap:conditionalText MadCap:conditions="Output.Null">
+                <p>Example <cite>metadata.userAssignment</cite>:</p><pre class="literal-block" xml:space="preserve"><MadCap:conditionalText MadCap:conditions="Output.Null">
 .. sourcecode:: json</MadCap:conditionalText>
         {
           "data": {
@@ -750,15 +731,12 @@ Note: The shape of the data is the same.</p>
           "operation": "update"
         }
 </pre>
-                    </div>
-                </div>
             </div>
             <div class="section" id="filtering">
                 <h2>Filtering</h2>
                 <p>Since Gateway 3.6.0, <tt class="docutils literal">data.target</tt> information were added to the geneos publishing dataview (aka metrics) data to describe the source of data. In gateway 3.7.0, additional information was added <tt class="docutils literal">data.target.filter</tt> to supply the OS type and plugin name from which the data came.</p>
                 <p>&#160;</p>
-                <p>Example of the row data: (<cite>raw.table.</cite> and <cite>enriched.table.</cite>).</p>
-                <div class="system-message"><pre class="literal-block" xml:space="preserve"><MadCap:conditionalText MadCap:conditions="Output.Null">
+                <p>Example of the row data: (<cite>raw.table.</cite> and <cite>enriched.table.</cite>).</p><pre class="literal-block" xml:space="preserve"><MadCap:conditionalText MadCap:conditions="Output.Null">
 .. sourcecode:: json</MadCap:conditionalText>
         {
           "data": {
@@ -790,9 +768,7 @@ Note: The shape of the data is the same.</p>
           "operation": "create"
         }
 </pre>
-                </div>
-                <p>Example of the headline data: (<cite>raw.headlines.</cite> and <cite>enriched.headlines.</cite>)</p>
-                <div class="system-message"><pre class="literal-block" xml:space="preserve">
+                <p>Example of the headline data: (<cite>raw.headlines.</cite> and <cite>enriched.headlines.</cite>)</p><pre class="literal-block" xml:space="preserve">
 <MadCap:conditionalText MadCap:conditions="Output.Null">.. sourcecode:: json</MadCap:conditionalText>
         {
           "data": {
@@ -821,10 +797,8 @@ Note: The shape of the data is the same.</p>
           "operation": "update"
         }
 </pre>
-                </div>
                 <p>The <tt class="docutils literal">data.target</tt> information already existed in the geneos metadata.</p>
-                <p>Example <cite>metadata.severity</cite> of a dataview cell:</p>
-                <div class="system-message"><pre class="literal-block" xml:space="preserve"><MadCap:conditionalText MadCap:conditions="Output.Null">
+                <p>Example <cite>metadata.severity</cite> of a dataview cell:</p><pre class="literal-block" xml:space="preserve"><MadCap:conditionalText MadCap:conditions="Output.Null">
 .. sourcecode:: json</MadCap:conditionalText>
         {
           "data": {
@@ -845,9 +819,7 @@ Note: The shape of the data is the same.</p>
           "operation": "create"
         }
 </pre>
-                </div>
-                <p>Example <cite>metadata.severity</cite> of a headline:</p>
-                <div class="system-message"><pre class="literal-block" xml:space="preserve"><MadCap:conditionalText MadCap:conditions="Output.Null">
+                <p>Example <cite>metadata.severity</cite> of a headline:</p><pre class="literal-block" xml:space="preserve"><MadCap:conditionalText MadCap:conditions="Output.Null">
 .. sourcecode:: json</MadCap:conditionalText>
         {
           "data": {
@@ -867,10 +839,8 @@ Note: The shape of the data is the same.</p>
           "operation": "create"
         }
 </pre>
-                </div>
                 <p>This information can be used to filter the incoming data before publishing to streams.</p>
-                <p>Following example shows how the user can filter incoming data from all Linux CPUs from Gateway <tt class="docutils literal">g</tt> into stream <tt class="docutils literal"><span class="pre">/streams/demo/geneos/cpu-linux</span></tt>. This also means that user has more control over what schema to apply for the incoming data. Especially, because some of the geneos plugins produce different data depending on the OS type.</p>
-                <div class="system-message"><pre class="literal-block" xml:space="preserve">
+                <p>Following example shows how the user can filter incoming data from all Linux CPUs from Gateway <tt class="docutils literal">g</tt> into stream <tt class="docutils literal"><span class="pre">/streams/demo/geneos/cpu-linux</span></tt>. This also means that user has more control over what schema to apply for the incoming data. Especially, because some of the geneos plugins produce different data depending on the OS type.</p><pre class="literal-block" xml:space="preserve">
 valo.transport.geneos.streams : [
         {
           stream: "/streams/demo/geneos/cpu-linux",
@@ -889,13 +859,11 @@ valo.transport.geneos.streams : [
         }
     ]
 </pre>
-                </div>
                 <div class="note">
                     <p class="first admonition-title">Note</p>
                     <p>One can filter by other (or all) elements in the data.target JSON node: <tt class="docutils literal">target.gateway</tt>, <tt class="docutils literal">target.probe</tt>, <tt class="docutils literal">target.managedEntity</tt>, <tt class="docutils literal">target.type</tt>, <tt class="docutils literal">target.sampler</tt>, <tt class="docutils literal">target.dataview</tt>, <tt class="docutils literal">target.filter.osType</tt> and <tt class="docutils literal">target.filter.pluginName</tt>.</p>
                 </div>
-                <p>Following example shows how the user can filter incoming data from all samplers and dataviews with names "Linux" and pluginName "cpu" into stream <tt class="docutils literal"><span class="pre">/streams/demo/geneos/linux-cpu-data</span></tt>.</p>
-                <div class="system-message"><pre class="literal-block" xml:space="preserve">
+                <p>Following example shows how the user can filter incoming data from all samplers and dataviews with names "Linux" and pluginName "cpu" into stream <tt class="docutils literal"><span class="pre">/streams/demo/geneos/linux-cpu-data</span></tt>.</p><pre class="literal-block" xml:space="preserve">
 valo.transport.geneos.streams : [
     {
       stream: "/streams/demo/geneos/linux-cpu-data",
@@ -914,10 +882,8 @@ valo.transport.geneos.streams : [
     }
 ]
 </pre>
-                </div>
                 <p>For geneos metadata, instead of <tt class="docutils literal">target.filter.osType</tt> and <tt class="docutils literal">target.filter.pluginName</tt>, we have either <tt class="docutils literal">target.row</tt> and <tt class="docutils literal">target.column</tt> or <tt class="docutils literal">target.headline</tt> parameters.</p>
-                <p>Following example shows how the user can filter all incoming metadata.snooze from a particular managed entity and row into stream <tt class="docutils literal">/streams/demo/geneos/snooze</tt>.</p>
-                <div class="system-message"><pre class="literal-block" xml:space="preserve">
+                <p>Following example shows how the user can filter all incoming metadata.snooze from a particular managed entity and row into stream <tt class="docutils literal">/streams/demo/geneos/snooze</tt>.</p><pre class="literal-block" xml:space="preserve">
 valo.transport.geneos.streams : [
     {
       stream: "/streams/demo/geneos/snooze",
@@ -934,7 +900,6 @@ valo.transport.geneos.streams : [
     }
 ]
 </pre>
-                </div>
                 <p>Another example to demonstrate how the user can filter all incoming metadata.userAssignment from a particular probe, sampler and headline into stream <tt class="docutils literal">/streams/demo/geneos/userassigned</tt>.</p>
                 <div class="system-message"><pre class="literal-block" xml:space="preserve">
 valo.transport.geneos.streams : [
@@ -953,7 +918,7 @@ valo.transport.geneos.streams : [
       }
     }
 ]
-</pre>
+						</pre>
                 </div>
             </div>
         </div>
