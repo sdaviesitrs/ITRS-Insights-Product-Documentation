@@ -1,54 +1,51 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <CatapultToc
   Version="1">
   <TocEntry
     Title="QUICK START">
     <TocEntry
-      Title="Getting Started with [%=General.Product Name Insights (Full)%]"
-      Link="/Content/A_Quick Start/Getting Started with ITRS Insights.htm"
+      Title="Getting Started "
+      Link="/Content/A_Quick Start/Getting Started.htm"
       StartSection="false"
       SectionNumberReset="continue"
       VolumeNumberReset="same"
       ChapterNumberReset="continue" />
     <TocEntry
-      Title="Organizing Data in  [%=General.Product Name Insights (Full)%]"
-      Link="/Content/A_Quick Start/Organizing Data in ITRS Insights.htm" />
+      Title="Organizing Data"
+      Link="/Content/A_Quick Start/Organizing Data.htm" />
     <TocEntry
       Title="What's New in [%=General.Product Name Insights (Full)%] [%=Version.CurrentInsights%]"
-      Link="/Content/A_Quick Start/Whats New in ITRS Insights.htm" />
+      Link="/Content/A_Quick Start/Whats New.htm" />
     <TocEntry
       Title="[%=General.Product Name Insights (Full)%] [%=Version.CurrentInsights%] Release Notes"
-      Link="/Content/A_Quick Start/ITRS Insights Release Notes.htm" />
+      Link="/Content/A_Quick Start/Release Notes.htm" />
   </TocEntry>
   <TocEntry
     Title="USER GUIDES">
     <TocEntry
-      Title="Installation &amp; Licensing User Guide"
+      Title="Installation &amp; Licensing"
       Link="/Content/C_User Guides/Installation &amp; Licensing User Guide.htm" />
     <TocEntry
       Title="Integrate With ITRS Geneos"
       Link="/Content/C_User Guides/Geneos Integration User Guide.htm" />
     <TocEntry
-      Title="[%=General.Product Name Insights (Full)%] Data Streams &amp; Schema User Guide"
+      Title="Data Streams &amp; Schema"
       Link="/Content/C_User Guides/Data Streams &amp; Schema User Guide.htm" />
     <TocEntry
-      Title="[%=General.Product Name Insights (Full)%]  Notebook, Collection &amp; Dashboard User Guide"
+      Title="Notebook, Collection &amp; Dashboard"
       Link="/Content/C_User Guides/Dashboard, Notebook &amp; Collection User Guide.htm" />
     <TocEntry
-      Title="[%=General.Product Name Insights (Full)%] Query, Search and Transform Data User Guide"
+      Title="Query, Search and Transform Data"
       Link="/Content/C_User Guides/Query, Search &amp; Transform Data User Guide.htm" />
     <TocEntry
-      Title="[%=General.Product Name Insights (Full)%] visualising Results User Guide"
-      Link="/Content/C_User Guides/visualising Results User Guide.htm" />
+      Title="Visualising Results"
+      Link="/Content/C_User Guides/Visualizing Results User Guide.htm" />
     <TocEntry
-      Title="[%=General.Product Name Insights (Full)%] Domain &amp; Contributors User Guide"
+      Title="Domain &amp; Contributors"
       Link="/Content/C_User Guides/Domain &amp; Contributors User Guide.htm" />
     <TocEntry
       Title="Logstash walkthough"
       Link="/Content/C_User Guides/Logstash User Guide.htm" />
-    <TocEntry
-      Title="[%=General.Product Name Insights (Full)%] Template User Guide"
-      Link="/Content/C_User Guides/Template User Guide.htm" />
   </TocEntry>
   <TocEntry
     Title="TECH REFERENCE">
@@ -179,13 +176,7 @@
       Title="How To"
       Link="/Content/E_How To/How To.htm" />
     <TocEntry
-      Title="[%=General.Product Name Insights (Full)%] Interface"
-      Link="/Content/F_INTERFACE/ITRS Insights Interface.htm" />
-  </TocEntry>
-  <TocEntry
-    Title="FAQs">
-    <TocEntry
-      Title="FAQs"
-      Link="/Content/D_FAQs/FAQs.htm" />
+      Title="User Interface"
+      Link="/Content/F_INTERFACE/User Interface.htm" />
   </TocEntry>
 </CatapultToc>

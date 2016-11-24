@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="7" MadCap:lastHeight="1007" MadCap:lastWidth="1164">
     <body>
         <MadCap:dropDown>
@@ -39,7 +39,7 @@ might be called something like <code>/streams/hce/electricity/usage</code></p>
                 </blockquote>
                 <p id="Example">Where:</p>
                 <ul class="simple">
-                    <p id="Example"><code>tenant</code> = the organizational unit the stream belongs to (see: <MadCap:xref href="../../A_Quick Start/Organizing Data in ITRS Insights.htm#Tenants">Tenants</MadCap:xref>)</p>
+                    <p id="Example"><code>tenant</code> = the organizational unit the stream belongs to (see: <MadCap:xref href="../../A_Quick Start/Organizing Data.htm#Tenants">Tenants</MadCap:xref>)</p>
                     <p id="Example"><code>collection</code> = the collection the stream is contained in </p>
                     <p id="Example"><code>streamName</code> = the name of the stream</p>
                 </ul>
