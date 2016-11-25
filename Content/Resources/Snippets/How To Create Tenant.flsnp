@@ -15,10 +15,10 @@
                 </ol>
                 <p>The tenant will be created and Valo will open. A message will appear in the top-right corner to confirm that the tenant has been created.</p>
                 <p>
-                    <img src="../Images/create_tenant1.PNG" class="screenshotsmedium" />
+                    <img src="../Images/create_tenant1.png" class="screenshotsmedium" />
                 </p>
                 <p>
-                    <img src="../Images/Create_tenant2.PNG" class="screenshotsmedium" />
+                    <img src="../Images/Create_tenant2.png" class="screenshotsmedium" />
                 </p>
             </MadCap:dropDownBody>
         </MadCap:dropDown>
