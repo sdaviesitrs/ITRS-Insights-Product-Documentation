@@ -11,4 +11,5 @@
   Type="sftp"
   SftpServerValidation="validation-none"
   SftpAuthentication="authentication-password"
-  ConnectionMode="Active"></CatapultDestination>
+  ConnectionMode="Active"
+  ChangedOnly="true"></CatapultDestination>
