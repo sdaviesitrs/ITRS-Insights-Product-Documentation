@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="2" MadCap:lastHeight="57" MadCap:lastWidth="1217">
     <body>
-        <p id="concept_definition"><strong class="green">Collection</strong>:&#160;an organizational tool for grouping together two or more Streams, Domains, Dashboards or Notebooks.  <MadCap:conditionalText MadCap:conditions="Output.Digital">See <MadCap:xref href="../../A_Quick Start/Organizing Data in ITRS Insights.htm#Stream">Stream</MadCap:xref> and <MadCap:xref href="../../A_Quick Start/Organizing Data in ITRS Insights.htm#Tenants">Tenants</MadCap:xref>. </MadCap:conditionalText></p>
+        <p id="concept_definition">
+            <strong class="green">Collection</strong>:&#160;an organisational tool for grouping together two or more Streams, Domains, Dashboards or Notebooks.  <MadCap:conditionalText MadCap:conditions="Output.Digital">See <MadCap:xref href="../../A_Quick Start/Organizing Data in ITRS Insights.htm#Stream">Stream</MadCap:xref> and <MadCap:xref href="../../A_Quick Start/Organizing Data in ITRS Insights.htm#Tenants">Tenants</MadCap:xref>. </MadCap:conditionalText></p>
     </body>
 </html>

@@ -12,6 +12,6 @@ jot down notes and build up an understanding of what your data looks like. It's 
 options (see <MadCap:conditionalText MadCap:conditions="Output.Digital"><MadCap:xref href="../../C_User Guides/Visualizing Results User Guide.htm">[%=General.Product Name&#160;Insights (Full)%] Visualising Results User Guide</MadCap:xref></MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="Output.Print"><MadCap:variable name="General.Product Name&#160;Insights (Full)" style="color: #000000;" /> <span style="color: #000000;">visualising Results User Guide</span></MadCap:conditionalText>).</p>
         <p>You can have multiple Notebooks and you can also share them with
 others by exporting them to a local or network folder.</p>
-        <p>You can also categorize your Notebooks into <strong class="green">Collections</strong>, allowing for high-level organizational teams or functional requirements.</p>
+        <p>You can also categorize your Notebooks into <strong class="green">Collections</strong>, allowing for high-level organisational teams or functional requirements.</p>
     </body>
 </html>

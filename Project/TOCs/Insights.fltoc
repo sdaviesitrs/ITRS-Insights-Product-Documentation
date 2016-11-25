@@ -11,8 +11,8 @@
       VolumeNumberReset="same"
       ChapterNumberReset="continue" />
     <TocEntry
-      Title="Organizing Data"
-      Link="/Content/A_Quick Start/Organizing Data.htm" />
+      Title="Organising Data"
+      Link="/Content/A_Quick Start/Organising Data.htm" />
     <TocEntry
       Title="What's New in [%=General.Product Name Insights (Full)%] [%=Version.CurrentInsights%]"
       Link="/Content/A_Quick Start/Whats New.htm" />

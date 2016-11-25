@@ -6,7 +6,8 @@
     <body>
         <MadCap:dropDown>
             <MadCap:dropDownHead>
-                <MadCap:dropDownHotspot><MadCap:variable name="General.Product Name Insights&#160;(abbreviated)" /> Query Functions</MadCap:dropDownHotspot>
+                <MadCap:dropDownHotspot>
+                    <MadCap:variable name="General.Product Name Insights&#160;(abbreviated)" /> Query Functions</MadCap:dropDownHotspot>
             </MadCap:dropDownHead>
             <MadCap:dropDownBody>
                 <table border="1" style="width: 100%;mc-table-style: url('../TableStyles/Standard.css');margin-left: 0;margin-right: auto;" class="TableStyle-Standard" cellspacing="0">
@@ -23,7 +24,10 @@
                     <tbody valign="top">
                         <tr class="TableStyle-Standard-Body-Row1">
                             <td class="TableStyle-Standard-BodyE-Column1-Row1">
-                                <p class="first"><a href="#id5"><MadCap:xref href="#abs">Output</MadCap:xref></a>
+                                <p class="first">
+                                    <a href="#id5">
+                                        <MadCap:xref href="#abs">Output</MadCap:xref>
+                                    </a>
                                 </p>
                             </td>
                             <td class="TableStyle-Standard-BodyE-Column2-Row1">
@@ -43,7 +47,10 @@
                                 </p>
                             </td>
                             <td class="TableStyle-Standard-BodyE-Column2-Row1">
-                                <p class="first"><a href="#id11"><MadCap:xref href="../../B_Technical Reference/Algorithms/Anomaly.htm">Anomaly</MadCap:xref></a>
+                                <p class="first">
+                                    <a href="#id11">
+                                        <MadCap:xref href="../../B_Technical Reference/Algorithms/Anomaly.htm">Anomaly</MadCap:xref>
+                                    </a>
                                 </p>
                             </td>
                             <td class="TableStyle-Standard-BodyD-Column3-Row1">Identification of events which do not conform to the pattern set by other events in a dataset.</td>
@@ -75,7 +82,10 @@
                                 </p>
                             </td>
                             <td class="TableStyle-Standard-BodyE-Column2-Row1">
-                                <p class="first"><a href="#id15"><MadCap:xref href="../../B_Technical Reference/Algorithms/Bivar.htm">Bivar</MadCap:xref></a>
+                                <p class="first">
+                                    <a href="#id15">
+                                        <MadCap:xref href="../../B_Technical Reference/Algorithms/Bivar.htm">Bivar</MadCap:xref>
+                                    </a>
                                 </p>
                             </td>
                             <td class="TableStyle-Standard-BodyD-Column3-Row1">Bivariate correlative statistics for use with 2 variables.</td>
@@ -365,7 +375,9 @@
                             <td class="TableStyle-Standard-BodyD-Column3-Row1">&#160;</td>
                         </tr>
                         <tr class="TableStyle-Standard-Body-Row1">
-                            <td class="TableStyle-Standard-BodyE-Column1-Row1"><a name="hour"></a>hour(datetime or time)</td>
+                            <td class="TableStyle-Standard-BodyE-Column1-Row1">
+                                <a name="hour">
+                                </a>hour(datetime or time)</td>
                             <td class="TableStyle-Standard-BodyE-Column2-Row1">integer</td>
                             <td class="TableStyle-Standard-BodyD-Column3-Row1">Hour of the day</td>
                         </tr>
@@ -393,13 +405,17 @@
                         </tr>
                         <tr class="TableStyle-Standard-Body-Row1">
                             <td class="TableStyle-Standard-BodyE-Column1-Row1">ifNull(-type-, -type-)</td>
-                            <td class="TableStyle-Standard-BodyE-Column2-Row1"><em>-type-</em>
+                            <td class="TableStyle-Standard-BodyE-Column2-Row1">
+                                <em>-type-</em>
                             </td>
                             <td class="TableStyle-Standard-BodyD-Column3-Row1">if first input is null use the second value</td>
                         </tr>
                         <tr class="TableStyle-Standard-Body-Row1">
                             <td class="TableStyle-Standard-BodyE-Column1-Row1">
-                                <p class="first"><a href="#id37"><MadCap:xref href="../../B_Technical Reference/Algorithms/Irregular Time Series Functions.htm#iMicroTickFrequency">iMicroTickFrequency</MadCap:xref></a>
+                                <p class="first">
+                                    <a href="#id37">
+                                        <MadCap:xref href="../../B_Technical Reference/Algorithms/Irregular Time Series Functions.htm#iMicroTickFrequency">iMicroTickFrequency</MadCap:xref>
+                                    </a>
                                 </p>
                             </td>
                             <td class="TableStyle-Standard-BodyE-Column2-Row1">double</td>
@@ -407,7 +423,10 @@
                         </tr>
                         <tr class="TableStyle-Standard-Body-Row1">
                             <td class="TableStyle-Standard-BodyE-Column1-Row1">
-                                <p class="first"><a href="#id39"><MadCap:xref href="../../B_Technical Reference/Algorithms/Irregular Time Series Functions.htm#iMicroVolatility">iMicroVolatility</MadCap:xref></a>
+                                <p class="first">
+                                    <a href="#id39">
+                                        <MadCap:xref href="../../B_Technical Reference/Algorithms/Irregular Time Series Functions.htm#iMicroVolatility">iMicroVolatility</MadCap:xref>
+                                    </a>
                                 </p>
                             </td>
                             <td class="TableStyle-Standard-BodyE-Column2-Row1">double</td>
@@ -415,7 +434,10 @@
                         </tr>
                         <tr class="TableStyle-Standard-Body-Row1">
                             <td class="TableStyle-Standard-BodyE-Column1-Row1">
-                                <p class="first"><a href="#id41"><MadCap:xref href="../../B_Technical Reference/Algorithms/Irregular Time Series Functions.htm#iMovAverage">iMovAverage</MadCap:xref></a>
+                                <p class="first">
+                                    <a href="#id41">
+                                        <MadCap:xref href="../../B_Technical Reference/Algorithms/Irregular Time Series Functions.htm#iMovAverage">iMovAverage</MadCap:xref>
+                                    </a>
                                 </p>
                             </td>
                             <td class="TableStyle-Standard-BodyE-Column2-Row1">double</td>
@@ -423,7 +445,10 @@
                         </tr>
                         <tr class="TableStyle-Standard-Body-Row1">
                             <td class="TableStyle-Standard-BodyE-Column1-Row1">
-                                <p class="first"><a href="#id43"><MadCap:xref href="../../B_Technical Reference/Algorithms/Irregular Time Series Functions.htm#iMovDerivative">iMovDerivative</MadCap:xref></a>
+                                <p class="first">
+                                    <a href="#id43">
+                                        <MadCap:xref href="../../B_Technical Reference/Algorithms/Irregular Time Series Functions.htm#iMovDerivative">iMovDerivative</MadCap:xref>
+                                    </a>
                                 </p>
                             </td>
                             <td class="TableStyle-Standard-BodyE-Column2-Row1">double</td>
@@ -431,7 +456,10 @@
                         </tr>
                         <tr class="TableStyle-Standard-Body-Row1">
                             <td class="TableStyle-Standard-BodyE-Column1-Row1">
-                                <p class="first"><a href="#id45"><MadCap:xref href="../../B_Technical Reference/Algorithms/Irregular Time Series Functions.htm#iMovDifferential">iMovDifferential</MadCap:xref></a>
+                                <p class="first">
+                                    <a href="#id45">
+                                        <MadCap:xref href="../../B_Technical Reference/Algorithms/Irregular Time Series Functions.htm#iMovDifferential">iMovDifferential</MadCap:xref>
+                                    </a>
                                 </p>
                             </td>
                             <td class="TableStyle-Standard-BodyE-Column2-Row1">double</td>
@@ -439,7 +467,10 @@
                         </tr>
                         <tr class="TableStyle-Standard-Body-Row1">
                             <td class="TableStyle-Standard-BodyE-Column1-Row1">
-                                <p class="first"><a href="#id47"><MadCap:xref href="../../B_Technical Reference/Algorithms/Irregular Time Series Functions.htm#iMovKurtosis">iMovKurtosis</MadCap:xref></a>
+                                <p class="first">
+                                    <a href="#id47">
+                                        <MadCap:xref href="../../B_Technical Reference/Algorithms/Irregular Time Series Functions.htm#iMovKurtosis">iMovKurtosis</MadCap:xref>
+                                    </a>
                                 </p>
                             </td>
                             <td class="TableStyle-Standard-BodyE-Column2-Row1">double</td>
@@ -447,7 +478,10 @@
                         </tr>
                         <tr class="TableStyle-Standard-Body-Row1">
                             <td class="TableStyle-Standard-BodyE-Column1-Row1">
-                                <p class="first"><a href="#id49"><MadCap:xref href="../../B_Technical Reference/Algorithms/Irregular Time Series Functions.htm#iMovNorm">iMovNorm</MadCap:xref></a>
+                                <p class="first">
+                                    <a href="#id49">
+                                        <MadCap:xref href="../../B_Technical Reference/Algorithms/Irregular Time Series Functions.htm#iMovNorm">iMovNorm</MadCap:xref>
+                                    </a>
                                 </p>
                             </td>
                             <td class="TableStyle-Standard-BodyE-Column2-Row1">double</td>
@@ -455,7 +489,10 @@
                         </tr>
                         <tr class="TableStyle-Standard-Body-Row1">
                             <td class="TableStyle-Standard-BodyE-Column1-Row1">
-                                <p class="first"><a href="#id51"><MadCap:xref href="../../B_Technical Reference/Algorithms/Irregular Time Series Functions.htm#iMovOscilator">iMovOscilator</MadCap:xref></a>
+                                <p class="first">
+                                    <a href="#id51">
+                                        <MadCap:xref href="../../B_Technical Reference/Algorithms/Irregular Time Series Functions.htm#iMovOscilator">iMovOscilator</MadCap:xref>
+                                    </a>
                                 </p>
                             </td>
                             <td class="TableStyle-Standard-BodyE-Column2-Row1">double</td>
@@ -463,7 +500,10 @@
                         </tr>
                         <tr class="TableStyle-Standard-Body-Row1">
                             <td class="TableStyle-Standard-BodyE-Column1-Row1">
-                                <p class="first"><a href="#id53"><MadCap:xref href="../../B_Technical Reference/Algorithms/Irregular Time Series Functions.htm#iMovSkewness">iMovSkewness</MadCap:xref></a>
+                                <p class="first">
+                                    <a href="#id53">
+                                        <MadCap:xref href="../../B_Technical Reference/Algorithms/Irregular Time Series Functions.htm#iMovSkewness">iMovSkewness</MadCap:xref>
+                                    </a>
                                 </p>
                             </td>
                             <td class="TableStyle-Standard-BodyE-Column2-Row1">double</td>
@@ -471,7 +511,10 @@
                         </tr>
                         <tr class="TableStyle-Standard-Body-Row1">
                             <td class="TableStyle-Standard-BodyE-Column1-Row1">
-                                <p class="first"><a href="#id55"><MadCap:xref href="../../B_Technical Reference/Algorithms/Irregular Time Series Functions.htm#iMovStandardDeviation">iMovStandardDeviation</MadCap:xref></a>
+                                <p class="first">
+                                    <a href="#id55">
+                                        <MadCap:xref href="../../B_Technical Reference/Algorithms/Irregular Time Series Functions.htm#iMovStandardDeviation">iMovStandardDeviation</MadCap:xref>
+                                    </a>
                                 </p>
                             </td>
                             <td class="TableStyle-Standard-BodyE-Column2-Row1">double</td>
@@ -479,7 +522,10 @@
                         </tr>
                         <tr class="TableStyle-Standard-Body-Row1">
                             <td class="TableStyle-Standard-BodyE-Column1-Row1">
-                                <p class="first"><a href="#id57"><MadCap:xref href="../../B_Technical Reference/Algorithms/Irregular Time Series Functions.htm#iMovVariance">iMovVariance</MadCap:xref></a>
+                                <p class="first">
+                                    <a href="#id57">
+                                        <MadCap:xref href="../../B_Technical Reference/Algorithms/Irregular Time Series Functions.htm#iMovVariance">iMovVariance</MadCap:xref>
+                                    </a>
                                 </p>
                             </td>
                             <td class="TableStyle-Standard-BodyE-Column2-Row1">double</td>
@@ -487,7 +533,10 @@
                         </tr>
                         <tr class="TableStyle-Standard-Body-Row1">
                             <td class="TableStyle-Standard-BodyE-Column1-Row1">
-                                <p class="first"><a href="#id59"><MadCap:xref href="../../B_Technical Reference/Algorithms/Irregular Time Series Functions.htm#iMovOscilator">iMovOscilator</MadCap:xref></a>
+                                <p class="first">
+                                    <a href="#id59">
+                                        <MadCap:xref href="../../B_Technical Reference/Algorithms/Irregular Time Series Functions.htm#iMovOscilator">iMovOscilator</MadCap:xref>
+                                    </a>
                                 </p>
                             </td>
                             <td class="TableStyle-Standard-BodyE-Column2-Row1">double</td>
@@ -495,7 +544,10 @@
                         </tr>
                         <tr class="TableStyle-Standard-Body-Row1">
                             <td class="TableStyle-Standard-BodyE-Column1-Row1">
-                                <p class="first"><a href="#id61"><MadCap:xref href="../../B_Technical Reference/Algorithms/Irregular Time Series Functions.htm#iMovZ">iMovZ</MadCap:xref></a>
+                                <p class="first">
+                                    <a href="#id61">
+                                        <MadCap:xref href="../../B_Technical Reference/Algorithms/Irregular Time Series Functions.htm#iMovZ">iMovZ</MadCap:xref>
+                                    </a>
                                 </p>
                             </td>
                             <td class="TableStyle-Standard-BodyE-Column2-Row1">double</td>
@@ -599,7 +651,7 @@
                         <tr class="TableStyle-Standard-Body-Row1">
                             <td class="TableStyle-Standard-BodyE-Column1-Row1">isOrganisationalMulticastAddress(ip)</td>
                             <td class="TableStyle-Standard-BodyE-Column2-Row1">boolean</td>
-                            <td class="TableStyle-Standard-BodyD-Column3-Row1">Returns true if the multicast address has organization scope</td>
+                            <td class="TableStyle-Standard-BodyD-Column3-Row1">Returns true if the multicast address has organisation scope</td>
                         </tr>
                         <tr class="TableStyle-Standard-Body-Row1">
                             <td class="TableStyle-Standard-BodyE-Column1-Row1">isPosInfinity(double)</td>
@@ -618,7 +670,10 @@
                         </tr>
                         <tr class="TableStyle-Standard-Body-Row1">
                             <td class="TableStyle-Standard-BodyE-Column1-Row1">
-                                <p class="first"><a href="#id63"><MadCap:xref href="#Last">Output</MadCap:xref></a>
+                                <p class="first">
+                                    <a href="#id63">
+                                        <MadCap:xref href="#Last">Output</MadCap:xref>
+                                    </a>
                                 </p>
                             </td>
                             <td class="TableStyle-Standard-BodyE-Column2-Row1">-type-</td>
@@ -661,7 +716,10 @@
                         </tr>
                         <tr class="TableStyle-Standard-Body-Row1">
                             <td class="TableStyle-Standard-BodyE-Column1-Row1">
-                                <p class="first"><a href="#id65"><MadCap:xref href="#max">Output</MadCap:xref></a>
+                                <p class="first">
+                                    <a href="#id65">
+                                        <MadCap:xref href="#max">Output</MadCap:xref>
+                                    </a>
                                 </p>
                             </td>
                             <td class="TableStyle-Standard-BodyE-Column2-Row1">integer</td>
@@ -669,7 +727,10 @@
                         </tr>
                         <tr class="TableStyle-Standard-Body-Row1">
                             <td class="TableStyle-Standard-BodyE-Column1-Row1">
-                                <p class="first"><a href="#id67"><MadCap:xref href="#Max">Output</MadCap:xref></a>
+                                <p class="first">
+                                    <a href="#id67">
+                                        <MadCap:xref href="#Max">Output</MadCap:xref>
+                                    </a>
                                 </p>
                             </td>
                             <td class="TableStyle-Standard-BodyE-Column2-Row1">-type-</td>
@@ -687,7 +748,10 @@
                         </tr>
                         <tr class="TableStyle-Standard-Body-Row1">
                             <td class="TableStyle-Standard-BodyE-Column1-Row1">
-                                <p class="first"><a href="#id69"><MadCap:xref href="#min">Output</MadCap:xref></a>
+                                <p class="first">
+                                    <a href="#id69">
+                                        <MadCap:xref href="#min">Output</MadCap:xref>
+                                    </a>
                                 </p>
                             </td>
                             <td class="TableStyle-Standard-BodyE-Column2-Row1">integer</td>
@@ -695,7 +759,10 @@
                         </tr>
                         <tr class="TableStyle-Standard-Body-Row1">
                             <td class="TableStyle-Standard-BodyE-Column1-Row1">
-                                <p class="first"><a href="#id71"><MadCap:xref href="#Min">Output</MadCap:xref></a>
+                                <p class="first">
+                                    <a href="#id71">
+                                        <MadCap:xref href="#Min">Output</MadCap:xref>
+                                    </a>
                                 </p>
                             </td>
                             <td class="TableStyle-Standard-BodyE-Column2-Row1">-type-</td>
@@ -783,7 +850,10 @@
                         </tr>
                         <tr class="TableStyle-Standard-Body-Row1">
                             <td class="TableStyle-Standard-BodyE-Column1-Row1">
-                                <p class="first"><a href="#id73"><MadCap:xref href="#prefix">Output</MadCap:xref></a>
+                                <p class="first">
+                                    <a href="#id73">
+                                        <MadCap:xref href="#prefix">Output</MadCap:xref>
+                                    </a>
                                 </p>
                             </td>
                             <td class="TableStyle-Standard-BodyE-Column2-Row1">boolean</td>
@@ -791,7 +861,10 @@
                         </tr>
                         <tr class="TableStyle-Standard-Body-Row1">
                             <td class="TableStyle-Standard-BodyE-Column1-Row1">
-                                <p class="first"><a href="#id75"><MadCap:xref href="../../B_Technical Reference/Algorithms/Quantiles.htm">Quantiles</MadCap:xref></a>
+                                <p class="first">
+                                    <a href="#id75">
+                                        <MadCap:xref href="../../B_Technical Reference/Algorithms/Quantiles.htm">Quantiles</MadCap:xref>
+                                    </a>
                                 </p>
                             </td>
                             <td class="TableStyle-Standard-BodyE-Column2-Row1">sequence</td>
@@ -864,7 +937,10 @@
                         </tr>
                         <tr class="TableStyle-Standard-Body-Row1">
                             <td class="TableStyle-Standard-BodyE-Column1-Row1">
-                                <p class="first"><a href="#id77"><MadCap:xref href="#sum">Output</MadCap:xref></a>
+                                <p class="first">
+                                    <a href="#id77">
+                                        <MadCap:xref href="#sum">Output</MadCap:xref>
+                                    </a>
                                 </p>
                             </td>
                             <td class="TableStyle-Standard-BodyE-Column2-Row1">long</td>

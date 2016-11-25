@@ -32,14 +32,15 @@ payloads included with a time stamp of 8 would in fact be for 8pm. We can analys
 might be called something like <code>/streams/hce/electricity/usage</code></p>
                 <p id="Example">This URI has the form:</p>
                 <blockquote>
-                    <p xml:space="preserve" id="Example"><code>
+                    <p xml:space="preserve" id="Example">
+                        <code>
 /streams/&lt;tenant&gt;/&lt;collection&gt;/&lt;streamName&gt;
 </code>
                 </p>
                 </blockquote>
                 <p id="Example">Where:</p>
                 <ul class="simple">
-                    <p id="Example"><code>tenant</code> = the organizational unit the stream belongs to (see: <MadCap:xref href="../../A_Quick Start/Organizing Data.htm#Tenants">Tenants</MadCap:xref>)</p>
+                    <p id="Example"><code>tenant</code> = the organisational unit the stream belongs to (see: <MadCap:xref href="../../A_Quick Start/Organising Data.htm#Tenants">Tenants</MadCap:xref>)</p>
                     <p id="Example"><code>collection</code> = the collection the stream is contained in </p>
                     <p id="Example"><code>streamName</code> = the name of the stream</p>
                 </ul>

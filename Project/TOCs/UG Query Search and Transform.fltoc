@@ -71,7 +71,7 @@
     VolumeNumberReset="same">
     <TocEntry
       Title="Introduction to [%=General.Product Name Insights (Full)%] Concepts"
-      Link="/Content/A_Quick Start/Organizing Data.htm"
+      Link="/Content/A_Quick Start/Organising Data.htm"
       StartSection="false"
       SectionNumberReset="continue"
       VolumeNumberReset="same"

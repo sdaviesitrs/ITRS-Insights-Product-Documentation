@@ -5,15 +5,18 @@
         <p>For example, is the source is a sensor in a heating system, we might categorize it based on what type of heater its in, who owns it, who it was manufactured by, or who installed it. You get the idea.</p>
         <p>Like a data Stream, each Contributor has a unique URI.</p>
         <blockquote>
-            <p id="Example"><code>
+            <p id="Example">
+                <code>
 /contributors/&lt;tenant&gt;/&lt;type&gt;
 </code>
             </p>
         </blockquote>
         <p>Where:</p>
         <blockquote>
-            <p id="Example"><code>tenant</code> = the organizational unit the stream belongs to</p>
-            <p id="Example"><code>type</code> = the type of contributor (for example probe or app)</p>
+            <p id="Example">
+                <code>tenant</code> = the organisational unit the stream belongs to</p>
+            <p id="Example">
+                <code>type</code> = the type of contributor (for example probe or app)</p>
         </blockquote>
     </body>
 </html>

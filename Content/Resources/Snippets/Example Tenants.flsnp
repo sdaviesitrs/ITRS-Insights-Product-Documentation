@@ -6,21 +6,24 @@
                 <MadCap:dropDownHotspot>Tenants Example</MadCap:dropDownHotspot>
             </MadCap:dropDownHead>
             <MadCap:dropDownBody>
-                <p id="Example"><strong>A <strong class="green">tenant </strong>is the highest level of grouping. It helps us to understand who owns the data and, if we so
+                <p id="Example">
+                    <strong>A <strong class="green">tenant </strong>is the highest level of grouping. It helps us to understand who owns the data and, if we so
 wish, to place virtual walls around the data limiting visibility and
 access.</strong>
                 </p>
                 <p id="Example">In our smart house example, we could say that <strong>HCE is a <strong class="green">tenant </strong>as it is
-the organization to which the stream of
+the organisation to which the stream of
 electricity consumption data goes:</strong> the stream name is:
 </p>
-                <p id="Example" style="text-indent: 0.5in;"><code>/streams/hce/electricity/usage</code>. </p>
+                <p id="Example" style="text-indent: 0.5in;">
+                    <code>/streams/hce/electricity/usage</code>. </p>
                 <p id="Example">100 miles away in another area of
 the country, there maybe another street of smart houses called Privet
 Drive, this road is supplied by the local company Really Expensive
 Electricity (REE). In this instance we may call the stream:
 </p>
-                <p id="Example" style="text-indent: 0.5in;"><code>/streams/ree/electricity/usage</code>, where REE is the tenant.</p>
+                <p id="Example" style="text-indent: 0.5in;">
+                    <code>/streams/ree/electricity/usage</code>, where REE is the tenant.</p>
                 <p id="Example"> You can assign tenants within a company, perhaps to different departments such as Sales or Engineering. For big businesses, you may define tenants by the city or office they're located in.&#160;The bottom line is that you can organize your data how you wish. </p>
             </MadCap:dropDownBody>
         </MadCap:dropDown>
