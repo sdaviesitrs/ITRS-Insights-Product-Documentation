@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html MadCap:lastBlockDepth="4" MadCap:lastHeight="2595" MadCap:lastWidth="963" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+<html MadCap:lastBlockDepth="4" MadCap:lastHeight="378" MadCap:lastWidth="1174" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
     <head><title>What's New</title>
         <style type="text/css">
 /*
@@ -470,79 +470,14 @@ ul.auto-toc
     <body>
         <h1>What's&#160;New in <MadCap:variable name="General.Product Name&#160;Insights (Full)" /> <MadCap:variable name="Version.CurrentInsights" /></h1>
         <p style="background-color: #ff1493;" MadCap:conditions="Output.Staging Only">PURPLE&#160;CONTENT&#160;VISIBLE&#160;ONLY&#160;ON&#160;STAGING&#160;SITE</p>
-        <p><MadCap:variable name="General.Product Name Insights&#160;(abbreviated)" /> <MadCap:variable name="Version.CurrentInsights" /> delivers dramatic improvements to performance, particularly when visualising large volumes of data.  It also delivers new functionality that gives you greater control over how much of your data you visualise, and new out-of-the-box charts that enable you to more rapidly interpret your data.</p><strong class="green">User Interface</strong>
-        <p>Our dedicated UX&#160;team is continuing to develop the visual style of <MadCap:variable name="General.Product Name Insights&#160;(abbreviated)" />. In <MadCap:variable name="Version.CurrentInsights" /> you'll notice a more vibrant look, and you'll continue to note further refinements with each future release.</p>
-        <p><strong class="green">Dashboard layout customizATION</strong>
-        </p>
+        <p style="background-color: #ff1493;"><MadCap:variable name="General.Product Name Insights&#160;(abbreviated)" /> <MadCap:variable name="Version.CurrentInsights" /> lead in text... to be written prior to release</p>
         <p>
-            <MadCap:conditionalText MadCap:conditions="Output.Staging Only" style="background-color: #ff00ff;">IKABO-947 </MadCap:conditionalText>
-        </p>
-        <p>The layout for Dashboards is now fully customizable. </p>
-        <p>Simply click and drag a visualization panel header to move it, or click and drag the edge to resize it.</p>
-        <p>Many more features are planned for Dashboards, but in the meantime <MadCap:variable name="Version.CurrentInsights" />'s flexible layout will allow dramatically more options when creating and customizing your Dashboards.</p>
+            <MadCap:conditionalText MadCap:conditions="Output.Staging Only" style="background-color: #ff00ff;">IKABO-1005 </MadCap:conditionalText>
+        </p><strong class="green">Visualisation</strong>
+        <p>You can now plot as many as five fields in the Y axis of a line chart.</p>
+        <p>Simply add them from the Axes Configuration drop-down box, then hover the mouse over the plot lines to reveal numeric data values for each of the plotted fields.</p>
         <p MadCap:conditions="Output.Digital">
-            <MadCap:conditionalText MadCap:conditions="Output.Digital">See: <MadCap:xref href="../C_User Guides/Dashboard, Notebook &amp; Collection User Guide.htm#Organize">Organize a Dashboard</MadCap:xref></MadCap:conditionalText>
-        </p><strong class="green">Bubble Map Chart</strong>
-        <p>
-            <MadCap:conditionalText MadCap:conditions="Output.Staging Only" style="background-color: #ff00ff;">IKABO-961 </MadCap:conditionalText>
+            <MadCap:conditionalText MadCap:conditions="Output.Digital">See: <MadCap:xref href="../C_User Guides/Visualizing Results User Guide.htm#VisualisingMultipleFields">Visualising Multiple Fields</MadCap:xref></MadCap:conditionalText>
         </p>
-        <p>We've added a Bubble Map chart that you can use with any query returning Geopoint data.&#160;For example:</p>
-        <blockquote><pre class="prettyprint" xml:space="preserve">from /streams/demo/equities/exchanges
-select name, latency, geopoint(lat, lon)</pre>
-        </blockquote>
-        <p>Bubble maps should be used when showing density of information or events with a geographical context.</p>
-        <p MadCap:conditions="Output.Digital">
-            <MadCap:conditionalText MadCap:conditions="Output.Digital">See: <MadCap:xref href="../C_User Guides/Visualizing Results User Guide.htm#BubbleMap">Bubble Map </MadCap:xref></MadCap:conditionalText>
-        </p><strong class="green">KPI Chart</strong>
-        <p><span style="background-color: #ff00ff;" MadCap:conditions="Output.Staging Only">IKABO-858 </span>
-        </p>
-        <p>A new KPI chart lets you rapidly create visualisations of a key metric.  The most recent value is displayed as a number that can be augmented with a sparkline or column chart showing the last 10 values, or with a red/green indicator showing whether the KPI trend is good or bad.</p>
-        <p MadCap:conditions="Output.Digital">
-            <MadCap:conditionalText MadCap:conditions="Output.Digital">See:&#160;<MadCap:xref href="../C_User Guides/Visualizing Results User Guide.htm#KPI">KPI </MadCap:xref></MadCap:conditionalText>
-        </p>
-        <blockquote>
-            <p>
-                <img src="../Resources/Images/chart_kpi.png" class="screenshotsmedium" />
-            </p>
-        </blockquote>
-        <p MadCap:conditions="Output.Staging Only"><strong class="green">Syntax Highlighting</strong>
-        </p>
-        <p MadCap:conditions="Output.Staging Only">
-            <p><span style="background-color: #ff00ff;" MadCap:conditions="Output.Staging Only">IKABO-974 FOR&#160;V1.5 ONLY</span>
-            </p>
-        </p>
-        <p MadCap:conditions="Output.Staging Only">Blue highlighting as you type your query provides visual feedback that your operators, clauses and syntax are valid and are being recognized by <MadCap:variable name="General.Product Name Insights&#160;(abbreviated)" />.</p>
-        <blockquote>
-            <p MadCap:conditions="Output.Staging Only">
-                <img src="../Resources/Images/syntax_highlighting.png" alt="" title="" class="screenshotsmedium" />
-            </p>
-        </blockquote>
-        <p><strong class="green">Define either Number of Results or the Duration of Results to visualise</strong>
-        </p>
-        <p><span style="background-color: #ff00ff;" MadCap:conditions="Output.Staging Only">IKABO-945 </span>
-        </p>
-        <p>To help you declutter your visualizations in instances where your query returns a large number of results, <MadCap:variable name="General.Product Name Insights&#160;(abbreviated)" /> <MadCap:variable name="Version.CurrentInsights" /> allows you to define an additional parameter to filter your results by - either <i>Duration</i> or number of <i>Results</i>.</p>
-        <blockquote>
-            <p>
-                <img src="../Resources/Images/interface_defineparameters_small.bmp" alt="" title="" class="screenshotsmedium" />
-            </p>
-        </blockquote>
-        <p MadCap:conditions="Output.Digital">See: <MadCap:xref href="../C_User Guides/Visualizing Results User Guide.htm#ResultsParameters">Define Results and Duration Visualization Parameters</MadCap:xref></p>
-        <p><strong class="green">Create a Tenant from the Log-In Page</strong>
-        </p>
-        <p><span style="background-color: #ff00ff;" MadCap:conditions="Output.Staging Only">IKABO-996 </span>
-        </p>
-        <p>You can now create a Tenant direct from the <MadCap:variable name="General.Product Name Insights&#160;(abbreviated)" />&#160;log-in screen. Simply enter a new Tenant name in the <i>Tenant</i> field, then follow the on-screen prompts.</p>
-        <p MadCap:conditions="Output.Digital">See: <MadCap:xref href="../E_How To/How To.htm#createtenant">Tenant</MadCap:xref></p>
-        <p><strong class="green">Exposed Parameters</strong>
-        </p>
-        <p MadCap:conditions="Output.Staging Only" style="background-color: #ff1493;">IKABO-940</p>
-        <p>To better support front-end users who may use queries but not actually write them, one or more parameters in a query can be exposed:</p>
-        <blockquote>
-            <p>
-                <img src="../Resources/Images/exposed_parameter.png" alt="" title="" class="screenshotsmedium" />
-            </p>
-        </blockquote>
-        <p MadCap:conditions="Output.Digital">See: <MadCap:xref href="../C_User Guides/Query, Search &amp; Transform Data User Guide.htm#ExposedParameters">Exposed Parameters</MadCap:xref></p>
     </body>
 </html>
