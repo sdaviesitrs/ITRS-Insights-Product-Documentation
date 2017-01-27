@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="289" MadCap:lastWidth="2765">
+    <body>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>How to Annotate a Line Chart</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <ol>
+                    <li>Create and run a <strong>query </strong>in the <strong>Notebook </strong>in which you want the annotation(s) to be displayed</li>
+                    <li>Create a <strong>Line Chart </strong></li>
+                    <li>In the Line Chart view, position the mouse cursor over one of the X axis <strong>vertical dividers</strong> - an <MadCap:snippetText src="Icon Annotation.flsnp" /> will appear beneath your cursor</li>
+                    <li>Click the <MadCap:snippetText src="Icon Annotation.flsnp" /> to add an annotation: an annotation box will open. Click the annotation box to make it active, then type your annotation</li>
+                    <li>Click anywhere <strong>outside the annotation box</strong> when finished</li>
+                </ol>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+    </body>
+</html>

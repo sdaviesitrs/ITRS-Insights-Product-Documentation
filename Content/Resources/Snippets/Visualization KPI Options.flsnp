@@ -2,7 +2,8 @@
 <html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="3" MadCap:lastHeight="188" MadCap:lastWidth="1477">
     <body>
         <blockquote>
-            <p class="technicalfielddefinition"><strong>KPI Options</strong> -  set the <i>Decoration</i> of the visualization (<i>number</i> (default), <i>status</i>, <i>column</i> or <i>sparkline</i>). You can also set the meaning of the trending data (<i>Higher is better</i>&#160;(default) or <i>Lower is better</i>.) When <i>Decoration</i> is set to <i>Status</i>, the <i>Direction</i> setting will determine when a green arrow or red arrow will be displayed next to the values being returned by the query. </p>
+            <p class="technicalfielddefinition">
+                <strong>KPI Options</strong> -  set the <i>Decoration</i> of the visualisation (<i>number</i> (default), <i>status</i>, <i>column</i> or <i>sparkline</i>). You can also set the meaning of the trending data (<i>Higher is better</i>&#160;(default) or <i>Lower is better</i>.) When <i>Decoration</i> is set to <i>Status</i>, the <i>Direction</i> setting will determine when a green arrow or red arrow will be displayed next to the values being returned by the query. </p>
         </blockquote>
     </body>
 </html>

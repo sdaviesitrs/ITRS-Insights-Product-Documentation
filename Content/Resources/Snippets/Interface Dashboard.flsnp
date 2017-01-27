@@ -16,14 +16,16 @@
                     <li>
                         <MadCap:snippetText src="UI Definition Breadcrumbs.flsnp" />
                     </li>
-                    <li><strong>Visualization </strong>- a visualization added to your Dashboard from a Notebook</li>
+                    <li>
+                        <strong>visualisation </strong>- a visualisation added to your Dashboard from a Notebook</li>
                     <li>
                         <MadCap:snippetText src="UI Definition Edit.flsnp" />
                     </li>
                     <li>
                         <MadCap:snippetText src="UI Definition Delete.flsnp" />
                     </li>
-                    <li><strong>Resize Handle</strong> - (hover mouse over the chart to reveal) grab and drag the <MadCap:snippetText src="Icon Resize Handle.flsnp" /> to rescale the visualization</li>
+                    <li>
+                        <strong>Resize Handle</strong> - (hover mouse over the chart to reveal) grab and drag the <MadCap:snippetText src="Icon Resize Handle.flsnp" /> to rescale the visualization</li>
                 </ol>
             </MadCap:dropDownBody>
         </MadCap:dropDown>

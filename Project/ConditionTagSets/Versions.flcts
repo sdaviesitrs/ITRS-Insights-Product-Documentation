@@ -9,4 +9,12 @@
     Comment=""
     Name="Current Valo"
     BackgroundColor="Red" />
+  <ConditionTag
+    BackgroundColor="#00c5ff"
+    Name="Insights v1_5"
+    Comment="" />
+  <ConditionTag
+    BackgroundColor="#c9f1fd"
+    Name="Insights v1_6"
+    Comment="" />
 </CatapultConditionTagSet>
