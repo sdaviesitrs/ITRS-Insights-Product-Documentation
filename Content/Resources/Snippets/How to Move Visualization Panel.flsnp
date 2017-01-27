@@ -3,15 +3,16 @@
     <body>
         <MadCap:dropDown>
             <MadCap:dropDownHead>
-                <MadCap:dropDownHotspot>How to Move Visualization Panels in a Dashboard</MadCap:dropDownHotspot>
+                <MadCap:dropDownHotspot>How to Move visualisation Panels in a Dashboard</MadCap:dropDownHotspot>
             </MadCap:dropDownHead>
             <MadCap:dropDownBody>
                 <ol>
                     <li>Run <MadCap:variable name="General.Product Name&#160;Insights (Full)" style="font-weight: bold;" /></li>
                     <li>Click  <MadCap:snippetText src="Icon Dashboard.flsnp" /> on the main navigation panel </li>
                     <li>Select the <strong>Dashboard </strong>from the <strong>tree</strong></li>
-                    <li>Position your cursor over the top third of the  <strong>visualization panel</strong> until the <strong><MadCap:snippetText src="Icon Move Handle.flsnp" /></strong> appears</li>
-                    <li><strong>Drag and drop</strong> the panel into its new position</li>
+                    <li>Position your cursor over the top third of the  <strong>visualisation panel</strong> until the <strong><MadCap:snippetText src="Icon Move Handle.flsnp" /></strong> appears</li>
+                    <li>
+                        <strong>Drag and drop</strong> the panel into its new position</li>
                 </ol>
             </MadCap:dropDownBody>
         </MadCap:dropDown>
