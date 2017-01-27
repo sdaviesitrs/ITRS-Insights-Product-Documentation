@@ -3,15 +3,16 @@
     <body>
         <MadCap:dropDown>
             <MadCap:dropDownHead>
-                <MadCap:dropDownHotspot>How to Resize Visualization Panels in a Dashboard</MadCap:dropDownHotspot>
+                <MadCap:dropDownHotspot>How to Resize visualisation Panels in a Dashboard</MadCap:dropDownHotspot>
             </MadCap:dropDownHead>
             <MadCap:dropDownBody>
                 <ol>
                     <li>Run <MadCap:variable name="General.Product Name&#160;Insights (Full)" style="font-weight: bold;" /></li>
                     <li>Click <MadCap:snippetText src="Icon Dashboard.flsnp" /> on the main navigation panel </li>
                     <li>Select the <strong>Dashboard </strong>from the <strong>tree</strong></li>
-                    <li>Position your cursor over the <strong>visualization panel</strong>. The  <MadCap:snippetText src="Icon Resize Handle.flsnp" /> appears in the lower corner of the panel</li>
-                    <li><strong>Grab and drag</strong> one of the handles, releasing the mouse button when you are happy with the panel's new size</li>
+                    <li>Position your cursor over the <strong>visualisation panel</strong>. The  <MadCap:snippetText src="Icon Resize Handle.flsnp" /> appears in the lower corner of the panel</li>
+                    <li>
+                        <strong>Grab and drag</strong> one of the handles, releasing the mouse button when you are happy with the panel's new size</li>
                 </ol>
             </MadCap:dropDownBody>
         </MadCap:dropDown>

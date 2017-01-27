@@ -11,8 +11,8 @@
                     <li>Click <MadCap:snippetText src="Icon Notebook.flsnp" /> on the main navigation panel </li>
                     <li>Select the <strong>Collection </strong>the Notebook is saved in, then select the <strong>Notebook </strong>from the tree</li>
                     <li>Run the <strong>Query </strong>or <strong>Free Text Search</strong> that you want to visualise in your Dashboard, or simply click <MadCap:snippetText src="Icon Run All.flsnp" /> to run all the queries and searches in the active Notepad</li>
-                    <li> Choose and configure a <strong>Visualization </strong>from the <strong>Visualization&#160;Panel </strong> in each of the results that you want to send to the Dashboard</li>
-                    <li>Click <strong><MadCap:snippetText src="Icon Send to Dashboard.flsnp" /></strong> for the first Visualization (repeat steps 6 to 10 for each additional Visualization you want to add to the Dashboard). A Send Visualization to Dashboard dialog will open</li>
+                    <li> Choose and configure a <strong>visualisation </strong>from the <strong>visualisation Panel </strong> in each of the results that you want to send to the Dashboard</li>
+                    <li>Click <strong><MadCap:snippetText src="Icon Send to Dashboard.flsnp" /></strong> for the first visualisation (repeat steps 6 to 10 for each additional visualisation you want to add to the Dashboard). A Send visualisation to Dashboard dialog will open</li>
                     <li>In the <strong>Destination Dashboard text field</strong>, begin typing the name of the Dashboard you want to select. If you don't know the name, press SPACE BAR and a drop-down list of all available Dashboards will appear</li>
                     <li>Select the <strong>Dashboard </strong>you want, then click <strong><MadCap:snippetText src="Icon Configure.flsnp" /></strong></li>
                     <li>Enter a <strong>name </strong>for the Visualization, and select whether or not to apply a <strong>domain filter</strong>, then click <MadCap:snippetText src="Icon Preview.flsnp" /></li>
