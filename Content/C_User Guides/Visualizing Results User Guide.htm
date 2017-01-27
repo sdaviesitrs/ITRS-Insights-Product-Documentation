@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="9" MadCap:lastHeight="9903" MadCap:lastWidth="1480">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="9" MadCap:lastHeight="11369" MadCap:lastWidth="2705">
     <head>
         <link href="../Resources/Stylesheets/styles.css" rel="stylesheet" type="text/css" />
     </head>
@@ -9,40 +9,49 @@
             <p><MadCap:variable name="General.Product Name&#160;Insights (Full)" /> provides a number of different ways to visualise your data
 and the outcome of your <strong class="green">queries</strong>.<MadCap:conditionalText MadCap:conditions="Output.Digital"> See <MadCap:xref href="Query, Search &amp; Transform Data User Guide.htm">[%=General.Product Name&#160;Insights (Full)%] Query,&#160;Search&#160;and Transform Data User Guide</MadCap:xref>.</MadCap:conditionalText></p>
             <p>Once you have run the
-query, you can choose from a range of chart types to display the results, and you can apply a filter on how many results are displayed if you want to pare down your charts to something visually more manageable. <MadCap:variable name="General.Product Name Insights&#160;(abbreviated)" /> saves your visualization and chart preferences for each query, resetting them only if your query is changed in such a way that your visualization choices are no longer possible.</p>
-            <p>Finally, you can send any of your visualizations to one or more <strong class="green">Dashboards </strong> to develop an aggregated visual display of your key query results in real time. <MadCap:conditionalText MadCap:conditions="Output.Digital">See <MadCap:xref href="Dashboard, Notebook &amp; Collection User Guide.htm">[%=General.Product Name&#160;Insights (Full)%] Dashboard &amp;&#160;Notebook&#160;User Guide</MadCap:xref>. </MadCap:conditionalText></p>
+query, you can choose from a range of chart types to display the results, and you can apply a filter on how many results are displayed if you want to pare down your charts to something visually more manageable. <MadCap:variable name="General.Product Name Insights&#160;(abbreviated)" /> saves your visualisation and chart preferences for each query, resetting them only if your query is changed in such a way that your visualisation choices are no longer possible.</p>
+            <p>Finally, you can send any of your visualizations to one or more <strong class="green">Dashboards </strong> to develop an aggregated visual display of your key query results in real time. <MadCap:conditionalText MadCap:conditions="Output.Digital">See <MadCap:xref href="Dashboard, Notebook &amp; Collection User Guide.htm">[%=General.Product Name&#160;Insights (Full)%] Dashboard &amp;&#160;Notebook&#160;User Guide</MadCap:xref>. </MadCap:conditionalText> <![CDATA[ ]]></p>
+            <p MadCap:conditions="Versions.Insights v1_6">
+                <MadCap:conditionalText MadCap:conditions="Output.Staging Only" style="background-color: #ff00ff;">IKABO-969</MadCap:conditionalText>If you're choosing to use Line Charts for your Dashboard visualisations, you can also start adding annotations to them. <MadCap:conditionalText MadCap:conditions="Output.Digital">See <MadCap:xref href="#AddAnnotation">Add an Annotation to a Line Chart</MadCap:xref>. </MadCap:conditionalText></p>
             <p class="note">The visualisation options displayed to you are dependent on the content of the query that you run. For example, you will not be able to see the Anomaly Detection chart option unless your query includes a valid <code>select anomaly</code> clause.</p>
             <MadCap:pageBreak />
-            <h2 class="nokeyline"><a name="visualisingInterface"></a>The Visualization Interface</h2>
+            <h2 class="nokeyline"><a name="visualisingInterface"></a>The visualisation Interface</h2>
             <p style="text-align: left;">
                 <img src="../Resources/Images/chart_barchart.png" alt="" title="" class="screenshotsmedium" style="width: 435px;height: 483px;" />
             </p>
-            <p>The Visualization Interface</p>
+            <p>The visualisation Interface</p>
             <ol>
                 <li>
                     <MadCap:snippetText src="../Resources/Snippets/UI Definition Active Tab.flsnp" />
                 </li>
                 <li><strong>Re-ordering bar </strong>- drag and drop to reorder your query or free text search (when multiple queries or searches exist)</li>
                 <li><strong>Available Chart Options </strong>- <MadCap:variable name="General.Product Name Insights&#160;(abbreviated)" /> will intelligently populate the charting options section based on the query that is run</li>
-                <li><strong>Order By</strong> - drop-down allowing you to filter the results being visualised by Duration or Number.<MadCap:conditionalText MadCap:conditions="Output.Digital"> See <MadCap:xref href="#ResultsParameters">Define Results and Duration Visualization Parameters</MadCap:xref>.</MadCap:conditionalText></li>
+                <li><strong>Order By</strong> - drop-down allowing you to filter the results being visualised by Duration or Number.<MadCap:conditionalText MadCap:conditions="Output.Digital"> See <MadCap:xref href="#ResultsParameters">Define Results and Duration visualisation Parameters</MadCap:xref>.</MadCap:conditionalText></li>
                 <li><strong>Quick Selection icons</strong> - allows you to quickly view your results in a single, list or grid view</li>
                 <li><strong>Timeline</strong> - click and drag the slider to move back and forth across the results timeline</li>
             </ol>
             <MadCap:pageBreak />
-            <h2><a name="ResultsParameters"></a>Define Results and Duration Visualization Parameters</h2>
+            <h2><a name="ResultsParameters"></a>Define Results and Duration Visualisation Parameters</h2>
             <p>
                 <img src="../Resources/Images/interface_defineparameters_small.bmp" alt="" title="" class="screenshotsmedium" style="width: 498px;height: 193px;" />
             </p>
-            <p>Some queries will return vast amounts of data, and that may make your charts difficult to understand and interpret. To help you declutter your visualizations, <MadCap:variable name="General.Product Name Insights&#160;(abbreviated)" /> allows you to define an additional parameter to filter your results by - either Duration or number of Results.</p>
+            <p>Some queries will return vast amounts of data, and that may make your charts difficult to understand and interpret. To help you declutter your visualizations, <MadCap:variable name="General.Product Name Insights&#160;(abbreviated)" /> allows you to define an additional parameter to filter your results by - either Duration or number of Results. </p>
             <p>For real-time searches, you can define either a duration over which to display results (anything from the last 1 minute to the last 24 hours), or a limit on the number of results that are displayed (from as few as the most recent 10 to as many as the most recent 10,000).</p>
             <p>For historical queries, you can specify a limit on the number of Results it displays,  but not a Duration.</p>
             <p class="note">Regardless of the Results and&#160;Duration parameters you specify, and regardless of whether the query is real-time or historical, the hard limit for the maximum number of results is 10,000 rows of data.</p>
-            <p>The drop-down menus for the Results and Duration settings are located on the visualization interface. They contain pre-configured settings that, once selected, are instantly applied.</p>
+            <p>The drop-down menus for the Results and Duration settings are located on the visualisation interface. They contain pre-configured settings that, once selected, are instantly applied.</p>
             <p class="technicalfielddefinition">Results (10, 100, 500, 5,000, 10,000(default)) limits the number of rows of results displayed</p>
             <p class="technicalfielddefinition">Duration (no limit (default), 1 minute, 15 minutes, 30 minutes, 1 hour, 6 hours, 12 hours, 24 hours) only available in real-time queries, this limits the number of results displayed to the number selected, based on when it was received in <MadCap:variable name="General.Product Name Insights&#160;(abbreviated)" />.</p>
             <p>Duration and Results parameters that you define are carried through to any dashboards or notebooks that you use to store the chart or query.</p>
             <MadCap:snippetBlock src="../Resources/Snippets/How To Define Results or Duration Limit.flsnp" />
             <p class="note">If you've set a duration limit on your real-time query results, you can reset the Duration to default (no  limit) by selecting 10,000 from the Results drop-down.</p>
+            <h2 class="HomePage" MadCap:conditions="Versions.Insights v1_6"><a name="AddAnnotation"></a>Add an Annotation to a Line Chart</h2>
+            <p MadCap:conditions="Versions.Insights v1_6">
+                <MadCap:conditionalText MadCap:conditions="Output.Staging Only" style="background-color: #ff00ff;">IKABO-969</MadCap:conditionalText> <![CDATA[ ]]></p>
+            <p MadCap:conditions="Versions.Insights v1_6">You can add an one or more annotations to a line chart to provide additional clarity and description of the data. </p>
+            <p MadCap:conditions="Versions.Insights v1_6">Annotations are stored in the Notebooks in which they are created: if you have the same visualisation in different Notebooks, annotations that created in one Notebook will not be visible in the other Notebook. </p>
+            <MadCap:snippetBlock src="../Resources/Snippets/How to Annotate Line Chart.flsnp" MadCap:conditions="Versions.Insights v1_6" />
+            <p MadCap:conditions="Versions.Insights v1_6">Existing annotations can be viewed by clicking any the coloured <MadCap:snippetText src="../Resources/Snippets/Icon Annotation.flsnp" />(s) on the line chart, or deleted by removing the text from within the annotation box. </p>
             <MadCap:pageBreak />
             <h2>Chart Types</h2>
             <MadCap:dropDown>
@@ -82,7 +91,7 @@ table. Tables can be sorted by selecting the appropriate column.</p>
             </MadCap:dropDown>
             <MadCap:dropDown>
                 <MadCap:dropDownHead>
-                    <MadCap:dropDownHotspot>Line Chart <MadCap:snippetText src="../Resources/Snippets/Icon Chart Line.flsnp" /></MadCap:dropDownHotspot>
+                    <MadCap:dropDownHotspot><a name="LineChart"></a>Line Chart <MadCap:snippetText src="../Resources/Snippets/Icon Chart Line.flsnp" /></MadCap:dropDownHotspot>
                 </MadCap:dropDownHead>
                 <MadCap:dropDownBody>
                     <p>A line chart or line graph is a type of chart which displays information
@@ -265,7 +274,7 @@ select UniqueCarrier, Distance, minutes(AirTime) as AirMinutes
             </div>
             <div class="section" id="dashboards">
                 <h2>Dashboards</h2>
-                <p>You can also use a <MadCap:xref href="Dashboard, Notebook &amp; Collection User Guide.htm#Dashboard" MadCap:conditions="Output.Digital">Dashboard</MadCap:xref><MadCap:conditionalText MadCap:conditions="Output.Print">Dashboard</MadCap:conditionalText> to share the visualization of query results without the viewer needing to have direct access to the query and/or data.</p>
+                <p>You can also use a <MadCap:xref href="Dashboard, Notebook &amp; Collection User Guide.htm#Dashboard" MadCap:conditions="Output.Digital">Dashboard</MadCap:xref><MadCap:conditionalText MadCap:conditions="Output.Print">Dashboard</MadCap:conditionalText> to share the visualisation of query results without the viewer needing to have direct access to the query and/or data.</p>
             </div>
         </div>
     </body>
