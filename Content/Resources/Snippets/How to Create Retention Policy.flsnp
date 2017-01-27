@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="346" MadCap:lastWidth="2765">
+    <body>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>How to Create a Retention Policy</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>Streams that have time and date fields in their schema can be automatically constrained in size when user-defined duration criteria are met. </p>
+                <ol>
+                    <li>Click the <strong>Stream </strong>of interest in the Home Dashboard to open the Stream Editor</li>
+                    <li>Click the <strong>Storage </strong>tab, then fill out the Retention&#160;Policy fields. Data the is older than the value entered in the Time Period field will be permanently discarded</li>
+                    <li>Click <MadCap:snippetText src="Icon Save.flsnp" /> </li>
+                </ol>
+                <p class="note">Note: Use integers only when specifying a custom time period (4.5 days will be truncated to 4 days, for example)</p>
+                <p class="note">Note: Custom time periods must not exceed three digits (100 days is, but if you enter 1000 days, <MadCap:variable name="General.Product Name Insights&#160;(abbreviated)" /> will default to 1 day)</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+    </body>
+</html>
