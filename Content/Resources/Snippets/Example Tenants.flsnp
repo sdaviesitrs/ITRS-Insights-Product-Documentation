@@ -24,7 +24,7 @@ Electricity (REE). In this instance we may call the stream:
 </p>
                 <p id="Example" style="text-indent: 0.5in;">
                     <code>/streams/ree/electricity/usage</code>, where REE is the tenant.</p>
-                <p id="Example"> You can assign tenants within a company, perhaps to different departments such as Sales or Engineering. For big businesses, you may define tenants by the city or office they're located in.&#160;The bottom line is that you can organize your data how you wish. </p>
+                <p id="Example"> You can assign tenants within a company, perhaps to different departments such as Sales or Engineering. For big businesses, you may define tenants by the city or office they're located in.&#160;The bottom line is that you can Organise your data how you wish. </p>
             </MadCap:dropDownBody>
         </MadCap:dropDown>
     </body>

@@ -14,7 +14,7 @@
         <MadCap:snippetBlock src="../Resources/Snippets/Definition Stream.flsnp" />
         <p>All that you need to do before you can start running queries and searches is tell <MadCap:variable name="General.Product Name Insights&#160;(abbreviated)" /> what the data is and how it's structured. This is done through a simple <strong class="green">schema</strong>.</p>
         <MadCap:snippetBlock src="../Resources/Snippets/Definition Schema.flsnp" />
-        <p>Each stream has a <strong class="green">schema </strong>that defines what information is expected, and in what format.  Multiple streams can be organized into <strong class="green">Collections</strong><MadCap:conditionalText MadCap:conditions="Output.Digital"> (see: <MadCap:xref href="../A_Quick Start/Organising Data.htm#Collections">Collection</MadCap:xref>)</MadCap:conditionalText>.</p>
+        <p>Each stream has a <strong class="green">schema </strong>that defines what information is expected, and in what format.  Multiple streams can be Organised into <strong class="green">Collections</strong><MadCap:conditionalText MadCap:conditions="Output.Digital"> (see: <MadCap:xref href="../A_Quick Start/Organising Data.htm#Collections">Collection</MadCap:xref>)</MadCap:conditionalText>.</p>
         <p>As with everything in&#160;<MadCap:variable name="General.Product Name Insights&#160;(abbreviated)" />, we've designed the process of bringing data in to be as simple as possible, regardless of whether it's streaming or historical. To this end, there are really only a handful of inputs are required from you:</p>
         <ol>
             <li>Choose a <strong class="green">repository </strong>type</li>
@@ -28,7 +28,9 @@
         <p>This user guide will talk you through all three steps. </p>
         <MadCap:dropDown>
             <MadCap:dropDownHead class="H2">
-                <MadCap:dropDownHotspot><a name="ChooseRepo"></a>Choose a&#160;Repository</MadCap:dropDownHotspot>
+                <MadCap:dropDownHotspot>
+                    <a name="ChooseRepo">
+                    </a>Choose a&#160;Repository</MadCap:dropDownHotspot>
             </MadCap:dropDownHead>
             <MadCap:dropDownBody>
                 <MadCap:snippetBlock src="../Resources/Snippets/Definition SSR.flsnp" />
@@ -43,7 +45,9 @@
         <MadCap:pageBreak />
         <MadCap:dropDown>
             <MadCap:dropDownHead class="H2NoKeyline">
-                <MadCap:dropDownHotspot><a name="Schema"></a>Prepare your DATA&#160;&amp;&#160;Create a SCHEMA</MadCap:dropDownHotspot>
+                <MadCap:dropDownHotspot>
+                    <a name="Schema">
+                    </a>Prepare your DATA&#160;&amp;&#160;Create a SCHEMA</MadCap:dropDownHotspot>
             </MadCap:dropDownHead>
             <MadCap:dropDownBody>
                 <MadCap:snippetBlock src="../Resources/Snippets/Definition Schema.flsnp" />
@@ -55,13 +59,16 @@
                     <li>A <code>topDef </code>section that defines the data schema</li>
                 </ol>
                 <p>This is the basic <MadCap:variable name="General.Product Name Insights&#160;(abbreviated)" /> schema:</p>
-                <blockquote><pre><code>{
+                <blockquote>
+                    <pre>
+                        <code>{
  "version": "1.0.0",
  "config": {
   "key": []
  },
  "topDef": {}
-}</code></pre>
+}</code>
+                    </pre>
                 </blockquote>
                 <MadCap:pageBreak />
                 <h3>topDef</h3>
@@ -71,7 +78,8 @@
                     <p>"<code>topDef": { "type" : "double" }</code></p>
                 </blockquote>
                 <p>A complex type is defined as:</p>
-                <blockquote><pre>"topDef": {
+                <blockquote>
+                    <pre>"topDef": {
   "type" : "record",
   "properties" : {
     "host" : { "type" : "string" }
@@ -226,7 +234,8 @@
                         <MadCap:dropDownHotspot>Example Schema</MadCap:dropDownHotspot>
                     </MadCap:dropDownHead>
                     <MadCap:dropDownBody>
-                        <blockquote><pre>{
+                        <blockquote>
+                            <pre>{
   "type" : "record"
   "properties" : {
     "contributor"   : { "type" : "contributor", "definition": "probes" },
@@ -256,7 +265,8 @@
                         <MadCap:dropDownHotspot>Example Data </MadCap:dropDownHotspot>
                     </MadCap:dropDownHead>
                     <MadCap:dropDownBody>
-                        <blockquote><pre>{
+                        <blockquote>
+                            <pre>{
   "contributor"   : "df625733-6fd8-465b-ac60-76fd23a52b4a",
   "timestamp"     : "2015-03-12 14:30:07",
   "host"          : {
@@ -277,7 +287,8 @@
                         <MadCap:dropDownHotspot>Typed Array</MadCap:dropDownHotspot>
                     </MadCap:dropDownHead>
                     <MadCap:dropDownBody>
-                        <blockquote><pre xml:space="preserve">{
+                        <blockquote>
+                            <pre xml:space="preserve">{
   "type" : "sequence",
   "underlying" : {
     "type" : "..."
@@ -287,7 +298,8 @@
                     </MadCap:dropDownBody>
                 </MadCap:dropDown>
                 <p>Example Schema</p>
-                <blockquote><pre>{
+                <blockquote>
+                    <pre>{
   "type" : "sequence",
   "underlying" : {
     "type" : "double"
@@ -296,7 +308,8 @@
                 </blockquote>
                 <p>Data</p>
                 <blockquote>
-                    <p><code>[30.4, 30.8, 20.0]</code>
+                    <p>
+                        <code>[30.4, 30.8, 20.0]</code>
                     </p>
                 </blockquote>
             </MadCap:dropDownBody>
@@ -304,7 +317,9 @@
         <MadCap:pageBreak />
         <MadCap:dropDown>
             <MadCap:dropDownHead class="H2NoKeyline">
-                <MadCap:dropDownHotspot><a name="Import"></a>Import Data Stream</MadCap:dropDownHotspot>
+                <MadCap:dropDownHotspot>
+                    <a name="Import">
+                    </a>Import Data Stream</MadCap:dropDownHotspot>
             </MadCap:dropDownHead>
             <MadCap:dropDownBody>
                 <p>To import a data stream, you have to create your schema, add it to the <MadCap:variable name="General.Product Name Insights&#160;(abbreviated)" /> Stream&#160;Editor, then select the repository type for the data to be stored in (None is selected by default, and this is used for streaming data).</p>
@@ -317,7 +332,9 @@
         <MadCap:pageBreak />
         <MadCap:dropDown MadCap:conditions="Versions.Insights v1_6">
             <MadCap:dropDownHead class="H2NoKeyline">
-                <MadCap:dropDownHotspot><a name="RetentionPolicy"></a>Define a Retention Policy</MadCap:dropDownHotspot>
+                <MadCap:dropDownHotspot>
+                    <a name="RetentionPolicy">
+                    </a>Define a Retention Policy</MadCap:dropDownHotspot>
             </MadCap:dropDownHead>
             <MadCap:dropDownBody>
                 <p MadCap:conditions="Output.Staging Only">IKABO-954</p>

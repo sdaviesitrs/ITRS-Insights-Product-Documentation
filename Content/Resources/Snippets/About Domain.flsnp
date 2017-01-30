@@ -9,6 +9,6 @@ particular IP range, and query for only those that have the tags <code>critical 
 In this way you can run simple queries on this Domain, knowing that the
 appropriate data (i.e. <code>critical </code>and <code>error</code>) is always dynamically
 included in real-time, and that as new Windows servers are added, they'll be automatically added to the Domain.</p>
-        <p>Domains are a useful tool for organizing streaming data, especially if you consider that Contributors can publish data to multiple Streams.</p>
+        <p>Domains are a useful tool for Organising streaming data, especially if you consider that Contributors can publish data to multiple Streams.</p>
     </body>
 </html>

@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="2" MadCap:lastHeight="85" MadCap:lastWidth="1217">
     <body>
-        <p id="concept_definition"><strong class="green">Domain</strong>: two or more <strong class="green">Contributors </strong>grouped together dynamically by a common attribute. Domains help to organize and group different data sources in intuitive ways. <MadCap:conditionalText MadCap:conditions="Output.Digital">See also: <MadCap:xref href="../../A_Quick Start/Organizing Data in ITRS Insights.htm#Contributors">Contributor</MadCap:xref>.</MadCap:conditionalText></p>
+        <p id="concept_definition">
+            <strong class="green">Domain</strong>: two or more <strong class="green">Contributors </strong>grouped together dynamically by a common attribute. Domains help to Organise and group different data sources in intuitive ways. <MadCap:conditionalText MadCap:conditions="Output.Digital">See also: <MadCap:xref href="../../A_Quick Start/Organizing Data in ITRS Insights.htm#Contributors">Contributor</MadCap:xref>.</MadCap:conditionalText></p>
     </body>
 </html>
