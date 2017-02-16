@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html MadCap:lastBlockDepth="3" MadCap:lastHeight="1431" MadCap:lastWidth="2825" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+<html MadCap:lastBlockDepth="3" MadCap:lastHeight="1548" MadCap:lastWidth="1070" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
     <head><title>Release Notes</title>
         <style type="text/css">
 /*
@@ -474,16 +474,32 @@ ul.auto-toc
         <p><strong class="green">Color&#160;Scheme</strong>
         </p>
         <p>The colour scheme for <MadCap:variable name="General.Product Name Insights&#160;(abbreviated)" /> has been improved. We've added more colours to the palette for Notebooks and query visualisations.  Chart parameters have been consolidated into one section and a unified style applied.</p>
+        <p MadCap:conditions="Versions.Insights v1_6"><strong class="green">General</strong>
+        </p>
+        <p MadCap:conditions="Versions.Insights v1_6">
+            <MadCap:conditionalText MadCap:conditions="Output.Staging Only" style="background-color: #ff00ff;">Git Issues #1863, #1825, #1772, #1419</MadCap:conditionalText>Corrections have been made to minor typographical and font errors in the user interface. Improvements have also been made to the overall helpfulness of the small amount of text that appears in the UI. </p>
         <h3 MadCap:conditions="Versions.Insights v1_6">User Experience</h3>
         <p MadCap:conditions="Versions.Insights v1_6"><strong class="green">visualisation </strong>
         </p>
         <p>Visualisation settings for queries are now preserved between sessions. Preferred chart, groupings and axes bindings are now retained.</p>
         <p MadCap:conditions="Versions.Insights v1_6">
             <MadCap:conditionalText MadCap:conditions="Output.Staging Only" style="background-color: #ff00ff;">GACC-555</MadCap:conditionalText>Charts are now properly updated to show to the correct date for time ranges greater than one day. </p>
+        <p MadCap:conditions="Versions.Insights v1_6"><strong class="green">Query &amp;&#160;Domain</strong>
+        </p>
+        <p MadCap:conditions="Versions.Insights v1_6">
+            <MadCap:conditionalText MadCap:conditions="Output.Staging Only" style="background-color: #ff00ff;">Git Issue #850</MadCap:conditionalText>Queries that are both associated with a specific Domain and contain filters will now correctly respond with the message "Waiting for Data" when run.</p>
+        <p MadCap:conditions="Versions.Insights v1_6">
+            <MadCap:conditionalText MadCap:conditions="Output.Staging Only" style="background-color: #ff00ff;">Git Issue #1894</MadCap:conditionalText>Full Domain functionality is now enabled, regardless of whether a Domain was created inside or outside of Insights. </p>
         <h3>Performance</h3>
         <p><strong class="green">visualisation </strong>
         </p>
         <p>Performance has been dramatically improved when processing and visualising large sources of data.  Graphs that previously caused performance to degrade are now displayed without a problem.  Some features have been removed while we re-engineer components for higher performance.</p>
+        <p MadCap:conditions="Versions.Insights v1_6"><strong class="green">General</strong>
+        </p>
+        <p MadCap:conditions="Versions.Insights v1_6">
+            <MadCap:conditionalText MadCap:conditions="Output.Staging Only" style="background-color: #ff00ff;">Git Issue #1848</MadCap:conditionalText>In rare circumstances, a session might not be deleted when closing Insights. This occurred when the first query of the session failed, and has now been resolved. </p>
+        <p MadCap:conditions="Versions.Insights v1_6">
+            <MadCap:conditionalText MadCap:conditions="Output.Staging Only" style="background-color: #ff00ff;">Git Issue #1843</MadCap:conditionalText>When creating large numbers of Contributors from the Home Dashboard, an insufficient resources error message would appear. To resolve this, Contributors are no longer explicitly listed - instead, they are grouped by on the Home Dashboard by type.</p>
         <h2>Known Behaviours</h2>
         <h3>Performance</h3>
         <p><strong class="green">Nested <strong class="green">data </strong>in tables </strong>
