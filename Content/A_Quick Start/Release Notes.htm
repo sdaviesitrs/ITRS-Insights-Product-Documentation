@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html MadCap:lastBlockDepth="3" MadCap:lastHeight="1548" MadCap:lastWidth="1070" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+<html MadCap:lastBlockDepth="3" MadCap:lastHeight="2101" MadCap:lastWidth="1070" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
     <head><title>Release Notes</title>
         <style type="text/css">
 /*
@@ -471,25 +471,47 @@ ul.auto-toc
         <h1 MadCap:conditions="Versions.Insights v1_6"><MadCap:variable name="General.Product Name Insights&#160;(abbreviated)" /> <MadCap:variable name="Version.CurrentInsights" /> Release Notes</h1>
         <h2 MadCap:conditions="Versions.Insights v1_6">Improvements</h2>
         <h3>User Interface</h3>
-        <p><strong class="green">Color&#160;Scheme</strong>
+        <p><strong class="green">Colour&#160;Scheme</strong>
         </p>
         <p>The colour scheme for <MadCap:variable name="General.Product Name Insights&#160;(abbreviated)" /> has been improved. We've added more colours to the palette for Notebooks and query visualisations.  Chart parameters have been consolidated into one section and a unified style applied.</p>
         <p MadCap:conditions="Versions.Insights v1_6"><strong class="green">General</strong>
         </p>
         <p MadCap:conditions="Versions.Insights v1_6">
-            <MadCap:conditionalText MadCap:conditions="Output.Staging Only" style="background-color: #ff00ff;">Git Issues #1863, #1825, #1772, #1419</MadCap:conditionalText>Corrections have been made to minor typographical and font errors in the user interface. Improvements have also been made to the overall helpfulness of the small amount of text that appears in the UI. </p>
+            <MadCap:conditionalText MadCap:conditions="Output.Staging Only" style="background-color: #ff00ff;">Git Issues #1863, #1825, #1772, #1419</MadCap:conditionalText>Corrections have been made to minor typographical and font errors in the user interface. In addition, improvements have been made to the overall helpfulness of  text that appears occasionally throughout the UI.</p>
+        <p MadCap:conditions="Versions.Insights v1_6">
+            <MadCap:conditionalText MadCap:conditions="Output.Staging Only" style="background-color: #ff00ff;">Git Issue #1769</MadCap:conditionalText>Contributors and Streams are now ordered consistently  regardless of whether they are displayed on the Home Dashboard or Domain Dashboard.</p>
+        <p MadCap:conditions="Versions.Insights v1_6">
+            <MadCap:conditionalText MadCap:conditions="Output.Staging Only" style="background-color: #ff00ff;">Git Issue #1757</MadCap:conditionalText>Notebook Dashboard and Domain Dashboard views now refresh instantly when you add a new Notebook or Domain.</p>
+        <p MadCap:conditions="Versions.Insights v1_6">
+            <MadCap:conditionalText MadCap:conditions="Output.Staging Only" style="background-color: #ff00ff;">Git Issue #1702</MadCap:conditionalText>The sidebar Dashboard views would sometimes be empty the first time they were opened. They are now populated every time.</p>
         <h3 MadCap:conditions="Versions.Insights v1_6">User Experience</h3>
         <p MadCap:conditions="Versions.Insights v1_6"><strong class="green">visualisation </strong>
         </p>
         <p>Visualisation settings for queries are now preserved between sessions. Preferred chart, groupings and axes bindings are now retained.</p>
         <p MadCap:conditions="Versions.Insights v1_6">
             <MadCap:conditionalText MadCap:conditions="Output.Staging Only" style="background-color: #ff00ff;">GACC-555</MadCap:conditionalText>Charts are now properly updated to show to the correct date for time ranges greater than one day. </p>
+        <p MadCap:conditions="Versions.Insights v1_6">
+            <MadCap:conditionalText MadCap:conditions="Output.Staging Only" style="background-color: #ff00ff;">Git Issue #1821</MadCap:conditionalText>When using a line chart or bubble chart to visualise a query that grouped by <code>n</code>, one number in a series of numbers might not always display. This has been resolved.</p>
+        <p MadCap:conditions="Versions.Insights v1_6">
+            <MadCap:conditionalText MadCap:conditions="Output.Staging Only" style="background-color: #ff00ff;">Git Issue #1818</MadCap:conditionalText>The "Click&#160;Here to Preview Contributor Instances" link on the Domain&#160;Data page now works as intended. </p>
+        <p MadCap:conditions="Versions.Insights v1_6">
+            <MadCap:conditionalText MadCap:conditions="Output.Staging Only" style="background-color: #ff00ff;">Git Issue #1722</MadCap:conditionalText>Disparity between line chart colours and the line chart legend have been addressed. </p>
         <p MadCap:conditions="Versions.Insights v1_6"><strong class="green">Query &amp;&#160;Domain</strong>
         </p>
         <p MadCap:conditions="Versions.Insights v1_6">
             <MadCap:conditionalText MadCap:conditions="Output.Staging Only" style="background-color: #ff00ff;">Git Issue #850</MadCap:conditionalText>Queries that are both associated with a specific Domain and contain filters will now correctly respond with the message "Waiting for Data" when run.</p>
         <p MadCap:conditions="Versions.Insights v1_6">
-            <MadCap:conditionalText MadCap:conditions="Output.Staging Only" style="background-color: #ff00ff;">Git Issue #1894</MadCap:conditionalText>Full Domain functionality is now enabled, regardless of whether a Domain was created inside or outside of Insights. </p>
+            <MadCap:conditionalText MadCap:conditions="Output.Staging Only" style="background-color: #ff00ff;">Git Issue #1894</MadCap:conditionalText>Full Domain functionality is now enabled regardless of whether a Domain was created inside or outside of Insights.</p>
+        <p MadCap:conditions="Versions.Insights v1_6">
+            <MadCap:conditionalText MadCap:conditions="Output.Staging Only" style="background-color: #ff00ff;">Git Issue #1768</MadCap:conditionalText>If you close <MadCap:variable name="General.Product Name Insights&#160;(abbreviated)" /> while in the middle of editing one or more queries, your changes will automatically be saved in the appropriate Notebook(s).</p>
+        <p MadCap:conditions="Versions.Insights v1_6">
+            <MadCap:conditionalText MadCap:conditions="Output.Staging Only" style="background-color: #ff00ff;">Git Issue #1703</MadCap:conditionalText>The results panel would not always display when using the Run All queries feature. This has been resolved. </p>
+        <p MadCap:conditions="Versions.Insights v1_6">
+            <MadCap:conditionalText MadCap:conditions="Output.Staging Only" style="background-color: #ff00ff;">Git Issues #1675, #1668</MadCap:conditionalText>When loading <MadCap:variable name="General.Product Name Insights&#160;(abbreviated)" /> against an empty <MadCap:variable name="General.ProductNameValo" /> node, the creation of new Domains and Dashboards now works as expected.</p>
+        <p MadCap:conditions="Versions.Insights v1_6"><strong class="green">Schema</strong>
+        </p>
+        <p MadCap:conditions="Versions.Insights v1_6">
+            <MadCap:conditionalText MadCap:conditions="Output.Staging Only" style="background-color: #ff00ff;">Git Issue #1675</MadCap:conditionalText>In the remote event that both a New Stream tab and an Edit Stream tab were open at the same time, an error message would be displayed when the Create Schema button was clicked. This has now been resolved.</p>
         <h3>Performance</h3>
         <p><strong class="green">visualisation </strong>
         </p>
