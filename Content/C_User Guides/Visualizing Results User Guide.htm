@@ -11,7 +11,7 @@ and the outcome of your <strong class="green">queries</strong>.<MadCap:condition
             <p>Once you have run the
 query, you can choose from a range of chart types to display the results, and you can apply a filter on how many results are displayed if you want to pare down your charts to something visually more manageable. <MadCap:variable name="General.Product Name Insights&#160;(abbreviated)" /> saves your visualisation and chart preferences for each query, resetting them only if your query is changed in such a way that your visualisation choices are no longer possible.</p>
             <p>Finally, you can send any of your visualizations to one or more <strong class="green">Dashboards </strong> to develop an aggregated visual display of your key query results in real time. <MadCap:conditionalText MadCap:conditions="Output.Digital">See <MadCap:xref href="Dashboard, Notebook &amp; Collection User Guide.htm">[%=General.Product Name&#160;Insights (Full)%] Dashboard &amp;&#160;Notebook&#160;User Guide</MadCap:xref>. </MadCap:conditionalText> <![CDATA[ ]]></p>
-            <p MadCap:conditions="Versions.Insights v1_6">
+            <p MadCap:conditions="Versions.Insights v1_5_0">
                 <MadCap:conditionalText MadCap:conditions="Output.Staging Only" style="background-color: #ff00ff;">IKABO-969</MadCap:conditionalText>If you're choosing to use Line Charts for your Dashboard visualisations, you can also start adding annotations to them. <MadCap:conditionalText MadCap:conditions="Output.Digital">See <MadCap:xref href="#AddAnnotation">Add an Annotation to a Line Chart</MadCap:xref>. </MadCap:conditionalText></p>
             <p class="note">The visualisation options displayed to you are dependent on the content of the query that you run. For example, you will not be able to see the Anomaly Detection chart option unless your query includes a valid <code>select anomaly</code> clause.</p>
             <MadCap:pageBreak />
@@ -45,13 +45,13 @@ query, you can choose from a range of chart types to display the results, and yo
             <p>Duration and Results parameters that you define are carried through to any dashboards or notebooks that you use to store the chart or query.</p>
             <MadCap:snippetBlock src="../Resources/Snippets/How To Define Results or Duration Limit.flsnp" />
             <p class="note">If you've set a duration limit on your real-time query results, you can reset the Duration to default (no  limit) by selecting 10,000 from the Results drop-down.</p>
-            <h2 class="HomePage" MadCap:conditions="Versions.Insights v1_6"><a name="AddAnnotation"></a>Add an Annotation to a Line Chart</h2>
-            <p MadCap:conditions="Versions.Insights v1_6">
+            <h2 class="HomePage" MadCap:conditions="Versions.Insights v1_5_0"><a name="AddAnnotation"></a>Add an Annotation to a Line Chart</h2>
+            <p MadCap:conditions="Versions.Insights v1_5_0">
                 <MadCap:conditionalText MadCap:conditions="Output.Staging Only" style="background-color: #ff00ff;">IKABO-969</MadCap:conditionalText> <![CDATA[ ]]></p>
-            <p MadCap:conditions="Versions.Insights v1_6">You can add an one or more annotations to a line chart to provide additional clarity and description of the data. </p>
-            <p MadCap:conditions="Versions.Insights v1_6">Annotations are stored in the Notebooks in which they are created: if you have the same visualisation in different Notebooks, annotations that created in one Notebook will not be visible in the other Notebook. </p>
-            <MadCap:snippetBlock src="../Resources/Snippets/How to Annotate Line Chart.flsnp" MadCap:conditions="Versions.Insights v1_6" />
-            <p MadCap:conditions="Versions.Insights v1_6">Existing annotations can be viewed by clicking any the coloured <MadCap:snippetText src="../Resources/Snippets/Icon Annotation.flsnp" />(s) on the line chart, or deleted by removing the text from within the annotation box. </p>
+            <p MadCap:conditions="Versions.Insights v1_5_0">You can add an one or more annotations to a line chart to provide additional clarity and description of the data. </p>
+            <p MadCap:conditions="Versions.Insights v1_5_0">Annotations are stored in the Notebooks in which they are created: if you have the same visualisation in different Notebooks, annotations that created in one Notebook will not be visible in the other Notebook. </p>
+            <MadCap:snippetBlock src="../Resources/Snippets/How to Annotate Line Chart.flsnp" MadCap:conditions="Versions.Insights v1_5_0" />
+            <p MadCap:conditions="Versions.Insights v1_5_0">Existing annotations can be viewed by clicking any the coloured <MadCap:snippetText src="../Resources/Snippets/Icon Annotation.flsnp" />(s) on the line chart, or deleted by removing the text from within the annotation box. </p>
             <MadCap:pageBreak />
             <h2>Chart Types</h2>
             <MadCap:dropDown>

@@ -3,7 +3,7 @@
   <Variable
     Comment=""
     Name="CurrentInsights"
-    EvaluatedDefinition="v1.6">v1.6</Variable>
+    EvaluatedDefinition="v1.5.0">v1.5.0</Variable>
   <Variable
     Comment=""
     Name="CurrentValo"
