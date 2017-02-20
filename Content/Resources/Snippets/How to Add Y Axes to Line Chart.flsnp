@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="218" MadCap:lastWidth="1136">
+    <body>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>How to Add Y Axes to a Line Chart</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <ol>
+                    <li>Create and run a <strong>query </strong></li>
+                    <li>Create a <strong>Line Chart </strong></li>
+                    <li>In the Line Chart view, click the <MadCap:snippetText src="Icon Multi Y Axis.flsnp" /></li>
+                    <li>Click <MadCap:snippetText src="Icon Add.flsnp" /> to add an additional axis</li>
+                    <li>Select the <strong>data field</strong> to display on the new axis</li>
+                </ol>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+    </body>
+</html>

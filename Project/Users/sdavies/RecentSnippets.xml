@@ -1,5 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <UrlList>
+    <Url Source="Resources/Snippets/Icon Add.flsnp" />
+    <Url Source="Resources/Snippets/Visualisation Definition Multi Y Axis.flsnp" />
+    <Url Source="Resources/Snippets/Icon Multi Y Axis.flsnp" />
+    <Url Source="Resources/Snippets/How to Add Y Axes to Line Chart.flsnp" />
     <Url Source="Resources/Snippets/UI Definition Reordering Bar.flsnp" />
     <Url Source="Resources/Snippets/Procedure Type in Collection Drop-Down.flsnp" />
     <Url Source="Resources/Snippets/About Free Text Search.flsnp" />
@@ -16,8 +20,4 @@
     <Url Source="Resources/Snippets/How To Select Notebook.flsnp" />
     <Url Source="Resources/Snippets/How To Populate Dashboard.flsnp" />
     <Url Source="Resources/Snippets/How To Resize Visualization Panel.flsnp" />
-    <Url Source="Resources/Snippets/How to Move Visualization Panel.flsnp" />
-    <Url Source="Resources/Snippets/How To Launch Insights.flsnp" />
-    <Url Source="Resources/Snippets/How To Launch Valo.flsnp" />
-    <Url Source="Resources/Snippets/How to Import Query.flsnp" />
 </UrlList>
