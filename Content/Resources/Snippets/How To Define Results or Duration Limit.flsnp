@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="629" MadCap:lastWidth="995">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="629" MadCap:lastWidth="1203">
     <body>
         <MadCap:dropDown>
             <MadCap:dropDownHead>
@@ -12,9 +12,9 @@
                     <li>Click <MadCap:snippetText src="Icon Showing Last Results.flsnp" /></li>
                     <li>Select one of the <strong>pre-set entries</strong> for <strong>either </strong>Duration <strong>or </strong>Results (only one can be applied). The new parameter will be applied to the results in the window below</li>
                 </ol>
-                <p>
-                    <img src="../Images/interface_defineparameters.png" alt="" title="" class="screenshotsmedium" />
-                </p>
+                <blockquote>
+                    <img src="../Images/interface_defineparameters.png" alt="" title="" class="screenshotsmedium" style="width: 538px;height: 544px;" />
+                </blockquote>
             </MadCap:dropDownBody>
         </MadCap:dropDown>
     </body>

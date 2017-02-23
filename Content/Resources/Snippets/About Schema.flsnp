@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="2" MadCap:lastHeight="173" MadCap:lastWidth="1229">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="2" MadCap:lastHeight="201" MadCap:lastWidth="910">
     <body>
         <p>One challenge when you have a number of different contributors is to
 ensure that everyone is speaking the same language and meaning the same
 thing, otherwise comparisons and analytics will have limited value. </p>
         <p>To
-do this, we use a document of understanding (a <strong class="green">schema</strong><MadCap:keyword term="Schema" />) that
+do this, we use a document of understanding (a <strong class="green">schema</strong>) that
 defines what data the stream contains in what format. </p>
         <p>For instance, we
 may want the stream to provide information as data points (also known as
