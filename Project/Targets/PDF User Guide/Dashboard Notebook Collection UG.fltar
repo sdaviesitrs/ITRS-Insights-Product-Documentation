@@ -9,7 +9,8 @@
   MasterStylesheet="/Content/Resources/Stylesheets/styles.css"
   ConditionTagExpression="exclude[Output.Digital or Output.Null or &quot;Output.Staging Only&quot;] "
   OutputFile="ITRS Insights - Dashboard Notebook and Collection User Guide v1 0"
-  OutputFolder="C:\Users\sdavies\Desktop">
+  OutputFolder="C:\Users\sdavies\Desktop"
+  MasterStylesheetOverride="true">
   <PrintedOutput
     CollapseMargins="true"
     GenerateTOCProxy="true"
